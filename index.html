@@ -42,6 +42,8 @@ h1{font-family:var(--display);font-weight:700;font-size:40px;line-height:1;margi
 
 nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:18px}
 nav.tabs button{flex:1;border:0;background:transparent;padding:9px 6px;border-radius:10px;font-family:var(--display);font-weight:600;font-size:20px;cursor:pointer;color:var(--muted);white-space:nowrap}
+nav.tabs button{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:480px){nav.tabs{gap:2px}nav.tabs button{font-size:clamp(14px,4.3vw,19px);padding:9px 4px}}
 nav.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
 
 .msg{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 16px}
@@ -80,6 +82,19 @@ details summary{cursor:pointer;font-weight:600}
 #searchChips .chips{margin:12px 0 0}
 .chip{border:1.5px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 14px;font-weight:600;font-size:15px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.addrow{display:flex;gap:8px;margin-bottom:6px}
+.addrow .searchbox{flex:1;font-size:17px;padding:11px 14px}
+.progress{font-family:var(--display);font-weight:600;font-size:20px;margin:14px 0 0;color:var(--muted)}
+.shoplist{list-style:none;margin:0;padding:0}
+.shoplist li{display:flex;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:6px}
+.shoplist .tick{all:unset;box-sizing:border-box;flex:1;display:flex;gap:12px;align-items:center;padding:13px 14px;cursor:pointer;min-height:52px}
+.shoplist .tick:focus-visible{outline:3px solid var(--accent);border-radius:12px}
+.shoplist .box{flex:none;width:24px;height:24px;border:2px solid var(--muted);border-radius:7px;display:grid;place-items:center}
+.shoplist li.done .box{background:var(--accent);border-color:var(--accent)}
+.shoplist li.done .box::after{content:"";width:6px;height:11px;border:solid var(--accent-ink);border-width:0 3px 3px 0;transform:translateY(-1px) rotate(45deg)}
+.shoplist .txt{overflow-wrap:anywhere}
+.shoplist li.done .txt{text-decoration:line-through;color:var(--muted)}
+.shoplist .rm{border:0;background:transparent;color:var(--muted);font-size:24px;line-height:1;padding:8px 14px;cursor:pointer}
 /* Sök */
 .searchbox{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface)}
 .searchbox:focus{border-color:var(--accent);outline:none}
@@ -122,12 +137,14 @@ details summary{cursor:pointer;font-weight:600}
   </header>
 
   <nav class="tabs" role="tablist">
-    <button role="tab" aria-selected="true" data-tab="list">Lista</button>
+    <button role="tab" aria-selected="true" data-tab="list">Erbjudanden</button>
+    <button role="tab" aria-selected="false" data-tab="shop">Handla</button>
     <button role="tab" aria-selected="false" data-tab="search">Sök</button>
     <button role="tab" aria-selected="false" data-tab="items">Mina varor</button>
   </nav>
 
   <section id="tab-list"></section>
+  <section id="tab-shop" hidden></section>
   <section id="tab-search" hidden>
     <input class="searchbox" id="q" type="search" placeholder="Sök bland alla erbjudanden, t.ex. falukorv" autocomplete="off" aria-label="Sök bland erbjudanden">
     <div id="searchChips"></div>
@@ -475,7 +492,7 @@ let db = null, uidv = null, profileRef = null, offersRef = null;
 let sharedOffers = false, cloudProfile = false;
 let editingId = null;
 
-function freshProfile() { return { items: defaultItems(), extras: [], excluded: [] }; }
+function freshProfile() { return { items: defaultItems(), extras: [], excluded: [], bought: [], custom: [] }; }
 profile = lsGet(LS_PROFILE) || freshProfile();
 offers = lsGet(LS_OFFERS);
 if (offers) stores = parseOffers(offers.text);
@@ -499,8 +516,8 @@ async function cloudRefresh() {
   try {
     const d = await cloudLoad(CODE);
     if (d && Array.isArray(d.items)) {
-      profile = { items: d.items, extras: d.extras || [], excluded: d.excluded || [], offersSig: d.offersSig, hiddenStores: d.hiddenStores || [] };
-      if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; } }
+      profile = Object.assign({ extras: [], excluded: [], hiddenStores: [], bought: [], custom: [] }, d);
+      if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; } }
       lsSet(LS_PROFILE, profile); cloudState = "ok";
     } else if (!d) { await cloudSave(CODE, profile); cloudState = "ok"; }
   } catch (e) { cloudState = "error"; }
@@ -529,6 +546,8 @@ function receiptData() {
     let g = groups.find(g => g.full === x.store); if (!g) { g = { name: (x.storeShort || x.store).toLowerCase(), full: x.store, lines: [] }; groups.push(g); }
     g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x });
   }
+  const custom = profile.custom || [];
+  if (custom.length) groups.push({ name: "egna varor", full: "", custom: true, lines: custom.map(c => ({ key: "c:" + c.id, text: c.text, plus: false, extra: false, custom: true, id: c.id })) });
   return { groups, uncertain, ex };
 }
 function receiptText(groups, ex) {
@@ -617,7 +636,7 @@ function renderList() {
 }
 function toggleLine(key) {
   const s = new Set(profile.excluded || []); s.has(key) ? s.delete(key) : s.add(key);
-  profile.excluded = [...s]; persist(); renderList();
+  profile.excluded = [...s]; persist(); renderList(); renderShop();
 }
 async function copy(text, toast, root) {
   try { await navigator.clipboard.writeText(text); toast.textContent = "Kopierad"; setTimeout(() => toast.textContent = "", 2500); }
@@ -627,6 +646,40 @@ async function copy(text, toast, root) {
     ta.value = text; ta.focus(); ta.select();
     toast.textContent = "Markerad – kopiera med Ctrl+C eller håll inne";
   }
+}
+
+// ---------- render: handla ----------
+function renderShop() {
+  const root = $("#tab-shop"); root.replaceChildren();
+  const { groups, ex } = receiptData();
+  const bought = new Set(profile.bought || []);
+  const live = groups.map(g => ({ ...g, lines: g.lines.filter(l => !ex.has(l.key)) })).filter(g => g.lines.length);
+  const all = live.flatMap(g => g.lines); const left = all.filter(l => !bought.has(l.key)).length;
+  const inp = el("input", { class: "searchbox addbox", type: "text", placeholder: "Något mer? T.ex. mjölk", "aria-label": "Lägg till egen vara", enterkeyhint: "done" });
+  const add = () => { const t = inp.value.trim(); if (!t) return; profile.custom = [...(profile.custom || []), { id: Math.random().toString(36).slice(2, 9), text: t }]; persist(); renderShop(); renderList(); setTimeout(() => $("#tab-shop .addbox").focus(), 0); };
+  inp.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
+  root.append(el("div", { class: "addrow" }, inp, el("button", { class: "btn", onclick: add }, "Lägg till")));
+  if (!all.length) { root.append(el("p", { class: "muted" }, "Listan är tom. Välj varor under Erbjudanden, eller lägg till egna ovanför.")); return; }
+  root.append(el("p", { class: "progress" }, left ? `${left} kvar av ${all.length}` : `Allt är handlat – ${all.length} av ${all.length}`));
+  for (const g of live) {
+    root.append(el("h2", { class: "res-store" }, g.custom ? "Egna varor" : g.name.charAt(0).toUpperCase() + g.name.slice(1)));
+    const ul = el("ul", { class: "shoplist" });
+    for (const l of g.lines) {
+      const done = bought.has(l.key);
+      ul.append(el("li", { class: done ? "done" : "" },
+        el("button", { class: "tick", role: "checkbox", "aria-checked": done ? "true" : "false", onclick: () => {
+          const b = new Set(profile.bought || []); b.has(l.key) ? b.delete(l.key) : b.add(l.key); profile.bought = [...b]; persist(); renderShop();
+        } }, el("span", { class: "box", "aria-hidden": "true" }), el("span", { class: "txt" }, l.text)),
+        l.custom ? el("button", { class: "rm", "aria-label": "Ta bort " + l.text, onclick: () => { profile.custom = (profile.custom || []).filter(c => c.id !== l.id); persist(); renderShop(); renderList(); } }, "×") : null));
+    }
+    root.append(ul);
+  }
+  const toast = el("span", { class: "toast", role: "status" });
+  root.append(el("div", { class: "actions" },
+    el("button", { class: "btn", onclick: () => copy(receiptText(groups, ex), toast, root) }, "Kopiera listan"),
+    bought.size ? el("button", { class: "btn ghost small", onclick: () => { profile.bought = []; persist(); renderShop(); } }, "Avmarkera alla") : null,
+    (profile.custom || []).length ? el("button", { class: "btn ghost small", onclick: () => { if (confirm("Ta bort alla egna varor?")) { profile.custom = []; persist(); renderShop(); renderList(); } } }, "Ta bort egna varor") : null,
+    toast));
 }
 
 // ---------- render: search ----------
@@ -772,7 +825,7 @@ function sig(t) { let h = 0; for (let i = 0; i < t.length; i++) h = (h * 31 + t.
 function useOffers(o) {
   offers = o; stores = parseOffers(o.text);
   const sg = sig(o.text);
-  if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; persist(); }
+  if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; persist(); }
   lsSet(LS_OFFERS, o);
 }
 async function loadSite() {
@@ -801,12 +854,13 @@ function importJSON(t) { const m = t.trim().match(/^INKOPSLISTA:(.+)$/s); if (!m
 // ---------- tabs ----------
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
   document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
-  for (const t of ["list", "search", "items"]) $("#tab-" + t).hidden = t !== b.dataset.tab;
+  for (const t of ["list", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== b.dataset.tab;
   if (b.dataset.tab === "search") { renderSearch(); $("#q").focus(); }
+  if (b.dataset.tab === "shop") renderShop();
 }));
 let qTimer; $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(renderSearch, 120); });
 
-function renderAll() { renderStatus(); renderList(); renderItems(); if (!$("#tab-search").hidden) renderSearch(); }
+function renderAll() { renderStatus(); renderList(); renderShop(); renderItems(); if (!$("#tab-search").hidden) renderSearch(); }
 renderAll();
 
 loadSite().then(() => { if (CODE && CLOUD_ON) cloudRefresh(); });
