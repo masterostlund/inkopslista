@@ -76,6 +76,10 @@ details.check{margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
 details summary{cursor:pointer;font-weight:600}
 .check li{margin:6px 0}
 
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+#searchChips .chips{margin:12px 0 0}
+.chip{border:1.5px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 14px;font-weight:600;font-size:15px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 /* Sök */
 .searchbox{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface)}
 .searchbox:focus{border-color:var(--accent);outline:none}
@@ -126,6 +130,7 @@ details summary{cursor:pointer;font-weight:600}
   <section id="tab-list"></section>
   <section id="tab-search" hidden>
     <input class="searchbox" id="q" type="search" placeholder="Sök bland alla erbjudanden, t.ex. falukorv" autocomplete="off" aria-label="Sök bland erbjudanden">
+    <div id="searchChips"></div>
     <div class="results" id="results"></div>
   </section>
   <section id="tab-items" hidden></section>
@@ -494,7 +499,7 @@ async function cloudRefresh() {
   try {
     const d = await cloudLoad(CODE);
     if (d && Array.isArray(d.items)) {
-      profile = { items: d.items, extras: d.extras || [], excluded: d.excluded || [], offersSig: d.offersSig };
+      profile = { items: d.items, extras: d.extras || [], excluded: d.excluded || [], offersSig: d.offersSig, hiddenStores: d.hiddenStores || [] };
       if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; } }
       lsSet(LS_PROFILE, profile); cloudState = "ok";
     } else if (!d) { await cloudSave(CODE, profile); cloudState = "ok"; }
@@ -505,7 +510,7 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
 
 // ---------- matching ----------
 function computed() {
-  const res = matchAll(stores, profile.items);
+  const res = matchAll(visibleStores(), profile.items);
   const ex = new Set(profile.excluded || []);
   return { ...res, ex };
 }
@@ -519,7 +524,8 @@ function receiptData() {
   }
   // extra-varor från butiker som inte finns i nuvarande fil
   const known = new Set(stores.map(s => s.full));
-  for (const x of (profile.extras || []).filter(x => !known.has(x.store))) {
+  const hidden = new Set(profile.hiddenStores || []);
+  for (const x of (profile.extras || []).filter(x => !known.has(x.store) && !hidden.has(x.storeShort))) {
     let g = groups.find(g => g.full === x.store); if (!g) { g = { name: (x.storeShort || x.store).toLowerCase(), full: x.store, lines: [] }; groups.push(g); }
     g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x });
   }
@@ -535,6 +541,23 @@ function receiptText(groups, ex) {
   let t = parts.join("\n\n");
   if (plusStores.size) t += "\n\n" + [...plusStores].map(n => `* kräver ${n.charAt(0).toUpperCase() + n.slice(1)}Plus`).join("\n");
   return t;
+}
+
+// ---------- butiksval ----------
+function visibleStores() { const h = new Set(profile.hiddenStores || []); return stores.filter(s => !h.has(s.short)); }
+function storeChips(after) {
+  if (stores.length < 2) return null;
+  const h = new Set(profile.hiddenStores || []);
+  const wrap = el("div", { class: "chips", role: "group", "aria-label": "Välj butiker" });
+  for (const st of stores) {
+    const on = !h.has(st.short);
+    wrap.append(el("button", { class: "chip", "aria-pressed": on ? "true" : "false", onclick: () => {
+      const set = new Set(profile.hiddenStores || []);
+      if (on) { if (stores.length - set.size <= 1) return; set.add(st.short); } else set.delete(st.short);
+      profile.hiddenStores = [...set]; persist(); after();
+    } }, st.short));
+  }
+  return wrap;
 }
 
 // ---------- render: status ----------
@@ -561,9 +584,10 @@ function renderList() {
       el("p", { class: "muted" }, "Veckans erbjudanden har inte lagts upp än, eller så gick de inte att hämta. Prova att ladda om sidan om en stund.")));
     return;
   }
+  const chips = storeChips(renderList); if (chips) root.append(chips);
   const { groups, uncertain, ex } = receiptData();
   const rec = el("div", { class: "receipt", "aria-label": "Inköpslista" });
-  if (!groups.length) rec.append(el("p", { class: "empty" }, "Inget i din intresselista matchar veckans erbjudanden. Sök efter något specifikt under Sök, eller lägg till varor under Mina varor."));
+  if (!groups.length) rec.append(el("p", { class: "empty" }, "Inget i din intresselista matchar veckans erbjudanden" + (visibleStores().length < stores.length ? " i butikerna du valt." : ".") + " Sök efter något specifikt under Sök, eller lägg till varor under Mina varor."));
   for (const g of groups) {
     const box = el("div", { class: "store" }, el("div", { class: "sname" }, g.name + "\n" + "-".repeat(Math.max(4, g.name.length))));
     const ul = el("ul");
@@ -609,11 +633,13 @@ async function copy(text, toast, root) {
 function perLabel(p) { return p === "500g" ? "500 g" : p === "st" ? "st" : p; }
 function renderSearch() {
   const q = $("#q").value.trim(); const box = $("#results"); box.replaceChildren();
+  const cw = $("#searchChips"); cw.replaceChildren(); const ch = storeChips(() => { renderSearch(); renderList(); }); if (ch) cw.append(ch);
   if (!offers) { box.append(el("p", { class: "muted" }, "Inga erbjudanden att söka bland just nu.")); return; }
   if (q.length < 2) { box.append(el("p", { class: "muted" }, "Skriv minst två bokstäver. Du söker bland alla erbjudanden, inte bara din lista.")); return; }
   const nq = norm(q); let total = 0;
+  const vis = visibleStores();
   const added = new Set((profile.extras || []).map(offerKey));
-  for (const s of stores) {
+  for (const s of vis) {
     const hits = s.offers.filter(o => termMatch(norm(o.name + " " + o.brand), nq));
     if (!hits.length) continue; total += hits.length;
     box.append(el("h2", { class: "res-store" }, s.short));
@@ -627,7 +653,7 @@ function renderSearch() {
         el("button", { class: "btn small add " + (isAdded ? "ghost" : ""), disabled: isAdded, onclick: (ev) => addExtra(o, ev.currentTarget) }, isAdded ? "Tillagd i listan" : "Lägg till i listan")));
     }
   }
-  if (!total) box.append(el("p", {}, `Inget erbjudande innehåller ”${q}” den här veckan.`));
+  if (!total) box.append(el("p", {}, `Inget erbjudande innehåller ”${q}” den här veckan` + (vis.length < stores.length ? " i butikerna du valt." : ".")));
 }
 function addExtra(o, btn) {
   const x = { store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus };
