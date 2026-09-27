@@ -113,9 +113,8 @@ details summary{cursor:pointer;font-weight:600}
     <h1>Veckans inköpslista</h1>
     <div class="status">
       <span id="offerStatus">Laddar…</span>
-      <label class="upload">Ladda upp egen fil<input type="file" id="file" accept=".txt,text/plain"></label>
     </div>
-    <div class="status small"><span id="saveStatus"></span><button class="btn ghost small" id="useSite" hidden>Använd webbplatsens fil</button></div>
+    <div class="status small"><span id="saveStatus"></span></div>
   </header>
 
   <nav class="tabs" role="tablist">
@@ -515,8 +514,7 @@ function renderStatus() {
   }
   $("#saveStatus").textContent =
     "Din lista sparas i den här webbläsaren. " +
-    (!offers ? "" : offers.source === "site" ? "Erbjudandena hämtas från webbplatsen." : "Du använder en egen uppladdad fil.");
-  const back = $("#useSite"); back.hidden = !(offers && offers.source !== "site" && siteOffers);
+    (offers && offers.source === "site" ? "Erbjudandena hämtas från webbplatsen." : "");
 }
 
 // ---------- render: list ----------
@@ -524,8 +522,8 @@ function renderList() {
   const root = $("#tab-list"); root.replaceChildren();
   if (!offers) {
     root.append(el("div", { class: "msg" },
-      el("p", {}, el("b", {}, "Ladda upp veckans erbjudanden för att komma igång.")),
-      el("p", { class: "muted" }, "Webbplatsen har ingen erbjudandefil just nu. Du kan ladda upp en egen txt-fil med knappen högst upp.")));
+      el("p", {}, el("b", {}, "Inga erbjudanden att visa just nu.")),
+      el("p", { class: "muted" }, "Veckans erbjudanden har inte lagts upp än, eller så gick de inte att hämta. Prova att ladda om sidan om en stund.")));
     return;
   }
   const { groups, uncertain, ex } = receiptData();
@@ -576,7 +574,7 @@ async function copy(text, toast, root) {
 function perLabel(p) { return p === "500g" ? "500 g" : p === "st" ? "st" : p; }
 function renderSearch() {
   const q = $("#q").value.trim(); const box = $("#results"); box.replaceChildren();
-  if (!offers) { box.append(el("p", { class: "muted" }, "Ladda upp veckans erbjudanden först.")); return; }
+  if (!offers) { box.append(el("p", { class: "muted" }, "Inga erbjudanden att söka bland just nu.")); return; }
   if (q.length < 2) { box.append(el("p", { class: "muted" }, "Skriv minst två bokstäver. Du söker bland alla erbjudanden, inte bara din lista.")); return; }
   const nq = norm(q); let total = 0;
   const added = new Set((profile.extras || []).map(offerKey));
@@ -681,15 +679,6 @@ function useOffers(o) {
   if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; persist(); }
   lsSet(LS_OFFERS, o);
 }
-$("#file").addEventListener("change", async (ev) => {
-  const file = ev.target.files[0]; ev.target.value = ""; if (!file) return;
-  const text = await file.text();
-  const n = parseOffers(text).reduce((a, s) => a + s.offers.length, 0);
-  if (!n) { alert("Hittade inga erbjudanden i filen. Den behöver rader som börjar med # BUTIK: och varurader med | mellan fälten."); return; }
-  useOffers({ text, fileName: file.name, uploadedAt: new Date().toISOString(), source: "upload" });
-  renderAll();
-});
-$("#useSite").addEventListener("click", () => { if (siteOffers) { useOffers(siteOffers); renderAll(); } });
 async function loadSite() {
   try {
     const r = await fetch("erbjudanden.txt", { cache: "no-store" });
@@ -698,8 +687,7 @@ async function loadSite() {
     if (!parseOffers(text).some(s => s.offers.length)) throw new Error("tom");
     const lm = r.headers.get("last-modified");
     siteOffers = { text, fileName: "erbjudanden.txt", uploadedAt: lm ? new Date(lm).toISOString() : new Date().toISOString(), source: "site" };
-    // en egen uppladdning som är nyare än webbplatsens fil får ligga kvar
-    if (!(offers && offers.source === "upload" && offers.uploadedAt > siteOffers.uploadedAt)) useOffers(siteOffers);
+    useOffers(siteOffers);
   } catch (e) { /* ingen fil på webbplatsen, eller sidan öppnad som lokal fil */ }
   renderAll();
 }
