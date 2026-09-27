@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Veckans inköpslista</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E9EDEA; --surface:#FFFFFF; --ink:#16201B; --muted:#5A6861; --line:#D3DAD6;
+  --accent:#1D6A45; --accent-ink:#FFFFFF; --tag:#FFD338; --tag-ink:#1A1600; --warn:#9A5B00; --paper:#FFFFFF;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#111614; --surface:#1A221F; --ink:#E6EDE9; --muted:#9AA9A1; --line:#2D3833;
+  --accent:#5BC08A; --accent-ink:#0B1A12; --tag:#F0C12C; --tag-ink:#1A1600; --warn:#E6A84A; --paper:#F4F5F1; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111614; --surface:#1A221F; --ink:#E6EDE9; --muted:#9AA9A1; --line:#2D3833;
+  --accent:#5BC08A; --accent-ink:#0B1A12; --tag:#F0C12C; --tag-ink:#1A1600; --warn:#E6A84A; --paper:#F4F5F1; color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.45}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 48px}
+
+header.top{padding:22px 0 10px}
+h1{font-family:var(--display);font-weight:700;font-size:40px;line-height:1;margin:0;letter-spacing:.2px}
+.status{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:10px;color:var(--muted);font-size:15px}
+.status b{color:var(--ink);font-weight:600}
+.upload{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--ink);border-radius:999px;padding:5px 14px;cursor:pointer;color:var(--ink);font-weight:600;background:transparent}
+.upload:hover{background:var(--surface)}
+.upload input{position:absolute;opacity:0;width:1px;height:1px}
+
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:18px}
+nav.tabs button{flex:1;border:0;background:transparent;padding:9px 6px;border-radius:10px;font-family:var(--display);font-weight:600;font-size:20px;cursor:pointer;color:var(--muted);white-space:nowrap}
+nav.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+
+.msg{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 16px}
+.msg.warn{border-color:var(--warn);color:var(--ink)}
+.msg p{margin:0 0 6px}.msg p:last-child{margin:0}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+
+/* Kvittot */
+.receipt{background:var(--paper);color:#1A1A1A;padding:22px 20px 26px;position:relative;box-shadow:0 1px 0 rgba(0,0,0,.08);margin-bottom:10px;
+  -webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - 10px) no-repeat, conic-gradient(from 135deg at 50% 100%,#000 90deg,#0000 0) bottom/16px 10px repeat-x;
+          mask:linear-gradient(#000 0 0) top/100% calc(100% - 10px) no-repeat, conic-gradient(from 135deg at 50% 100%,#000 90deg,#0000 0) bottom/16px 10px repeat-x;}
+.receipt .store{font-family:var(--mono);font-size:15px;margin:0}
+.receipt .store+.store{margin-top:18px}
+.receipt .sname{font-weight:700;white-space:pre}
+.receipt ul{list-style:none;margin:0;padding:0}
+.receipt li{font-family:var(--mono);font-size:14.5px;line-height:1.5}
+.receipt li button{all:unset;cursor:pointer;display:block;padding:2px 0 2px 1.5em;text-indent:-1.5em;overflow-wrap:anywhere}
+.receipt li button:focus-visible{outline:2px solid #1D6A45}
+.receipt li.off button{text-decoration:line-through;color:#9A9A9A}
+.receipt li .x{font-family:var(--body);font-size:12px;font-weight:600;background:#FFD338;color:#1A1600;border-radius:4px;padding:0 5px;margin-left:6px;vertical-align:1px}
+.receipt .empty{font-family:var(--body);color:#666}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 6px}
+.btn{border:0;border-radius:12px;padding:12px 20px;font-weight:600;cursor:pointer;background:var(--accent);color:var(--accent-ink);font-size:17px}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn.small{padding:7px 12px;font-size:15px;border-radius:9px}
+.btn:disabled{opacity:.5;cursor:default}
+.toast{min-height:1.4em;color:var(--accent);font-weight:600}
+textarea.copybox{width:100%;min-height:160px;font-family:var(--mono);font-size:14px;border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--surface)}
+
+details.check{margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
+details summary{cursor:pointer;font-weight:600}
+.check li{margin:6px 0}
+
+/* Sök */
+.searchbox{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface)}
+.searchbox:focus{border-color:var(--accent);outline:none}
+.results{margin-top:16px}
+.res-store{font-family:var(--display);font-weight:700;font-size:22px;margin:18px 0 6px}
+.hit{display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center;background:var(--surface);border-radius:12px;padding:12px 14px;margin-bottom:8px;border:1px solid var(--line)}
+.hit .n{font-weight:600}
+.hit .d{color:var(--muted);font-size:14px}
+.tagprice{font-family:var(--display);font-weight:700;font-size:22px;background:var(--tag);color:var(--tag-ink);padding:2px 10px;border-radius:6px;white-space:nowrap;justify-self:end}
+.hit .add{grid-column:1/-1;justify-self:start}
+
+/* Mina varor */
+.cat{margin:22px 0 8px;font-family:var(--display);font-weight:700;font-size:24px;display:flex;justify-content:space-between;align-items:center}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:6px}
+.item>button.row{all:unset;box-sizing:border-box;cursor:pointer;display:flex;gap:10px;align-items:baseline;width:100%;padding:11px 14px}
+.item>button.row:focus-visible{outline:3px solid var(--accent);border-radius:12px}
+.item .nm{font-weight:600;flex:1}
+.item .cond{color:var(--muted);font-size:14px;text-align:right}
+.edit{padding:4px 14px 14px;display:grid;gap:10px}
+.edit label{display:grid;gap:3px;font-size:14px;color:var(--muted)}
+.edit input[type=text],.edit input[type=number],.edit select,.import textarea{width:100%;padding:9px 11px;border-radius:9px;border:1px solid var(--line);background:var(--bg);font-size:16px;color:var(--ink)}
+.edit .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.edit .cb{display:flex;gap:8px;align-items:center;color:var(--ink);font-size:16px}
+.edit .row2{display:flex;gap:8px;flex-wrap:wrap;justify-content:space-between}
+.hint{font-size:13px;color:var(--muted)}
+.import{margin-top:28px;border-top:1px solid var(--line);padding-top:16px}
+.import textarea{min-height:140px;font-size:15px;margin:8px 0}
+.danger{color:#B3261E}
+@media (prefers-reduced-motion:no-preference){ .receipt li.off button{transition:color .15s} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Veckans inköpslista</h1>
+    <div class="status">
+      <span id="offerStatus">Laddar…</span>
+      <label class="upload">Ladda upp egen fil<input type="file" id="file" accept=".txt,text/plain"></label>
+    </div>
+    <div class="status small"><span id="saveStatus"></span><button class="btn ghost small" id="useSite" hidden>Använd webbplatsens fil</button></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="list">Lista</button>
+    <button role="tab" aria-selected="false" data-tab="search">Sök</button>
+    <button role="tab" aria-selected="false" data-tab="items">Mina varor</button>
+  </nav>
+
+  <section id="tab-list"></section>
+  <section id="tab-search" hidden>
+    <input class="searchbox" id="q" type="search" placeholder="Sök bland alla erbjudanden, t.ex. falukorv" autocomplete="off" aria-label="Sök bland erbjudanden">
+    <div class="results" id="results"></div>
+  </section>
+  <section id="tab-items" hidden></section>
+</div>
+
+<script>
+// ---- Matchningsmotor ----
+const CATS = ["Kött & fisk", "Mejeri", "Frukt & grönt", "Skafferi", "Hushåll & hygien", "Övrigt"];
+
+function norm(s) {
+  return (s || "").toLowerCase()
+    .replace(/[éèêë]/g, "e").replace(/[áàâ]/g, "a").replace(/[úùûü]/g, "u").replace(/[íìî]/g, "i").replace(/[óòô]/g, "o")
+    .replace(/&/g, " & ")
+    .replace(/[^a-z0-9åäöæø&' ]+/g, " ")
+    .replace(/\s+/g, " ").trim();
+}
+function num(s) { if (s == null) return null; const t = String(s).trim().replace(",", "."); if (!t) return null; const n = parseFloat(t); return isNaN(n) ? null : n; }
+
+const SIZE_RE = /(ca\s*)?(\d+(?:[.,]\d+)?)(?:\s*-\s*(\d+(?:[.,]\d+)?))?\s*(kg|g|hg|l|dl|cl|ml)\b/i;
+function parseSize(s) {
+  if (!s) return null;
+  const m = String(s).match(SIZE_RE);
+  if (!m) return null;
+  const a = num(m[2]), b = m[3] ? num(m[3]) : a;
+  const u = m[4].toLowerCase();
+  const f = { kg: 1000, hg: 100, g: 1, l: 1000, dl: 100, cl: 10, ml: 1 }[u];
+  return { kind: /l$/.test(u) ? "vol" : "mass", min: a * f, max: b * f }; // gram eller ml
+}
+function looksLikeSize(s) { return !!s && /^\s*(ca\s*)?\d+(?:[.,]\d+)?(?:\s*-\s*\d+(?:[.,]\d+)?)?\s*(kg|g|hg|l|dl|cl|ml|-p|p)\b/i.test(s); }
+
+function parseOffers(text) {
+  const stores = []; let cur = null;
+  const lines = (text || "").replace(/\r/g, "").replace(/\u00a0/g, " ").split("\n");
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (/^#\s*BUTIK\s*:/i.test(line)) {
+      const parts = line.replace(/^#\s*BUTIK\s*:\s*/i, "").split("|").map(s => s.trim());
+      cur = { full: parts[0], week: null, valid: null, offers: [] };
+      for (const p of parts.slice(1)) {
+        const m = p.match(/^(VECKA|GILTIGT)\s*:\s*(.+)$/i);
+        if (m) { if (/vecka/i.test(m[1])) cur.week = m[2]; else cur.valid = m[2]; }
+      }
+      stores.push(cur); continue;
+    }
+    if (line.startsWith("#") || /^NAMN\|/i.test(line)) continue;
+    if (!cur) { cur = { full: "Okänd butik", offers: [] }; stores.push(cur); }
+    const f = line.split("|").map(s => s.trim());
+    while (f.length < 10) f.push("");
+    let [name, brand, size, price, unit, cmp, save, plus, max, qty] = f;
+    if (!size && looksLikeSize(brand)) { size = brand; brand = ""; } // förskjuten rad
+    const p = num(price); if (p == null) continue;
+    const q = Math.max(1, num(qty) || 1);
+    cur.offers.push({ name, brand, size, price: p, unit: (unit || "").toLowerCase(), cmp, plus: !!plus && !/^(nej|no|0|false)$/i.test(plus), max, qty: q, store: cur.full });
+  }
+  // korta butiksnamn: ta bort ord som finns i alla butiksnamn (t.ex. ortnamnet)
+  if (stores.length > 1) {
+    const sets = stores.map(s => new Set(s.full.split(/\s+/)));
+    const common = [...sets[0]].filter(w => sets.every(st => st.has(w)));
+    for (const s of stores) {
+      const words = s.full.split(/\s+/); const i = words.findIndex(w => common.includes(w));
+      s.short = (i > 0 ? words.slice(0, i) : words.filter(w => !common.includes(w))).join(" ") || s.full;
+    }
+  } else stores.forEach(s => s.short = s.full.replace(/\s+(Trollhättan|Göteborg|Stockholm|Malmö|Uppsala|Vänersborg)\b.*$/i, ""));
+  for (const s of stores) for (const o of s.offers) o.storeShort = s.short;
+  return stores;
+}
+
+// Pris per jämförenhet. Returnerar {kg:[min,max], l:[min,max], each}
+function unitPrices(o) {
+  const each = o.price / o.qty;
+  const r = { each, kg: null, l: null };
+  if (o.unit === "kg") r.kg = [each, each];
+  else if (o.unit === "hg") r.kg = [each * 10, each * 10];
+  else {
+    const sz = parseSize(o.size) || parseSize(o.name);
+    if (sz) {
+      const lo = each / (sz.max / 1000), hi = each / (sz.min / 1000);
+      if (sz.kind === "mass") r.kg = [lo, hi]; else r.l = [lo, hi];
+    }
+  }
+  return r;
+}
+
+function wordMatch(textWords, textJoined, w) {
+  if (w.startsWith("^")) { const x = w.slice(1); return textWords.some(t => t.startsWith(x)); }
+  if (w.endsWith("$")) { const x = w.slice(0, -1); return textWords.some(t => t.endsWith(x)); }
+  return textJoined.includes(w);
+}
+function termMatch(text, term) {
+  const words = text.split(" ");
+  const ws = term.trim().split(/\s+/).map(normWord).filter(w => w.replace(/[\^$]/g, ""));
+  return ws.length > 0 && ws.every(w => wordMatch(words, text, w));
+}
+function normWord(w) { const pre = w.startsWith("^") ? "^" : "", post = w.endsWith("$") ? "$" : ""; return pre + norm(w.replace(/[\^$]/g, "")).replace(/ /g, "") + post; }
+
+// Prisvillkor: {max, per} där per ∈ kg | l | st | 500g
+function checkPrice(item, o) {
+  if (item.max == null || item.max === "") return { ok: true };
+  const max = Number(item.max);
+  const up = unitPrices(o);
+  const per = item.per || "st";
+  if (per === "kg" || per === "l" || per === "500g") {
+    const arr = per === "l" ? up.l : up.kg;
+    if (!arr) return { ok: null, reason: "Priset kunde inte räknas om till kr/" + (per === "500g" ? "500 g" : per) };
+    const best = per === "500g" ? arr[0] / 2 : arr[0];
+    return { ok: best <= max + 1e-9, value: best, per };
+  }
+  return { ok: up.each <= max + 1e-9, value: up.each, per: "st" };
+}
+
+function matchAll(stores, items) {
+  const out = []; // {store, rows:[{item, offer, check}]}, plus uncertain
+  const uncertain = [];
+  for (const s of stores) {
+    const rows = [];
+    for (const o of s.offers) {
+      const text = norm(o.name + " " + o.brand);
+      const brandText = norm(o.brand + " " + o.name);
+      for (const it of items) {
+        if (!it.terms || !it.terms.length) continue;
+        if (it.not && it.not.some(n => n && termMatch(text, n))) continue;
+        if (!it.terms.some(t => t && termMatch(text, t))) continue;
+        if (it.brand && !termMatch(brandText, it.brand)) continue;
+        const c = checkPrice(it, o);
+        if (c.ok === true) rows.push({ item: it, offer: o, check: c });
+        else if (c.ok === null) uncertain.push({ item: it, offer: o, check: c });
+      }
+    }
+    // En träff per erbjudande: behåll första (ordning i intresselistan)
+    const seen = new Set();
+    const dedup = rows.filter(r => { if (seen.has(r.offer)) return false; seen.add(r.offer); return true; });
+    const order = new Map(items.map((it, i) => [it, (CATS.indexOf(it.cat) + 1) * 10000 + i]));
+    dedup.sort((x, y) => order.get(x.item) - order.get(y.item));
+    out.push({ store: s, rows: dedup });
+  }
+  return { byStore: out, uncertain };
+}
+
+function fmt(n) { return n.toFixed(2); }
+function amountText(o) {
+  if (o.qty > 1) return `${o.qty} för ${fmt(o.price)} kr`;
+  if (o.unit === "kg" || o.unit === "hg") return `${fmt(o.price)} kr/${o.unit}`;
+  if (o.size) return `${o.size} ${fmt(o.price)} kr`;
+  return `${fmt(o.price)} kr` + (o.unit === "st" ? "/st" : "");
+}
+function lineFor(item, o) {
+  let name = item.name.toLowerCase();
+  if (item.star) {
+    const parts = [];
+    if (o.brand) parts.push(o.brand);
+    const on = norm(o.name), inm = norm(item.name);
+    if (on !== inm && !(on.startsWith(inm) && on.length - inm.length < 3)) parts.push(o.name);
+    if (parts.length) name += " (" + parts.join(", ") + ")";
+  }
+  return `${name} ${amountText(o)}${o.plus ? "*" : ""}`;
+}
+function extraLine(o) {
+  return `${o.name.toLowerCase()}${o.brand ? " (" + o.brand + ")" : ""} ${amountText(o)}${o.plus ? "*" : ""}`;
+}
+function offerKey(o) { return [o.store, o.name, o.brand, o.size, o.price, o.qty].join("|"); }
+
+// Importera intresselista i textformat (samma som i Copilot-instruktionen)
+function parseInterestText(text) {
+  const items = []; let cat = "Övrigt";
+  const catMap = { "kött & fisk": "Kött & fisk", "kött och fisk": "Kött & fisk", "mejeri": "Mejeri", "frukt & grönt": "Frukt & grönt", "frukt och grönt": "Frukt & grönt", "skafferi": "Skafferi", "hushåll & hygien": "Hushåll & hygien", "hushåll och hygien": "Hushåll & hygien", "övrigt": "Övrigt" };
+  const seen = new Set();
+  for (let line of (text || "").replace(/\r/g, "").split("\n")) {
+    line = line.trim(); if (!line) continue;
+    const low = line.toLowerCase().replace(/:$/, "");
+    if (catMap[low]) { cat = catMap[low]; continue; }
+    let star = false;
+    if (line.startsWith("*")) { star = true; line = line.slice(1).trim(); }
+    let max = null, per = "st";
+    const m = line.match(/\(\s*max\s*([\d.,]+)\s*kr\s*(?:\/\s*([^)]*))?\)/i);
+    if (m) {
+      max = num(m[1]); const u = (m[2] || "").toLowerCase();
+      per = /500/.test(u) ? "500g" : /kg/.test(u) ? "kg" : /^l|liter/.test(u) ? "l" : "st";
+      line = line.replace(m[0], "").trim();
+    }
+    const key = norm(line); if (!key || seen.has(key)) continue; seen.add(key);
+    items.push({ id: uid(), name: line.charAt(0).toUpperCase() + line.slice(1), cat, star, max, per, brand: "", terms: stemTerms(line), not: [] });
+  }
+  return items;
+}
+function stemTerms(line) {
+  const t = line.toLowerCase().trim(); const out = [t];
+  const m = t.match(/^(.{4,}?)(erna|arna|orna|er|ar|or|na)$/);
+  if (m && !t.includes(" ")) out.push(m[1]);
+  return out;
+}
+function uid() { return Math.random().toString(36).slice(2, 10); }
+
+
+
+// [kategori, namn, visaVariant, max, per, märke, sökord (;), uteslut (;)]
+const DEFAULT_SPEC = [
+["Kött & fisk","Kycklinginnerfilé",1,null,"","","kycklinginnerfile;kyckling innerfile",""],
+["Kött & fisk","Kycklingbröstfilé",1,null,"","","kycklingbröstfile;kyckling bröstfile",""],
+["Kött & fisk","Kebab",1,null,"","","kebab",""],
+["Kött & fisk","Nötfärs",0,120,"kg","","nötfärs",""],
+["Kött & fisk","Lax",0,130,"kg","","^lax","laxpaket"],
+["Kött & fisk","Torsk",1,null,"","","torsk",""],
+["Kött & fisk","Kolja",1,null,"","","kolja",""],
+["Kött & fisk","Pålägg",1,null,"","","pålägg",""],
+["Kött & fisk","Räkor",0,null,"","","^räkor",""],
+["Kött & fisk","Fiskpinnar",1,null,"","","fiskpinnar",""],
+["Kött & fisk","Panerad fisk",1,null,"","","panerad fisk;fiskfile sprödbakad;fish bites",""],
+["Kött & fisk","Fish and chips",0,null,"","","fish and chips;fish & chips",""],
+["Kött & fisk","Kycklingköttbullar",1,null,"","","kyckling köttbullar",""],
+["Kött & fisk","Chicken nuggets",1,null,"","","nuggets",""],
+["Kött & fisk","Kycklingkorv",1,null,"","","kyckling korv",""],
+["Kött & fisk","Skagenröra",1,null,"","","skagen",""],
+["Kött & fisk","Grillad kyckling",1,null,"","","grillad kyckling;kyckling grillad;grillkyckling",""],
+["Mejeri","Ost",1,70,"kg","","ost$","korv;snacks;kroketter;bugles;danboost"],
+["Mejeri","Yoghurt naturell",1,null,"","","yoghurt naturell;naturell yoghurt",""],
+["Mejeri","Grekisk yoghurt",1,null,"","","grekisk yoghurt",""],
+["Mejeri","Smör",1,40,"500g","","^smör","margarin;smörgås"],
+["Mejeri","Becel",0,30,"st","","becel",""],
+["Mejeri","Grillost",0,null,"","","grillost;grilloumi",""],
+["Mejeri","Halloumi",0,null,"","","halloumi",""],
+["Mejeri","Norrloumi",0,null,"","","norrloumi",""],
+["Mejeri","Crème fraiche",0,54,"l","","creme fraiche",""],
+["Mejeri","Vispgrädde",1,54,"l","","vispgrädde;grädde visp",""],
+["Mejeri","Fetaost",0,null,"","","feta",""],
+["Mejeri","Mozzarella",0,null,"","","mozzarella",""],
+["Mejeri","Potatisgratäng",1,null,"","","potatisgratäng",""],
+["Mejeri","Ägg M eller L",0,null,"","","^ägg",""],
+["Mejeri","Juice",1,null,"","","juice",""],
+["Frukt & grönt","Bananer",0,16,"kg","","^banan",""],
+["Frukt & grönt","Päron",0,20,"kg","","^päron",""],
+["Frukt & grönt","Äpplen",1,25,"kg","","^äpple",""],
+["Frukt & grönt","Avokado",0,null,"","","avokado",""],
+["Frukt & grönt","Klementiner",0,30,"kg","","^klementin;^clementin","juice"],
+["Frukt & grönt","Satsumas",0,null,"","","satsumas",""],
+["Frukt & grönt","Champinjoner",0,40,"kg","","champinjon",""],
+["Frukt & grönt","Potatis",0,9.9,"kg","","^potatis","gratäng;omelett"],
+["Frukt & grönt","Butternut pumpa",0,15,"kg","","butternut",""],
+["Frukt & grönt","Vitlök",0,null,"","","vitlök",""],
+["Frukt & grönt","Paprika",0,null,"","","paprika","krydda"],
+["Frukt & grönt","Frysta grönsaker",0,null,"","","grönsaker apetit;wokgrönsaker;frysta grönsaker;^ärtor apetit","laxpaket"],
+["Frukt & grönt","Aubergine",0,8,"st","","aubergine",""],
+["Frukt & grönt","Zucchini",0,8,"st","","zucchini",""],
+["Frukt & grönt","Vindruvor",0,null,"","","vindruvor",""],
+["Frukt & grönt","Rödbetor",0,null,"","","rödbet",""],
+["Frukt & grönt","Purjolök",0,null,"","","purjolök",""],
+["Frukt & grönt","Sallad",0,null,"","","^sallad;isbergssallad;romansallad","salladslök"],
+["Frukt & grönt","Apelsiner",0,null,"","","^apelsin","sorbet;madalenas;juice"],
+["Frukt & grönt","Frysta bär",1,null,"","","frysta bär;fryst bär;bärmix",""],
+["Frukt & grönt","Tomater",0,null,"","","^tomat","krossad;passerad;pure;soppa;sås"],
+["Frukt & grönt","Vitkål",0,7,"kg","","vitkål",""],
+["Frukt & grönt","Gul lök",0,null,"","","lök gul;gul lök",""],
+["Frukt & grönt","Röd lök",0,null,"","","lök röd;röd lök;rödlök",""],
+["Frukt & grönt","Gurka",0,null,"","","^gurka",""],
+["Frukt & grönt","Ingefära",0,null,"","","ingefära",""],
+["Frukt & grönt","Morötter",0,14,"kg","","^morot;^morötter",""],
+["Skafferi","Digestive",0,null,"","","digestive",""],
+["Skafferi","Majskakor",0,null,"","","majskak",""],
+["Skafferi","Pasta",1,null,"","","^pasta;spaghetti;makaroner;fusilli;penne;tagliatelle","pastasås;pastel"],
+["Skafferi","Krossade tomater",0,null,"","","tomat krossad;tomat passerad;krossade tomater",""],
+["Skafferi","Kikärtor",1,null,"","","kikärt",""],
+["Skafferi","Sportbröd",0,20,"st","","sport","dryck"],
+["Skafferi","Levainbröd",0,30,"st","","levain",""],
+["Skafferi","Fiberrost",0,null,"","","fiberrost",""],
+["Skafferi","Tunnbröd",0,null,"","","tunnbröd",""],
+["Skafferi","Felix ketchup",0,null,"","felix","ketchup",""],
+["Skafferi","Chilisås",0,null,"","","chilisås;sweet chili",""],
+["Skafferi","Teriyakisås",0,null,"","","teriyaki",""],
+["Skafferi","Felix fiskdressing",0,null,"","felix","fiskdressing",""],
+["Skafferi","Remouladsås",1,null,"","","remoulad",""],
+["Skafferi","Rapsolja",0,null,"","","rapsolja",""],
+["Skafferi","Olivolja",1,null,"","","olivolja",""],
+["Skafferi","Glasnudlar",0,null,"","","glasnudlar",""],
+["Skafferi","Bryggkaffe",1,null,"","","^kaffe;bryggkaffe","kapsel;bönor;bryggare;snabbkaffe"],
+["Skafferi","Gevalia snabbkaffe",0,null,"","gevalia","snabbkaffe",""],
+["Skafferi","Kakao",0,null,"","","kakao;o'boy",""],
+["Skafferi","Grönt te",1,null,"","","grönt te;grön te;green tea",""],
+["Skafferi","Bullar",0,null,"","","^bullar;^bulle;kanelbull",""],
+["Skafferi","Kelda pastasås",0,25,"st","kelda","pastasås",""],
+["Skafferi","Chips",1,null,"","","chips","salami;fish;dipmix"],
+["Skafferi","Gorbys piroger",0,null,"","gorbys","pirog",""],
+["Skafferi","Nötter",0,null,"","","nötter;nötmix;cashew;mandlar","granola"],
+["Skafferi","Sojasås",1,null,"","","^soja",""],
+["Hushåll & hygien","Colgate",0,null,"","","colgate",""],
+["Hushåll & hygien","Diskmedel",1,null,"","","diskmedel",""],
+["Hushåll & hygien","Ajax",0,null,"","","ajax",""],
+["Hushåll & hygien","Cif",0,null,"","","^cif",""],
+["Hushåll & hygien","Toapapper",1,null,"","","toalett;toapapper","rengöring"],
+["Hushåll & hygien","Tvättmedel",1,null,"","","tvättmedel","fläck;maskinsrengöring"],
+["Hushåll & hygien","Softlan",0,null,"","","softlan",""],
+["Hushåll & hygien","Tvål",1,null,"","","^tvål;handtvål",""],
+["Hushåll & hygien","Schampo",1,null,"","","schampo",""],
+["Hushåll & hygien","Balsam",1,null,"","","balsam",""],
+];
+function defaultItems() {
+  return DEFAULT_SPEC.map(([cat, name, star, max, per, brand, terms, not], i) => ({
+    id: "d" + i, cat, name, star: !!star, max, per: per || "st", brand,
+    terms: terms.split(";").filter(Boolean), not: not.split(";").filter(Boolean)
+  }));
+}
+
+
+</script>
+<script>
+(function(){
+"use strict";
+const $ = s => document.querySelector(s);
+const el = (tag, attrs = {}, ...kids) => { const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) { if (k === "class") e.className = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else if (v === true) e.setAttribute(k, ""); else if (v !== false && v != null) e.setAttribute(k, v); }
+  for (const k of kids.flat()) if (k != null) e.append(k.nodeType ? k : document.createTextNode(k)); return e; };
+const LS_OFFERS = "ink.offers.v1", LS_PROFILE = "ink.profile.v1";
+const lsGet = k => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : null; } catch (e) { return null; } };
+const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+
+// ---------- state ----------
+let offers = null;          // {text, fileName, uploadedAt}
+let stores = [];
+let profile = null;         // {items, extras, excluded}
+let db = null, uidv = null, profileRef = null, offersRef = null;
+let sharedOffers = false, cloudProfile = false;
+let editingId = null;
+
+function freshProfile() { return { items: defaultItems(), extras: [], excluded: [] }; }
+profile = lsGet(LS_PROFILE) || freshProfile();
+offers = lsGet(LS_OFFERS);
+if (offers) stores = parseOffers(offers.text);
+
+// ---------- saving ----------
+let saveTimer = null, saving = false, dirty = false;
+function persist() {
+  lsSet(LS_PROFILE, profile);
+  if (!profileRef) return;
+  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 700);
+}
+async function flush() {
+  if (saving || !dirty || !profileRef) return;
+  saving = true; dirty = false;
+  try { await profileRef.set(JSON.parse(JSON.stringify(profile))); }
+  catch (e) { cloudProfile = false; profileRef = null; renderStatus(); }
+  saving = false; if (dirty) flush();
+}
+
+// ---------- matching ----------
+function computed() {
+  const res = matchAll(stores, profile.items);
+  const ex = new Set(profile.excluded || []);
+  return { ...res, ex };
+}
+function receiptData() {
+  const { byStore, uncertain, ex } = computed();
+  const groups = [];
+  for (const s of byStore) {
+    const lines = s.rows.map(r => ({ key: offerKey(r.offer), text: lineFor(r.item, r.offer), plus: r.offer.plus, extra: false }));
+    for (const x of (profile.extras || []).filter(x => x.store === s.store.full)) lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x });
+    if (lines.length) groups.push({ name: s.store.short.toLowerCase(), full: s.store.full, lines });
+  }
+  // extra-varor från butiker som inte finns i nuvarande fil
+  const known = new Set(stores.map(s => s.full));
+  for (const x of (profile.extras || []).filter(x => !known.has(x.store))) {
+    let g = groups.find(g => g.full === x.store); if (!g) { g = { name: (x.storeShort || x.store).toLowerCase(), full: x.store, lines: [] }; groups.push(g); }
+    g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x });
+  }
+  return { groups, uncertain, ex };
+}
+function receiptText(groups, ex) {
+  const parts = []; const plusStores = new Set();
+  for (const g of groups) {
+    const ls = g.lines.filter(l => !ex.has(l.key)); if (!ls.length) continue;
+    ls.forEach(l => { if (l.plus) plusStores.add(g.name); });
+    parts.push([g.name, "-".repeat(Math.max(4, g.name.length)), ...ls.map(l => l.text)].join("\n"));
+  }
+  let t = parts.join("\n\n");
+  if (plusStores.size) t += "\n\n" + [...plusStores].map(n => `* kräver ${n.charAt(0).toUpperCase() + n.slice(1)}Plus`).join("\n");
+  return t;
+}
+
+// ---------- render: status ----------
+function fmtDate(iso) { try { return new Date(iso).toLocaleDateString("sv-SE", { day: "numeric", month: "short" }); } catch (e) { return ""; } }
+function renderStatus() {
+  const os = $("#offerStatus");
+  if (!offers) os.textContent = "Inga erbjudanden uppladdade ännu";
+  else {
+    const n = stores.reduce((a, s) => a + s.offers.length, 0);
+    const weeks = [...new Set(stores.map(s => s.week).filter(Boolean))];
+    os.replaceChildren(el("b", {}, `${n} erbjudanden från ${stores.length} butiker`), ` · uppladdade ${fmtDate(offers.uploadedAt)}` + (weeks.length ? ` · vecka ${weeks.join(", ")}` : ""));
+  }
+  $("#saveStatus").textContent =
+    "Din lista sparas i den här webbläsaren. " +
+    (!offers ? "" : offers.source === "site" ? "Erbjudandena hämtas från webbplatsen." : "Du använder en egen uppladdad fil.");
+  const back = $("#useSite"); back.hidden = !(offers && offers.source !== "site" && siteOffers);
+}
+
+// ---------- render: list ----------
+function renderList() {
+  const root = $("#tab-list"); root.replaceChildren();
+  if (!offers) {
+    root.append(el("div", { class: "msg" },
+      el("p", {}, el("b", {}, "Ladda upp veckans erbjudanden för att komma igång.")),
+      el("p", { class: "muted" }, "Webbplatsen har ingen erbjudandefil just nu. Du kan ladda upp en egen txt-fil med knappen högst upp.")));
+    return;
+  }
+  const { groups, uncertain, ex } = receiptData();
+  const rec = el("div", { class: "receipt", "aria-label": "Inköpslista" });
+  if (!groups.length) rec.append(el("p", { class: "empty" }, "Inget i din intresselista matchar veckans erbjudanden. Sök efter något specifikt under Sök, eller lägg till varor under Mina varor."));
+  for (const g of groups) {
+    const box = el("div", { class: "store" }, el("div", { class: "sname" }, g.name + "\n" + "-".repeat(Math.max(4, g.name.length))));
+    const ul = el("ul");
+    for (const l of g.lines) {
+      const off = ex.has(l.key);
+      ul.append(el("li", { class: off ? "off" : "" }, el("button", { "aria-pressed": off ? "false" : "true", title: off ? "Ta med igen" : "Stryk från listan", onclick: () => toggleLine(l.key) }, l.text, l.extra ? el("span", { class: "x" }, "tillagd") : null)));
+    }
+    box.append(ul); rec.append(box);
+  }
+  root.append(rec);
+  const plusNote = groups.some(g => g.lines.some(l => l.plus && !ex.has(l.key)));
+  if (plusNote) root.append(el("p", { class: "small muted" }, "* kräver medlemskap i butikens kundklubb"));
+  const toast = el("span", { class: "toast", role: "status" });
+  const text = receiptText(groups, ex);
+  root.append(el("div", { class: "actions" },
+    el("button", { class: "btn", disabled: !text, onclick: () => copy(text, toast, root) }, "Kopiera listan"),
+    (profile.extras || []).length ? el("button", { class: "btn ghost small", onclick: () => { profile.extras = []; persist(); renderList(); } }, "Rensa tillagda") : null,
+    ex.size ? el("button", { class: "btn ghost small", onclick: () => { profile.excluded = []; persist(); renderList(); } }, "Ta med alla igen") : null,
+    toast));
+  root.append(el("p", { class: "small muted" }, "Tryck på en rad för att stryka den. Strukna rader kopieras inte."));
+  if (uncertain.length) {
+    root.append(el("details", { class: "check" },
+      el("summary", {}, `Kolla själv (${uncertain.length})`),
+      el("p", { class: "small muted" }, "Varorna matchar din lista, men priset gick inte att jämföra med din prisgräns. De är inte med i listan."),
+      el("ul", {}, uncertain.map(u => el("li", {}, `${u.offer.storeShort}: ${u.offer.name}${u.offer.brand ? " (" + u.offer.brand + ")" : ""} ${u.offer.size || ""} ${u.offer.price.toFixed(2)} kr, gräns ${u.item.max} kr/${perLabel(u.item.per)}`)))));
+  }
+}
+function toggleLine(key) {
+  const s = new Set(profile.excluded || []); s.has(key) ? s.delete(key) : s.add(key);
+  profile.excluded = [...s]; persist(); renderList();
+}
+async function copy(text, toast, root) {
+  try { await navigator.clipboard.writeText(text); toast.textContent = "Kopierad"; setTimeout(() => toast.textContent = "", 2500); }
+  catch (e) {
+    let ta = root.querySelector("textarea.copybox");
+    if (!ta) { ta = el("textarea", { class: "copybox", readonly: true, "aria-label": "Listan som text" }); root.querySelector(".actions").after(ta); }
+    ta.value = text; ta.focus(); ta.select();
+    toast.textContent = "Markerad – kopiera med Ctrl+C eller håll inne";
+  }
+}
+
+// ---------- render: search ----------
+function perLabel(p) { return p === "500g" ? "500 g" : p === "st" ? "st" : p; }
+function renderSearch() {
+  const q = $("#q").value.trim(); const box = $("#results"); box.replaceChildren();
+  if (!offers) { box.append(el("p", { class: "muted" }, "Ladda upp veckans erbjudanden först.")); return; }
+  if (q.length < 2) { box.append(el("p", { class: "muted" }, "Skriv minst två bokstäver. Du söker bland alla erbjudanden, inte bara din lista.")); return; }
+  const nq = norm(q); let total = 0;
+  const added = new Set((profile.extras || []).map(offerKey));
+  for (const s of stores) {
+    const hits = s.offers.filter(o => termMatch(norm(o.name + " " + o.brand), nq));
+    if (!hits.length) continue; total += hits.length;
+    box.append(el("h2", { class: "res-store" }, s.short));
+    for (const o of hits) {
+      const up = unitPrices(o);
+      const cmp = up.kg && o.unit !== "kg" ? `ca ${Math.round(up.kg[0])} kr/kg` : up.l ? `ca ${Math.round(up.l[0])} kr/l` : "";
+      const isAdded = added.has(offerKey(o));
+      box.append(el("div", { class: "hit" },
+        el("div", {}, el("div", { class: "n" }, o.name), el("div", { class: "d" }, [o.brand, o.size, cmp, o.plus ? "kräver medlemskap" : ""].filter(Boolean).join(" · "))),
+        el("div", { class: "tagprice" }, o.qty > 1 ? `${o.qty} för ${o.price.toFixed(2).replace(".", ",")}` : o.price.toFixed(2).replace(".", ",") + (o.unit === "kg" || o.unit === "hg" ? "/" + o.unit : "")),
+        el("button", { class: "btn small add " + (isAdded ? "ghost" : ""), disabled: isAdded, onclick: (ev) => addExtra(o, ev.currentTarget) }, isAdded ? "Tillagd i listan" : "Lägg till i listan")));
+    }
+  }
+  if (!total) box.append(el("p", {}, `Inget erbjudande innehåller ”${q}” den här veckan.`));
+}
+function addExtra(o, btn) {
+  const x = { store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus };
+  profile.extras = [...(profile.extras || []), x]; persist();
+  btn.textContent = "Tillagd i listan"; btn.disabled = true; btn.classList.add("ghost");
+  renderList();
+}
+
+// ---------- render: items ----------
+function condText(it) {
+  const c = [];
+  if (it.max != null && it.max !== "") c.push(`max ${String(it.max).replace(".", ",")} kr/${perLabel(it.per)}`);
+  if (it.brand) c.push("bara " + it.brand);
+  if (it.star) c.push("visa märke");
+  return c.join(" · ");
+}
+function renderItems() {
+  const root = $("#tab-items"); root.replaceChildren();
+  root.append(el("p", { class: "muted small" }, "Det här är varorna du brukar köpa. Tryck på en vara för att ändra prisgräns, märke eller sökord."));
+  for (const cat of CATS) {
+    const list = profile.items.filter(i => (i.cat || "Övrigt") === cat);
+    if (!list.length && cat === "Övrigt") { /* visa bara om det finns något */ }
+    root.append(el("h2", { class: "cat" }, cat, el("button", { class: "btn ghost small", onclick: () => addItem(cat) }, "Lägg till")));
+    for (const it of list) root.append(itemEl(it));
+  }
+  const ta = el("textarea", { placeholder: "Kött & fisk\n*kycklinginnerfilé\nNötfärs (max 120 kr/kg)\n…", "aria-label": "Klistra in intresselista" });
+  root.append(el("div", { class: "import" },
+    el("h2", { class: "cat" }, "Klistra in en hel lista"),
+    el("p", { class: "small muted" }, "Vill du flytta listan till mobilen eller ge den till någon? Tryck på Kopiera min lista, skicka texten och klistra in den här på den andra enheten. Du kan också klistra in en lista i Copilot-formatet: rubriker som Mejeri på egna rader, * framför en vara för att se märke och (max 40 kr/kg) för prisgräns. Listan ersätter den du har nu."),
+    ta,
+    el("div", { class: "actions" },
+      el("button", { class: "btn", onclick: () => { const items = importJSON(ta.value) || parseInterestText(ta.value); if (!items.length) return; if (!confirm(`Ersätta din lista med ${items.length} varor?`)) return; profile.items = items; persist(); renderAll(); } }, "Ersätt min lista"),
+      el("button", { class: "btn ghost small", onclick: async (ev) => { const t = exportJSON(); try { await navigator.clipboard.writeText(t); ev.currentTarget.textContent = "Kopierad"; } catch (e) { ta.value = t; ta.select(); } } }, "Kopiera min lista"),
+      el("button", { class: "btn ghost small", onclick: () => { if (confirm("Återställa till standardlistan?")) { profile.items = defaultItems(); persist(); renderAll(); } } }, "Återställ standardlistan"),
+      el("button", { class: "btn ghost small danger", onclick: () => { if (confirm("Tömma hela listan?")) { profile.items = []; persist(); renderAll(); } } }, "Töm listan"))));
+}
+function itemEl(it) {
+  const open = editingId === it.id;
+  const wrap = el("div", { class: "item" },
+    el("button", { class: "row", "aria-expanded": open ? "true" : "false", onclick: () => { editingId = open ? null : it.id; renderItems(); } },
+      el("span", { class: "nm" }, it.name), el("span", { class: "cond" }, condText(it))));
+  if (!open) return wrap;
+  const f = {};
+  const inp = (key, attrs) => (f[key] = el("input", attrs));
+  f.cat = el("select", {}, CATS.map(c => el("option", { value: c, selected: c === it.cat }, c)));
+  f.per = el("select", {}, [["kg", "kr/kg"], ["l", "kr/liter"], ["st", "kr/st eller förpackning"], ["500g", "kr per 500 g"]].map(([v, t]) => el("option", { value: v, selected: v === (it.per || "st") }, t)));
+  f.star = el("input", { type: "checkbox", checked: !!it.star });
+  wrap.append(el("div", { class: "edit" },
+    el("label", {}, "Namn i listan", inp("name", { type: "text", value: it.name })),
+    el("div", { class: "two" },
+      el("label", {}, "Maxpris (tomt = alltid)", inp("max", { type: "number", step: "0.01", min: "0", inputmode: "decimal", value: it.max ?? "" })),
+      el("label", {}, "Per", f.per)),
+    el("label", {}, "Bara detta märke (valfritt)", inp("brand", { type: "text", value: it.brand || "", placeholder: "t.ex. Felix" })),
+    el("label", { class: "cb" }, f.star, "Visa märke och variant i listan"),
+    el("label", {}, "Sökord, separera med komma", inp("terms", { type: "text", value: (it.terms || []).join(", ") }),
+      el("span", { class: "hint" }, "Ett erbjudande räknas som träff om namnet innehåller något av orden. ^ först = ordet börjar så (^ägg missar pålägg), $ sist = ordet slutar så (ost$ hittar prästost).")),
+    el("label", {}, "Uteslut om namnet innehåller", inp("not", { type: "text", value: (it.not || []).join(", "), placeholder: "t.ex. juice, sås" })),
+    el("label", {}, "Kategori", f.cat),
+    el("div", { class: "row2" },
+      el("button", { class: "btn small", onclick: () => {
+        it.name = f.name.value.trim() || it.name;
+        const m = f.max.value.trim(); it.max = m === "" ? null : Number(m.replace(",", "."));
+        it.per = f.per.value; it.brand = f.brand.value.trim(); it.star = f.star.checked; it.cat = f.cat.value;
+        it.terms = f.terms.value.split(",").map(s => s.trim()).filter(Boolean); if (!it.terms.length) it.terms = [it.name.toLowerCase()];
+        it.not = f.not.value.split(",").map(s => s.trim()).filter(Boolean);
+        editingId = null; persist(); renderAll();
+      } }, "Spara"),
+      el("button", { class: "btn ghost small danger", onclick: () => { profile.items = profile.items.filter(x => x !== it); editingId = null; persist(); renderAll(); } }, "Ta bort varan"))));
+  setTimeout(() => f.name.focus(), 0);
+  return wrap;
+}
+function addItem(cat) {
+  const it = { id: Math.random().toString(36).slice(2, 10), cat, name: "Ny vara", star: false, max: null, per: "st", brand: "", terms: [], not: [] };
+  profile.items.push(it); editingId = it.id; renderItems();
+  // namn fylls i av användaren; sökord sätts vid Spara
+}
+
+// ---------- erbjudanden ----------
+let siteOffers = null;
+function sig(t) { let h = 0; for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return t.length + ":" + h; }
+function useOffers(o) {
+  offers = o; stores = parseOffers(o.text);
+  const sg = sig(o.text);
+  if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; persist(); }
+  lsSet(LS_OFFERS, o);
+}
+$("#file").addEventListener("change", async (ev) => {
+  const file = ev.target.files[0]; ev.target.value = ""; if (!file) return;
+  const text = await file.text();
+  const n = parseOffers(text).reduce((a, s) => a + s.offers.length, 0);
+  if (!n) { alert("Hittade inga erbjudanden i filen. Den behöver rader som börjar med # BUTIK: och varurader med | mellan fälten."); return; }
+  useOffers({ text, fileName: file.name, uploadedAt: new Date().toISOString(), source: "upload" });
+  renderAll();
+});
+$("#useSite").addEventListener("click", () => { if (siteOffers) { useOffers(siteOffers); renderAll(); } });
+async function loadSite() {
+  try {
+    const r = await fetch("erbjudanden.txt", { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    const text = await r.text();
+    if (!parseOffers(text).some(s => s.offers.length)) throw new Error("tom");
+    const lm = r.headers.get("last-modified");
+    siteOffers = { text, fileName: "erbjudanden.txt", uploadedAt: lm ? new Date(lm).toISOString() : new Date().toISOString(), source: "site" };
+    // en egen uppladdning som är nyare än webbplatsens fil får ligga kvar
+    if (!(offers && offers.source === "upload" && offers.uploadedAt > siteOffers.uploadedAt)) useOffers(siteOffers);
+  } catch (e) { /* ingen fil på webbplatsen, eller sidan öppnad som lokal fil */ }
+  renderAll();
+}
+
+// ---------- flytta listan mellan enheter ----------
+function listAsText() {
+  return CATS.map(cat => {
+    const its = profile.items.filter(i => (i.cat || "Övrigt") === cat); if (!its.length) return "";
+    return [cat, ...its.map(i => (i.star ? "*" : "") + i.name + (i.max != null && i.max !== "" ? ` (max ${i.max} kr/${i.per === "500g" ? "förp 500g" : i.per})` : ""))].join("\n");
+  }).filter(Boolean).join("\n\n");
+}
+function exportJSON() { return "INKOPSLISTA:" + btoa(unescape(encodeURIComponent(JSON.stringify(profile.items)))); }
+function importJSON(t) { const m = t.trim().match(/^INKOPSLISTA:(.+)$/s); if (!m) return null; try { const a = JSON.parse(decodeURIComponent(escape(atob(m[1].trim())))); return Array.isArray(a) ? a : null; } catch (e) { return null; } }
+
+// ---------- tabs ----------
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
+  for (const t of ["list", "search", "items"]) $("#tab-" + t).hidden = t !== b.dataset.tab;
+  if (b.dataset.tab === "search") { renderSearch(); $("#q").focus(); }
+}));
+let qTimer; $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(renderSearch, 120); });
+
+function renderAll() { renderStatus(); renderList(); renderItems(); if (!$("#tab-search").hidden) renderSearch(); }
+renderAll();
+
+loadSite();
+})();
+</script>
+</body>
+</html>
