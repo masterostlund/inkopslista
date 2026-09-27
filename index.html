@@ -43,7 +43,7 @@ h1{font-family:var(--display);font-weight:700;font-size:40px;line-height:1;margi
 nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:18px}
 nav.tabs button{flex:1;border:0;background:transparent;padding:9px 6px;border-radius:10px;font-family:var(--display);font-weight:600;font-size:20px;cursor:pointer;color:var(--muted);white-space:nowrap}
 nav.tabs button{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
-@media (max-width:480px){nav.tabs{gap:2px}nav.tabs button{font-size:clamp(14px,4.3vw,19px);padding:9px 4px}}
+@media (max-width:520px){nav.tabs{gap:1px}nav.tabs button{font-size:clamp(13px,3.9vw,18px);padding:9px 3px}}
 nav.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
 
 .msg{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 16px}
@@ -99,6 +99,18 @@ details summary{cursor:pointer;font-weight:600}
 .shopchips{margin:12px 0 0}
 .shoplist li.done .txt{text-decoration:line-through;color:var(--muted)}
 .shoplist .rm{border:0;background:transparent;color:var(--muted);font-size:24px;line-height:1;padding:8px 14px;cursor:pointer}
+.rcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.rcard h2{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.15;margin:0 0 6px}
+.rcard h2 a{color:var(--ink);text-decoration:none}
+.rcard h2 a:hover{text-decoration:underline}
+.rmeta{margin:0 0 8px;color:var(--muted);font-size:15px}
+.flag{background:var(--tag);color:var(--tag-ink);font-weight:600;font-size:12px;border-radius:4px;padding:1px 6px}
+.rmeta .flag{font-size:13px}
+.rsale{margin:0;padding-left:18px;font-size:15px}
+.rsale li{margin:3px 0}
+.rrest{margin-top:8px;font-size:15px}
+.rrest summary{font-weight:600;color:var(--muted)}
+.rcard .actions{margin:12px 0 0}
 /* Sök */
 .searchbox{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface)}
 .searchbox:focus{border-color:var(--accent);outline:none}
@@ -142,12 +154,14 @@ details summary{cursor:pointer;font-weight:600}
 
   <nav class="tabs" role="tablist">
     <button role="tab" aria-selected="true" data-tab="list">Erbjudanden</button>
-    <button role="tab" aria-selected="false" data-tab="shop">Handla</button>
     <button role="tab" aria-selected="false" data-tab="search">Sök</button>
+    <button role="tab" aria-selected="false" data-tab="recipes">Recept</button>
+    <button role="tab" aria-selected="false" data-tab="shop">Handla</button>
     <button role="tab" aria-selected="false" data-tab="items">Mina varor</button>
   </nav>
 
   <section id="tab-list"></section>
+  <section id="tab-recipes" hidden></section>
   <section id="tab-shop" hidden></section>
   <section id="tab-search" hidden>
     <input class="searchbox" id="q" type="search" placeholder="Sök bland alla erbjudanden, t.ex. falukorv" autocomplete="off" aria-label="Sök bland erbjudanden">
@@ -674,10 +688,136 @@ function offerHint(text) {
 }
 function showTab(name) {
   document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === name ? "true" : "false"));
-  for (const t of ["list", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== name;
+  for (const t of ["list", "recipes", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== name;
   if (name === "search") renderSearch();
   if (name === "shop") renderShop();
+  if (name === "recipes") renderRecipes();
   window.scrollTo(0, 0);
+}
+
+// ---------- recept ----------
+let recipes = null, recipeMax = 0, recipeCache = null;
+const PANTRY = ["salt", "peppar", "svartpeppar", "vitpeppar", "olja", "olivolja", "rapsolja", "neutral olja", "vatten", "socker", "strösocker", "mjöl", "vetemjöl", "buljong", "buljongtärning", "kycklingbuljong", "grönsaksbuljong", "köttbuljong", "fiskbuljong", "vitvinsvinäger", "rödvinsvinäger", "vinäger", "honung"];
+const ING_SYN = {
+  "vitlöksklyfta": ["=vitlök"], "vitlöksklyftor": ["=vitlök"], "lök": ["lök gul", "gul lök"], "gul lök": ["lök gul", "gul lök"], "rödlök": ["lök röd", "rödlök", "röd lök"],
+  "citrusfrukt": ["=citron", "=lime"], "morot": ["=morot", "=morötter"], "morötter": ["=morot", "=morötter"],
+  "småpotatis": ["=potatis", "=småpotatis"], "körsbärstomater": ["körsbärstomat", "tomat körsbär"],
+  "matlagningsgrädde": ["matlagningsgrädde", "grädde mat"], "vispgrädde": ["vispgrädde", "grädde visp"], "finriven ost": ["ost riven", "riven ost"], "riven ost": ["ost riven", "riven ost"],
+  "kycklingbröstfilé": ["kycklingbröst"], "strimlad kycklingbröstfilé": ["kycklingbröst"], "kycklinglårfilé": ["kycklinglår"], "majonnäs": ["majonn"], "majonnas": ["majonn"],
+  "grekisk yoghurt": ["grekisk yoghurt"], "tomater": ["=tomat"], "äpple": ["=äpple"], "äpplen": ["=äpple"],
+  "spenat": ["=spenat", "babyspenat"], "sojasås": ["^soja"], "krossade tomater": ["tomat krossad", "krossade tomater"], "kokosmjölk": ["kokosmjölk"]
+};
+function ingName(raw) {
+  let t = raw.toLowerCase().replace(/\(steg[^)]*\)/g, "").replace(/\s+till\s+.*$/, "");
+  t = t.replace(/^[\s\d¼½¾⅓⅔.,\/-]*(g|kg|ml|dl|cl|l|st|tsk|msk|krm|förp|paket|burk|nypa|klyftor|klyfta|skivor)?\.?\s+/, "");
+  t = t.replace(/^portionspåse\s+/, "").split(",")[0].trim();
+  return t;
+}
+function isPantry(n) { return PANTRY.includes(n) || /^(salt|olja|olivolja|vatten|socker)\b/.test(n); }
+// Ord i erbjudandet som tyder på en förädlad produkt – räknas inte om ingrediensen inte själv nämner dem
+const ING_BLOCK = ["snacks", "chips", "sorbet", "juice", "dryck", "glass", "godis", "kex", "bugles", "smoothie", "krossad", "passerad", "puré", "pure", "sås", "soppa", "ketchup", "dressing", "chutney", "pastel", "kakor", "läsk", "saft", "rostad"];
+const HEAD_SUFFIX = ["", "er", "ar", "or", "n", "en", "na", "erna", "arna", "orna", "file", "filé", "ryggfile", "ryggfilé", "loinfile", "bitar", "strimlor", "skivor", "skivad"];
+function offerHead(o) { return norm(o.name).split(/[ ,/]+/)[0] || ""; }
+function headMatch(o, word) { const h = offerHead(o); if (!h.startsWith(word)) return false; return HEAD_SUFFIX.includes(h.slice(word.length)); }
+function blocked(o, ingN) { const t = norm(o.name + " " + o.brand); return ING_BLOCK.some(b => t.includes(b) && !ingN.includes(b)); }
+function ingMatch(o, term, ingN) {
+  if (blocked(o, ingN)) return false;
+  if (term.startsWith("=")) return headMatch(o, norm(term.slice(1)));
+  if (!/\s/.test(term.trim()) && !term.startsWith("^")) return headMatch(o, norm(term));
+  return termMatch(norm(o.name + " " + o.brand), term);
+}
+function ingTerms(n) {
+  if (ING_SYN[n]) return [ING_SYN[n]];
+  const words = n.split(/\s+/).filter(w => w.length > 1);
+  if (words.length === 1) return [[words[0]]];
+  const full = words.map(w => "^" + w).join(" ");
+  const last = words[words.length - 1];
+  return last ? [[full], [last]] : [[full]]; // försök hela namnet först, sedan sista ordet
+}
+let recipeMemo = { key: null, list: null };
+function buildRecipeIndex() {
+  const key = (offers ? sig(offers.text) : "") + "|" + (profile.hiddenStores || []).join(",") + "|" + (recipes ? recipes.length : 0);
+  if (recipeMemo.key === key) return recipeMemo.list;
+  recipeMemo = { key, list: buildRecipeIndexRaw() }; return recipeMemo.list;
+}
+function buildRecipeIndexRaw() {
+  const vis = visibleStores();
+  const offersN = vis.flatMap(st => st.offers.map(o => ({ o, t: norm(o.name + " " + o.brand) })));
+  const cache = new Map();
+  const hitsFor = (n) => {
+    if (cache.has(n)) return cache.get(n);
+    let hits = [];
+    for (const group of ingTerms(n)) {
+      hits = offersN.filter(x => group.some(term => ingMatch(x.o, term, norm(n)))).map(x => x.o);
+      if (hits.length) break;
+    }
+    hits.sort((a, b) => a.price / a.qty - b.price / b.qty);
+    cache.set(n, hits); return hits;
+  };
+  const list = (recipes || []).map(r => {
+    const ings = (r.ingredients || []).map(raw => { const n = ingName(raw); return { raw, n, pantry: isPantry(n) }; });
+    const seen = new Set(); const uniq = ings.filter(i => { if (seen.has(i.n)) return false; seen.add(i.n); return true; });
+    for (const i of uniq) i.hits = i.pantry || i.n.length < 3 ? [] : hitsFor(i.n);
+    const sale = uniq.filter(i => i.hits.length), rest = uniq.filter(i => !i.hits.length && !i.pantry);
+    return { r, sale, rest, pantryCount: uniq.filter(i => i.pantry).length, total: sale.length + rest.length };
+  });
+  const STAPLE = /^(lök|gul lök|rödlök|vitlök|vitlöksklyfta|vitlöksklyftor|potatis|småpotatis|morot|morötter|citrusfrukt|citron|lime|gurka|tomat|smör|mjölk|ägg)$/;
+  for (const x of list) x.score = x.sale.reduce((a, i) => a + (STAPLE.test(i.n) ? 0.4 : 1), 0);
+  list.sort((a, b) => b.score - a.score || b.sale.length - a.sale.length || (b.sale.length / (b.total || 1)) - (a.sale.length / (a.total || 1)) || a.r.minutes - b.r.minutes);
+  return list;
+}
+function normTermKeepMarks(t) { return t; }
+let recipeShow = 12;
+function renderRecipes() {
+  const root = $("#tab-recipes"); root.replaceChildren();
+  if (recipes === null) { root.append(el("p", { class: "muted" }, "Hämtar receptboken…")); return; }
+  if (!recipes.length) { root.append(el("div", { class: "msg" }, el("p", {}, el("b", {}, "Ingen receptbok hittades.")), el("p", { class: "small muted" }, "Lägg filen recept_rensad.txt på webbplatsen bredvid erbjudandena."))); return; }
+  if (!offers) { root.append(el("p", { class: "muted" }, "Inga erbjudanden att jämföra med just nu.")); return; }
+  const chips = el("div", { class: "chips", role: "group", "aria-label": "Tid" });
+  for (const [v, t] of [[0, "Alla tider"], [20, "Max 20 min"], [30, "Max 30 min"], [45, "Max 45 min"]])
+    chips.append(el("button", { class: "chip", "aria-pressed": recipeMax === v ? "true" : "false", onclick: () => { recipeMax = v; recipeShow = 12; renderRecipes(); } }, t));
+  root.append(chips);
+  const all = buildRecipeIndex().filter(x => !recipeMax || x.r.minutes <= recipeMax);
+  root.append(el("p", { class: "small muted" }, "Recepten där flest ingredienser är på erbjudande i dina butiker kommer först. Salt, olja och liknande basvaror räknas inte."));
+  if (!all.length || !all[0].sale.length) { root.append(el("p", {}, "Inga recept har ingredienser på erbjudande den här veckan" + (recipeMax ? " med den tiden." : "."))); }
+  const customTexts = new Set((profile.custom || []).map(c => norm(c.text)));
+  const extraKeys = new Set((profile.extras || []).map(offerKey));
+  for (const x of all.slice(0, recipeShow)) {
+    if (!x.sale.length) break;
+    const r = x.r;
+    const added = x.sale.every(i => extraKeys.has(offerKey(i.hits[0]))) && x.rest.every(i => customTexts.has(norm(restText(i))));
+    const card = el("article", { class: "rcard" },
+      el("h2", {}, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener" }, r.title) : r.title),
+      el("p", { class: "rmeta" }, el("span", { class: "flag" }, `${x.sale.length} på erbjudande`), ` av ${x.total} ingredienser · ${r.minutes} min`),
+      el("ul", { class: "rsale" }, x.sale.map(i => el("li", {}, el("b", {}, i.n), " – " + `${i.hits[0].storeShort}: ${i.hits[0].name.toLowerCase()}${i.hits[0].brand ? " (" + i.hits[0].brand + ")" : ""} ${amountText(i.hits[0])}` + (i.hits.length > 1 ? ` · +${i.hits.length - 1} till` : "")))),
+      x.rest.length ? el("details", { class: "rrest" }, el("summary", {}, `Övriga ingredienser (${x.rest.length})`), el("p", { class: "small" }, x.rest.map(i => i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(steg[^)]*\)/i, "")).join(", "))) : null,
+      el("div", { class: "actions" },
+        el("button", { class: "btn small" + (added ? " ghost" : ""), disabled: added, onclick: () => addRecipe(x) }, added ? "Tillagt i Handla" : "Lägg till i Handla"),
+        r.url ? el("a", { class: "btn ghost small", href: r.url, target: "_blank", rel: "noopener", style: "text-decoration:none" }, "Öppna receptet") : null));
+    root.append(card);
+  }
+  const withSale = all.filter(x => x.sale.length).length;
+  if (withSale > recipeShow) root.append(el("div", { class: "actions" }, el("button", { class: "btn ghost", onclick: () => { recipeShow += 12; renderRecipes(); } }, `Visa fler (${withSale - recipeShow} till)`)));
+}
+function restText(i) { return i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(steg[^)]*\)/i, "").toLowerCase(); }
+function addRecipe(x) {
+  const keys = new Set((profile.extras || []).map(offerKey));
+  const extras = [...(profile.extras || [])];
+  for (const i of x.sale) { const o = i.hits[0]; if (!keys.has(offerKey(o))) { extras.push({ store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus }); keys.add(offerKey(o)); } }
+  const texts = new Set((profile.custom || []).map(c => norm(c.text)));
+  const custom = [...(profile.custom || [])];
+  for (const i of x.rest) { const t = restText(i); if (!texts.has(norm(t))) { custom.push({ id: Math.random().toString(36).slice(2, 9), text: t }); texts.add(norm(t)); } }
+  // se till att receptets rea-varor inte är strukna
+  const ex = new Set(profile.excluded || []); for (const i of x.sale) ex.delete("x:" + offerKey(i.hits[0]));
+  profile.extras = extras; profile.custom = custom; profile.excluded = [...ex];
+  persist(); renderRecipes(); renderList(); renderShop();
+}
+async function loadRecipes() {
+  for (const f of ["recept_rensad.txt", "recept.json"]) {
+    try { const r = await fetch(f, { cache: "no-store" }); if (!r.ok) continue; const d = JSON.parse(await r.text()); if (Array.isArray(d)) { recipes = d; break; } } catch (e) {}
+  }
+  if (recipes === null) recipes = [];
+  if (!$("#tab-recipes").hidden) renderRecipes();
 }
 
 // ---------- render: handla ----------
@@ -901,15 +1041,17 @@ function importJSON(t) { const m = t.trim().match(/^INKOPSLISTA:(.+)$/s); if (!m
 // ---------- tabs ----------
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
   document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
-  for (const t of ["list", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== b.dataset.tab;
+  for (const t of ["list", "recipes", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== b.dataset.tab;
   if (b.dataset.tab === "search") { renderSearch(); $("#q").focus(); }
   if (b.dataset.tab === "shop") renderShop();
+  if (b.dataset.tab === "recipes") renderRecipes();
 }));
 let qTimer; $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(renderSearch, 120); });
 
-function renderAll() { renderStatus(); renderList(); renderShop(); renderItems(); if (!$("#tab-search").hidden) renderSearch(); }
+function renderAll() { renderStatus(); renderList(); renderShop(); renderItems(); if (!$("#tab-recipes").hidden) renderRecipes(); if (!$("#tab-search").hidden) renderSearch(); }
 renderAll();
 
+loadRecipes();
 loadSite().then(() => { if (CODE && CLOUD_ON) cloudRefresh(); });
 })();
 </script>
