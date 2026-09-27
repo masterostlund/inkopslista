@@ -436,7 +436,29 @@ const $ = s => document.querySelector(s);
 const el = (tag, attrs = {}, ...kids) => { const e = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) { if (k === "class") e.className = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else if (v === true) e.setAttribute(k, ""); else if (v !== false && v != null) e.setAttribute(k, v); }
   for (const k of kids.flat()) if (k != null) e.append(k.nodeType ? k : document.createTextNode(k)); return e; };
-const LS_OFFERS = "ink.offers.v1", LS_PROFILE = "ink.profile.v1";
+// ---- Firebase-inställningar (fylls i) ----
+const FIREBASE = { apiKey: "AIzaSyB3oTfc8EQ7p8U0tC-WTpWz5387jJjCOJs", projectId: "inkopslista-1f3cc" };
+const CLOUD_ON = !/^__/.test(FIREBASE.apiKey) && !!FIREBASE.apiKey;
+const CODE = (() => { try { const c = new URLSearchParams(location.search).get("lista"); return c && /^[A-Za-z0-9_-]{20,64}$/.test(c) ? c : null; } catch (e) { return null; } })();
+const LS_OFFERS = "ink.offers.v1", LS_PROFILE = CODE ? "ink.profile.code." + CODE : "ink.profile.v1";
+const FS_BASE = CLOUD_ON ? `https://firestore.googleapis.com/v1/projects/${FIREBASE.projectId}/databases/(default)/documents/lists/` : "";
+let cloudState = CODE && CLOUD_ON ? "loading" : "off"; // off | loading | ok | error
+async function cloudLoad(code) {
+  const r = await fetch(FS_BASE + code + "?key=" + FIREBASE.apiKey, { cache: "no-store" });
+  if (r.status === 404) return null;
+  if (!r.ok) throw new Error("load " + r.status);
+  const d = await r.json();
+  const raw = d.fields && d.fields.data && d.fields.data.stringValue;
+  return raw ? JSON.parse(raw) : null;
+}
+async function cloudSave(code, prof) {
+  const body = { fields: { data: { stringValue: JSON.stringify(prof) }, updatedAt: { timestampValue: new Date().toISOString() } } };
+  const r = await fetch(FS_BASE + code + "?key=" + FIREBASE.apiKey + "&updateMask.fieldPaths=data&updateMask.fieldPaths=updatedAt",
+    { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  if (!r.ok) throw new Error("save " + r.status);
+}
+function newCode() { const b = new Uint8Array(18); crypto.getRandomValues(b); return btoa(String.fromCharCode(...b)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
+function linkFor(code) { return location.origin + location.pathname + "?lista=" + code; }
 const lsGet = k => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : null; } catch (e) { return null; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
 
@@ -457,16 +479,29 @@ if (offers) stores = parseOffers(offers.text);
 let saveTimer = null, saving = false, dirty = false;
 function persist() {
   lsSet(LS_PROFILE, profile);
-  if (!profileRef) return;
-  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 700);
+  if (!(CODE && CLOUD_ON) || cloudState === "loading") return;
+  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 800);
 }
 async function flush() {
-  if (saving || !dirty || !profileRef) return;
+  if (saving || !dirty) return;
   saving = true; dirty = false;
-  try { await profileRef.set(JSON.parse(JSON.stringify(profile))); }
-  catch (e) { cloudProfile = false; profileRef = null; renderStatus(); }
-  saving = false; if (dirty) flush();
+  try { await cloudSave(CODE, profile); if (cloudState !== "ok") { cloudState = "ok"; renderStatus(); } }
+  catch (e) { dirty = true; cloudState = "error"; renderStatus(); }
+  saving = false; if (dirty && cloudState === "ok") flush();
 }
+async function cloudRefresh() {
+  if (!(CODE && CLOUD_ON) || dirty || saving) return;
+  try {
+    const d = await cloudLoad(CODE);
+    if (d && Array.isArray(d.items)) {
+      profile = { items: d.items, extras: d.extras || [], excluded: d.excluded || [], offersSig: d.offersSig };
+      if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; } }
+      lsSet(LS_PROFILE, profile); cloudState = "ok";
+    } else if (!d) { await cloudSave(CODE, profile); cloudState = "ok"; }
+  } catch (e) { cloudState = "error"; }
+  if (editingId == null) renderAll(); else renderStatus();
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") { if (dirty) flush(); else cloudRefresh(); } });
 
 // ---------- matching ----------
 function computed() {
@@ -513,7 +548,7 @@ function renderStatus() {
     os.replaceChildren(el("b", {}, `${n} erbjudanden från ${stores.length} butiker`), ` · uppladdade ${fmtDate(offers.uploadedAt)}` + (weeks.length ? ` · vecka ${weeks.join(", ")}` : ""));
   }
   $("#saveStatus").textContent =
-    "Din lista sparas i den här webbläsaren. " +
+    ({ ok: "Din lista sparas i molnet och följer med din personliga länk. ", loading: "Hämtar din lista… ", error: "Kunde inte nå molnet just nu. Ändringar sparas på den här enheten och skickas när anslutningen fungerar igen. " }[CODE && CLOUD_ON ? cloudState : ""] || "Din lista sparas i den här webbläsaren. ") +
     (offers && offers.source === "site" ? "Erbjudandena hämtas från webbplatsen." : "");
 }
 
@@ -601,6 +636,40 @@ function addExtra(o, btn) {
   renderList();
 }
 
+// ---------- personliga länkar ----------
+function copyBtn(text, label) {
+  return el("button", { class: "btn small", onclick: async (ev) => { const b = ev.currentTarget; try { await navigator.clipboard.writeText(text); b.textContent = "Kopierad"; setTimeout(() => b.textContent = label, 2000); } catch (e) { prompt("Kopiera länken:", text); } } }, label);
+}
+let otherLink = null;
+function linkBox() {
+  const box = el("div", { class: "msg" });
+  if (CODE) {
+    box.append(el("p", {}, el("b", {}, "Det här är din personliga länk.")),
+      el("p", { class: "small muted" }, "Spara den på hemskärmen och öppna listan därifrån på alla dina enheter. Den som har länken kan se och ändra listan, så dela den inte offentligt."),
+      el("div", { class: "actions" }, copyBtn(linkFor(CODE), "Kopiera min länk")));
+  } else {
+    box.append(el("p", {}, el("b", {}, "Listan sparas bara i den här webbläsaren.")),
+      el("p", { class: "small muted" }, "Skapa en personlig länk så sparas listan i molnet och följer med till dina andra enheter."),
+      el("div", { class: "actions" }, el("button", { class: "btn small", onclick: async (ev) => {
+        const b = ev.currentTarget; b.disabled = true; b.textContent = "Skapar…";
+        const code = newCode();
+        try { await cloudSave(code, profile); location.href = linkFor(code); }
+        catch (e) { b.disabled = false; b.textContent = "Skapa min personliga länk"; alert("Det gick inte att nå molnet. Försök igen om en stund."); }
+      } }, "Skapa min personliga länk")));
+  }
+  box.append(el("p", { class: "small muted", style: "margin-top:12px" }, "Ska någon annan ha en egen lista? Skapa en ny länk, öppna den och ställ in varorna, och skicka sedan länken till personen."));
+  const row = el("div", { class: "actions" }, el("button", { class: "btn ghost small", onclick: async (ev) => {
+    const b = ev.currentTarget; b.disabled = true;
+    const code = newCode();
+    try { await cloudSave(code, { items: defaultItems(), extras: [], excluded: [] }); otherLink = linkFor(code); renderItems(); }
+    catch (e) { b.disabled = false; alert("Det gick inte att nå molnet. Försök igen om en stund."); }
+  } }, "Skapa en ny lista åt någon annan"));
+  box.append(row);
+  if (otherLink) box.append(el("p", { class: "small", style: "overflow-wrap:anywhere" }, otherLink),
+    el("div", { class: "actions" }, copyBtn(otherLink, "Kopiera länken"), el("a", { class: "btn ghost small", href: otherLink, style: "text-decoration:none" }, "Öppna listan")));
+  return box;
+}
+
 // ---------- render: items ----------
 function condText(it) {
   const c = [];
@@ -611,6 +680,7 @@ function condText(it) {
 }
 function renderItems() {
   const root = $("#tab-items"); root.replaceChildren();
+  if (CLOUD_ON) root.append(linkBox());
   root.append(el("p", { class: "muted small" }, "Det här är varorna du brukar köpa. Tryck på en vara för att ändra prisgräns, märke eller sökord."));
   for (const cat of CATS) {
     const list = profile.items.filter(i => (i.cat || "Övrigt") === cat);
@@ -713,7 +783,7 @@ let qTimer; $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTim
 function renderAll() { renderStatus(); renderList(); renderItems(); if (!$("#tab-search").hidden) renderSearch(); }
 renderAll();
 
-loadSite();
+loadSite().then(() => { if (CODE && CLOUD_ON) cloudRefresh(); });
 })();
 </script>
 </body>
