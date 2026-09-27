@@ -86,13 +86,17 @@ details summary{cursor:pointer;font-weight:600}
 .addrow .searchbox{flex:1;font-size:17px;padding:11px 14px}
 .progress{font-family:var(--display);font-weight:600;font-size:20px;margin:14px 0 0;color:var(--muted)}
 .shoplist{list-style:none;margin:0;padding:0}
-.shoplist li{display:flex;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:6px}
+.shoplist li{display:flex;flex-wrap:wrap;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:6px}
 .shoplist .tick{all:unset;box-sizing:border-box;flex:1;display:flex;gap:12px;align-items:center;padding:13px 14px;cursor:pointer;min-height:52px}
 .shoplist .tick:focus-visible{outline:3px solid var(--accent);border-radius:12px}
 .shoplist .box{flex:none;width:24px;height:24px;border:2px solid var(--muted);border-radius:7px;display:grid;place-items:center}
 .shoplist li.done .box{background:var(--accent);border-color:var(--accent)}
 .shoplist li.done .box::after{content:"";width:6px;height:11px;border:solid var(--accent-ink);border-width:0 3px 3px 0;transform:translateY(-1px) rotate(45deg)}
 .shoplist .txt{overflow-wrap:anywhere}
+.offerhint{flex-basis:100%;font-size:14px;color:var(--muted);padding:0 14px 12px 50px;margin-top:-6px}
+.linkbtn{border:0;background:none;padding:0;color:var(--accent);font-weight:600;cursor:pointer;text-decoration:underline;font-size:14px}
+.offerhint .flag{background:var(--tag);color:var(--tag-ink);font-weight:600;font-size:12px;border-radius:4px;padding:1px 6px;margin-right:2px}
+.shopchips{margin:12px 0 0}
 .shoplist li.done .txt{text-decoration:line-through;color:var(--muted)}
 .shoplist .rm{border:0;background:transparent;color:var(--muted);font-size:24px;line-height:1;padding:8px 14px;cursor:pointer}
 /* Sök */
@@ -648,21 +652,63 @@ async function copy(text, toast, root) {
   }
 }
 
+// ---------- egna varor på erbjudande ----------
+function customHits(text) {
+  const nq = norm(text); if (nq.length < 2) return [];
+  const first = nq.split(" ")[0];
+  const startQ = nq.split(" ").map(w => "^" + w).join(" "); // ordet måste börja så: mjölk ≠ kokosmjölk
+  const hits = [];
+  for (const st of visibleStores()) for (const o of st.offers) {
+    const t = norm(o.name + " " + o.brand);
+    if (termMatch(t, startQ)) hits.push({ o, rank: norm(o.name).startsWith(first) ? 0 : 1 });
+  }
+  hits.sort((a, b) => a.rank - b.rank || a.o.price / a.o.qty - b.o.price / b.o.qty);
+  return hits.map(h => h.o);
+}
+function offerHint(text) {
+  const hits = customHits(text); if (!hits.length) return null;
+  const top = hits.slice(0, 2).map(o => `${o.storeShort} ${o.name.toLowerCase()} ${amountText(o)}`);
+  return el("div", { class: "offerhint" },
+    el("span", { class: "flag" }, "Erbjudande"), " " + top.join(" · ") + (hits.length > 2 ? ` · +${hits.length - 2} till` : ""),
+    " ", el("button", { class: "linkbtn", onclick: () => { $("#q").value = text; showTab("search"); } }, "Visa"));
+}
+function showTab(name) {
+  document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === name ? "true" : "false"));
+  for (const t of ["list", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== name;
+  if (name === "search") renderSearch();
+  if (name === "shop") renderShop();
+  window.scrollTo(0, 0);
+}
+
 // ---------- render: handla ----------
 function renderShop() {
   const root = $("#tab-shop"); root.replaceChildren();
   const { groups, ex } = receiptData();
   const bought = new Set(profile.bought || []);
   const live = groups.map(g => ({ ...g, lines: g.lines.filter(l => !ex.has(l.key)) })).filter(g => g.lines.length);
-  const all = live.flatMap(g => g.lines); const left = all.filter(l => !bought.has(l.key)).length;
+  const shopHidden = new Set(profile.shopHidden || []);
+  const storeGroups = live.filter(g => !g.custom);
+  const shown = live.filter(g => g.custom || !shopHidden.has(g.full));
+  const all = shown.flatMap(g => g.lines); const left = all.filter(l => !bought.has(l.key)).length;
   const inp = el("input", { class: "searchbox addbox", type: "text", placeholder: "Något mer? T.ex. mjölk", "aria-label": "Lägg till egen vara", enterkeyhint: "done" });
   const add = () => { const t = inp.value.trim(); if (!t) return; profile.custom = [...(profile.custom || []), { id: Math.random().toString(36).slice(2, 9), text: t }]; persist(); renderShop(); renderList(); setTimeout(() => $("#tab-shop .addbox").focus(), 0); };
   inp.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
   root.append(el("div", { class: "addrow" }, inp, el("button", { class: "btn", onclick: add }, "Lägg till")));
-  if (!all.length) { root.append(el("p", { class: "muted" }, "Listan är tom. Välj varor under Erbjudanden, eller lägg till egna ovanför.")); return; }
+  if (storeGroups.length > 1) {
+    const wrap = el("div", { class: "chips shopchips", role: "group", "aria-label": "Visa butiker" });
+    for (const g of storeGroups) {
+      const on = !shopHidden.has(g.full);
+      wrap.append(el("button", { class: "chip", "aria-pressed": on ? "true" : "false", onclick: () => {
+        const set = new Set(profile.shopHidden || []); on ? set.add(g.full) : set.delete(g.full);
+        profile.shopHidden = [...set]; persist(); renderShop();
+      } }, (stores.find(x => x.full === g.full) || {}).short || g.name));
+    }
+    root.append(wrap);
+  }
+  if (!all.length) { root.append(el("p", { class: "muted" }, live.length ? "Ingen butik är vald. Tryck på en butik ovanför för att visa dess varor." : "Listan är tom. Välj varor under Erbjudanden, eller lägg till egna ovanför.")); return; }
   root.append(el("p", { class: "progress" }, left ? `${left} kvar av ${all.length}` : `Allt är handlat – ${all.length} av ${all.length}`));
-  for (const g of live) {
-    root.append(el("h2", { class: "res-store" }, g.custom ? "Egna varor" : g.name.charAt(0).toUpperCase() + g.name.slice(1)));
+  for (const g of shown) {
+    root.append(el("h2", { class: "res-store" }, g.custom ? "Egna varor" : (stores.find(x => x.full === g.full) || {}).short || g.name));
     const ul = el("ul", { class: "shoplist" });
     for (const l of g.lines) {
       const done = bought.has(l.key);
@@ -670,13 +716,14 @@ function renderShop() {
         el("button", { class: "tick", role: "checkbox", "aria-checked": done ? "true" : "false", onclick: () => {
           const b = new Set(profile.bought || []); b.has(l.key) ? b.delete(l.key) : b.add(l.key); profile.bought = [...b]; persist(); renderShop();
         } }, el("span", { class: "box", "aria-hidden": "true" }), el("span", { class: "txt" }, l.text)),
-        l.custom ? el("button", { class: "rm", "aria-label": "Ta bort " + l.text, onclick: () => { profile.custom = (profile.custom || []).filter(c => c.id !== l.id); persist(); renderShop(); renderList(); } }, "×") : null));
+        l.custom ? el("button", { class: "rm", "aria-label": "Ta bort " + l.text, onclick: () => { profile.custom = (profile.custom || []).filter(c => c.id !== l.id); persist(); renderShop(); renderList(); } }, "×") : null,
+        l.custom && !done ? offerHint(l.text) : null));
     }
     root.append(ul);
   }
   const toast = el("span", { class: "toast", role: "status" });
   root.append(el("div", { class: "actions" },
-    el("button", { class: "btn", onclick: () => copy(receiptText(groups, ex), toast, root) }, "Kopiera listan"),
+    el("button", { class: "btn", onclick: () => copy(receiptText(shown, ex), toast, root) }, "Kopiera listan"),
     bought.size ? el("button", { class: "btn ghost small", onclick: () => { profile.bought = []; persist(); renderShop(); } }, "Avmarkera alla") : null,
     (profile.custom || []).length ? el("button", { class: "btn ghost small", onclick: () => { if (confirm("Ta bort alla egna varor?")) { profile.custom = []; persist(); renderShop(); renderList(); } } }, "Ta bort egna varor") : null,
     toast));
