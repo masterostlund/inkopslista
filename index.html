@@ -154,6 +154,7 @@ body.locked nav.tabs, body.locked section, body.locked .status{display:none !imp
     <div class="status small"><span id="saveStatus"></span></div>
   </header>
   <div id="gate" class="msg" role="status" hidden></div>
+  <div id="notice" class="msg warn" role="alert" hidden></div>
 
   <nav class="tabs" role="tablist">
     <button role="tab" aria-selected="true" data-tab="list">Erbjudanden</button>
@@ -492,13 +493,22 @@ async function cloudLoad(code) {
   if (!r.ok) throw new Error("load " + r.status);
   const d = await r.json();
   const raw = d.fields && d.fields.data && d.fields.data.stringValue;
-  try { return raw ? JSON.parse(raw) : {}; } catch (e) { return {}; }
+  let prof = {}; try { prof = raw ? JSON.parse(raw) : {}; } catch (e) {}
+  return { prof, time: d.updateTime || null };
 }
-async function cloudSave(code, prof) {
-  const body = { fields: { data: { stringValue: JSON.stringify(prof) }, updatedAt: { timestampValue: new Date().toISOString() } } };
-  const r = await fetch(FS_BASE + code + "?key=" + FIREBASE.apiKey + "&updateMask.fieldPaths=data&updateMask.fieldPaths=updatedAt",
-    { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-  if (!r.ok) throw new Error("save " + r.status);
+// Sparar bara om ingen annan enhet har sparat sedan vi senast läste (updateTime-villkor)
+async function cloudSave(code, prof, since) {
+  const body = JSON.stringify({ fields: { data: { stringValue: JSON.stringify(prof) }, updatedAt: { timestampValue: new Date().toISOString() } } });
+  let url = FS_BASE + code + "?key=" + FIREBASE.apiKey + "&updateMask.fieldPaths=data&updateMask.fieldPaths=updatedAt";
+  if (since) url += "&currentDocument.updateTime=" + encodeURIComponent(since);
+  const r = await fetch(url, { method: "PATCH", headers: { "Content-Type": "application/json" }, body, keepalive: body.length < 60000 });
+  if (!r.ok) {
+    let txt = ""; try { txt = await r.text(); } catch (e) {}
+    const err = new Error("save " + r.status);
+    if (r.status === 409 || /FAILED_PRECONDITION/.test(txt)) err.conflict = true;
+    throw err;
+  }
+  try { const d = await r.json(); return d.updateTime || null; } catch (e) { return null; }
 }
 function newCode() { const b = new Uint8Array(18); crypto.getRandomValues(b); return btoa(String.fromCharCode(...b)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
 function linkFor(code) { return location.origin + location.pathname + "?lista=" + code; }
@@ -520,35 +530,70 @@ if (offers) stores = parseOffers(offers.text);
 
 // ---------- saving ----------
 let saveTimer = null, saving = false, dirty = false;
+const TIME_KEY = CODE ? "ink.time." + CODE : null, PEND_KEY = CODE ? "ink.pending." + CODE : null;
+let cloudTime = TIME_KEY ? lsGet(TIME_KEY) : null;
 function persist() {
   lsSet(LS_PROFILE, profile);
   if (!(CODE && CLOUD_ON) || cloudState === "loading" || cloudState === "invalid") return;
-  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 800);
+  lsSet(PEND_KEY, true); // kommer ihåg osparade ändringar även om appen stängs
+  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 600);
 }
 async function flush() {
-  if (saving || !dirty) return;
+  if (saving || !dirty || !(CODE && CLOUD_ON)) return;
+  clearTimeout(saveTimer);
   saving = true; dirty = false;
-  try { await cloudSave(CODE, profile); if (cloudState !== "ok") { cloudState = "ok"; renderStatus(); } }
-  catch (e) { dirty = true; cloudState = "error"; renderStatus(); }
+  const snap = JSON.parse(JSON.stringify(profile));
+  try {
+    const t = await cloudSave(CODE, snap, cloudTime);
+    if (t) { cloudTime = t; lsSet(TIME_KEY, t); }
+    if (!dirty) lsSet(PEND_KEY, false);
+    if (cloudState !== "ok") { cloudState = "ok"; renderStatus(); }
+  } catch (e) {
+    if (e.conflict) {
+      // En annan enhet har sparat en nyare version: skriv inte över den
+      saving = false; dirty = false; lsSet(PEND_KEY, false);
+      await cloudRefresh(true);
+      notice("Listan hade ändrats på en annan enhet, så den senaste versionen visas nu. Gör om din senaste ändring om den saknas.");
+      return;
+    }
+    dirty = true; cloudState = "error"; renderStatus();
+  }
   saving = false; if (dirty && cloudState === "ok") flush();
 }
-async function cloudRefresh() {
-  if (!(CODE && CLOUD_ON) || dirty || saving) return;
+async function cloudRefresh(force) {
+  if (!(CODE && CLOUD_ON)) return;
+  if (!force && (dirty || saving)) return;
+  // osparade ändringar från förra gången appen var öppen skickas först
+  if (!force && lsGet(PEND_KEY) && cloudTime && lsGet(LS_PROFILE)) { dirty = true; await flush(); if (!dirty && !lsGet(PEND_KEY)) { renderAll(); return; } }
   try {
-    const d = await cloudLoad(CODE);
-    if (d && Array.isArray(d.items)) {
-      profile = Object.assign({ extras: [], excluded: [], hiddenStores: [], bought: [], custom: [] }, d);
-      if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; } }
-      lsSet(LS_PROFILE, profile); cloudState = "ok";
-    } else if (d) { // listan är nyskapad för hand: börja med standardlistan
-      profile = freshProfile(); if (offers) profile.offersSig = sig(offers.text);
-      lsSet(LS_PROFILE, profile); await cloudSave(CODE, profile); cloudState = "ok";
-    } else { cloudState = "invalid"; }
+    const res = await cloudLoad(CODE);
+    if (!res) cloudState = "invalid";
+    else {
+      const d = res.prof; cloudTime = res.time; lsSet(TIME_KEY, cloudTime);
+      if (Array.isArray(d.items)) {
+        profile = Object.assign({ extras: [], excluded: [], hiddenStores: [], bought: [], custom: [] }, d);
+        if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; } }
+        lsSet(LS_PROFILE, profile); cloudState = "ok";
+      } else { // listan är nyskapad för hand: börja med standardlistan
+        profile = freshProfile(); if (offers) profile.offersSig = sig(offers.text);
+        lsSet(LS_PROFILE, profile); const t = await cloudSave(CODE, profile, cloudTime); if (t) { cloudTime = t; lsSet(TIME_KEY, t); } cloudState = "ok";
+      }
+    }
   } catch (e) { cloudState = "error"; }
   if (cloudState === "invalid") { lock("Kontrollera att du har kopierat hela länken, eller fråga den som gav dig den.", "Den här länken är inte giltig."); return; }
   if (editingId == null) renderAll(); else renderStatus();
 }
-document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") { if (dirty) flush(); else cloudRefresh(); } });
+function notice(msg) {
+  const n = $("#notice"); if (!n) return;
+  n.replaceChildren(el("p", {}, msg), el("button", { class: "btn ghost small", onclick: () => { n.hidden = true; } }, "OK"));
+  n.hidden = false;
+}
+// Hämta nytt när man kommer tillbaka, och spara direkt när man lämnar
+function quietRefresh() { if (document.visibilityState === "visible" && !dirty && !saving && editingId == null && cloudState !== "loading") cloudRefresh(); }
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); else if (dirty) flush(); else quietRefresh(); });
+window.addEventListener("pagehide", () => flush());
+window.addEventListener("focus", quietRefresh);
+setInterval(quietRefresh, 30000);
 
 // ---------- matching ----------
 function computed() {
