@@ -111,6 +111,8 @@ details summary{cursor:pointer;font-weight:600}
 .rrest{margin-top:8px;font-size:15px}
 .rrest summary{font-weight:600;color:var(--muted)}
 .rcard .actions{margin:12px 0 0}
+body.locked nav.tabs, body.locked section, body.locked .status{display:none !important}
+#gate{margin-top:18px}
 /* Sök */
 .searchbox{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface)}
 .searchbox:focus{border-color:var(--accent);outline:none}
@@ -142,7 +144,7 @@ details summary{cursor:pointer;font-weight:600}
 @media (prefers-reduced-motion:no-preference){ .receipt li.off button{transition:color .15s} }
 </style>
 </head>
-<body>
+<body class="locked">
 <div class="wrap">
   <header class="top">
     <h1>Veckans inköpslista</h1>
@@ -151,6 +153,7 @@ details summary{cursor:pointer;font-weight:600}
     </div>
     <div class="status small"><span id="saveStatus"></span></div>
   </header>
+  <div id="gate" class="msg" role="status" hidden></div>
 
   <nav class="tabs" role="tablist">
     <button role="tab" aria-selected="true" data-tab="list">Erbjudanden</button>
@@ -542,6 +545,7 @@ async function cloudRefresh() {
       lsSet(LS_PROFILE, profile); await cloudSave(CODE, profile); cloudState = "ok";
     } else { cloudState = "invalid"; }
   } catch (e) { cloudState = "error"; }
+  if (cloudState === "invalid") { lock("Kontrollera att du har kopierat hela länken, eller fråga den som gav dig den.", "Den här länken är inte giltig."); return; }
   if (editingId == null) renderAll(); else renderStatus();
 }
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") { if (dirty) flush(); else cloudRefresh(); } });
@@ -1030,10 +1034,30 @@ document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("cl
 let qTimer; $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(renderSearch, 120); });
 
 function renderAll() { renderStatus(); renderList(); renderShop(); renderItems(); if (!$("#tab-recipes").hidden) renderRecipes(); if (!$("#tab-search").hidden) renderSearch(); }
-renderAll();
 
-loadRecipes();
-loadSite().then(() => { if (CODE && CLOUD_ON) cloudRefresh(); });
+// ---------- spärr: bara giltiga personliga länkar ----------
+function lock(msg, title) {
+  document.body.classList.add("locked");
+  const g = $("#gate"); g.hidden = false;
+  g.replaceChildren(el("p", {}, el("b", {}, title || "Den här sidan kräver en personlig länk.")), msg ? el("p", { class: "small muted" }, msg) : null);
+}
+function unlock() { document.body.classList.remove("locked"); $("#gate").hidden = true; }
+const VALID_KEY = CODE ? "ink.valid." + CODE : null;
+(async function start() {
+  if (!CODE || !CLOUD_ON) { lock("Öppna inköpslistan via din personliga länk. Har du ingen, fråga den som delade appen med dig."); return; }
+  const known = !!lsGet(VALID_KEY);
+  if (known) { renderAll(); unlock(); } else lock("", "Hämtar din lista…");
+  await cloudRefresh();
+  if (cloudState === "invalid") {
+    try { localStorage.removeItem(VALID_KEY); localStorage.removeItem(LS_PROFILE); } catch (e) {}
+    lock("Kontrollera att du har kopierat hela länken, eller fråga den som gav dig den.", "Den här länken är inte giltig.");
+    return;
+  }
+  if (cloudState === "error" && !known) { lock("Kontrollera internetanslutningen och ladda om sidan.", "Kunde inte hämta din lista just nu."); return; }
+  lsSet(VALID_KEY, true); unlock();
+  loadRecipes();
+  await loadSite();
+})();
 })();
 </script>
 </body>
