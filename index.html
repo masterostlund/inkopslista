@@ -120,6 +120,15 @@ details summary{cursor:pointer;font-weight:600}
 .rhome{margin:0 0 6px;font-size:15px;color:var(--muted)}
 body.locked nav.tabs, body.locked section, body.locked .status{display:none !important}
 #gate{margin-top:18px}
+.plink{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;border-radius:8px;color:var(--accent);text-decoration:none;font-weight:700;font-size:17px;flex:none}
+.plink:hover{background:var(--bg)}
+.receipt li{display:flex;align-items:flex-start;gap:4px}
+.receipt li button{flex:1}
+.receipt .plink{color:#1D6A45;min-height:26px;min-width:28px}
+.receipt .plink:hover{background:#EEF1EE}
+.hitact{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}
+.hitlink{text-decoration:none}
+.rsale .plink{min-width:24px;min-height:24px;font-size:15px}
 /* Sök */
 .searchbox{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface)}
 .searchbox:focus{border-color:var(--accent);outline:none}
@@ -225,12 +234,12 @@ function parseOffers(text) {
     if (line.startsWith("#") || /^NAMN\|/i.test(line)) continue;
     if (!cur) { cur = { full: "Okänd butik", offers: [] }; stores.push(cur); }
     const f = line.split("|").map(s => s.trim());
-    while (f.length < 10) f.push("");
-    let [name, brand, size, price, unit, cmp, save, plus, max, qty] = f;
+    while (f.length < 11) f.push("");
+    let [name, brand, size, price, unit, cmp, save, plus, max, qty, link] = f;
     if (!size && looksLikeSize(brand)) { size = brand; brand = ""; } // förskjuten rad
     const p = num(price); if (p == null) continue;
     const q = Math.max(1, num(qty) || 1);
-    cur.offers.push({ name, brand, size, price: p, unit: (unit || "").toLowerCase(), cmp, plus: !!plus && !/^(nej|no|0|false)$/i.test(plus), max, qty: q, store: cur.full });
+    cur.offers.push({ name, brand, size, price: p, unit: (unit || "").toLowerCase(), cmp, plus: !!plus && !/^(nej|no|0|false)$/i.test(plus), max, qty: q, store: cur.full, link: /^https:\/\//.test(link) ? link : "" });
   }
   // korta butiksnamn: ta bort ord som finns i alla butiksnamn (t.ex. ortnamnet)
   if (stores.length > 1) {
@@ -612,8 +621,8 @@ function receiptData() {
   const { byStore, uncertain, ex } = computed();
   const groups = [];
   for (const s of byStore) {
-    const lines = s.rows.map(r => ({ key: offerKey(r.offer), text: lineFor(r.item, r.offer), plus: r.offer.plus, extra: false }));
-    for (const x of (profile.extras || []).filter(x => x.store === s.store.full)) lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x });
+    const lines = s.rows.map(r => ({ key: offerKey(r.offer), text: lineFor(r.item, r.offer), plus: r.offer.plus, extra: false, link: r.offer.link }));
+    for (const x of (profile.extras || []).filter(x => x.store === s.store.full)) lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, link: x.link || "" });
     if (lines.length) groups.push({ name: s.store.short.toLowerCase(), full: s.store.full, lines });
   }
   // extra-varor från butiker som inte finns i nuvarande fil
@@ -621,7 +630,7 @@ function receiptData() {
   const hidden = new Set(profile.hiddenStores || []);
   for (const x of (profile.extras || []).filter(x => !known.has(x.store) && !hidden.has(x.storeShort))) {
     let g = groups.find(g => g.full === x.store); if (!g) { g = { name: (x.storeShort || x.store).toLowerCase(), full: x.store, lines: [] }; groups.push(g); }
-    g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x });
+    g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, link: x.link || "" });
   }
   const custom = profile.custom || [];
   if (custom.length) groups.push({ name: "egna varor", full: "", custom: true, lines: custom.map(c => ({ key: "c:" + c.id, text: c.text, plus: false, extra: false, custom: true, id: c.id })) });
@@ -637,6 +646,12 @@ function receiptText(groups, ex) {
   let t = parts.join("\n\n");
   if (plusStores.size) t += "\n\n" + [...plusStores].map(n => `* kräver ${n.charAt(0).toUpperCase() + n.slice(1)}Plus`).join("\n");
   return t;
+}
+
+// ---------- produktlänk ----------
+function prodLink(url, label) {
+  if (!url) return null;
+  return el("a", { class: "plink", href: url, target: "_blank", rel: "noopener noreferrer", title: "Visa varan hos Matpriskollen", "aria-label": label ? "Visa " + label : "Visa varan" }, "↗");
 }
 
 // ---------- butiksval ----------
@@ -689,7 +704,7 @@ function renderList() {
     const ul = el("ul");
     for (const l of g.lines) {
       const off = ex.has(l.key);
-      ul.append(el("li", { class: off ? "off" : "" }, el("button", { "aria-pressed": off ? "false" : "true", title: off ? "Ta med igen" : "Stryk från listan", onclick: () => toggleLine(l.key) }, l.text, l.extra ? el("span", { class: "x" }, "tillagd") : null)));
+      ul.append(el("li", { class: off ? "off" : "" }, el("button", { "aria-pressed": off ? "false" : "true", title: off ? "Ta med igen" : "Stryk från listan", onclick: () => toggleLine(l.key) }, l.text, l.extra ? el("span", { class: "x" }, "tillagd") : null), prodLink(l.link, l.text)));
     }
     box.append(ul); rec.append(box);
   }
@@ -894,7 +909,7 @@ function renderRecipes() {
         x.home.length ? el("span", { class: "flag homeflag" }, `${x.home.length} har hemma`) : null,
         ` av ${x.total} ingredienser · ${r.minutes} min`),
       x.home.length ? el("p", { class: "rhome" }, "Har hemma: " + x.home.map(i => i.n).join(", ")) : null,
-      el("ul", { class: "rsale" }, x.sale.map(i => el("li", {}, el("b", {}, i.n), " – " + `${i.hits[0].storeShort}: ${i.hits[0].name.toLowerCase()}${i.hits[0].brand ? " (" + i.hits[0].brand + ")" : ""} ${amountText(i.hits[0])}` + (i.hits.length > 1 ? ` · +${i.hits.length - 1} till` : "")))),
+      el("ul", { class: "rsale" }, x.sale.map(i => el("li", {}, el("b", {}, i.n), " – " + `${i.hits[0].storeShort}: ${i.hits[0].name.toLowerCase()}${i.hits[0].brand ? " (" + i.hits[0].brand + ")" : ""} ${amountText(i.hits[0])}` + (i.hits.length > 1 ? ` · +${i.hits.length - 1} till` : ""), " ", prodLink(i.hits[0].link, i.n)))),
       x.rest.length ? el("details", { class: "rrest" }, el("summary", {}, `Övriga ingredienser (${x.rest.length})`), el("p", { class: "small" }, x.rest.map(i => i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(steg[^)]*\)/i, "")).join(", "))) : null,
       el("div", { class: "actions" },
         el("button", { class: "btn small" + (added ? " ghost" : ""), disabled: added, onclick: () => addRecipe(x) }, added ? "Tillagt i Handla" : "Lägg till i Handla"),
@@ -908,7 +923,7 @@ function restText(i) { return i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(
 function addRecipe(x) {
   const keys = new Set((profile.extras || []).map(offerKey));
   const extras = [...(profile.extras || [])];
-  for (const i of x.sale) { const o = i.hits[0]; if (!keys.has(offerKey(o))) { extras.push({ store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus }); keys.add(offerKey(o)); } }
+  for (const i of x.sale) { const o = i.hits[0]; if (!keys.has(offerKey(o))) { extras.push({ store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus, link: o.link || "" }); keys.add(offerKey(o)); } }
   const texts = new Set((profile.custom || []).map(c => norm(c.text)));
   const custom = [...(profile.custom || [])];
   for (const i of x.rest) { const t = restText(i); if (!texts.has(norm(t))) { custom.push({ id: Math.random().toString(36).slice(2, 9), text: t }); texts.add(norm(t)); } }
@@ -961,6 +976,7 @@ function renderShop() {
         el("button", { class: "tick", role: "checkbox", "aria-checked": done ? "true" : "false", onclick: () => {
           const b = new Set(profile.bought || []); b.has(l.key) ? b.delete(l.key) : b.add(l.key); profile.bought = [...b]; persist(); renderShop();
         } }, el("span", { class: "box", "aria-hidden": "true" }), el("span", { class: "txt" }, l.text)),
+        prodLink(l.link, l.text),
         l.custom ? el("button", { class: "rm", "aria-label": "Ta bort " + l.text, onclick: () => { profile.custom = (profile.custom || []).filter(c => c.id !== l.id); persist(); renderShop(); renderList(); } }, "×") : null,
         l.custom && !done ? offerHint(l.text) : null));
     }
@@ -995,13 +1011,15 @@ function renderSearch() {
       box.append(el("div", { class: "hit" },
         el("div", {}, el("div", { class: "n" }, o.name), el("div", { class: "d" }, [o.brand, o.size, cmp, o.plus ? "kräver medlemskap" : ""].filter(Boolean).join(" · "))),
         el("div", { class: "tagprice" }, o.qty > 1 ? `${o.qty} för ${o.price.toFixed(2).replace(".", ",")}` : o.price.toFixed(2).replace(".", ",") + (o.unit === "kg" || o.unit === "hg" ? "/" + o.unit : "")),
-        el("button", { class: "btn small add " + (isAdded ? "ghost" : ""), disabled: isAdded, onclick: (ev) => addExtra(o, ev.currentTarget) }, isAdded ? "Tillagd i listan" : "Lägg till i listan")));
+        el("div", { class: "hitact" },
+          el("button", { class: "btn small add " + (isAdded ? "ghost" : ""), disabled: isAdded, onclick: (ev) => addExtra(o, ev.currentTarget) }, isAdded ? "Tillagd i listan" : "Lägg till i listan"),
+          o.link ? el("a", { class: "btn ghost small hitlink", href: o.link, target: "_blank", rel: "noopener noreferrer" }, "Visa varan ↗") : null)));
     }
   }
   if (!total) box.append(el("p", {}, `Inget erbjudande innehåller ”${q}” den här veckan` + (vis.length < stores.length ? " i butikerna du valt." : ".")));
 }
 function addExtra(o, btn) {
-  const x = { store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus };
+  const x = { store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus, link: o.link || "" };
   profile.extras = [...(profile.extras || []), x]; persist();
   btn.textContent = "Tillagd i listan"; btn.disabled = true; btn.classList.add("ghost");
   renderList();
