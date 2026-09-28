@@ -111,6 +111,13 @@ details summary{cursor:pointer;font-weight:600}
 .rrest{margin-top:8px;font-size:15px}
 .rrest summary{font-weight:600;color:var(--muted)}
 .rcard .actions{margin:12px 0 0}
+.homebox{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px 14px;margin-bottom:16px}
+.homehead{font-family:var(--display);font-weight:700;font-size:20px;margin:0 0 8px}
+.homechips{margin:10px 0 6px}
+.chip.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.chipx{opacity:.7}
+.homeflag{background:var(--accent);color:var(--accent-ink)}
+.rhome{margin:0 0 6px;font-size:15px;color:var(--muted)}
 body.locked nav.tabs, body.locked section, body.locked .status{display:none !important}
 #gate{margin-top:18px}
 /* Sök */
@@ -523,7 +530,7 @@ let db = null, uidv = null, profileRef = null, offersRef = null;
 let sharedOffers = false, cloudProfile = false;
 let editingId = null;
 
-function freshProfile() { return { items: defaultItems(), extras: [], excluded: [], bought: [], custom: [] }; }
+function freshProfile() { return { items: defaultItems(), extras: [], excluded: [], bought: [], custom: [], home: [] }; }
 profile = lsGet(LS_PROFILE) || freshProfile();
 offers = lsGet(LS_OFFERS);
 if (offers) stores = parseOffers(offers.text);
@@ -571,7 +578,7 @@ async function cloudRefresh(force) {
     else {
       const d = res.prof; cloudTime = res.time; lsSet(TIME_KEY, cloudTime);
       if (Array.isArray(d.items)) {
-        profile = Object.assign({ extras: [], excluded: [], hiddenStores: [], bought: [], custom: [] }, d);
+        profile = Object.assign({ extras: [], excluded: [], hiddenStores: [], bought: [], custom: [], home: [] }, d);
         if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; } }
         lsSet(LS_PROFILE, profile); cloudState = "ok";
       } else { // listan är nyskapad för hand: börja med standardlistan
@@ -788,7 +795,7 @@ function ingTerms(n) {
 }
 let recipeMemo = { key: null, list: null };
 function buildRecipeIndex() {
-  const key = (offers ? sig(offers.text) : "") + "|" + (profile.hiddenStores || []).join(",") + "|" + (recipes ? recipes.length : 0);
+  const key = (offers ? sig(offers.text) : "") + "|" + (profile.hiddenStores || []).join(",") + "|" + (recipes ? recipes.length : 0) + "|" + (profile.home || []).map(h => h.text).join(",");
   if (recipeMemo.key === key) return recipeMemo.list;
   recipeMemo = { key, list: buildRecipeIndexRaw() }; return recipeMemo.list;
 }
@@ -809,16 +816,56 @@ function buildRecipeIndexRaw() {
   const list = (recipes || []).map(r => {
     const ings = (r.ingredients || []).map(raw => { const n = ingName(raw); return { raw, n, pantry: isPantry(n) }; });
     const seen = new Set(); const uniq = ings.filter(i => { if (seen.has(i.n)) return false; seen.add(i.n); return true; });
-    for (const i of uniq) i.hits = i.pantry || i.n.length < 3 ? [] : hitsFor(i.n);
-    const sale = uniq.filter(i => i.hits.length), rest = uniq.filter(i => !i.hits.length && !i.pantry);
-    return { r, sale, rest, pantryCount: uniq.filter(i => i.pantry).length, total: sale.length + rest.length };
+    for (const i of uniq) { i.home = !i.pantry && homeHas(i.n); i.hits = i.pantry || i.home || i.n.length < 3 ? [] : hitsFor(i.n); }
+    const home = uniq.filter(i => i.home);
+    const sale = uniq.filter(i => i.hits.length), rest = uniq.filter(i => !i.hits.length && !i.pantry && !i.home);
+    return { r, sale, home, rest, pantryCount: uniq.filter(i => i.pantry).length, total: sale.length + rest.length + home.length };
   });
   const STAPLE = /^(lök|gul lök|rödlök|vitlök|vitlöksklyfta|vitlöksklyftor|potatis|småpotatis|morot|morötter|citrusfrukt|citron|lime|gurka|tomat|smör|mjölk|ägg)$/;
-  for (const x of list) x.score = x.sale.reduce((a, i) => a + (STAPLE.test(i.n) ? 0.4 : 1), 0);
-  list.sort((a, b) => b.score - a.score || b.sale.length - a.sale.length || (b.sale.length / (b.total || 1)) - (a.sale.length / (a.total || 1)) || a.r.minutes - b.r.minutes);
+  // det du har hemma väger lite mer än ett erbjudande: att använda det du har är ännu billigare
+  for (const x of list) x.score = x.sale.reduce((a, i) => a + (STAPLE.test(i.n) ? 0.4 : 1), 0) + x.home.reduce((a, i) => a + (STAPLE.test(i.n) ? 0.5 : 1.3), 0);
+  // det du har hemma sorteras först, sedan erbjudanden
+  list.sort((a, b) => b.home.length - a.home.length || b.score - a.score || b.sale.length - a.sale.length || (b.sale.length / (b.total || 1)) - (a.sale.length / (a.total || 1)) || a.r.minutes - b.r.minutes);
   return list;
 }
 function normTermKeepMarks(t) { return t; }
+function homeWordMatch(w, h) {
+  if (w === h) return true;
+  if (w.startsWith(h)) return HEAD_SUFFIX.includes(w.slice(h.length));
+  if (h.startsWith(w)) return HEAD_SUFFIX.includes(h.slice(w.length));
+  return false;
+}
+function homeHas(ingN) {
+  const iw = norm(ingN).split(" ");
+  const ij = norm(ingN).replace(/ /g, "");
+  return (profile.home || []).some(h => {
+    const hn = norm(h.text); if (!hn) return false;
+    const hw = hn.split(" ");
+    if (hw.length === 1) return iw.some(w => homeWordMatch(w, hn)) || ij === hn;
+    return hw.every(x => iw.some(w => homeWordMatch(w, x)));
+  });
+}
+function homeBox() {
+  const home = profile.home || [];
+  const inp = el("input", { class: "searchbox addbox", type: "text", placeholder: "Har hemma, t.ex. zucchini", "aria-label": "Lägg till något du har hemma", enterkeyhint: "done" });
+  const add = () => {
+    const parts = inp.value.split(",").map(t => t.trim()).filter(Boolean); if (!parts.length) return;
+    const have = new Set(home.map(h => norm(h.text)));
+    profile.home = [...home, ...parts.filter(t => !have.has(norm(t))).map(t => ({ id: Math.random().toString(36).slice(2, 9), text: t.toLowerCase() }))];
+    persist(); recipeShow = 12; renderRecipes(); setTimeout(() => { const i = $("#tab-recipes .addbox"); if (i) i.focus(); }, 0);
+  };
+  inp.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
+  const box = el("div", { class: "homebox" },
+    el("h2", { class: "homehead" }, "Har hemma"),
+    el("div", { class: "addrow" }, inp, el("button", { class: "btn", onclick: add }, "Lägg till")));
+  if (home.length) {
+    const chips = el("div", { class: "chips homechips" });
+    for (const h of home) chips.append(el("button", { class: "chip on", "aria-label": "Ta bort " + h.text, onclick: () => { profile.home = (profile.home || []).filter(x => x.id !== h.id); persist(); renderRecipes(); } }, h.text, el("span", { class: "chipx", "aria-hidden": "true" }, " ×")));
+    box.append(chips);
+    if (home.length > 1) box.append(el("button", { class: "linkbtn", onclick: () => { if (confirm("Ta bort allt under Har hemma?")) { profile.home = []; persist(); renderRecipes(); } } }, "Rensa allt"));
+  } else box.append(el("p", { class: "small muted", style: "margin:8px 0 0" }, "Skriv det du har hemma, så kommer recept som använder det först. Flera på en gång går bra: zucchini, pastasås."));
+  return box;
+}
 let recipeShow = 12;
 function renderRecipes() {
   const root = $("#tab-recipes"); root.replaceChildren();
@@ -828,19 +875,25 @@ function renderRecipes() {
   const chips = el("div", { class: "chips", role: "group", "aria-label": "Tid" });
   for (const [v, t] of [[0, "Alla tider"], [20, "Max 20 min"], [30, "Max 30 min"], [45, "Max 45 min"]])
     chips.append(el("button", { class: "chip", "aria-pressed": recipeMax === v ? "true" : "false", onclick: () => { recipeMax = v; recipeShow = 12; renderRecipes(); } }, t));
+  root.prepend(homeBox());
   root.append(chips);
   const all = buildRecipeIndex().filter(x => !recipeMax || x.r.minutes <= recipeMax);
-  root.append(el("p", { class: "small muted" }, "Recepten där flest ingredienser är på erbjudande i dina butiker kommer först. Salt, olja och liknande basvaror räknas inte."));
-  if (!all.length || !all[0].sale.length) { root.append(el("p", {}, "Inga recept har ingredienser på erbjudande den här veckan" + (recipeMax ? " med den tiden." : "."))); }
+  root.append(el("p", { class: "small muted" }, (profile.home || []).length ? "Recepten som använder mest av det du har hemma och det som är på erbjudande kommer först. Salt, olja och liknande basvaror räknas inte." : "Recepten där flest ingredienser är på erbjudande i dina butiker kommer först. Salt, olja och liknande basvaror räknas inte."));
+  const useful = x => x.sale.length || x.home.length;
+  if (!all.length || !useful(all[0])) { root.append(el("p", {}, "Inga recept har ingredienser på erbjudande den här veckan" + (recipeMax ? " med den tiden." : "."))); }
   const customTexts = new Set((profile.custom || []).map(c => norm(c.text)));
   const extraKeys = new Set((profile.extras || []).map(offerKey));
   for (const x of all.slice(0, recipeShow)) {
-    if (!x.sale.length) break;
+    if (!useful(x)) break;
     const r = x.r;
     const added = x.sale.every(i => extraKeys.has(offerKey(i.hits[0]))) && x.rest.every(i => customTexts.has(norm(restText(i))));
     const card = el("article", { class: "rcard" },
       el("h2", {}, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener" }, r.title) : r.title),
-      el("p", { class: "rmeta" }, el("span", { class: "flag" }, `${x.sale.length} på erbjudande`), ` av ${x.total} ingredienser · ${r.minutes} min`),
+      el("p", { class: "rmeta" },
+        x.sale.length ? el("span", { class: "flag" }, `${x.sale.length} på erbjudande`) : null, x.sale.length && x.home.length ? " " : null,
+        x.home.length ? el("span", { class: "flag homeflag" }, `${x.home.length} har hemma`) : null,
+        ` av ${x.total} ingredienser · ${r.minutes} min`),
+      x.home.length ? el("p", { class: "rhome" }, "Har hemma: " + x.home.map(i => i.n).join(", ")) : null,
       el("ul", { class: "rsale" }, x.sale.map(i => el("li", {}, el("b", {}, i.n), " – " + `${i.hits[0].storeShort}: ${i.hits[0].name.toLowerCase()}${i.hits[0].brand ? " (" + i.hits[0].brand + ")" : ""} ${amountText(i.hits[0])}` + (i.hits.length > 1 ? ` · +${i.hits.length - 1} till` : "")))),
       x.rest.length ? el("details", { class: "rrest" }, el("summary", {}, `Övriga ingredienser (${x.rest.length})`), el("p", { class: "small" }, x.rest.map(i => i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(steg[^)]*\)/i, "")).join(", "))) : null,
       el("div", { class: "actions" },
@@ -848,7 +901,7 @@ function renderRecipes() {
         r.url ? el("a", { class: "btn ghost small", href: r.url, target: "_blank", rel: "noopener", style: "text-decoration:none" }, "Öppna receptet") : null));
     root.append(card);
   }
-  const withSale = all.filter(x => x.sale.length).length;
+  const withSale = all.filter(useful).length;
   if (withSale > recipeShow) root.append(el("div", { class: "actions" }, el("button", { class: "btn ghost", onclick: () => { recipeShow += 12; renderRecipes(); } }, `Visa fler (${withSale - recipeShow} till)`)));
 }
 function restText(i) { return i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(steg[^)]*\)/i, "").toLowerCase(); }
