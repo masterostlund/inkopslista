@@ -1,607 +1,566 @@
 # BUTIK: Willys Trollhättan
-Allrengöringssvamp|Fixa|10-p|25,00||||||2
-Ansiktsrengöring|Nivea|400 ml|49,90|frp|||||1
-Asiatisk krydda|Santa Maria|30-40 g|32,00||||||2
-Avfallspåse|Fixa|25-p|50,00||||||2
-Babyvårdsprodukter|Libero|200 ml|55,00||||||2
-Bacon, tärnat|Prime Patrol|500 g|39,90|frp|||||1
-Barnmat Min frukt, klämpåse|Nestlé|90 g|79,00||||||10
-Batteri|Varta|4-p|59,00||||||2
-Blåmögelost|Saint Agur|115 g|29,90|frp|||||1
-Blöja Comfort/Up&Go|Libero|20-47-p|239,00||||||3
-Brieost|Garant|200 g|22,90|frp|||||1
-Bröd|Fria|500 g|26,90|frp|||||1
-Buljongtärning|Eldorado|12-p|20,00||||||2
-Buljongtärning|Maggi|8-p|24,00||||||2
-Burrataost|Garant|125 g|35,00||||||2
-Cambozolaost|Wernerssons Ost|180 g|39,90|frp|||||1
-Cheez Doodles|OLW|285 g|29,90|frp|||||1
-Cheez/Chips|OLW|200-275 g|38,00||||||2
-Chips|Garant|175-250 g|38,00||||||2
-Chips Tortilla-|Garant|200 g|20,00||||||2
-Choco Crunch/Smash|OLW|90-150 g|50,00||||||2
-Chokladask|After Eight|200 g|29,90|frp|||||1
-Chokladbit|Bounty/Mars/Snickers/Twix|36,5-57 g|30,00||||||3
-Chokladkaka|Fazer/Karl Fazer|120-145 g|48,00||||||2
-Crème Fraiche|Garant|5 dl|23,90|frp|||||1
-Dammvippa/Golvmopp, refill|Swiffer|5-18-p|54,90|frp|||||1
-Energidryck|Nocco|33-35,5 cl|30,00||||||2
-Enokisvamp i påse|100 g||9,90|frp|||||1
-Falukorv|Garant|800 g|29,90|frp|||||1
-Fish & Fun/Fiskpinnar Frasiga|Findus|352-450 g|59,00||||||2
-Flingor|Kalaspuffar|450 g|24,90|frp|||||1
-Fläckborttagningsmedel|Vanish|470 g|52,90|frp|||||1
-Fläckborttagningsmedel|Vanish|750 ml|43,90|frp|||||1
-Fläskfärs|Garant|500 g|36,90|frp|||||1
-Fläskytterfilé|Nybergs Deli|ca 1 kg|69,90|kg|||||1
-Fläskytterfilé|Nybergs Deli|ca 1 kg|59,90|kg|||||1
-Fruktstång|Nestlé|25 g|40,00||||||5
-Glass|Sia Glass|1,5 l|34,90|frp|||||1
-Glass Djungelmix Leo's|Triumf Glass|15-p|69,90|frp|||||1
-Godisstång|Toms|27-29 g|15,00||||||5
-Goudaost|Vardagsfavoriter|ca 1,1 kg|49,90|kg|||||1
-Grana Padanoost|Garant|200 g|39,90|frp|||||1
-Granola|Paulúns|375-450 g|85,00||||||2
-Granola|Färsking|375 g|29,90|frp|||||1
-Granola Hasselnötter & Dadlar|Paulúns|450 g|68,00||||||2
-Grädde Mat-, laktosfri|Garant|3 dl|12,90|frp|||||1
-Grädde Visp-|Arla|5 dl|25,60|frp|||||1
-Grädde Visp-, laktosfri|Garant|3 dl|18,90|frp|||||1
-Gräddfil, eko|Garant EKO|3 dl|11,90|frp|||||1
-Grötbar|Goodies|23 g|20,00||||||3
-Gurka|||9,90|st|||||1
-Gyros, förkokt|Garant|400 g|39,50|frp|||||1
-Hamburgare Beef|The Burger Vault|600 g|99,90|frp|||||1
-Havregryn|Axa|750 g|11,90|frp|||||1
-Havreris|Frebaco|1 kg|23,90|frp|||||1
-Helgdagsost|Glada bonden|ca 1 kg|79,90|kg|||||1
-Hot Sauce|Valentina|3,7 dl|32,90|frp|||||1
+Ajvar|MinElla|690 g|31,90|frp|||||1
+Allrengöring/Städservetter|Grumme|500 ml, 30-p|45,00||||||2
+Antipasti, skivad|Garant|120 g|39,90|frp|||||1
+Avfallspåse|Fixa|25-p|35,00||||||2
+Bacon, skivat, 3-p|Scan|420 g|34,90|frp|||||1
+Bakplåtspapper|Fixa|24-p|25,00||||||2
+Blodgrape|||15,00||||||2
+Blöja Byx-|Eldorado|68-80-p|129,00|frp|||||1
+Brieost/Camembert|Mon Ami|125 g|14,90|frp|||||1
+Buljongtärning|Knorr|4-6-p|20,00||||||2
+Bulle Kanel-/Vanilj-, butiksbakad|Bonjour|90 g|3,90|st|||||1
+Bullform|Fixa|150-p|14,90|frp|||||1
+Bönor Vita- i tomatsås, konserv|Heinz|415 g|39,90|frp|||||1
+Bönor/Kikärtor, tetrapack, eko|Garant EKO|380-390 g|22,00||||||2
+Cashewnötter, havssalt|Den lille Nøtte fabrikken|250 g|49,90|frp|||||1
+Champinjoner, hela/skivade, konserv|Garant|380 g|34,00||||||2
+Cheddarost, lagrad|Cathedral City|150-200 g|29,90|frp|||||1
+Chili con Carne/Gulaschsoppa/Ravioli, konserv|Felix|560 g|75,00||||||2
+Chips|Redhead|150 g|22,90|frp|||||1
+Chips|Estrella|160 g|30,00||||||2
+Chips Nacho-|Santa Maria|185 g|22,00||||||2
+Chips Nacho-|Santa Maria|220 g|26,00||||||2
+Chokladbit|Nestlé|38-42 g|30,00||||||4
+Chokladkaka|Marabou|87-100 g|32,00||||||2
+Chorizofärs/Salsicciafärs|Nonna Elide|250 g|24,90|frp|||||1
+Cornichons, inlagd|Garant|350 g|16,90|frp|||||1
+Couscous, eko|Garant EKO|500 g|16,90|frp|||||1
+Dip|Santa Maria|250 g|24,90|frp|||||1
+Diskduk|Fixa|4-p|25,00||||||2
+Diskmedel/Sköljmedel/Tvättmedel, flytande|Grumme|750 ml|55,00||||||2
+Dressing Amerikansk|Kavli|230-240 g|30,00||||||2
+Energidryck, burk|Red Bull|25 cl|22,00||||||2
+Falukorv, laktosfri|Scan|1,5 kg|59,90|frp|||||1
+Filé, panerad, vegetarisk|Nothing F!shy|250 g|29,90|frp|||||1
+Fish & Crisp Fish Burger|Findus|230 g|59,00||||||3
+Flingor Choco Flakes/Choco Popz|Eldorado|350-375 g|42,00||||||2
+Fruktkusar/Frökusar, 6-p|Fazer Bageri|420 g|23,90|frp|||||1
+Fryspåse|Fixa|30-40-p|28,00||||||2
+Färdigrätt|Findus|340-400 g|85,00||||||3
+Färskost|Philadelphia|150-200 g|35,00||||||2
+Färskpasta|Garant|200-250 g|25,00||||||2
+Glass|Alvesta Glass|0,85-1 l|65,00||||||2
+Glass|Triumf Glass|5 dl|45,00||||||3
+Glass, flerpack|Sia Glass|6-p|75,00||||||2
+Godispåse|Ahlgrens bilar|130-160 g|26,00||||||2
+Halstablett i ask|Läkerol|75 g|19,90|frp|||||1
+Hamburgare|452 g||39,90|frp|||||1
+Hamburgare av nöt, eko, 4-p|Garant EKO|452 g|59,90|frp|||||1
+Handdiskmedel|Grumme|500 ml|22,90|frp|||||1
+Handdiskmedel|Yes|1,25 l|59,90|frp|||||1
+Havregryn/Havregryn Fiber-, eko|Garant EKO|750-800 g|28,00||||||2
+Honung Blomster-/Sirap Agave-, flytande, eko|Lune de miel/Sunny Bio|500 g|42,90|frp|||||1
+Hundgodis/Kattgodis|Smart Pets|25-150 g|25,00||||||2
 Hundmat Paté, konserv|Smart Pets|150 g|40,00||||||10
-Hundsnacks, 28-p|Best Friend|275 g|74,90|frp|||||1
-Ingefära, eko|200 g||9,90|frp|||||1
-Jordnötter, salta|Estrella|275 g|35,00||||||2
-Kaffe, hela bönor|Arvid Nordquist|450-500 g|73,90|frp|||||1
-Kaffekapsel|L'or|10-p|165,00||||||5
-Kalvhögrev|Prime|ca 1 kg|159,00|kg|||||1
-Kattmat, torrfoder|Best Friend|2 kg|129,00|frp|||||1
-Kebab, grillad|Jojjen|275 g|79,00||||||2
-Ketchup|Garant|560 g|15,90|frp|||||1
-Knoppljung i kruka|||79,00||||||3
-Kokosmjölk, tetrapack|Santa Maria|2,5 dl|28,00||||||2
-Koriander/Mynta i påse|Garant|25 g|9,90|frp|||||1
-Korv Fuet|Garant|170 g|29,90|frp|||||1
-Kosttillskott Creatin/Pure Collagen|BioSalma|500 g|149,00|frp|||||1
-Krydda|Kockens|7-175 g|42,00||||||2
-Kycklingbröstfilé|Kronfågel|900 g|99,90|frp|||||1
-Kycklinggrillkorv|Eldorado|400 g|35,00||||||2
-Kycklingsnacks Chicken Shop|Findus|170-227 g|24,90|frp|||||1
-Köttbullar Delikatess-|Garant|450 g|38,90|frp|||||1
-Lammframdel m. ben|AFFCO|ca 2,1 kg|89,90|kg|||||1
-Lampa|Osram|2-p|59,00||||||2
-Lantbröd Grekiskt-|Dafgårds|560 g|19,90|frp|||||1
-Laxfilé Pink-, 4-p|Royal Foods|400 g|99,00||||||2
-Linfrön|GoGreen|400 g|22,00||||||2
-Linser, gröna/röda, eko|Garant EKO|500 g|23,90|frp|||||1
-Ljungplantering|||59,90|st|||||1
-Läsk|Coca-Cola/Coca-Cola Zero/Fanta/Fanta Zero/Sprite|50 cl|26,00||||||2
-Läsk|Eldorado|2 l|9,90|frp|||||1
-Läsk, burk, 20-p|Pepsi||99,00|frp|||||1
-Macaroni and Cheese, dinnerkit|Mississippi Belle|206 g|38,00||||||2
-Majskorn Crispy-, konserv, 3-p|Bonduelle|450 g|23,90|frp|||||1
-Majskorv|Garant|90 g|14,90|frp|||||1
-Majskyckling|Garant|ca 1,3 kg|59,90|kg|||||1
-Majspuffar|Goodies|30 g|22,00||||||2
+iKaffe, mjölkfri|Oatly|1 l|30,00||||||2
+Jarlsbergost, block|Tine|ca 830 g|99,00|kg|||||1
+Jubileumskaka/Polarkaka, mjölkfri|Polarbröd|350-400 g|16,90|frp|||||1
+Kaffe, eko|Arvid Nordquist|450 g|72,90|frp|||||1
+Kaffe, hela bönor|Löfbergs|400 g|135,00||||||2
+Kalvstek, benfri, nätad|Prime|ca 1 kg|149,00|kg|||||1
+Kanel i påse, hel/malen|Eldorado|40-80 g|11,90|frp|||||1
+Kassler|Fåddman|ca 750 g|59,90|kg|||||1
+Kattmat, konserv, 6-p|Sheba|300 g|58,00||||||2
+Kattmat, torrfoder|Friskies|3-3,5 kg|105,00|frp|||||1
+Kaviar i tub|Svennes|250 g|45,00||||||2
+Ketchup|Felix|0,98-1 kg|26,90|frp|||||1
+Kex|Göteborgs kex|70-74 g|20,00||||||2
+Kimchi|Wang|410 g|62,90|frp|||||1
+Kokosmjölk|Ampawa|5 dl|28,90|frp|||||1
+Kronljus, vita|Fixa|30-p|99,00|frp|||||1
+Kryddkorv|Gøl|450 g|29,90|frp|||||1
+Kryddpaste Hot pepper|Wang|170 g|18,90|frp|||||1
+Kycklingben|Top Choice Poultry|ca 1 kg|39,90|kg|||||1
+Kycklingbröstfilé|Top Choice Poultry|ca 1 kg|89,90|kg|||||1
+Kålrot/Morot/Rotselleri/Rödbetor/Vitkål|||9,90|kg|||||1
+Köttbullar Delikatess-|Scan|450 g|49,90|frp|||||1
+Lammgrytbitar|Qibbla Halal Kött AB|ca 2,2 kg|99,00|kg|||||1
+Lammrostbiff Provencale|Fåddman|ca 600 g|189,00|kg|||||1
+Lantbröd/Potatisbröd|Östras bröd|700 g|24,90|frp|||||1
+Leverpastej, bredbar i ask, original/gurka|Garant|200 g|20,00||||||2
+Luftfräschare|Air Wick|250 ml|47,90|frp|||||1
+Luftfräschare, refill|Air Wick|20 ml|44,90|frp|||||1
+Luftfräschare, startkit|Air Wick||84,90|frp|||||1
+Luftfräschare, startkit|Air Wick|20 ml|95,00|frp|||||1
+Läsk|Premier|33 cl|20,00||||||4
+Läsk, burk, 6-p|San Pellegrino||52,90|frp|||||1
+Majonnäs, vegansk|Garant|330 g|24,90|frp|||||1
 Makaroner Gammaldags Ideal-|Kungsörnen|750 g|21,00||||||2
-Margarin Bords- Smör & Raps|Garant|600 g|41,90|frp|||||1
-Maskindisk All in 1 Power/Ultimate|Finish|70-90-p|99,00|frp|||||1
-Maskindiskrengöring/Spolglans|Finish|250-400 ml|45,00||||||2
-Matmix|Knorr|38-50 g|30,00||||||3
-Medwurst Cognacs-, alspånsrökt/enrisrökt|Garant|350 g|24,90|frp|||||1
-Mjukost i ask|Kavli|330 g|37,90|frp|||||1
-Munskölj|Flux|500 ml|49,80|frp|||||1
-Måltidsdelar, vegetariska|Oumph!|280-300 g|29,90|frp|||||1
-Nudlar|Twin Dragon|250 g|16,90|frp|||||1
-Nudlar Ris-|Santa Maria|180 g|16,90|frp|||||1
-Olivolja Extra Jungfru-, eko|Garant EKO|500 ml|59,90|frp|||||1
-Ostsnacks|Granarolo|24 g|18,00||||||2
-Pannkakor, 12-p|Eldorado|720 g|27,90|frp|||||1
-Papaya|||19,90|st|||||1
-Pasta|Monte Castello|500 g|20,00||||||3
-Pasta|Zeta|400 g|19,90|frp|||||1
-Pasta Fusilli/Penne Rigate|Barilla|1 kg|25,90|frp|||||1
-Pinsa Romana|Garant|230 g|40,00||||||2
-Pizza|Tony's|500 g|85,00||||||2
-Pizza, färsk|Garant|400 g|99,00||||||3
-Pizzabotten m. tomatsås, 2-p|Amante|550-700 g|39,90|frp|||||1
-Pizzadeg|Monte Castello|400 g|25,00||||||2
-Pizzamjöl|Kungsörnen|1,5 kg|16,90|frp|||||1
-Pizzaost, riven|Frischgold|500 g|29,90|frp|||||1
-Pizzasallad i ask|Garant|200 g|12,90|frp|||||1
-Pizzasås|Garant|250 g|18,00||||||2
-Pizzatopping|Tulip|100 g|30,00||||||2
-Pommes|Felix|600-750 g|45,00||||||2
-Proteindryck, laktosfri|Valio Profeel|2,5 dl|28,00||||||2
-Proteinwafer|N!ck's|40 g|30,00||||||2
-Pumpa Butternut-|||14,90|kg|||||1
-Purjolök|||14,90|kg|||||1
-Pyttipanna Ox-, original|Findus|750 g|80,00||||||2
-Pågenlimpan, skivad|Pågen|900 g|24,90|frp|||||1
-Pålägg, skivat|Pärsons|150-200 g|50,00||||||2
-Ribs, original, grillade|Texas Longhorn|420 g|49,90|frp|||||1
-Ris Boil in Bag, 4-p|Ben's Original||28,90|frp|||||1
-Rågkaka/Vetekaka, 24-30-p|Garant|900 g|22,90|frp|||||1
-Räkor m. skal 90/120|Royal Greenland|400 g|49,90|frp|||||1
-Rödbeta, skivad, inlagd|Garant|560 g|20,90|frp|||||1
-Salamichips/-snacks/-sticks|Gøl|70-100 g|38,00||||||2
-Salladslök i knippe|||9,90|frp|||||1
-Senap|Johnny's|480 g|30,00||||||2
-Senap Grovstark-/Sötstark-|Johnny's|500 g|17,90|frp|||||1
-Shimejsvamp i påse|150 g||9,90|frp|||||1
-Shot|Garant|50 cl|29,90|frp|||||1
-Skinka Jamon Serrano, skivad|Garant|100 g|40,00||||||2
-Skölj-/Tvättmedel, flytande|Comfort/Via|760-925 ml|79,00||||||3
-Smörgåsgurka, skivad|Eldorado|550 g|15,90|frp|||||1
-Spaghetti Fullkorns-|Kungsörnen|1 kg|36,00||||||2
-Spetskål|||14,90|kg|||||1
-Sportdryck|Powerade|50 cl|29,00||||||2
-Sylt, jordgubb|Garant|400 g|19,90|frp|||||1
-Sås, burk|Lohmanders|2,3 dl|17,90|frp|||||1
-Tacosås|Santa Maria|350 g|42,00||||||2
-Tagliatelle, eko|Garant/Garant EKO|500 g|34,00||||||2
-Tapas de España, skivad|Garant|120 g|39,90|frp|||||1
-Tepåse|Clipper|20-p|49,00||||||2
-Tomat, krossad/passerad, tetrapack, eko|Garant EKO|390 g|30,00||||||3
-Tuggummi, påse|Stimorol|30 g|20,00||||||2
-Varmkorv, laktosfri|Lithells|900 g|49,90|frp|||||1
-Vatten, kolsyrat|Bonaqua|50 cl|18,00||||||2
-Vatten, kolsyrat, 12-p|Loka||36,90|frp|||||1
-Vitlök i nät|||9,90|frp|||||1
-Äpple Granny Smith/Royal Gala|||19,90|kg|||||1
-Ärtor|Apetit|1 kg|24,90|frp|||||1
-Öl, alkoholfri, burk, eko, 24-p|Carlsberg||189,00|frp|||||1
+Makaroner Snabb-|Kungsörnen|750 g|12,90|frp|||||1
+Mango, torkad|Sunshine Delights|100 g|48,00||||||2
+Margarin Bak & Mat-|Milda|1 kg|29,90|frp|||||1
+Maskindisk Original/Platinum|Yes|65-83-p|79,90|frp|||||1
+Mathavre/Matvete, eko|Frebaco|400-500 g|22,00||||||2
+Mayo/Tacosås|El Taco Truck|2 dl|48,00||||||2
+Mellis Råggyberry|Garant|150 g|14,90|frp|||||1
+Mozzarellaost, buffel|Garant|260 g|19,90|frp|||||1
+Mozzarellaost, riven|Maestrella|150 g|35,00||||||2
+Multivitamindryck|Eldorado|1,5 l|25,00||||||2
+Nudlar|Knorr|63-65 g|25,00||||||2
+Nötmix|Den lille Nøtte fabrikken|160-190 g|50,00||||||2
+Nötmix|Estrella|175-200 g|48,00||||||2
+Olivolja|De Cecco|750 ml|89,00|frp|||||1
+Oregano/Rosmarin/Timjan i påse|||9,90|frp|||||1
+Ost Frukosthjältar|Skånemejerier|ca 1,1 kg|59,90|kg|||||1
+Paj|Dafgårds|240 g|98,00||||||4
+Pancetta, tärnat, rökt|Tulip|150 g|30,00||||||2
+Pane Napoletano|Garant|250 g|14,90|frp|||||1
+Papper Hushålls- Big|Lambi|1-p|44,90|frp|||||1
+Paprikamix i påse|400 g||19,90|frp|||||1
+Parmesanost Parmigiano Reggiano, lagrad|Garant|150 g|34,90|frp|||||1
+Pasta|La Molisana|500 g|32,00||||||2
+Pastasås, tetrapack|Kelda|5 dl|24,90|frp|||||1
+Pesto|Garant|200 g|46,00||||||2
+Potatisgratäng|Peka|2 kg|52,90|frp|||||1
+Proteinmilkshake, laktosfri|ProPud|3,3 dl|32,00||||||2
+Pulled Pork, förkokt|Tulip|400-500 g|44,90|frp|||||1
+Pulversås|Blå Band|3-p|22,00||||||2
+Pumpakärnor, eko|Garant EKO|300 g|29,90|frp|||||1
+Pålägg, skivat, plånboksp.|Jakobsdals|90-100 g|40,00||||||2
+Pålägg, veganskt|Quorn|100 g|21,90|frp|||||1
+Rengöringsmedel|Ajax|0,75-1 l|25,90|frp|||||1
+Ricottaost|Garant|250 g|25,00||||||2
+Ros i kruka|||39,90|st|||||1
+Rostbiff av hjort|Mountain River|ca 420 g|169,00|kg|||||1
+Ruccola/Spenat/Säsongsmix i påse|200-250 g||14,90|frp|||||1
+Räkor, skalade|Omega|400 g|145,00||||||2
+Senap|Felix|360-380 g|17,90|frp|||||1
+Skinka, lufttorkad, skivad|Monte Castello|300 g|49,90|frp|||||1
+Sköljmedel|Softlan|1 l|27,90|frp|||||1
+Smash!|OLW|250 g|49,90|frp|||||1
+Smör, normalsaltat|Svenskt smör|500 g|39,90|frp|||||1
+Snabbkaffe Cappuccino|Nescafé|225 g|70,00||||||2
+Snabbkaffe Ice Coffee Frappé|Nescafé|8-p|45,00||||||2
+Soja Ketjap Manis|A trade mark|250 ml|26,90|frp|||||1
+Soja, mörk|Eldorado|500 ml|16,90|frp|||||1
+Spaghetti, klippt|Kungsörnen|350 g|9,90|frp|||||1
+Stillahavskummel, sprödbakad|Fiskeriet|360 g|29,90|frp|||||1
+Strösocker|Garant|2 kg|19,90|frp|||||1
+Tacofärs, rullpack|Gudruns|400 g|39,90|frp|||||1
+Tepåse|Arvid Nordquist|17-p|50,00||||||2
+Textilspray|Softlan|300 ml|39,90|frp|||||1
+Toalettrengöring|Duck|750 ml|19,90|frp|||||1
+Tofu|Eldorado|200 g|9,90|frp|||||1
+Tomat Babyplommon- i ask|500 g||29,90|frp|||||1
+Torskryggfilé|Royal Greenland|400 g|79,90|frp|||||1
+Tortilla Soft-, 8-p|Santa Maria|320 g|26,00||||||2
+Tortilla, mini, 8-p|Banderos|200 g|23,00||||||2
+Tulpaner|7-p||59,90|st|||||1
+Tvättlappar|Eldorado|250-p|28,90|frp|||||1
+Tvättmedel, pulver|Fixa|750 g|50,00||||||2
+Tvättmedel, pulver|Såklart|750 g|50,00||||||2
+Vegetariska produkter|Anamma|300-450 g|36,90|frp|||||1
+Vetemjöl|Garant|2 kg|9,90|frp|||||1
+Vitamindryck|Vitamin Well|1,15 l|46,00||||||2
+Våtservetter Baby-|minstingen|120-p|40,00||||||2
+Yoghurt Drick-, laktosfri|Eldorado|2,5 dl|8,90|frp|||||1
+Yoghurt, smaksatt|Valio|1 kg|40,00||||||2
+Äpple Aroma|||19,90|kg|||||1
 # BUTIK: Lidl Trollhättan
-Avfallspåse m. doft|Purio|30-p|19,90|frp|||||1
-Baguette|Butiksbakat|400 g|9,00|st|||||1
-Baguette, mini|Butiksbakat|65 g|14,00||||||7
-Bakplåtspapper Airfryer|Aromata|50-p|39,90|frp|||||1
-Begonia|||39,90|frp|||||1
-Blåbär i ask|400 g||59,90|frp|||||1
-Brezelbröd|Butiksbakat|95 g|20,00||||||5
-Bönor, vita|Sol & Mar|540 g|13,90|frp|||||1
-Champinjoner i ask|400 g||14,90|frp|||||1
-Cheesecake, mini, 2-p|Sol & Mar||39,90|frp|||||1
-Chokladbit Huesitos, 10-p|Valor||24,90|frp|||||1
-Chokladlinser|Lacasitos|190 g|32,90|frp|||||1
-Chorizo, skivad|Sol & Mar|100 g|19,90|frp|||||1
-Churros|Sol & Mar|500 g|29,90|frp|||||1
-Dadlar Mazafati|600 g||26,90|frp|||||1
-Dekorationspumpor i flätad korg|6-p||79,90|frp|||||1
-Diskmaskinsrengöring, 2-p|W5||29,90|frp|||||1
-Engångshandske, latex|W5|200-p|149,00|frp|||||1
-Flasklilja|||199,00|frp|||||1
-Fläskkarré, lufttorkad, skivad|Sol & Mar||34,90|frp|||||1
-Fläskkotlett m. ben, skivad|Butcher's|700 g|47,90|frp|||||1
-Fläsksvål|Sol & Mar|100 g|14,90|frp|||||1
-Fläskytterfilé|Nybergs Deli|ca 1 kg|54,90|kg|||||1
-Fralla|Butiksbakat|80-90 g|20,00||||||5
-Fralla Vete-|Butiksbakat|65 g|15,00||||||7
-Fuet Salami, lufttorkad|Sol & Mar|150 g|29,90|frp|||||1
-Färdigrätt|Chef Select|390-400 g|65,00||||||3
-Färdigrätt Paella m. skaldjur|Sol & Mar|500 g|27,90|frp|||||1
-Glass|Gelatelli|8-p|27,90|frp|||||1
-Granola|Paulúns|450 g|36,90|frp|||||1
-Grillkorv|Matriket|800 g|54,90|frp|||||1
-Hamburgare|Culinea|1,8 kg|159,00|frp|||||1
-Honung|Serramel|300 g|39,90|frp|||||1
-Hushållsost|Arla|ca 2,2 kg|69,90|kg|||||1
-Hårdost|Sol & Mar|220 g|44,90|frp|||||1
-Juice Clementin-|Sol & Mar|75 cl|22,90|frp|||||1
-Juice/Nektar|God Morgon|1,75 l|34,90|frp|||||1
-Kaka Bolo de Bolacha|Sol & Mar|600 g|64,90|frp|||||1
-Kalkonbröstfilé|Butcher's|1 kg|99,00|frp|||||1
-Kassler|Allmans|ca 1,5 kg|59,90|kg|||||1
-Kebabmix|Görans|1 kg|94,90|frp|||||1
-Ketchup|Heinz|1,35 kg|32,90|frp|||||1
-Korv, bredbar|Sol & Mar|200 g|24,90|frp|||||1
-Kroketter m. ost & skinka|Sol & Mar|350 g|32,90|frp|||||1
-Kycklinginnerfilé|Gyllda|700 g|49,90|frp|||||1
-Kycklingpanna BBQ/Örter|Culinea|1,1 kg|36,90|frp|||||1
-Kycklingvingar, piri piri|Sol & Mar|750 g|54,90|frp|||||1
-Kycklingvinge|Matriket|1,1 kg|49,90|frp|||||1
-Lammstek m. ben|DeLuxe|ca 1,8-2,5 kg|139,00|kg|||||1
-Lax, gravad/kallrökt, skivad|Norsk Sjömat AS|400 g|109,00|frp|||||1
-Lingongrova, skivad|Pågen|500 g|17,90|frp|||||1
-Ljung, trefärgad|||49,90|frp|||||1
-Läsk, burk, 30-p|Coca-Cola/Coca-Cola Zero||135,00|frp|||||1
-Madalenas m. apelsin, 12-p|500 g||27,90|frp|||||1
-Majs, rostad|Sol & Mar|170 g|11,90|frp|||||1
-Majssnacks Bugles, ost & bacon|Sol & Mar|100 g|9,90|frp|||||1
-Mango|||11,90|st|||||1
-Mannafrutti/Risifrutti XL|Risifrutti|215-225 g|11,90|frp|||||1
-Mjölk, hållbar|Milbona|1 l|159,00||||||12
-Morot|Matriket|1 kg|9,90|frp|||||1
-Oliver Gordal, gröna m. kärna, inlagda|Sol & Mar|996 g|64,90|frp|||||1
-Oliver, marinerade|Sol & Mar|210 g|24,90|frp|||||1
-Olivolja Extra Jungfru-|Sol & Mar|750 ml|69,90|frp|||||1
-Ostbricka, spansk|Sol & Mar|180 g|44,90|frp|||||1
-Papper Toalett- Comfort|Lotus|8-p|39,90|frp|||||1
-Pasta Blå Boxen|Barilla|1 kg|24,90|frp|||||1
-Pastasås|Barilla|400 g|17,90|frp|||||1
-Pastel de Nata|Butiksbakat|58 g|28,00||||||4
-Pastel de Nata, 6-p|360 g||34,90|frp|||||1
-Persika|||26,90|kg|||||1
-Picanha av nöt|Sol & Mar|ca 650 g|159,00|kg|||||1
-Potatisomelett Tortilla|Sol & Mar|500 g|34,90|frp|||||1
-Rengöringstablett Toalett-, 16-p|ORO||17,90|frp|||||1
-Ris Basmati-|Mahmood Rice|4,5 kg|129,00|frp|||||1
-Räkor Vannamei-, råa|Sol & Mar|800 g|99,00|frp|||||1
-Salami Kalkon-/Nöt-, skivad|Dulano|100-130 g|19,90|frp|||||1
-Salami, lufttorkad|Sol & Mar|250 g|44,90|frp|||||1
-Salami, skivad|Sol & Mar||24,90|frp|||||1
-Satsumas|1 kg||17,90|frp|||||1
-Schnitzel, panerad|Scan|600 g|46,90|frp|||||1
-Skinka Emil-, rökt, skivad|Pärsons|180 g|22,90|frp|||||1
-Skinka Serrano, skivad|Sol & Mar|240 g|64,90|frp|||||1
-Sköljmedel|Doussy|2 l|65,00||||||2
-Solrosfrö m. skal, rostade & saltade|Sol & Mar|130 g|9,90|frp|||||1
-Soppa Gazpacho-|Sol & Mar|1 l|24,90|frp|||||1
-Sorbet, apelsin/citron, 2-p|Sol & Mar|180-206 g|49,90|frp|||||1
-Sås Mojo-, grön/röd|Sol & Mar|2,12 dl|17,90|frp|||||1
-Sås Piri-Piri-|Sol & Mar|1,95 dl|11,90|frp|||||1
-Tapastallrik|Sol & Mar|100 g|32,90|frp|||||1
-Torskfilé XXL|Ocean Sea|1 kg|199,00|frp|||||1
-Tvättmaskinsrengöring|W5|500 ml|24,90|frp|||||1
-Vindruvor, röda, kärnfria i ask|500 g||19,90|frp|||||1
-Yoghurt Frukt-|Yoggi|1 kg|19,90|frp|||||1
-Äpple Gala|||13,90|kg|||||1
+Avokado i nät|700 g||27,90|frp|||||1
+Bacon, tärnat, 2-p|Dulano||19,90|frp|||||1
+Banan|||14,90|kg|||||1
+Bar m. kvargfyllning, 5-p|Kuljanka||19,90|frp|||||1
+Barrväxt i kruka|||79,90|frp|||||1
+Bromelia i kruka|||89,90|frp|||||1
+Bulle Kanel-/Vanilj-|Matriket|420 g|40,00||||||2
+Calathea|||69,90|frp|||||1
+Chicken Nuggets m. dip|Culinea|300 g|22,90|frp|||||1
+Clementin Nadorcott/Tango|||24,90|kg|||||1
+Cookies/Muffins|Butiksbakat|68-100 g|20,00||||||4
+Cottage Cheese Serek Wiejski|Piatnica|200 g|9,90|frp|||||1
+Dammsugare Bords-, mini|Silvercrest||59,90|frp|||||1
+Dammsugare Zyklon|Silvercrest||699,00|frp|||||1
+Dessertglass|Bon Gelati|9 dl|34,90|frp|||||1
+Donut/Munk|Butiksbakat|56-75 g|22,00||||||4
+Dumplings fyllda m. plommon|Kuljanka|1 kg|39,90|frp|||||1
+Dumplings, fläsk & nötkött|Kuljanka|1 kg|42,90|frp|||||1
+Dumplings, kvarg & potatis|Kuljanka|1 kg|34,90|frp|||||1
+Filodegsknyten|Nostja|1 kg|49,90|frp|||||1
+Fiskpinnar Frasiga|Findus|450 g|32,90|frp|||||1
+Fläskfärs|Butcher's|ca 2 kg|54,90|kg|||||1
+Fläskkotlett, benfri, skivad|Butcher's|400 g|32,90|frp|||||1
+Fläskytterfilé|Dahlbergs Slakteri|ca 800 g|79,90|kg|||||1
+Framdel av fläskkött|Pivac|ca 800 g|69,90|kg|||||1
+Fruktdryck, äpple & körsbär|Tymbark|1 l|14,90|frp|||||1
+Fågelmat|Pepito||19,90|frp|||||1
+Färdigrätt|Dafgårds|390-420 g|24,90|frp|||||1
+Glass i våffelbägare, vanilj|Kuljanka|6-p|34,90|frp|||||1
+Glasspinne|Gelatelli|6-p|34,90|frp|||||1
+Grevéost/Herrgårdsost/Prästost/Rikeost|Skånemejerier|670 g|49,90|frp|||||1
+Grädde Matlagnings-/Visp-|Arla|7,5 dl|33,90|frp|||||1
+Grönsaksröra Pindur|Nostja|540 g|59,90|frp|||||1
+Gurka|||8,90|st|||||1
+Gurka, inlagd|Kuljanka|860 g|24,90|frp|||||1
+Gurka, syrad|Kuljanka|700 g|21,90|frp|||||1
+Honung Blomster-|Mazurskie  Miody|900 g|84,90|frp|||||1
+iKaffe, mjölkfri|Oatly|1 l|30,00||||||2
+Juice|God Morgon|85 cl|25,90|frp|||||1
+Jättefranska/Rasker, skivad|Pågen|1,1 kg|21,90|frp|||||1
+Kabanoss|Tarcynski|90 g|17,90|frp|||||1
+Kalkonkorv/Kycklingkorv|Kuljanka|500 g|19,90|frp|||||1
+Kanel, malen, burk/påse|Kania|40-85 g|9,90|frp|||||1
+Kex m. choklad|Domacica|300 g|34,90|frp|||||1
+Knut Kanel-/Kardemumma-|DeLuxe|90 g|20,00||||||2
+Korv Classic|Berlinki|250 g|19,90|frp|||||1
+Korv Lukanka Panagiurska|Nostja|170 g|49,90|frp|||||1
+Korv Silesian|Morliny|ca 1 kg|69,90|kg|||||1
+Korv, rökt, skivad|Kuljanka|100 g|19,90|frp|||||1
+Korvbröd|Pågen|8-p|21,90|frp|||||1
+Korvett|Matriket|240 g|21,90|frp|||||1
+Kvarg|Lindahls|150 g|7,90|frp|||||1
+Kycklingbröstfilé, naturell, strimlad|Matriket|600 g|65,90|frp|||||1
+Kycklingpastej, vilt|Lovacka|100 g|9,90|frp|||||1
+Langosdeg|Kuljanka|1 kg|29,90|frp|||||1
+Lax, hel sida, färsk|Poseidon|ca 1,2 kg|129,00|kg|||||1
+Leverpastej, bredbar/skivbar i ask|Matriket|200-250 g|8,90|frp|||||1
+Längd Kanel-|Matriket|380 g|25,00|frp|||||1
+Maple Pecan|Butiksbakat|81 g|16,00||||||4
+Margarin Bords-, original/extrasaltat|Lätta|600 g|17,90|frp|||||1
+Marshmallows m. choklad|Kuljanka|380 g|34,90|frp|||||1
+Mjölkdryck, laktosfri|Skånemejerier|1,5 l|16,90|frp|||||1
+Nötgrytbitar|Butcher's|1 kg|149,00|frp|||||1
+Pain au chocolat|Butiksbakat|70 g|22,00||||||4
+Paj XL, köttfärs/ost & skinka|Felix|300 g|29,90|frp|||||1
+Pan Pizza|Billys|170 g|11,90|frp|||||1
+Paprikamix i påse|1 kg||34,90|frp|||||1
+Paprikapuré i tub|Kuljanka|160 g|11,90|frp|||||1
+Pirog|Lewandowski|400 g|29,90|frp|||||1
+Pistage- & Vaniljstång|Butiksbakat|100 g|22,00||||||4
+Pizza, kebab/pepperoni|Tony's|500 g|36,90|frp|||||1
+Port Salutost Familjefavoriter|Arla|ca 750 g|59,90|kg|||||1
+Potatis|Matriket||7,90|kg|||||1
+Proteinpudding|Arla|200 g|12,90|frp|||||1
+Purjolök|Matriket||5,90|st|||||1
+Pålägg, kyckling/skinka, plånboksp.|Matriket|100-120 g|14,90|frp|||||1
+Revbensspjäll av fläskkött|Pivac|ca 700 g|89,90|kg|||||1
+Revbensspjäll av fläskkött, knäckta|Matriket|ca 1 kg|49,90|kg|||||1
+Sallad Isbergs-|||19,90|kg|||||1
+Sockerkaka m. kokos|Nostja|480 g|69,90|frp|||||1
+Soppa Gulasch-, konserv|Podravka|400 g|49,90|frp|||||1
+Soppa Ost & Broccoli-/Skaldjur-|Felix|350 g|21,90|frp|||||1
+Sopset|W5||99,90|frp|||||1
+Stekfläsk, rimmat|Dalsjöfors Kött|ca 800 g|69,90|kg|||||1
+Stekfläsk, skivat|Matriket|375 g|27,90|frp|||||1
+Strösocker|Belbake|2 kg|14,90|frp|||||1
+Suckulent i kruka|||34,90|frp|||||1
+Surkål i påse|Kuljanka|800 g|19,90|frp|||||1
+Sås, flaska|Felix|3,35 dl|22,90|frp|||||1
+Trappistost, panerad|Kuljanka|500 g|39,90|frp|||||1
+Tvättmedel, flytande|Grumme|750 ml|26,90|frp|||||1
+Vatten, kolsyrat, 12-p|Loka||32,90|frp|||||1
+Vetemjöl|Matriket|5 kg|26,90|frp|||||1
+Vindruvor, gröna, kärnfria i ask|500 g||19,90|frp|||||1
+Vitkål m. morot, inlagd|Kuljanka|880 g|19,90|frp|||||1
+Wienerbröd|Butiksbakat|80 g|22,00||||||4
+Yoghurt Grekisk-|Arla|1 kg|32,90|frp|||||1
+Ägg Vardags-|Kronägg|15-p|32,90|frp|||||1
 # BUTIK: ICA Maxi Trollhättan
 Airfryer|Melissa||499,00|st|||||1
-Balsam/Schampo|TRESemmé|400 ml|75,00||||||2
-Binda/Inkontinensskydd/Trosskydd|Libresse/Tena|6-60-p|99,00||||||3
-Blandfärs|Snellman|700 g|55,00|frp|||||1
-Blockljus|ICA||39,90|st|||||1
-Blockljus|ICA||39,00||||||2
-Blöja|Libero|20-43-p|299,00||||||4
+Airfryer|Philips||1099,00|st|||||1
+Avfallspåse|ICA|20-p|45,00||||||3
+Azalea|ICA||69,00|st|||||1
+Bacon, skivat/tärnat|Scan|140 g|26,00||||||2
+Balsam/Schampo Gliss|Schwarzkopf|200-250 ml|45,00||||||2
+Blodgrape|ICA|ca 380 g|15,00||||||2
 Bordsgrill|Gastronoma||499,00|st|||||1
-Burrataost/Stracciatellaost, original/tryffel|Zeta|100-150 g|48,00||||||2
-Bönor/Kikärtor/Linser, tetrapack, eko|Zeta|380 g|59,00||||||5
-Champinjoner i ask|ICA|250 g|15,00|frp|||||1
-Cheddarost Mild|Kvibille|ca 0,5-1,4 kg|119,00|kg|||||1
-Cheez/Chips|OLW|200-275 g|100,00||||||5
-Cheez/Chips|OLW|200-275 g|45,00||||||2
-Chips Nacho-/Dip/Toppingsås|Santa Maria|250-475 g, 2,5 dl|50,00||||||2
-Chips Nacho-/Dip/Toppingsås|Santa Maria|250-475 g, 2,5 dl|80,00||||||4
-Chokladkaka Excellence|Lindt|100 g|89,00||||||3
-Chokladkaka Excellence|Lindt|100 g|65,00||||||2
-Dammsugare|Electrolux||2199,00|st|||||1
+Borgmästarost/Kryddost|Boxholms Mejeri|ca 500-800 g|95,00|kg|||||1
+Broccoli|ICA|800 g|39,00||||||3
+Bulle Kanel-|Skogaholm|450 g|49,00||||||2
+Bulle Kanel-/Vanilj-|ICA|420 g|45,00||||||2
+Bågar/Chips/Ringar|Estrella|200-275 g|45,00||||||2
+Chokladpåse Dumle/Kina/Liqueur fills/Marianne|Fazer|140-200 g|45,00||||||2
+Citron|ICA|ca 175-200 g|20,00||||||4
+Dammsugare|Electrolux||999,00|st|||||1
 Dammsugare Skaft-|Tefal||1299,00|st|||||1
-Dessertost|Castello|150 g|50,00||||||2
-Doftljus|ICA||34,90|st|||||1
-Duschcreme|Nivea|250 ml|39,00||||||2
-Elvisp|Bosch||249,00|st|||||1
-Falafel/Hummus|Sevan|200-275 g|42,00||||||2
-Falukorv|Härryda Karlsson|500 g|37,90|frp|||||1
-Fikon i ask, färska|ICA|200 g|20,00|frp|||||1
-Fläckborttagningsmedel, pulver|Vanish|940 g|69,90|frp|||||1
-Fläskkotlett m. ben, skivad|ICA|ca 0,9-2 kg|85,00|kg|||||1
-Fläskschnitzel, panerad|ICA|300 g|40,00|frp|||||1
-Fröbitar Mjuka/Rågform/Råghalvor/Rågkusar|Fazer Bageri|338-400 g|21,90|frp|||||1
-Färdigrätt Thai Cube|Kitchen Joy|320-350 g|100,00||||||4
-Färdigrätt Thai Cube|Kitchen Joy|320-350 g|65,00||||||2
-Gaständare|Skandi||25,00||||||2
-Glass, flerpack/Glass, pint|Häagen-Dazs|4,6 dl, 3-p|80,00||||||2
-Granola|Paulúns|375-450 g|100,00||||||3
-Granola|Paulúns|375-450 g|72,00||||||2
-Grilloumiost/Halloumiost|Fontana|200-240 g|59,00||||||2
-Grönkålsblad i påse|ICA|400 g|20,00|frp|||||1
-Handdiskmedel|Yes|450-520 ml|65,00||||||2
-Hushållsost|Arla|ca 1,1-2,2 kg|74,90|kg|||||1
-Hushållstermometer, digital|Sunartis||179,00|st|||||1
-Juice/Nektar|Bravo|1,75-2 l|65,00||||||2
-Kaffe|Zoegas|450-500 g|169,00||||||3
-Kaffebryggare|Wilfa||1499,00|st|||||1
-Kaffebryggare|Melitta||299,00|st|||||1
-Kaffebryggare|Electrolux||549,00|st|||||1
-Kaffebryggare|ICA||199,00|st|||||1
-Kapselmaskin Dolce Gusto Minime|Nescafé||599,00|st|||||1
-Kattsand Cattia|Best Friend|5 l|79,00||||||2
-Ketchup|Heinz|0,96-1 kg|59,00||||||2
-Kiwi, stor, grön|ICA|125 g|20,00||||||3
-Korv, färsk|ICA Selection|300 g|35,00|frp|||||1
-Kronljus|ICA|8-p|39,90|frp|||||1
+Dammvippa, refill|Swiffer|9-p|79,90|frp|||||1
+Dammvippa, startkit|Swiffer||49,90|frp|||||1
+Deo Roll-on/Duschcreme/Tvål Pump-|Palmolive|50-300 ml|30,00||||||2
+Diskborste|ICA||25,00||||||3
+Doftljus|ICA||35,00|st|||||1
+Doftljus|ICA||50,00||||||2
+Dressing/Sås|Eriks|1,7-2,55 dl|35,00||||||2
+Fläskytterfilé av benfri kotlett, mörmarinerad|ICA|ca 1 kg|69,00|kg|||||1
+Färdigrätt|Gooh!|370-400 g|99,00||||||2
+Färdigrätt A la carte/Lean|Dafgårds|350-420 g|95,00||||||3
+Glass|Ben & Jerry's/Magnum|4,27-4,65 dl|85,00||||||2
+Glass|Ben & Jerry's/Magnum|4,27-4,65 dl|120,00||||||3
+Golvmopp, refill|Swiffer|24-p|89,90|frp|||||1
+Golvmopp, startkit|Swiffer||99,00|frp|||||1
+Grand Dessert|Ehrmann|190 g|23,00||||||3
+Grevéost/Herrgårdsost/Prästost/Rikeost/Äraost|Skånemejerier|670 g|49,90|frp|||||1
+Grillkorv|Scan|480-640 g|35,90|frp|||||1
+Grillost Norrländsk|ICA|200 g|60,00||||||3
+Guldkorn/Lingongrova/Lingongrova Special, skivad|Pågen|500 g|39,00||||||2
+Halstablett i ask|Läkerol|75 g|18,90|frp|||||1
+Havrefras/Rågfras|Havrefras|300-375 g|65,00||||||2
+Hushållsduk|ICA|3-p|25,00||||||2
+Juice/Smoothie|Brämhults|85 cl|37,90|frp|||||1
+Kalkon/Skinka, strimlad|Tulip|350-450 g|42,90|frp|||||1
+Kalkonbröstfilé|Ingelsta Kalkon|400 g|72,90|frp|||||1
+Kattmat, torrfoder|Friskies|3-3,5 kg|99,00|frp|||||1
+Kaviar i tub|Kalles|250-300 g|59,00||||||2
+Kebabspett av nöt, 4-p|ICA|360 g|54,00|frp|||||1
+Kexchoklad|Cloetta|60 g|28,00||||||4
 Kronljus|ICA|20-p|119,00||||||2
-Kvarg|Lindahls|150 g|35,00||||||5
-Kvarg|Lindahls|150 g|16,00||||||2
-Kycklinglårfilé|Kronfågel|900 g|89,00|frp|||||1
-Köksredskap|ICA||34,90|st|||||1
-Köksredskap, bambu, 3-p|Tina Satake||199,00|frp|||||1
-Köksvåg, digital|ICA||99,00|st|||||1
-Lammframdel, hel|Hacksta Halal|ca 2,2 kg|89,90|kg|||||1
-Lampa LED, filament|ICA||50,00||||||2
-Lingon Rårörda-|Björnekulla|660 g|55,90|frp|||||1
-Ljus LED|ICA||39,90|st|||||1
-Läsk|Coca-Cola/Fanta/Sprite|1,5 l|100,00||||||8
-Läsk|Coca-Cola/Fanta/Sprite|1,5 l|50,00||||||3
-Mandolin|Tina Satake||199,00|st|||||1
-Mango, mogen|ICA|ca 325 g|15,00|st|||||1
-Margarin Bords-|Bregott|750 g|54,90|frp|||||1
-Maskindisk Original/Platinum|Yes|51-70-p|189,00||||||2
-Matlagningsprodukter|Flora|2,5 dl|29,00||||||3
-Mikrovågsugn|Severin||999,00|st|||||1
-Mopp Flat-|Vileda||499,00|st|||||1
-Munskölj|SB12|250 ml|99,00|frp|||||1
-Måltidsdelar, vegetariska|Oumph!|280-300 g|58,00||||||2
-Olivolja Classico|Monini|750 ml|78,90|frp|||||1
-Oxfilé|ICA|ca 800 g|449,00|kg|||||1
-Palsternacka i påse|ICA|500 g|10,00|frp|||||1
-Pan Pizza, 9-p|Billys|1,53 kg|179,00||||||2
-Pappershållare/Papper Hushålls- Torky, 2-p|Lotus||105,00||||||2
-Pizzakit|ICA|600 g|39,00||||||2
-Pluma av fläskkött, mörmarinerad|ICA|ca 600 g|95,00|kg|||||1
-Potatis Gourmet- i påse, eko|ICA I love eco|900 g|20,00|frp|||||1
-Potatisgratäng|Peka|2 kg|52,90|frp|||||1
-Proteinbar|ProPud|55 g|100,00||||||7
-Proteinbar|ProPud|55 g|49,00||||||3
-Ris Basmati-|Mahmood|4,5 kg|119,00|frp|||||1
-Riskokare|Wilfa||349,00|st|||||1
-Räkor, skalade|Royal Greenland|700 g|99,00|frp|||||1
-Servetter|ICA|50-p|59,00||||||2
-Servetter|ICA|15-p|35,00||||||2
-Skinka Prosciutto Cotto/Crudo/Di Parma, skivad|ICA|70-120 g|34,90|frp|||||1
-Skål m. lock|ICA|4-p|79,90|frp|||||1
-Sköljmedel/Tvättmedel|Comfort/Via|760-925 ml, 760 g|85,00||||||3
-Soja Japansk, ljus|Sakura|150 ml|18,90|frp|||||1
-Soppa, tetrapack|Kelda|5 dl|45,00||||||2
-Soppa, tetrapack|Kelda|5 dl|100,00||||||5
-Spaghetti|ICA|2 kg|49,00||||||2
-Stavmixer|ICA||149,00|frp|||||1
-Stavmixerset|Braun||699,00|frp|||||1
-Steamer|Tefal||299,00|st|||||1
-Stekpanna|Fiskars||399,00|st|||||1
-Stekpanna, gjutjärn|Tina Satake||299,00|st|||||1
-Stekpanna, kolstål|Tina Satake||349,00|st|||||1
-Stekpanna, rostfritt stål|ICA||299,00|st|||||1
-Strykbräda|Rörets||249,00|st|||||1
-Sås, flaska|Rydbergs|2,5 dl|39,00||||||2
-Sötpotatis|||20,00|kg|||||1
-Tomat Plommon- i ask|ICA|500 g|20,00|frp|||||1
-Tomatpuré|Mutti|185 g|35,00||||||2
-Torkställning Sussi|Rörets||199,00|st|||||1
-Torskryggfilé|Findus|420 g|119,00|frp|||||1
-Traktörpanna m. lock|Tefal||449,00|st|||||1
-Tulpaner|ICA|12-p|99,00|frp|||||1
-Tårta|Almondy|400-420 g|39,90|frp|||||1
-Tändpåsar|Burner|100-p|129,00||||||2
-Ugnsform m. lock, glas|Pyrex||79,90|st|||||1
-Varmkorv/Wienerkorv, laktosfri|Lithells|750-900 g|54,90|frp|||||1
-Vattenkokare|ICA||199,00|st|||||1
-Värmeljus, stora|ICA|12-p|50,00||||||2
-Wok-set|Tina Satake||799,00|frp|||||1
-Yoghurt Frukt-, laktosfri|Yoggi|1 kg|40,00||||||2
-Yoghurt Protein-|Lindahls|1 kg|22,90|frp|||||1
-Ångstrykjärn|Philips||299,00|st|||||1
-Äpple Royal Gala|ICA||20,00|kg|||||1
-# BUTIK: City Gross Trollhättan
-Aluminiumfolie/Plastfolie|Fixa||55,00||||||2
-Balsam/Hårinpackning/Schampo|Aussie|160-300 ml|109,00||||||2
-Batteri|Varta|10-p|99,00||||||2
-Bladpersilja|||39,95|kg|||||1
-Bröd|Butiksbakat|ca 500-600 g|24,95|st|||||1
-Burrataost|Garant|125 g|21,95|frp|||||1
-Byxblöja|Pampers|26-42-p|249,00||||||3
-Bönor/Kikärtor|Garant|380 g|42,00||||||4
-Capellini/Spaghetti|Zeta|400 g|22,00||||||2
-Cheez/Chips|OLW|200-275 g|99,00||||||5
-Chips Tortilla-|Garant|200 g|22,00||||||2
-Chokladask Toffifee|Toffifee|125 g|19,95|frp|||||1
-Chokladboll, 4-p|Butiksbakat|ca 220-280 g|39,95|frp|||||1
-Chokladkaka|Marabou|160 g|40,00||||||2
-Cookies|Marabou|132-184 g|24,95|frp|||||1
-Crispy Fish Bites|Garant|400-450 g|49,95|frp|||||1
-Dammsugarmunstycke Twinner|Swirl||249,00|st|||||1
-Dammsugarpåse|Swirl|4-p|79,95|frp|||||1
-Danboost|Wernerssons Ost||17,95|hg|||||1
-Dentastix|Pedigree|550-810 g|99,00|frp|||||1
-Deo Roll-on|Dove/Dove Men|50 ml|59,00||||||2
-Dipmix|OLW|21-26 g|25,00||||||3
-Duschcreme|Dove/Dove Men|225-250 ml|49,00||||||2
-Elvisp|Emerio||199,00|st|||||1
-Falukorv|Garant|800 g|33,95|frp|||||1
-Fläskfilé|Dahlbergs Slakteri/Dalsjöfors Kött/Scan|ca 500 g|159,00|kg|||||1
-Fralla/Tekaka|Butiksbakat|ca 55-70 g|3,95|st|||||1
-Fryspåse/Plastpåse|Fixa|30-70-p|28,00||||||2
-Färdigrätt|Findus|0,75-1,1 kg|54,95|frp|||||1
-Färdigrätt A la carte/Asiatiskt/Mannerström|Dafgårds|350-420 g|69,00||||||2
-Färskpasta Ravioli/Tortellini, fylld|Giovanni Rana|250 g|39,95|frp|||||1
-Glass, flerpack/Glass Pint|GB Glace/Magnum|3-10-p, 4,4 dl|89,00||||||3
-Granola Hasselnötter & Dadlar|Paulúns|450 g|34,95|frp|||||1
-Grevéost/Herrgårdsost/Prästost|Arla Ko|ca 667-670 g|89,95|kg|||||1
-Grillkorv Bacon & Ost-/Deli-/Grillkorv Klassisk|Scan|400-640 g|39,95|frp|||||1
-Gräddfil|Arla|5 dl|17,95|frp|||||1
-Grönkål i påse|Garant|200 g|14,95|frp|||||1
-Grönsaker|Apetit|500-600 g|40,00||||||2
-Hamburgare av högrev, 4-p|Scan|452 g|89,95|frp|||||1
-Hamburgare, 4-p|Dalsjöfors Kött|452 g|79,95|frp|||||1
-Havrekuddar/Havreringar|Frebaco|350 g|18,95|frp|||||1
-Heberleinare/Rackabajsare|Heberleins||19,95|hg|||||1
-Honung Blomster-, flytande|Lune de miel|500 g|39,95|frp|||||1
-Hummer, kokt|Manuella disken|ca 425 g|169,00|st|||||1
-Iste/Läsk|Premier|33 cl|49,00||||||12
-Juice/Dryck|Brämhults|85 cl|36,95|frp|||||1
-Kattmat, konserv|Sheba|85 g|75,00||||||10
-Ketchup|Garant|560 g|15,95|frp|||||1
-Knäckebröd Rågi/Sport|Wasa|550 g|19,95|frp|||||1
-Kryddkorv|Gøl|335-450 g|34,95|frp|||||1
-Kräftsallad|City Gross||19,95|hg|||||1
-Kycklingbröstfilé|GuldFågeln|ca 900 g|99,95|kg|||||1
-Köttbullsmörgås|Manuella disken|ca 268 g|29,95|st|||||1
-Laxfilé, hel sida, färsk|Falkenberg Seafood|ca 1,4  kg|139,00|kg|||||1
-Laxpaket m. grönsaker|Manuella disken|ca 462 g|59,95|frp|||||1
-Lök, gul|||7,95|kg|||||1
-Lök, röd|||12,95|kg|||||1
-Lösviktsgodis|Smått & gott||79,95|kg|||||1
-Makaroner Gammaldags Ideal-/Snabb-|Kungsörnen|750 g|25,00||||||2
-Marmelad|St Dalfour|284 g|29,95|frp|||||1
-Maskindisk Power/Ultimate|Finish|44-58-p|159,00||||||2
-Maskindiskrengöring|Finish|250-400 ml, 1-p|49,00||||||2
-Matlåda, glas m. lock|Fixa||24,95|frp|||||1
-Milkshake Shake Up, laktosfri|Arla|2,4 dl|20,00||||||2
-Minutbiff av nöt, skivad|City Gross||189,00|kg|||||1
-Nötgrytbitar av nötytterlår|City Gross||169,00|kg|||||1
-Nötstek av fransyska|City Gross||149,00|kg|||||1
-Ost, riven|Garant|150 g|35,00||||||2
-Paj|Felix|210-220 g|79,00||||||3
-Palsternacka|||14,95|kg|||||1
-Papper Toalett-|Serla|18-p|115,00|frp|||||1
-Pasta, korta former|Garant|500 g|50,00||||||4
-Pasta, korta former|Rummo|500 g|45,00||||||2
-Pastasås, tetrapack|Kelda|5 dl|24,95|frp|||||1
-Pastasås/Pizzasås|Barilla|400 g|40,00||||||2
-Pastrami Peppar-, grillad|Jojjen||19,95|hg|||||1
-Pesto|Garant|200 g|48,00||||||2
-Pizza, stenugnsbakad|Grandiosa|350 g|99,00||||||3
-Pizzadeg, surdeg|City Gross|ca 350 g|14,95|frp|||||1
-Potatis Amandine i påse|Garant|900 g|19,95|frp|||||1
-Prinsesstårta/White Lady, 6-8-port.|Butiksbakat|ca 805-816 g|169,00|st|||||1
-Pågenlimpan/Roast'n Toast, skivat|Pågen|800-900 g|27,95|frp|||||1
-Revbensspjäll av fläskkött, grillade|Manuella disken||149,00|kg|||||1
-Rödkål|||12,95|kg|||||1
-Salsa|Garant|230-300 g|14,95|frp|||||1
-Sköljmedel/Tvättmedel, flytande|Grumme|750 ml|89,00||||||3
-Sopsäck, m. knythandtag|Fixa|8-p|45,00||||||2
-Spareribs av fläskkött|Dahlbergs Slakteri/Dalsjöfors Kött/Scan|ca 1,1-1,3 kg|59,95|kg|||||1
-Sås Middagsklart Fisk- i påse|Abba|250 g|45,00||||||2
-Tacokrydda|Garant|15-30 g|30,00||||||4
-Tacosås/Tortilla Soft-, original/eko|Garant/Garant EKO|230-320 g|25,00||||||2
-Tomat, krossad, smaksatt, tetrapack|Garant|390 g|35,00||||||3
-Tortilla Soft-, 6-8-p|Garant|320-370 g|18,95|frp|||||1
-Tulpaner|7-p||49,95|frp|||||1
-Vatten, kolsyrat, 12-p|Loka||59,00||||||2
-Vitkål|||7,95|kg|||||1
-Yoghurt Mild-, vanilj|Arla|1,5 kg|25,95|frp|||||1
-Äpple, röda i påse|1 kg||14,95|frp|||||1
-# BUTIK: Hemköp Trollhättan Kungsgatan
-Binda/Intimtvätt/Trosskydd|Libresse|9-50-p, 200 ml|30,00||||||2
-Chips/Snacks|Estrella|150-275 g|25,00|frp|||||1
-Chokladkaka|Marabou|160 g|18,00|st|||||1
-Energidryck, burk|Red Bull|25 cl|10,00|st|||||1
-Fetaost|Zeta|150 g|19,95|frp|||||1
-Fish & Fun/Fiskfilé Sprödbakad/Fiskpinnar Frasiga|Findus|352-450 g|34,95|frp|||||1
-Fläskkarré, benfri|Scan|ca 1,1 kg|79,95|kg|||||1
-Grevéost/Herrgårdsost/Prästost|Arla Ko|ca 670 g|85,00|kg|||||1
-Grötbröd/Lantbröd Tranbär, skivat|Östras bröd|600-700 g|25,00|frp|||||1
-iKaffe, mjölkfri|Oatly|1 l|15,00|frp|||||1
-Juice|Tropicana|90 cl|29,95|frp|||||1
-Kaviar i tub|Kalles|250-300 g|29,95|frp|||||1
-Kebab/Nuggets/Rings/Schnitzel/Wings, grillade|GuldFågeln|350-500 g|34,95|frp|||||1
-Ketchup|Felix|0,98-1 kg|28,00|frp|||||1
-Kex|Göteborgs kex Ballerina/Göteborgs kex Singoalla|190-210 g|20,00|frp|||||1
-Kyckling, hel, eko|Reko|ca 2 kg|119,00|kg|||||1
-Kycklingbröstfilé/Kycklinglårfilé|Kronfågel|ca 900 g|89,00|frp|||||1
-Laxfilé, hel sida, färsk|Falkenberg Seafood|ca 1,4 kg|129,00|kg|||||1
-Lövbiff av nöt, skivad, eko|Garant EKO|ca 500 g|279,00|kg|||||1
-Majonnäs, vegansk|Garant|330 g|20,00|frp|||||1
-Makaroner|Kungsörnen|750 g|12,95|frp|||||1
-Maskindisk Original/Platinum|Yes|51-70-p|99,00|frp|||||1
-Munskölj|Mevolution|500 ml|20,00|frp|||||1
-Olivolja Extra Jungfru-, eko|Garant EKO|500 ml|79,95|frp|||||1
-Ost Appenzeller-/Comté|Engelmanns|ca 150-170 g|34,95|hg|||||1
-Papper Toalett-|Serla|6-p|42,95|frp|||||1
-Paprika Spets-, röd i påse|200 g||18,00|frp|||||1
-Potatis i påse|Garant|900 g|10,00|frp|||||1
-Proteinbar/Proteinmilkshake|Barebells|40-55 g, 3,3 dl|38,00||||||2
-Pålägg Tunna Skivor|Pärsons|200 g|28,95|frp|||||1
-Pålägg, skivat, plånboksp.|Garant|80-120 g|15,00|frp|||||1
-Röra|Zeina's|170-210 g|22,95|frp|||||1
+Kycklingfilé|Kronfågel|900 g|89,00|frp|||||1
+Lax, hel sida, färsk|ICA|ca 1,2 kg|139,00|kg|||||1
+Ljuslykta, fylld|ICA||34,90|st|||||1
+Läsk, burk, 20-p|Pepsi||99,00|frp|||||1
+Majskaka/Riskaka, smaksatt|Friggs|120-125 g|45,00||||||3
+Mango, torkad|Treatville|150 g|45,00||||||2
+Mjölkdryck, lätt/mellan/standard, laktosfri|Arla Laktosfri|1,5 l|35,00||||||2
+Moppset Turbo Smart|Vileda||299,00|frp|||||1
+Morot i påse|ICA|1 kg|10,00|frp|||||1
+Olivolja Extra Virgin|ICA|750 ml|99,00||||||2
+Ost Familjefavoriter|Arla|ca 0,75-1,2 kg|79,90|kg|||||1
+Paj|Dafgårds|240 g|75,00||||||3
+Papper Hushålls-/Papper Toa-|ICA Skona|4-6-p|60,00||||||2
+Paprika Spets-, röd i påse|ICA|200 g|15,00|frp|||||1
+Pasta|Garofalo|500 g|39,00||||||3
+Porchetta av fläsksida|ICA|ca 1,5 kg|89,00|kg|||||1
+Potatis Delikatess- i påse|ICA|900 g|15,00|frp|||||1
+Pulled Pork, förkokt|ICA|550 g|54,00|frp|||||1
+Pålägg, skivat, plånboksp.|Lönneberga|90-105 g|35,00||||||2
+Rosor|ICA|9-p|79,00|frp|||||1
+Räkor m. skal 90/120|Royal Greenland|400 g|79,00||||||2
+Sallad i påse, eko|ICA I love eco|65 g|29,00||||||2
 Satsumas|||20,00|kg|||||1
-Skinka Prosciutto Crudo, skivad|Garant|80 g|25,00|frp|||||1
-Smör|Svenskt smör|500 g|45,00|frp|||||1
-Snabbkaffe Gold, softpack|Nescafé|150 g|69,95|frp|||||1
-Styckglass|Sia Glass||10,00|st|||||1
-Sås|Eriks|1,7-2,3 dl|20,00|frp|||||1
-Säsongsbukett|||149,00|st|||||1
-Tomat, krossad/passerad, tetrapack, eko|Garant EKO|390 g|12,00|frp|||||1
-Tvättmedel, flytande/pulver|A+|880-920 ml, 725 g|34,95|frp|||||1
-Vitkål, hel|||10,00|kg|||||1
-Yoghurt|Yoggi|1 kg|18,00|frp|||||1
+Skål Margrethe-|Rosti Mepal||169,00|st|||||1
+Snack Noodle/Snack Pot|Knorr|51-65 g|40,00||||||3
+Steamer|Tefal||299,00|st|||||1
+Stekpanna Jamie Oliver|Tefal||299,00|st|||||1
+Stekpanna, rostfritt stål|ICA||299,00|st|||||1
+Tandkräm|Sensodyne|75 ml|47,00||||||2
+Tomat, krossad, tetrapack|Cirio|390 g|35,00||||||3
+Tomatmix i ask|ICA|350 g|25,00|frp|||||1
+Tvättmedel, flytande|A+|880-920 ml|115,00||||||3
+Vatten, kolsyrat|Loka|1,5 l|29,00||||||3
+Vetemjöl Kärn-/Pizzamjöl|Kungsörnen|1,5-2 kg|32,00||||||2
+Vindruvor, röda, kärnfria i ask|ICA|500 g|25,00|frp|||||1
+Värmeljus, stora|ICA|12-p|50,00||||||2
+Wokpanna|ICA||399,00|st|||||1
+Yoghurt Drick-, 8-p|Actimel||35,00|frp|||||1
+Yoghurt Grekisk-/Turkisk-|Arla|1 kg|25,90|frp|||||1
+# BUTIK: City Gross Trollhättan
+Baguette, 8-p|Butiksbakat|ca 1,2-1,3 kg|47,95|frp|||||1
+Bakplåtspapper|Toppits|14-p|22,95|frp|||||1
+Balsam/Schampo Fructis|Garnier|200-250 ml|45,00||||||2
+Blandfärs 50/50|City Gross||99,95|kg|||||1
+Blöja Babblarna|The Humble CO.|36-40-p|84,95|frp|||||1
+Budapeststubbe|Butiksbakat|ca 465-555 g|99,95|st|||||1
+Bulle Kanel-|Butiksbakat|ca 95 g|5,95|st|||||1
+Bullform, brun/natur|Fixa|150-p|14,95|frp|||||1
+Californiasteak av nötbog, skivad|City Gross||189,00|kg|||||1
+Chips/Snacks|Estrella|150-275 g|65,00||||||3
+Chokladkaka, mörk|Garant|100 g|23,95|frp|||||1
+Crunchy|Garant|700-725 g|32,95|frp|||||1
+Dentastix|Pedigree|550-810 g|99,00|frp|||||1
+Energidryck|Nocco|33-35,5 cl|30,00||||||2
+Fläskytterfilé, mörningsmarinerad|Scan|ca 1 kg|79,95|kg|||||1
+Formbröd|Fria|500 g|55,00||||||2
+Färdigrätt|City Gross|ca 400-490 g|49,95|frp|||||1
+Färskpasta Diamanti/Ravioli/Tortelloni, fylld|Garant|250 g|45,00||||||2
+Glass|Triumf Glass|1,75 l|36,95|frp|||||1
+Grana Padanoost|Garant|200 g|44,95|frp|||||1
+Hamburgerbröd Brioche, 4-p|Garant|200 g|17,95|frp|||||1
+Hushållsost|Arla|ca 1,1-2,2 kg|69,95|frp|||||1
+Hårfärg Nutrisse|Garnier||64,95|frp|||||1
+iKaffe, mjölkfri, original/light/eko|Oatly|1 l|32,00||||||2
+Juice/Lemonad|Garant|1 l|55,00||||||2
+Julmust/Läsk, burk, 20-p|Apotekarnes/Pepsi Max||89,95|frp|||||1
+Kaffebryggare|Emerio||249,00|st|||||1
+Kaffekapsel|Gevalia|10-p|65,00||||||2
+Kattmat, konserv|Sheba|85 g|75,00||||||10
+Kiwibär i ask|125 g||24,95|frp|||||1
+Kokosmjölk/Kryddmix, asiatisk|Santa Maria|2,5 dl, 30-40 g|50,00||||||4
+Kummel, sprödbakad, 4-p|Garant|360 g|75,00||||||2
+Kyckling Lagat & Klart|GuldFågeln|160-200 g|39,95|frp|||||1
+Kycklingdelar, friterade/grillade/kryddade|GuldFågeln|350-500 g|69,00||||||2
+Kålmix, skuren i påse|Garant|300-400 g|35,00||||||2
+Lax Sushi-|Falkenberg Seafood|180 g|74,95|frp|||||1
+Laxfilé, 4-p|Omega||129,00||||||2
+Lemonad, burk, 4-p|Mino||99,00||||||3
+Levain, råg/vete, skivat|Pågen|650 g|29,95|frp|||||1
+Linser, röda, eko|Garant EKO|500 g|24,95|frp|||||1
+Ljung Erica|||39,95|st|||||1
+Mjölkskummare|Emerio||69,95|st|||||1
+Morot Snacks- i påse, eko|Garant EKO|200 g|9,95|frp|||||1
+Munskölj|Listerine|500 ml|34,95|frp|||||1
+Nudlar, färska|Twin Dragon|180-200 g|25,00||||||2
+Nötbog|City Gross||179,00|kg|||||1
+Nötmix|OLW|175-200 g|55,00||||||2
+Papper Hushålls- Classic|Lambi|6-p|49,95|frp|||||1
+Papper Toalett- Classic|Lambi|12-p|59,95|frp|||||1
+Paprika Spets-, röd i påse|200 g||16,95|frp|||||1
+Proteinbar|Swebar|50-55 g|19,95|frp|||||1
+Pumpa Butternut-|||16,95|kg|||||1
+Pålägg, skivat, plånboksp.|Lönneberga|90-105 g|49,00||||||2
+Pärlsocker|Dansukker|500 g|14,95|frp|||||1
+Rapsolja|Eldorado|1 l|42,00||||||2
+Ris Jasmin-|Garant|1 kg|29,95|frp|||||1
+Räksallad á la City Gross|Manuella disken||24,95|hg|||||1
+Salami Lant-, Fransk|Paul & Thom||34,95|hg|||||1
+Salladslök i knippe|ca 100 g||20,00||||||2
+Salta Pinnar|Garant|250 g|30,00||||||2
+Satsumas|||19,95|kg|||||1
+Sesamfrön Vita, rostade|Twin Dragon|1 kg|29,95|frp|||||1
+Sharon|ca 83 g||20,00||||||3
+Skinka, kokt/rökt|Grygården||17,95|hg|||||1
+Skinkschnitzel|City Gross||99,95|kg|||||1
+Skinkstek|City Gross||89,95|kg|||||1
+Smör & rapsolja, flytande|Arla|7,5 dl|30,95|frp|||||1
+Smör, eko|Garant EKO|500 g|68,95|frp|||||1
+Spritspåse|Toppits|10-p|19,95|frp|||||1
+Stekpanna, tefal|Jamie Oliver||349,00|st|||||1
+Ströbröd Panko-|Twin Dragon|500 g|31,95|frp|||||1
+Surdegsbröd|Butiksbakat||49,95|kg|||||1
+Sås Koreansk|Twin Dragon|2,2 dl|29,95|frp|||||1
+Sötpotatis|||16,95|kg|||||1
+Tepåse|Arvid Nordquist|17-p|49,00||||||2
+Tofu Krispig|Garant|300 g|29,95|frp|||||1
+Tomat|||27,95|kg|||||1
+Tomat, krossad/passerad, tetrapack|Garant|390 g|28,00||||||3
+Tvål Pump-|Bliw|300 ml|29,00||||||2
+Vegofärs|Garant|850-900 g|59,95|frp|||||1
+Vetemjöl|Garant|2 kg|20,00||||||2
+Wienerkorv, mjölkfri|Garant|300 g|24,95|frp|||||1
+Yoghurt Grekisk-/Turkisk-, original/laktosfri|Arla|1 kg|29,95|frp|||||1
+Ägg|Stjärnägg|10-p|34,95|frp|||||1
+Ägg|Garant|18-p|34,95|frp|||||1
+# BUTIK: Hemköp Trollhättan Kungsgatan
+Apelsin Valencia Late|||20,00|kg|||||1
+Babyspenat/Ruccola/Småbladsmix i påse, eko|Garant EKO|65 g|10,00|frp|||||1
+Bagel American, butiksbakat|Dafgårds|85 g|8,00|st|||||1
+Bakpotatis|||10,00|st|||||1
+Balsam/Schampo|Head & shoulders|220-250 ml|30,00|frp|||||1
+Barnmat Fruktmums/Barngröt, klämpåse|Semper|110-120 g|24,00||||||2
+Binda/Tampong/Trosskydd|Intuition|10-30-p|15,00|frp|||||1
+Blandfärs, eko|Garant EKO|500 g|59,95|frp|||||1
+Buljongtärning/Fond du Chef|Knorr|4-6-p|10,00|frp|||||1
+Bulle Kanel-, 12-p|Findus|420 g|34,95|frp|||||1
+Bulle Kanel-, 4-p|Fria|230 g|32,95|frp|||||1
+Bulle Kanel-/Vanilj-, butiksbakad|Bonjour|90 g|5,00|st|||||1
+Bullform|Fixa|150-p|12,95|frp|||||1
+Bönor/Kikärtor/Linser, torra/Solroskärnor|Eldorado|800 g|25,00|frp|||||1
+Champinjoner i ask|250 g||10,00|frp|||||1
+Chilipeppar i olivolja, crispy|Laoganma|210 g|39,95|frp|||||1
+Chokladkaka Plopp/Sportlunch/Tupla|Cloetta|78-85 g|12,00|st|||||1
+Currypasta|Garant|110 g|15,00|frp|||||1
+Doftljus|Bolsius|1-18-p|29,95|frp|||||1
+Energidryck, burk|Monster Energy/Reign|35,5-50 cl|12,00|st|||||1
+Fish & Crisp|Findus|480-490 g|44,00|frp|||||1
+Färdigrätt/Paj|Dafgårds|240-420 g|55,00||||||2
+Färskpasta, fylld|Garant|250 g|15,00|frp|||||1
+Goudaost, skivad, eko|Garant EKO|150 g|22,00|frp|||||1
+Grytbas Asiatisk|Mrs Cheng's|4 dl|34,95|frp|||||1
+Grönsaker Asiatiska, konserv|Spicefield|220-425 g|10,00|frp|||||1
+Havredryck Barista, mjölkfri|Oddlygood|1 l|15,00|frp|||||1
+Havregryn|Axa|750-825 g|13,00|frp|||||1
+Helgbukett|||129,00|st|||||1
+Herrgårdsost/Prästost, skivad|Garant|150 g|22,00|frp|||||1
+Högrev av nöt, benfri|Smak av Gotland|ca 1 kg|229,00|kg|||||1
+Ingefära i ask, eko|200 g||10,00|frp|||||1
+Juice|Bravo|1 l|20,00|frp|||||1
+Kaffe, eko|Garant EKO|450 g|59,95|frp|||||1
+Kattmat|Purina Gourmet|85 g|30,00||||||4
+Kokosmjölk/Kryddmix, asiatisk|Santa Maria|2,5 dl, 30-40 g|12,00|frp|||||1
+Koriander i påse|Garant|25 g|5,00|frp|||||1
+Kryddpaste Gochujang|Wang|170 g|15,00|frp|||||1
+Laxburgare, 2-p|Falkenberg Seafood||29,95|frp|||||1
+Leverpastej, bredbar|Arbogapastej/Lönneberga|150-200 g|11,95|frp|||||1
+Majskyckling, hel|Garant|ca 1,3 kg|59,95|kg|||||1
+Margarin Bords-|Bregott|350-500 g|39,95|frp|||||1
+Mjölk, eko|Garant EKO|1,5 l|20,00|frp|||||1
+Müsli, tranbär, eko|Garant EKO|750 g|24,95|frp|||||1
+Naanbröd|Santa Maria|260 g|25,00|frp|||||1
+Norvegia|Tine|500 g|45,00|frp|||||1
+Nudlar|Garant|250-300 g|15,00|frp|||||1
+Nudlar Ägg-|Santa Maria|250 g|12,00|frp|||||1
+Ost, riven, original/eko|Garant/Garant EKO|150 g|15,00|frp|||||1
+Ostronskivling i ask|Garant|200 g|25,00|frp|||||1
+Pak Choi i påse|250 g||18,00|frp|||||1
+Pasta, korta former|Zeta|400 g|12,00|frp|||||1
+Pesto|Garant|200 g|22,00|frp|||||1
+Pizza|Grandiosa|350 g|79,00||||||2
+Pizzakit|Monte Castello|600 g|20,00|frp|||||1
+Proteinmilkshake, laktosfri|ProPud|3,3 dl|35,00||||||2
+Pågenlimpan, skivad|Pågen|900 g|22,00|frp|||||1
+Pålägg, skivat, plånboksp.|Jakobsdals|80-100 g|49,00||||||2
+Pärlsocker|Dansukker|500 g|15,95|frp|||||1
+Salladskål i påse|||18,00|frp|||||1
+Salladslök i knippe|||10,00|st|||||1
+Sharon|||6,00|st|||||1
+Snabbkaffe, softpack|Gevalia|200 g|74,95|frp|||||1
+Soppa, tetrapack|Kelda|5 dl|20,00|frp|||||1
+Spice & Sauce Cooking-|Santa Maria|360 g|30,00|frp|||||1
+Ströbröd Panko-|Garant|200 g|15,00|frp|||||1
+Sås|Garant|2,5 dl|19,95|frp|||||1
+Sås Sweet Chili-|Santa Maria|5 dl|25,00|frp|||||1
+Sås Teriyaki-|Garant|2,5 dl|29,95|frp|||||1
+Tvättmedel, flytande|Via|840 ml|39,95|frp|||||1
+Vetemjöl|Garant|2 kg|12,00|frp|||||1
+Ägg, eko|Svenska Lantägg|12-p|39,95|frp|||||1
+Älgfärs|Åke P|ca 500 g|179,00|kg|||||1
 # BUTIK: ÖoB Trollhättan
 Avfallspåse|Quick|20-p|10,00|frp|||||1
-Batteri|Voltage Power|10-p|25,00|frp|||||1
-Batteri|Voltage Power|24-p|59,00|frp|||||1
-Blockljus|6-p||150,00||||||2
-Choco Chicky|50 g||29,00||||||2
-Chokladask Milk Selection|Merci|250 g|65,30|frp|||||1
-Chokladbit|Lion/Nuts/Smarties|4-5-p|33,10|frp|||||1
-Chokladkaka Angel Hair-/Dubai-|85-90 g||80,00||||||2
-Chokladpåse Kexchoklad, 8-p|Cloetta||55,00|frp|||||1
-Dentastix, small/medium/large|Pedigree|21-35-p|89,90|frp|||||1
-Dricksglas|4-p||150,00||||||2
-Energidryck|Wolverine|25 cl|20,00||||||2
-Energidryck, burk, 24-p|Red Bull||269,00|frp|||||1
-Engångsartiklar|||99,00||||||5
-Engångsbägare|20-50-p||19,90|frp|||||1
-Frukt, konserv|Foodelicious|170-312 g|25,00||||||2
-Fågelmat|||15,00|frp|||||1
-Fågelmat Solrosfrö|Pippip|7 kg|199,00|frp|||||1
-Fågelmat Solrosfrö|Pippip|2,5 kg|69,00|frp|||||1
-Godispåse|Aroma|220-290 g|20,80|frp|||||1
-Godispåse|Toms|550 g|39,80|frp|||||1
-Godispåse|Lutti|100 g|35,00||||||3
-Godispåse|Fazer|140-200 g|34,00|frp|||||1
-Godispåse|Haribo|70-80 g|25,00||||||3
-Godispåse|Haribo|750 g|55,80|frp|||||1
-Godispåse Chokladkola/Gräddkola|Riesen/Werther's|125-135 g|19,80|frp|||||1
-Godispåse Franska kolor/Fruktklubbor|600-920 g||53,00|frp|||||1
-Godispåse Jelly Beans/Jelly Mix/Sour Mix|Vidal|85-90 g|25,00||||||3
-Godispåse Partymix|Vidal|400 g|46,40|frp|||||1
-Halstablett, 3-p|Fisherman's friend||35,00|frp|||||1
-Handdiskmedel|Yes|660 ml|49,00|frp|||||1
-Hundgodis|Sjöbogårdens||49,90|frp|||||1
-Hundmat, torrfoder|Axess|15 kg|179,00|frp|||||1
-Kaffe, hela bönor|Gevalia|900 g|139,00|frp|||||1
-Kaffekapsel|Gimoka|10-p|50,00||||||2
-Kaffekapsel|Gimoka|16-p|90,00||||||2
-Kattmat, konserv|Sheba|85 g|79,00||||||10
-Kattmat, torrfoder|Whiskas|1,9 kg|79,90|frp|||||1
-Kattmat, torrfoder|Mjau|7,5 kg|199,00|frp|||||1
-Kattmat, torrfoder|Perfect fit|750 g|59,90|frp|||||1
-Kattsand|Maxcat|10 l|250,00||||||3
-Kex|Cream's|230 g|25,00||||||2
-Kondisbit, 4-6-p|Delicato|168-240 g|45,00||||||2
+Avfallspåse|Saplex|15-50 p|19,90|frp|||||1
+Blockljus|||50,00||||||2
+Chilisås|Heinz|600 g|29,90|frp|||||1
+Chips|Pringles|40 g|13,30|frp|||||1
+Chips/Tortilla|Santa Maria||11,00|frp|||||1
+Chokladbit|Bounty/Mars/Snickers/Twix|36,5-57 g|25,00||||||3
+Chokladbit, minis|Bounty/Milky Way/Snickers/Twix|333 g|52,00|frp|||||1
+Chokladägg Pippi|3-p||33,90|frp|||||1
+Diskborste Basic|Effekt||25,00|st|||||1
+Dricksglas|||150,00||||||2
+Duschcreme|Family Fresh|1 l|29,00|frp|||||1
+Energidryck, burk|Monster Energy|50 cl|45,00||||||3
+Fruktdryck|Kiviks Musteri|1,5 l|28,00||||||2
+Godispåse|Malaco|85-95 g|19,00||||||2
+Godispåse Chokladkola/Gräddkola|Riesen/Werther's|1 kg|93,70|frp|||||1
+Godispåse Lakrits|Nørregade|85 g|12,20|frp|||||1
+Godispåse Skolekridt/Turkisk Peppar|Fazer|280-300 g|28,40|frp|||||1
+Godispåse Turkisk Peppar Sour Foams|Fazer|80 g|11,90|frp|||||1
+Handdiskmedel|Effekt|1 l|19,00|frp|||||1
+Kaffe|Gevalia|450 g|699,00||||||12
 Kronljus|20-p||69,90|frp|||||1
-Lemonad, burk, 4-p|Mino||42,60|frp|||||1
-Läsk, flaska, 24-p|Pepsi Max||169,00|frp|||||1
-Majskaka/Riskex|Nordthy|45-130 g|25,00||||||2
-Marsipanbröd, 5-p|Anthon Berg||27,40|frp|||||1
+Lampa LED|Bright|3-p|79,00|frp|||||1
+Läsk|Champis/Cuba Cola/Trocadero|1,5 l|18,90|frp|||||1
+Läsk, 4-p|Coca-Cola/Coca-Cola Zero||49,00|frp|||||1
+Läsk/Lättöl/Tonic Water/Vatten, kolsyrat, 20-p|20x33 cl||79,00|frp|||||1
+Lösviktsgodis|||6,99|hg|||||1
 Marsipantårta i ask|Anthon Berg|175-192 g|85,00||||||2
-Maskindisk All in 1 Power/Ultimate|Finish|58-76-p|89,00|frp|||||1
-Nötmix|Estrella|175-200 g|30,30|frp|||||1
-Papper Hushålls- Blossom|Grite|4-p|100,00||||||3
-Papper Hushålls- Family XL|Grite||100,00||||||4
-Papper Hushålls- Torky|Lotus|2-p|100,00||||||2
-Papper Toalett-|Grite|16-p|100,00||||||2
-Papper Toalett- Blossom|Grite|32-p|100,00|frp|||||1
-Pingvinstång|Toms|27-29 g|15,00||||||4
-Popcorn|Mr Chomp|3-10-p|18,00|frp|||||1
-Rengöringsspray|Ajax|750 ml|29,00|frp|||||1
-Rengöringsspray|Effekt|1 l|29,90|frp|||||1
-Rengöringsspray Power Foam|Domestos|435 ml|29,00|frp|||||1
-Rågsikt/Vetemjöl/Vetemjöl Special|Ramlösa Kvarn|2 kg|25,00||||||2
-Sardiner, konserv|110-125 g||30,00||||||2
-Servis Vidda|Cuisine||100,00||||||3
-Servis, porslin, vit|Cuisine||50,00||||||3
-Sköljmedel|Comfort|762 ml|99,00||||||4
+Maskindisk All in one- Lemon Fresh|Effekt|90-120-p|89,00|frp|||||1
+Papper Hushålls-|Serla|6-p|99,00||||||2
+Papper Hushålls-|Maxi||100,00||||||3
+Papper Hushålls-/Papper Toa-|Delicate|8-16-p|59,00|frp|||||1
+Papper Toalett-|Serla|12-p|140,00||||||2
+Pasta|Mutlu|350-500 g|45,00||||||5
+Rengöringstablett Disk & Tvättmaskin|Effekt|10-p|49,00|frp|||||1
+Ris Basmati-|Durra|4,5 kg|119,00|frp|||||1
+Rischokladkaka|Sunrice|150 g|25,90|frp|||||1
+Sköljmedel|OXO|1,8 l|39,00|frp|||||1
 Sköljmedel|Effekt|2 l|29,00|frp|||||1
-Snacks|OLW|275 g|45,00||||||2
-Snacks|OLW|85-100 g|18,00|frp|||||1
-Sockervadd|Candy Floss|20 g|11,40|frp|||||1
-Tepåse, pyramid|Loyd|20-p|30,00||||||2
-Tuggummi, burk|Oxydent|70 g|18,90|frp|||||1
-Tvättmedel, flytande|Via|2,6 l|99,00|frp|||||1
+Sköljmedel|Effekt|3,2 l|49,90|frp|||||1
+Sköljmedel, refill|Effekt|3 l|39,00|frp|||||1
+Snacks|Estrella|150-275 g|28,40|frp|||||1
+Sopsäck|8-10-p||39,00||||||2
+Sopsäck, grov, 8-10-p|||44,90|frp|||||1
+Spolglans|Effekt|750 ml|19,00|frp|||||1
+Stålboll|Effekt|2-p|15,00|frp|||||1
+Städservetter|Effekt|40-80-p|29,00|frp|||||1
+Tacoprodukter|Santa Maria||16,10|frp|||||1
+Tvättmedel|OXO|5 kg|99,00|frp|||||1
 Tvättmedel, flytande|Effekt|1,5 l|49,00|frp|||||1
-Tvättmedel, pulver|Effekt|3 kg|49,00|frp|||||1
-Tvättmedel, pulver|Via|1,61 kg|69,00|frp|||||1
-Vatten, kolsyrat, 12-p|Loka||47,30|frp|||||1
+Tvättmedel, flytande|OXO|3 l|99,00|frp|||||1
+Tvättmedel, flytande|Effekt|3,2-4 l|89,00|frp|||||1
+Tvättmedel, kapsel|Effekt|50-p|89,00|frp|||||1
+Tvättmedel, kapsel|OXO|28-p|79,00|frp|||||1
+Tvättmedel, pulver|Via|4,9 kg|169,00|frp|||||1
+Tvättmedel, pulver|Effekt|8 kg|109,00|frp|||||1
+Tändblock/Tändbriketter|1-2-3 Fire up|55-90-p|39,00|frp|||||1
+Universaltrasa|Effekt|50-p|39,00|frp|||||1
+Vetemjöl, 3-p|Kungsörnen||39,90|frp|||||1
 Värmeljus|Vie|40-p|140,00||||||2
-Värmeljus|100-p||49,90|frp|||||1
-Wafers|Tören|125-142 g|20,00||||||2
