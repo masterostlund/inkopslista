@@ -979,7 +979,7 @@ function renderShop() {
   const add = () => { const t = inp.value.trim(); if (!t) return; profile.custom = [...(profile.custom || []), { id: Math.random().toString(36).slice(2, 9), text: t }]; persist(); renderShop(); renderList(); setTimeout(() => $("#tab-shop .addbox").focus(), 0); };
   inp.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
   root.append(el("div", { class: "addrow" }, inp, el("button", { class: "btn", onclick: add }, "Lägg till")));
-  if (storeGroups.length > 1) {
+  if (storeGroups.length >= 1) {
     const wrap = el("div", { class: "chips shopchips", role: "group", "aria-label": "Visa butiker" });
     for (const g of storeGroups) {
       const on = !shopHidden.has(g.full);
@@ -990,6 +990,8 @@ function renderShop() {
     }
     root.append(wrap);
   }
+  const hiddenHere = storeGroups.filter(g => shopHidden.has(g.full)).length;
+  if (hiddenHere) root.append(el("p", { class: "small muted", style: "margin:8px 0 0" }, hiddenHere === 1 ? "1 butik är dold. Tryck på den ovanför för att visa dess varor." : `${hiddenHere} butiker är dolda. Tryck på dem ovanför för att visa deras varor.`));
   if (!all.length) { root.append(el("p", { class: "muted" }, live.length ? "Ingen butik är vald. Tryck på en butik ovanför för att visa dess varor." : "Listan är tom. Välj varor under Erbjudanden, eller lägg till egna ovanför.")); return; }
   root.append(el("p", { class: "progress" }, left ? `${left} kvar av ${all.length}` : `Allt är handlat – ${all.length} av ${all.length}`));
   for (const g of shown) {
