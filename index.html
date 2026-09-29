@@ -120,12 +120,21 @@ details summary{cursor:pointer;font-weight:600}
 .rhome{margin:0 0 6px;font-size:15px;color:var(--muted)}
 body.locked nav.tabs, body.locked section, body.locked .status{display:none !important}
 #gate{margin-top:18px}
-.plink{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;border-radius:8px;color:var(--accent);text-decoration:none;font-weight:700;font-size:17px;flex:none}
+.plink{border:0;background:transparent;cursor:pointer;padding:0;display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;border-radius:8px;color:var(--accent);text-decoration:none;font-weight:700;font-size:17px;flex:none}
 .plink:hover{background:var(--bg)}
 .receipt li{display:flex;align-items:flex-start;gap:4px}
 .receipt li button{flex:1}
 .receipt .plink{color:#1D6A45;min-height:26px;min-width:28px}
 .receipt .plink:hover{background:#EEF1EE}
+.hitmain{display:flex;gap:12px;align-items:center}
+.thumb{width:52px;height:52px;object-fit:contain;border-radius:8px;background:#fff;flex:none}
+#pview{border:0;border-radius:16px;padding:0;max-width:min(92vw,420px);width:100%;background:var(--surface);color:var(--ink);box-shadow:0 10px 40px rgba(0,0,0,.3)}
+#pview::backdrop{background:rgba(0,0,0,.45)}
+.pv-body{padding:18px}
+.pv-img{display:block;width:200px;max-width:100%;height:200px;object-fit:contain;background:#fff;border-radius:12px;margin:0 auto 12px}
+.pv-name{font-family:var(--display);font-weight:700;font-size:24px;margin:0 0 4px}
+.pv-body p{margin:0 0 6px}
+.pv-price{font-weight:600}
 .hitact{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}
 .hitlink{text-decoration:none}
 .rsale .plink{min-width:24px;min-height:24px;font-size:15px}
@@ -171,6 +180,7 @@ body.locked nav.tabs, body.locked section, body.locked .status{display:none !imp
   </header>
   <div id="gate" class="msg" role="status" hidden></div>
   <div id="notice" class="msg warn" role="alert" hidden></div>
+  <dialog id="pview" aria-label="Varan"></dialog>
 
   <nav class="tabs" role="tablist">
     <button role="tab" aria-selected="true" data-tab="list">Erbjudanden</button>
@@ -239,7 +249,7 @@ function parseOffers(text) {
     if (!size && looksLikeSize(brand)) { size = brand; brand = ""; } // förskjuten rad
     const p = num(price); if (p == null) continue;
     const q = Math.max(1, num(qty) || 1);
-    cur.offers.push({ name, brand, size, price: p, unit: (unit || "").toLowerCase(), cmp, plus: !!plus && !/^(nej|no|0|false)$/i.test(plus), max, qty: q, store: cur.full, link: /^https:\/\//.test(link) ? link : "" });
+    cur.offers.push({ name, brand, size, price: p, unit: (unit || "").toLowerCase(), cmp, plus: !!plus && !/^(nej|no|0|false)$/i.test(plus), max, qty: q, store: cur.full, img: /^https:\/\/[^\s|]+$/.test(link) ? link : "" });
   }
   // korta butiksnamn: ta bort ord som finns i alla butiksnamn (t.ex. ortnamnet)
   if (stores.length > 1) {
@@ -621,8 +631,8 @@ function receiptData() {
   const { byStore, uncertain, ex } = computed();
   const groups = [];
   for (const s of byStore) {
-    const lines = s.rows.map(r => ({ key: offerKey(r.offer), text: lineFor(r.item, r.offer), plus: r.offer.plus, extra: false, link: r.offer.link }));
-    for (const x of (profile.extras || []).filter(x => x.store === s.store.full)) lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, link: x.link || "" });
+    const lines = s.rows.map(r => ({ key: offerKey(r.offer), text: lineFor(r.item, r.offer), plus: r.offer.plus, extra: false, offer: r.offer }));
+    for (const x of (profile.extras || []).filter(x => x.store === s.store.full)) lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, offer: x });
     if (lines.length) groups.push({ name: s.store.short.toLowerCase(), full: s.store.full, lines });
   }
   // extra-varor från butiker som inte finns i nuvarande fil
@@ -630,7 +640,7 @@ function receiptData() {
   const hidden = new Set(profile.hiddenStores || []);
   for (const x of (profile.extras || []).filter(x => !known.has(x.store) && !hidden.has(x.storeShort))) {
     let g = groups.find(g => g.full === x.store); if (!g) { g = { name: (x.storeShort || x.store).toLowerCase(), full: x.store, lines: [] }; groups.push(g); }
-    g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, link: x.link || "" });
+    g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, offer: x });
   }
   const custom = profile.custom || [];
   if (custom.length) groups.push({ name: "egna varor", full: "", custom: true, lines: custom.map(c => ({ key: "c:" + c.id, text: c.text, plus: false, extra: false, custom: true, id: c.id })) });
@@ -648,10 +658,25 @@ function receiptText(groups, ex) {
   return t;
 }
 
-// ---------- produktlänk ----------
-function prodLink(url, label) {
-  if (!url) return null;
-  return el("a", { class: "plink", href: url, target: "_blank", rel: "noopener noreferrer", title: "Visa varan hos Matpriskollen", "aria-label": label ? "Visa " + label : "Visa varan" }, "↗");
+// ---------- visa varan ----------
+function googleImages(o) { return "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent([o.brand, o.name, o.size].filter(Boolean).join(" ")); }
+function prodLink(o, label) {
+  if (!o || !o.name) return null;
+  return el("button", { class: "plink", type: "button", title: "Visa varan", "aria-label": "Visa " + (label || o.name), onclick: (e) => { e.stopPropagation(); showProduct(o); } }, "↗");
+}
+function showProduct(o) {
+  const dlg = $("#pview");
+  const body = el("div", { class: "pv-body" },
+    o.img ? el("img", { class: "pv-img", src: o.img, alt: o.name, onerror: (e) => { e.target.replaceWith(el("p", { class: "muted small" }, "Bilden kunde inte visas.")); } })
+          : el("p", { class: "muted small" }, "Det finns ingen bild på den här varan."),
+    el("h2", { class: "pv-name" }, o.name),
+    el("p", { class: "muted" }, [o.brand, o.size, o.storeShort].filter(Boolean).join(" · ")),
+    el("p", { class: "pv-price" }, amountText(o)),
+    el("div", { class: "actions" },
+      el("a", { class: "btn ghost small", href: googleImages(o), target: "_blank", rel: "noopener noreferrer" }, "Fler bilder på Google ↗"),
+      el("button", { class: "btn small", onclick: () => dlg.close() }, "Stäng")));
+  dlg.replaceChildren(body);
+  if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
 }
 
 // ---------- butiksval ----------
@@ -704,7 +729,7 @@ function renderList() {
     const ul = el("ul");
     for (const l of g.lines) {
       const off = ex.has(l.key);
-      ul.append(el("li", { class: off ? "off" : "" }, el("button", { "aria-pressed": off ? "false" : "true", title: off ? "Ta med igen" : "Stryk från listan", onclick: () => toggleLine(l.key) }, l.text, l.extra ? el("span", { class: "x" }, "tillagd") : null), prodLink(l.link, l.text)));
+      ul.append(el("li", { class: off ? "off" : "" }, el("button", { "aria-pressed": off ? "false" : "true", title: off ? "Ta med igen" : "Stryk från listan", onclick: () => toggleLine(l.key) }, l.text, l.extra ? el("span", { class: "x" }, "tillagd") : null), prodLink(l.offer, l.text)));
     }
     box.append(ul); rec.append(box);
   }
@@ -909,7 +934,7 @@ function renderRecipes() {
         x.home.length ? el("span", { class: "flag homeflag" }, `${x.home.length} har hemma`) : null,
         ` av ${x.total} ingredienser · ${r.minutes} min`),
       x.home.length ? el("p", { class: "rhome" }, "Har hemma: " + x.home.map(i => i.n).join(", ")) : null,
-      el("ul", { class: "rsale" }, x.sale.map(i => el("li", {}, el("b", {}, i.n), " – " + `${i.hits[0].storeShort}: ${i.hits[0].name.toLowerCase()}${i.hits[0].brand ? " (" + i.hits[0].brand + ")" : ""} ${amountText(i.hits[0])}` + (i.hits.length > 1 ? ` · +${i.hits.length - 1} till` : ""), " ", prodLink(i.hits[0].link, i.n)))),
+      el("ul", { class: "rsale" }, x.sale.map(i => el("li", {}, el("b", {}, i.n), " – " + `${i.hits[0].storeShort}: ${i.hits[0].name.toLowerCase()}${i.hits[0].brand ? " (" + i.hits[0].brand + ")" : ""} ${amountText(i.hits[0])}` + (i.hits.length > 1 ? ` · +${i.hits.length - 1} till` : ""), " ", prodLink(i.hits[0], i.n)))),
       x.rest.length ? el("details", { class: "rrest" }, el("summary", {}, `Övriga ingredienser (${x.rest.length})`), el("p", { class: "small" }, x.rest.map(i => i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(steg[^)]*\)/i, "")).join(", "))) : null,
       el("div", { class: "actions" },
         el("button", { class: "btn small" + (added ? " ghost" : ""), disabled: added, onclick: () => addRecipe(x) }, added ? "Tillagt i Handla" : "Lägg till i Handla"),
@@ -923,7 +948,7 @@ function restText(i) { return i.raw.replace(/\s+till\s+.*$/i, "").replace(/\s*\(
 function addRecipe(x) {
   const keys = new Set((profile.extras || []).map(offerKey));
   const extras = [...(profile.extras || [])];
-  for (const i of x.sale) { const o = i.hits[0]; if (!keys.has(offerKey(o))) { extras.push({ store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus, link: o.link || "" }); keys.add(offerKey(o)); } }
+  for (const i of x.sale) { const o = i.hits[0]; if (!keys.has(offerKey(o))) { extras.push({ store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus, img: o.img || "" }); keys.add(offerKey(o)); } }
   const texts = new Set((profile.custom || []).map(c => norm(c.text)));
   const custom = [...(profile.custom || [])];
   for (const i of x.rest) { const t = restText(i); if (!texts.has(norm(t))) { custom.push({ id: Math.random().toString(36).slice(2, 9), text: t }); texts.add(norm(t)); } }
@@ -976,7 +1001,7 @@ function renderShop() {
         el("button", { class: "tick", role: "checkbox", "aria-checked": done ? "true" : "false", onclick: () => {
           const b = new Set(profile.bought || []); b.has(l.key) ? b.delete(l.key) : b.add(l.key); profile.bought = [...b]; persist(); renderShop();
         } }, el("span", { class: "box", "aria-hidden": "true" }), el("span", { class: "txt" }, l.text)),
-        prodLink(l.link, l.text),
+        l.offer ? prodLink(l.offer, l.text) : null,
         l.custom ? el("button", { class: "rm", "aria-label": "Ta bort " + l.text, onclick: () => { profile.custom = (profile.custom || []).filter(c => c.id !== l.id); persist(); renderShop(); renderList(); } }, "×") : null,
         l.custom && !done ? offerHint(l.text) : null));
     }
@@ -1009,17 +1034,17 @@ function renderSearch() {
       const cmp = up.kg && o.unit !== "kg" ? `ca ${Math.round(up.kg[0])} kr/kg` : up.l ? `ca ${Math.round(up.l[0])} kr/l` : "";
       const isAdded = added.has(offerKey(o));
       box.append(el("div", { class: "hit" },
-        el("div", {}, el("div", { class: "n" }, o.name), el("div", { class: "d" }, [o.brand, o.size, cmp, o.plus ? "kräver medlemskap" : ""].filter(Boolean).join(" · "))),
+        el("div", { class: "hitmain" }, o.img ? el("img", { class: "thumb", src: o.img, alt: "", loading: "lazy", onerror: (e) => e.target.remove() }) : null, el("div", {}, el("div", { class: "n" }, o.name), el("div", { class: "d" }, [o.brand, o.size, cmp, o.plus ? "kräver medlemskap" : ""].filter(Boolean).join(" · ")))),
         el("div", { class: "tagprice" }, o.qty > 1 ? `${o.qty} för ${o.price.toFixed(2).replace(".", ",")}` : o.price.toFixed(2).replace(".", ",") + (o.unit === "kg" || o.unit === "hg" ? "/" + o.unit : "")),
         el("div", { class: "hitact" },
           el("button", { class: "btn small add " + (isAdded ? "ghost" : ""), disabled: isAdded, onclick: (ev) => addExtra(o, ev.currentTarget) }, isAdded ? "Tillagd i listan" : "Lägg till i listan"),
-          o.link ? el("a", { class: "btn ghost small hitlink", href: o.link, target: "_blank", rel: "noopener noreferrer" }, "Visa varan ↗") : null)));
+          el("button", { class: "btn ghost small", onclick: () => showProduct(o) }, "Visa varan"))));
     }
   }
   if (!total) box.append(el("p", {}, `Inget erbjudande innehåller ”${q}” den här veckan` + (vis.length < stores.length ? " i butikerna du valt." : ".")));
 }
 function addExtra(o, btn) {
-  const x = { store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus, link: o.link || "" };
+  const x = { store: o.store, storeShort: o.storeShort, name: o.name, brand: o.brand, size: o.size, price: o.price, unit: o.unit, qty: o.qty, plus: o.plus, img: o.img || "" };
   profile.extras = [...(profile.extras || []), x]; persist();
   btn.textContent = "Tillagd i listan"; btn.disabled = true; btn.classList.add("ghost");
   renderList();
@@ -1140,7 +1165,9 @@ function exportJSON() { return "INKOPSLISTA:" + btoa(unescape(encodeURIComponent
 function importJSON(t) { const m = t.trim().match(/^INKOPSLISTA:(.+)$/s); if (!m) return null; try { const a = JSON.parse(decodeURIComponent(escape(atob(m[1].trim())))); return Array.isArray(a) ? a : null; } catch (e) { return null; } }
 
 // ---------- tabs ----------
+let userPickedTab = false;
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
+  userPickedTab = true;
   document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
   for (const t of ["list", "recipes", "shop", "search", "items"]) $("#tab-" + t).hidden = t !== b.dataset.tab;
   if (b.dataset.tab === "search") { renderSearch(); $("#q").focus(); }
@@ -1173,7 +1200,17 @@ const VALID_KEY = CODE ? "ink.valid." + CODE : null;
   lsSet(VALID_KEY, true); unlock();
   loadRecipes();
   await loadSite();
+  openStartTab();
 })();
+// Öppna Handla om veckans lista har börjat planeras och det finns något att handla
+function openStartTab() {
+  if (userPickedTab) return;
+  const planned = (profile.excluded || []).length || (profile.extras || []).length || (profile.bought || []).length || (profile.custom || []).length;
+  if (!planned) return;
+  const { groups, ex } = receiptData();
+  const hasItems = groups.some(g => g.lines.some(l => !ex.has(l.key)));
+  if (hasItems) showTab("shop");
+}
 })();
 </script>
 </body>
