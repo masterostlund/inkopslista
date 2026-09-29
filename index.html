@@ -97,6 +97,8 @@ details summary{cursor:pointer;font-weight:600}
 .linkbtn{border:0;background:none;padding:0;color:var(--accent);font-weight:600;cursor:pointer;text-decoration:underline;font-size:14px}
 .offerhint .flag{background:var(--tag);color:var(--tag-ink);font-weight:600;font-size:12px;border-radius:4px;padding:1px 6px;margin-right:2px}
 .shopchips{margin:12px 0 0}
+.chipn{display:inline-block;min-width:1.4em;margin-left:6px;padding:0 5px;border-radius:999px;background:rgba(127,127,127,.22);font-size:13px;text-align:center}
+.chip.empty{opacity:.65}
 .shoplist li.done .txt{text-decoration:line-through;color:var(--muted)}
 .shoplist .rm{border:0;background:transparent;color:var(--muted);font-size:24px;line-height:1;padding:8px 14px;cursor:pointer}
 .rcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
@@ -979,20 +981,25 @@ function renderShop() {
   const add = () => { const t = inp.value.trim(); if (!t) return; profile.custom = [...(profile.custom || []), { id: Math.random().toString(36).slice(2, 9), text: t }]; persist(); renderShop(); renderList(); setTimeout(() => $("#tab-shop .addbox").focus(), 0); };
   inp.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
   root.append(el("div", { class: "addrow" }, inp, el("button", { class: "btn", onclick: add }, "Lägg till")));
-  if (storeGroups.length >= 1) {
+  // Alla butiker visas alltid, oberoende av valet under Erbjudanden. Siffran = varor kvar att handla där.
+  const chipStores = stores.map(st => ({ full: st.full, short: st.short }));
+  for (const g of storeGroups) if (!chipStores.some(c => c.full === g.full)) chipStores.push({ full: g.full, short: g.name });
+  if (chipStores.length) {
     const wrap = el("div", { class: "chips shopchips", role: "group", "aria-label": "Visa butiker" });
-    for (const g of storeGroups) {
-      const on = !shopHidden.has(g.full);
-      wrap.append(el("button", { class: "chip", "aria-pressed": on ? "true" : "false", onclick: () => {
-        const set = new Set(profile.shopHidden || []); on ? set.add(g.full) : set.delete(g.full);
+    for (const c of chipStores) {
+      const on = !shopHidden.has(c.full);
+      const g = storeGroups.find(x => x.full === c.full);
+      const left = g ? g.lines.filter(l => !bought.has(l.key)).length : 0;
+      wrap.append(el("button", { class: "chip" + (left ? "" : " empty"), "aria-pressed": on ? "true" : "false", "aria-label": `${c.short}, ${left} varor kvar`, onclick: () => {
+        const set = new Set(profile.shopHidden || []); on ? set.add(c.full) : set.delete(c.full);
         profile.shopHidden = [...set]; persist(); renderShop();
-      } }, (stores.find(x => x.full === g.full) || {}).short || g.name));
+      } }, c.short, el("span", { class: "chipn" }, String(left))));
     }
     root.append(wrap);
   }
-  const hiddenHere = storeGroups.filter(g => shopHidden.has(g.full)).length;
-  if (hiddenHere) root.append(el("p", { class: "small muted", style: "margin:8px 0 0" }, hiddenHere === 1 ? "1 butik är dold. Tryck på den ovanför för att visa dess varor." : `${hiddenHere} butiker är dolda. Tryck på dem ovanför för att visa deras varor.`));
-  if (!all.length) { root.append(el("p", { class: "muted" }, live.length ? "Ingen butik är vald. Tryck på en butik ovanför för att visa dess varor." : "Listan är tom. Välj varor under Erbjudanden, eller lägg till egna ovanför.")); return; }
+  const hiddenHere = storeGroups.filter(g => shopHidden.has(g.full) && g.lines.some(l => !bought.has(l.key))).length;
+  if (hiddenHere) root.append(el("p", { class: "small muted", style: "margin:8px 0 0" }, hiddenHere === 1 ? "1 butik med varor är dold. Tryck på den ovanför för att visa varorna." : `${hiddenHere} butiker med varor är dolda. Tryck på dem ovanför för att visa varorna.`));
+  if (!all.length) { root.append(el("p", { class: "muted" }, live.length ? "Inga varor att visa för butikerna du valt. Tryck på en butik ovanför för att visa dess varor." : "Listan är tom. Välj varor under Erbjudanden, eller lägg till egna ovanför.")); return; }
   root.append(el("p", { class: "progress" }, left ? `${left} kvar av ${all.length}` : `Allt är handlat – ${all.length} av ${all.length}`));
   for (const g of shown) {
     root.append(el("h2", { class: "res-store" }, g.custom ? "Egna varor" : (stores.find(x => x.full === g.full) || {}).short || g.name));
