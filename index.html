@@ -624,13 +624,14 @@ window.addEventListener("focus", quietRefresh);
 setInterval(quietRefresh, 30000);
 
 // ---------- matching ----------
-function computed() {
-  const res = matchAll(visibleStores(), profile.items);
+// all = true: hela listan från alla butiker (Handla). Annars bara butikerna som visas under Erbjudanden.
+function computed(all) {
+  const res = matchAll(all ? stores : visibleStores(), profile.items);
   const ex = new Set(profile.excluded || []);
   return { ...res, ex };
 }
-function receiptData() {
-  const { byStore, uncertain, ex } = computed();
+function receiptData(all) {
+  const { byStore, uncertain, ex } = computed(all);
   const groups = [];
   for (const s of byStore) {
     const lines = s.rows.map(r => ({ key: offerKey(r.offer), text: lineFor(r.item, r.offer), plus: r.offer.plus, extra: false, offer: r.offer }));
@@ -640,7 +641,7 @@ function receiptData() {
   // extra-varor från butiker som inte finns i nuvarande fil
   const known = new Set(stores.map(s => s.full));
   const hidden = new Set(profile.hiddenStores || []);
-  for (const x of (profile.extras || []).filter(x => !known.has(x.store) && !hidden.has(x.storeShort))) {
+  for (const x of (profile.extras || []).filter(x => !known.has(x.store) && (all || !hidden.has(x.storeShort)))) {
     let g = groups.find(g => g.full === x.store); if (!g) { g = { name: (x.storeShort || x.store).toLowerCase(), full: x.store, lines: [] }; groups.push(g); }
     g.lines.push({ key: "x:" + offerKey(x), text: extraLine(x), plus: x.plus, extra: true, ref: x, offer: x });
   }
@@ -678,6 +679,7 @@ function showProduct(o) {
       el("a", { class: "btn ghost small", href: googleImages(o), target: "_blank", rel: "noopener noreferrer" }, "Fler bilder på Google ↗"),
       el("button", { class: "btn small", onclick: () => dlg.close() }, "Stäng")));
   dlg.replaceChildren(body);
+  dlg.onclick = (e) => { if (e.target === dlg) dlg.close(); }; // tryck utanför rutan stänger den
   if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
 }
 
@@ -722,7 +724,8 @@ function renderList() {
       el("p", { class: "muted" }, "Veckans erbjudanden har inte lagts upp än, eller så gick de inte att hämta. Prova att ladda om sidan om en stund.")));
     return;
   }
-  const chips = storeChips(renderList); if (chips) root.append(chips);
+  const chips = storeChips(() => { renderList(); renderShop(); }); if (chips) root.append(chips);
+  if (chips && visibleStores().length < stores.length) root.append(el("p", { class: "small muted", style: "margin:-8px 0 14px" }, "Du visar bara vissa butiker. Det du gjort i ordning för de andra finns kvar i Handla."));
   const { groups, uncertain, ex } = receiptData();
   const rec = el("div", { class: "receipt", "aria-label": "Inköpslista" });
   if (!groups.length) rec.append(el("p", { class: "empty" }, "Inget i din intresselista matchar veckans erbjudanden" + (visibleStores().length < stores.length ? " i butikerna du valt." : ".") + " Sök efter något specifikt under Sök, eller lägg till varor under Mina varor."));
@@ -773,7 +776,7 @@ function customHits(text) {
   const first = nq.split(" ")[0];
   const startQ = nq.split(" ").map(w => "^" + w).join(" "); // ordet måste börja så: mjölk ≠ kokosmjölk
   const hits = [];
-  for (const st of visibleStores()) for (const o of st.offers) {
+  for (const st of stores) for (const o of st.offers) {
     const t = norm(o.name + " " + o.brand);
     if (termMatch(t, startQ)) hits.push({ o, rank: norm(o.name).startsWith(first) ? 0 : 1 });
   }
@@ -837,12 +840,12 @@ function ingTerms(n) {
 }
 let recipeMemo = { key: null, list: null };
 function buildRecipeIndex() {
-  const key = (offers ? sig(offers.text) : "") + "|" + (profile.hiddenStores || []).join(",") + "|" + (recipes ? recipes.length : 0) + "|" + (profile.home || []).map(h => h.text).join(",");
+  const key = (offers ? sig(offers.text) : "") + "|" + (recipes ? recipes.length : 0) + "|" + (profile.home || []).map(h => h.text).join(",");
   if (recipeMemo.key === key) return recipeMemo.list;
   recipeMemo = { key, list: buildRecipeIndexRaw() }; return recipeMemo.list;
 }
 function buildRecipeIndexRaw() {
-  const vis = visibleStores();
+  const vis = stores; // recepten letar i alla butiker
   const offersN = vis.flatMap(st => st.offers.map(o => ({ o, t: norm(o.name + " " + o.brand) })));
   const cache = new Map();
   const hitsFor = (n) => {
@@ -920,7 +923,7 @@ function renderRecipes() {
   root.prepend(homeBox());
   root.append(chips);
   const all = buildRecipeIndex().filter(x => !recipeMax || x.r.minutes <= recipeMax);
-  root.append(el("p", { class: "small muted" }, (profile.home || []).length ? "Recepten som använder mest av det du har hemma och det som är på erbjudande kommer först. Salt, olja och liknande basvaror räknas inte." : "Recepten där flest ingredienser är på erbjudande i dina butiker kommer först. Salt, olja och liknande basvaror räknas inte."));
+  root.append(el("p", { class: "small muted" }, (profile.home || []).length ? "Recepten som använder mest av det du har hemma och det som är på erbjudande kommer först. Salt, olja och liknande basvaror räknas inte." : "Recepten där flest ingredienser är på erbjudande kommer först. Salt, olja och liknande basvaror räknas inte."));
   const useful = x => x.sale.length || x.home.length;
   if (!all.length || !useful(all[0])) { root.append(el("p", {}, "Inga recept har ingredienser på erbjudande den här veckan" + (recipeMax ? " med den tiden." : "."))); }
   const customTexts = new Set((profile.custom || []).map(c => norm(c.text)));
@@ -970,7 +973,7 @@ async function loadRecipes() {
 // ---------- render: handla ----------
 function renderShop() {
   const root = $("#tab-shop"); root.replaceChildren();
-  const { groups, ex } = receiptData();
+  const { groups, ex } = receiptData(true);
   const bought = new Set(profile.bought || []);
   const live = groups.map(g => ({ ...g, lines: g.lines.filter(l => !ex.has(l.key)) })).filter(g => g.lines.length);
   const shopHidden = new Set(profile.shopHidden || []);
@@ -1216,7 +1219,7 @@ function openStartTab() {
   if (userPickedTab) return;
   const planned = (profile.excluded || []).length || (profile.extras || []).length || (profile.bought || []).length || (profile.custom || []).length;
   if (!planned) return;
-  const { groups, ex } = receiptData();
+  const { groups, ex } = receiptData(true);
   const hasItems = groups.some(g => g.lines.some(l => !ex.has(l.key)));
   if (hasItems) showTab("shop");
 }
