@@ -1,645 +1,649 @@
 # BUTIK: Willys Trollhättan
 Ajvar|MinElla|690 g|31,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7061b543-6d1b-4e78-9c8d-51b515ca1025/thumb100p.jpeg
-Alaska Pollock, ryggfilé, 3-p|Royal Foods|300 g|36,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a7a33f6b-6984-493d-9bc0-e2d55be37a41/thumb100p.jpeg
 Allrengöring/Städservetter|Grumme|500 ml, 30-p|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/32ff88ea-85ea-4ebc-9857-4a42b59fdc34/thumb100p.jpeg
 Ananas, konserv, 3-p|Dole||49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/93760f64-0036-4ad4-e27c-08d47f3c1412/thumb100p.jpeg
+Aubergine|||9,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c6efe74d-9a35-43c1-b156-85116fde9e5c/thumb100p.jpeg
 Avfallspåse|Fixa|25-p|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9494210f-b1e6-402c-b1d5-489ee2570128/thumb100p.jpeg
-Bacon, skivat, 3-p|Garant||32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a572d577-79a9-4e25-8bef-dbacff62951c/thumb100p.png
-Barngröt Fullkorn, pulver|Nestlé|410 g|37,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e216a2aa-655c-4f85-8ebb-9c2761b56779/thumb100p.jpeg
-Barnmat Fruktmums/Barngröt, klämpåse|Semper|110-120 g|85,00||||||8|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a1b0d2ab-ffb5-4ed2-4887-08d47f3b722d/thumb100p.jpeg
-Bladselleri|Garant||14,90|frp|||||1|
-Blöja Comfort/Up&Go|Libero|20-47-p|199,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d5f107fa-fab7-47fd-a278-e347c844045c/thumb100p.jpeg
-Blöjpåse|minstingen|50-p|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9ffcdc33-cb0f-4df2-a93a-88aa78f52af9/thumb100p.jpeg
-Bolognesefärs/Tacofärs|Nybergs Deli|500 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7062f725-9d07-4dcb-8985-068345636e2f/thumb100p.jpeg
-Broccoli|Garant|250 g|9,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/67b03da2-f9c6-4947-89ba-4214371dadf0/thumb100p.jpeg
-Buffalo Wings, grillkryddade|Lönneberga|ca 1 kg|39,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6a1e0602-ad35-4c4c-9d36-52aa6d02762d/thumb100p.jpeg
-Buljongtärning|Knorr|4-6-p|20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/edbc708b-2653-4648-ba75-dc9b02f15713/thumb100p.jpeg
-Calandiva|||39,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/aab00fb5-f1dd-48da-3929-08d65e27a147/thumb100p.jpeg
-Cashewnötter|Den lille Nøtte fabrikken|250 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a514c406-b05d-42fc-b6c1-99fdf6791027/thumb100p.jpeg
-Champinjoner i ask|Garant|250 g|12,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e813f876-72eb-4b4a-7006-08d4ac1a34ec/thumb100p.jpeg
+Avokado|||9,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5280558b-03e0-4d64-73bb-08d4ac1a34ec/thumb100p.jpeg
+Balsam/Schampo Elvital|L'Oréal|200-250 ml|59,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9f3e527d-e135-49cd-efd3-08d47f3c1412/thumb100p.jpeg
+Binda/Intimtvätt/Trosskydd|Libresse|200 ml, 10-50-p|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2ba89b35-4510-43f6-f593-08d47f3c1412/thumb100p.jpeg
+Bitar/Filé/Färs, ovo-vegetariskt|Quorn|600-624 g|46,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d220635d-766c-4f8e-a2bc-ba5911ad7741/thumb100p.jpeg
+Blandfärs|Garant|500 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6d7565ac-1aac-4c17-b704-08d875456128/thumb100p.jpeg
+Bärdryck/Fruktdryck|Kiviks Musteri|1,5 l|28,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ca530d72-ceb7-4b4f-9510-5b62ba45621a/thumb100p.jpeg
+Champinjoner i ask|Garant|250 g|9,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e813f876-72eb-4b4a-7006-08d4ac1a34ec/thumb100p.jpeg
 Champinjoner, hela/skivade, konserv|Garant|380 g|34,00||||||2|
-Cheez/Chips|OLW|200-275 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/334bbda3-a4ea-4792-50b9-08d540f05ad6/thumb100p.jpeg
-Chili con Carne/Gulaschsoppa/Ravioli, konserv|Felix|560 g|75,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7353d513-4f6b-4f58-e15b-08d47f3c1412/thumb100p.jpeg
-Chips|Pringles|160-165 g|48,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef47ffae-b6a1-435a-8c3f-e4e933c75702/thumb100p.jpeg
 Chips Nacho-|Santa Maria|220 g|26,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1875d96a-3bb1-4c6a-842a-bc7b07d139ac/thumb100p.jpeg
-Chips Nacho-/Tortilla-|Santa Maria|185 g|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3618ec15-4de0-4697-87c7-3ff7de957fe3/thumb100p.jpeg
-Chokladbit|KitKat/Lion/Smarties|38-42 g|30,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cafe977f-e5cd-4b3e-3acc-08d7f252a9c1/thumb100p.jpeg
-Chokladkaka|Marabou|87-100 g|32,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/490dd178-b89d-459c-bfcb-b14b04b37815/thumb100p.jpeg
-Chokladkex|Kexet|60 g|5,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8393a83e-6495-4bb1-a131-82ac3eb223c3/thumb100p.jpeg
-Citron, eko|Garant EKO||10,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6fb11efe-7788-41da-bd7d-378b6115a51c/thumb100p.jpeg
+Chips/Ostbågar|Estrella|150-275 g|60,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dd05c135-35b1-4a31-9a37-fcc22e1891f9/thumb100p.jpeg
 Cornichons, inlagd|Garant|350 g|16,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1f98d993-01b1-4ac1-b48a-08d875456128/thumb100p.jpeg
-Croissant, butiksbakad|Dafgårds|55 g|18,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f8a46483-3c92-417e-8cf3-71eb66d10477/thumb100p.jpeg
-Dip|Santa Maria|250 g|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fbe5fa2c-c200-45b3-9d0a-317295cf9140/thumb100p.jpeg
-Dip, guacamole/salsa|Calito|200 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b9e1e566-d6a0-4926-b5e0-e6d97897ce29/thumb100p.jpeg
-Dipmix|OLW|21-26 g|35,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d3bffa37-35ce-42de-6e6f-08d535f00adf/thumb100p.jpeg
+Deo Roll-on|Nivea/Nivea Men|50 ml|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/68fb10cf-6b94-4b2e-a9a6-00fca479096c/thumb100p.jpeg
+Dessertost|Président|200-250 g|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8368b9db-6b92-420e-e878-08d47f3c1412/thumb100p.jpeg
 Diskduk|Fixa|4-p|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fff53392-c6e6-4329-94ec-d1c26ac363d3/thumb100p.jpeg
 Diskmedel/Sköljmedel/Tvättmedel, flytande|Grumme|750 ml|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a0a45058-bd2e-4999-8491-36e2dd0248eb/thumb100p.jpeg
-Dressing Amerikansk|Kavli|230-240 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/485af427-57a7-495c-eed5-08d47f3c1412/thumb100p.jpeg
+Dressing Amerikansk|Kavli|230-240 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6e663c09-93fa-4ac0-eed7-08d47f3c1412/thumb100p.jpeg
 Dressing/Sås|Felix|3,35 dl|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a0ba2caa-09c0-4267-ab43-547295716eee/thumb100p.jpeg
-Energidryck, burk|Red Bull|25 cl|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6574c5de-bf45-49be-b84b-903766bb2641/thumb100p.jpeg
-Entrecôte av nöt, eko|Garant EKO|ca 1 kg|399,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ae2f2062-759c-448d-8c97-08d47f4192ef/thumb100p.jpeg
-Falukorv Delikatess-|Garant|550 g|27,80|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4ffcee57-d64e-43d3-49ca-08d47f3b722d/thumb100p.jpeg
-Fish & Crisp, panerad/Nuggets|Findus|480-490 g|80,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b8d09ad2-c820-41bc-fc45-08d562fe98c3/thumb100p.jpeg
+Dryck|Proviva|1 l|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1778b9d4-25a0-4c0c-813a-df474702636f/thumb100p.jpeg
+Energidryck, burk|Red Bull|25 cl|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/84f07f30-fc56-4370-a721-5ecea764cd99/thumb100p.jpeg
+Falukorv, laktosfri|Scan|800 g|32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/87713bc4-6659-41e9-907c-3afd6f525ce6/thumb100p.jpeg
+Fetaost|Olympus|100 g|9,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/baac004d-9921-4276-518b-08d6d4e5777c/thumb100p.jpeg
+Flingor|Nestlé|325-375 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a92fe7e6-62bb-4b93-6e8e-08d535f00adf/thumb100p.jpeg
 Flingor Special Flakes|Crownfield|300 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a6a75141-7f62-4e8a-a52b-448451677aac/thumb100p.jpeg
-Fläskkarré/Fläskkotlett av rapsgris, benfri|Scan|300 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cb6b161a-22a8-4224-b2bb-42d2dd0e170d/thumb100p.jpeg
-Fläsklägg, rimmat|Moab|ca 1,5 kg|39,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/25fef1ab-d429-4ec6-48ae-08d47f3b722d/thumb100p.jpeg
-Formaggio Duro, lagrad|Garant|ca 500 g|69,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/db089fca-31f2-46fe-9156-72ea8b2cfa28/thumb100p.jpeg
-Fruktdryck, 3-p|Premier||20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/33834f4d-b976-4fd8-9684-08d73c9d753d/thumb100p.jpeg
+Fond|Bong Touch of Taste|1,8 dl|26,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c49ae91-ab16-4688-eaeb-08d47f3c1412/thumb100p.jpeg
 Fryspåse|Toppits|20-45-p|32,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9d4bad6b-efa4-417c-a93b-8a5954353cdc/thumb100p.jpeg
 Fryspåse|Fixa|30-40-p|28,00||||||2|
-Frölimpa Mörk-/Limpan, skivad|Garant|570-900 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/77353293-4932-4811-aa61-4c71cec5a54b/thumb100p.jpeg
 Färdigrätt|Findus|340-400 g|85,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/23748a51-3a09-4fe3-e6e5-08d47f3c1412/thumb100p.jpeg
-Färskost i ask|Arla|150 g|14,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0d9e0020-bb35-4d8b-e99b-08d47f3c1412/thumb100p.jpeg
-Färskpasta, fylld|Garant|250 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a54469ae-fb55-41a6-bcb3-b82e78d29384/thumb100p.jpeg
-Getost|Soignon|125-150 g|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/010bfbc9-9950-4f04-aa1e-f1ff8d3c080d/thumb100p.jpeg
+Färskost|Philadelphia|300 g|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/135d11bc-9541-41ff-e955-08d47f3c1412/thumb100p.jpeg
 Giffel|Pågen|280-300 g|23,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b8999fe2-6b47-4b0d-8b7a-08d7f1422282/thumb100p.jpeg
 Glass|Triumf Glass|5 dl|45,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7651bffa-7da1-4c5c-aef9-447ecce74d6e/thumb100p.jpeg
-Glass Klassikerlåda|GB Glace|18-p|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fe394fe4-89e6-4126-bebe-cb903153e476/thumb100p.jpeg
-Godispåse|Ahlgrens bilar|130-160 g|26,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/80b16a53-fb94-4ae5-f56a-08d47f3c1412/thumb100p.jpeg
+Glass|Kar Kar|4-p|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/568218b3-0f50-4702-b8ee-b70eadf22fb4/thumb100p.jpeg
+Glass, flerpack|GB Glace/Magnum/Twister|3-10-p|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bd647e45-4f85-4f5b-f823-08d47f3c1412/thumb100p.jpeg
 Godispåse|Haribo|120-170 g|35,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c59573e6-2aba-40e7-122c-08d5b4d004f3/thumb100p.jpeg
 Godispåse|Ahlgrens bilar|130-160 g|26,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/80b16a53-fb94-4ae5-f56a-08d47f3c1412/thumb100p.jpeg
-Godispåse Palle Kuling/Tutti Frutti|Fazer|90 g|30,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/574ba187-ae49-495d-b8ea-13b9c9de6747/thumb100p.jpeg
-Gravljus|Bolsius||50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5723673d-b649-44fe-14ab-08d71b9dc131/thumb100p.jpeg
-Gravlykta m. lock|Fixa|2-p|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/032e071b-eb14-4d28-763b-08d5950c82fb/thumb100p.jpeg
-Grevéost/Herrgårdsost/Prästost|Skånemejerier|670 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/996f00af-3867-46ae-8cb2-301cc97fa297/thumb100p.jpeg
-Grönsaker, inlagda|Björnekulla|460-710 g|9,90|frp|||||1|
-Gurka|||9,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8d653c46-604e-44e7-6fa9-08d4ac1a34ec/thumb100p.jpeg
+Godispåse Palle Kuling/Tutti Frutti|Fazer|90 g|30,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/05022e23-f327-4543-8d3a-f4f9e6c54f8c/thumb100p.jpeg
+Goudaost|Wernerssons Ost|ca 750 g|59,90|kg|||||1|
+Gravbukett|||79,90|st|||||1|
+Gravljus|Bolsius||50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7e30b36e-b7d1-45e9-39b4-08d65e27a147/thumb100p.jpeg
+Gravljus m. lock|Fixa|2-p|24,90|frp|||||1|
+Grevéost/Herrgårdsost/Prästost|Allerum|670 g|89,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9b9a1aa7-3c15-4873-85f3-0ca0509d190d/thumb100p.jpeg
+Grillkorv|Scan|400-640 g|34,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/47bd3adb-147c-4405-49f7-08d47f3b722d/thumb100p.jpeg
+Grädde Spray-|Chantibic|2,5 dl|25,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f5de42db-d78e-4bb9-38d2-08d9116b5717/thumb100p.jpeg
+Grädde Visp-, laktosfri|Valio Laktosfri|5 dl|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/da688d49-59e6-44d3-679d-08d47f480a49/thumb100p.jpeg
+Gräddost Familjefavoriter|Arla|400 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8f206cd5-0639-4c77-a181-119807387f32/thumb100p.jpeg
 Halstablett i ask|Läkerol|75 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e222dce0-7737-4bdd-472f-08d47f3b722d/thumb100p.jpeg
-Hamburgerbröd Brioche, 4-p|Garant|200 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/65f68120-8c2f-49c8-490d-08d8487d8491/thumb100p.jpeg
 Handdiskmedel|Grumme|500 ml|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4702c8bc-b066-4674-9a22-c11b2bc677a0/thumb100p.jpeg
 Handdiskmedel|Yes|1,25 l|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9453a318-0e59-4fb9-b811-af7982257e8d/thumb100p.jpeg
-Havregryn/Havregryn Fiber-, eko|Garant EKO|750-800 g|28,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c9d62b1b-4fbc-4a6c-a561-962dc2bdf6ef/thumb100p.jpeg
-Helgbukett|||119,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b063a331-29d6-4041-bdbc-1c35c31c26c3/thumb100p.jpeg
+Hasselnötscreme Nella-|Healthyco|350 g|36,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/20c433cd-6472-4c85-bd4d-d8c775fe00d2/thumb100p.jpeg
+Havregryn/Havregryn Fiber-, eko|Garant EKO|750-800 g|28,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/79c27ae3-9667-432d-a595-4be8d7dafb85/thumb100p.jpeg
+Helgskinka, kokt|Nybergs Deli|ca 2 kg|49,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/36cf4324-b171-4e15-48aa-08d47f3b722d/thumb100p.jpeg
 Hundgodis/Kattgodis|Smart Pets|25-150 g|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b28e6bae-2e3a-4367-806d-d3c5332271b9/thumb100p.jpeg
 Hundmat Paté, konserv|Smart Pets|150 g|40,00||||||10|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ec3a4cf7-bc3f-44e0-ac12-27fdc426f96b/thumb100p.jpeg
-Jalapeños, konserv|Banderos|225 g|15,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ac722420-60a9-4cc7-8c79-05cc88cfbe8e/thumb100p.jpeg
-Jarlsbergost|Tine|ca 830 g|99,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3f3d5273-db53-48b3-2800-08d665916b21/thumb100p.jpeg
-Juice/Nektar|God Morgon|1 l|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/161641dc-05bf-4c93-8f45-08d47f4192ef/thumb100p.jpeg
+Högrev av nöt|Dalsjöfors Kött/Scan|ca 1,1 kg|169,00|kg|||||1|
 Julmust, flaska, 12-p|Nygårda||43,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3b48c56e-2c46-47d9-b026-6aebb312b77a/thumb100p.jpeg
-Kaffe|Gevalia|450 g|89,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/813132e6-8cc8-47db-9fb5-d9dfc837e87f/thumb100p.jpeg
 Kaffe, hela bönor|Löfbergs|400 g|135,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/990c54dd-47f8-43fb-7b8a-08d49846e02b/thumb100p.jpeg
 Kaffekapsel|Lavazza|10-p|99,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/93e498d1-2f94-40a9-a5cb-bc1276602016/thumb100p.jpeg
 Kaffekapsel Dolce Gusto|Nescafé|30-p|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/69c20fa1-70b1-4f05-a7df-621722a932a0/thumb100p.jpeg
-Kikärtor, naturella|Garant|380 g|18,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5e5832d5-16b0-4c4d-d507-08d6782d7364/thumb100p.jpeg
-Kiwi, gul i ask|800 g||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e19f09e9-8b78-47b4-204a-08d4c51c93ea/thumb100p.jpeg
+Kalkon, mini|Ingelsta Kalkon|ca 4,1 kg|59,90|kg|||||1|
+Kalvhögrev|Prime|ca 1 kg|149,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5274f2ab-3c5c-4cae-8ceb-08d47f4192ef/thumb100p.jpeg
+Kebab, färdiglagad|Schysst käk|275 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8cd6f02f-54fc-4287-a6e1-e32350fe1534/thumb100p.jpeg
+Kebab, färdiglagad|Schysst käk|275 g|89,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8cd6f02f-54fc-4287-a6e1-e32350fe1534/thumb100p.jpeg
+Kebabbröd, large|Schysst käk|510 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/48f26494-bb6f-495a-8ca8-12b64c27f845/thumb100p.jpeg
 Knäckebröd Power-|Schär/Semper|225 g|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9cea4f2e-0885-4118-91ac-3c83fca0133f/thumb100p.jpeg
+Koljaryggfilé|Findus|360 g|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/65b8ae93-1858-4a36-b2fe-4e60409859c5/thumb100p.jpeg
 Kronljus, vita|Fixa|30-p|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ff5e10ae-a1e4-45c8-1e30-08d51a8d0cfe/thumb100p.jpeg
+Krydda i flowpack, färsk|Garant|15-50 g|9,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9577865b-bd15-4a90-b7aa-9d7926f42ba4/thumb100p.jpeg
 Kryddpaste Hot pepper|Wang|170 g|18,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f6006609-c01b-4c15-bb0f-a037289b9aa5/thumb100p.jpeg
-Kycklingben|Top Choice Poultry|ca 1 kg|39,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cff76b16-f31c-4491-931b-0c7c4cd4a9ae/thumb100p.jpeg
-Kycklingbröstfilé|Top Choice Poultry|ca 1 kg|89,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90101af9-46ba-4959-9c7f-977af5dce0ae/thumb100p.jpeg
-Kycklingbröstfilé|Garant|1 kg|69,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/804ee4fc-d98e-4664-4729-08d47f3b722d/thumb100p.jpeg
-Kycklingvinge|Garant|1 kg|100,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f4341d27-a50a-4f8c-59e9-08d5a1248497/thumb100p.jpeg
-Köttbullar Mammas-|Scan|700 g|47,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7d0c72c5-fe2f-4dbb-821e-d6d41f94e1b2/thumb100p.jpeg
-Lammstek m. ben|AFFCO|ca 2,25 kg|119,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/973e39c8-b974-4666-9b0e-b79b8f0df8ca/thumb100p.jpeg
+Kvarg Drick-/Yoghurt Drick-|Yalla!|3,5 dl|24,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c606b66b-b42a-473c-f095-08d47f3c1412/thumb100p.jpeg
+Kycklingbröstfilé|Garant|ca 850 g|109,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/01a6ba81-ba1b-40a8-47ee-08d47f3b722d/thumb100p.jpeg
+Kycklinglårfilé|Eldorado|700 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e4405a73-6549-4db4-8b42-a8ed3abdc068/thumb100p.jpeg
+Kycklingsnacks Chicken Shop|Findus|170-227 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/acd1f578-5114-4e8d-a13c-d5c0fac3ee15/thumb100p.jpeg
+Lammrostbiff utan kappa|Chosen by Farmers|ca 880 g|199,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/28e0987c-580f-478d-4991-08d47f3b722d/thumb100p.jpeg
+Lammstek m. ben|Chosen by Farmers|ca 1,6 kg|159,00|kg|||||1|
+Lammstek Provencale|Fåddman|ca 1,5 kg|169,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6e2ab2a8-e464-438f-2bb0-08d58d93b690/thumb100p.jpeg
+Lammstek, benfri|Chosen by Farmers|ca 1,5 kg|179,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f9404fc5-50c4-43e7-4986-08d47f3b722d/thumb100p.jpeg
 Lantbröd/Potatisbröd|Östras bröd|700 g|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d7630561-5a87-4639-92ad-82b0946f2cd2/thumb100p.jpeg
-Lax Sushi-|Falkenberg Seafood|180 g|74,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/efbb872b-583c-4666-afed-43914692ceea/thumb100p.jpeg
-Lax, gravad/kallrökt, skivad|Falkenberg Seafood|150 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3db20a57-dc23-4233-0e0a-08d8e8d1304c/thumb100p.jpeg
-Lax, pokétärningar|Falkenberg Seafood|150 g|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ae1ac868-bb7f-44a9-be10-33100a8ad028/thumb100p.jpeg
-Levain, skivat|Pågen|650 g|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5c0390d2-a018-4cd8-bf5a-f78d643f8fc5/thumb100p.jpeg
-Leverpastej, ugnsbakad|Garant|200 g|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/795e51cb-b9db-4b03-919e-8fc565ea5dbc/thumb100p.jpeg
-Luftfräschare|Air Wick|250 ml|47,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/17051183-91e9-450f-e5f9-08d47f3c1412/thumb100p.jpeg
+Lax Vild-, 4-p|Royal Foods|400 g|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/748df926-ddc8-4919-bb37-a6f3a3975ae7/thumb100p.jpeg
+Leverpastej, bredbar i ask, original/gurka|Garant|200 g|20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/64ed17d6-9afe-47aa-a73c-85120ab751ba/thumb100p.jpeg
 Luftfräschare, refill|Air Wick|20 ml|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3655ca0e-ab0d-4843-94ec-0577364f16e9/thumb100p.jpeg
 Luftfräschare, startkit|Air Wick||84,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/69b0da86-7355-4f82-2b71-08d82f085c64/thumb100p.jpeg
 Luftfräschare, startkit|Air Wick|20 ml|95,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a80dc044-15fa-4663-96e5-7bd0c4802da4/thumb100p.jpeg
-Läsk|Premier|33 cl|20,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/50e993c8-ba07-488c-a6cf-a5c85bb9e07e/thumb100p.jpeg
-Läsk, 4-p|Coca-Cola/Fanta||89,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f6e8bd00-7a19-4e4e-bdc7-d96ce7d0615f/thumb100p.jpeg
+Läsk|Coca-Cola/Fanta/Sprite|1,5 l|55,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/289b33cd-fe7d-4dce-be81-2c5c36dd1454/thumb100p.jpeg
 Läsk, burk, 6-p|San Pellegrino||52,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e2a89daf-dbee-42f6-bcfa-8202c8f24e9b/thumb100p.jpeg
 Lättdryck, koncentrat|Bob|2 dl|25,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/34056cb7-b435-43cc-ed59-08d4985afd7a/thumb100p.jpeg
-Majonnäs|Hellmann's|400 g|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/64fd1f07-f5a2-4776-801f-3ae128423fa1/thumb100p.jpeg
-Majskorn, 3-p, konserv|Garant|450 g|19,90|frp|||||1|
+Lök Röd-, picklad|Schysst käk|200 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/793792ae-b26f-42ba-86fe-9454464082f9/thumb100p.jpeg
+Majskycklingbröstfilé|GuldFågeln|1 kg|115,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1c5c97cc-3cf4-4512-1c6f-08d4985afd7b/thumb100p.jpeg
 Makaroner Snabb-|Kungsörnen|750 g|12,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/95b50e5a-9beb-4d09-8bef-08d47f4192ef/thumb100p.jpeg
-Mango, torkad|Sunshine Delights|100 g|48,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/82814ae4-b926-4c1a-9e74-5750ec7546e4/thumb100p.jpeg
 Mango, torkad|Sunshine Delights|100 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/82814ae4-b926-4c1a-9e74-5750ec7546e4/thumb100p.jpeg
-Margarin Bak & Mat-|Milda|1 kg|29,80|frp|||||1|https://d3hlz95t29ptj0.cloudfront.net/1f4f163e-10f5-47b2-8de7-0b167ce49173/thumb100p.jpeg
-Margarin Bords-|Bregott|350-500 g|34,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/038214e3-1613-4549-9c3a-620c81eaa6fc/thumb100p.jpeg
-Margarin Bords-, eko/laktosfri|Bregott|500 g|47,80|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4f263e3f-25d8-4100-84c6-cf6b2325de87/thumb100p.jpeg
-Margarin Culinesse, flytande|Milda|7,5 dl|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1f4f163e-10f5-47b2-8de7-0b167ce49173/thumb100p.jpeg
+Mannafrutti/Risifrutti|Risifrutti|165-175 g|99,00||||||12|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef6789f0-0e01-4648-a78d-b8b2923ecbbc/thumb100p.jpeg
+Mannafrutti/Risifrutti|Risifrutti|165-175 g|30,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef6789f0-0e01-4648-a78d-b8b2923ecbbc/thumb100p.jpeg
 Marmelad|St Dalfour|284 g|26,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ff737076-4cef-4502-e048-08d47f3c1412/thumb100p.jpeg
+Maskindisk Power/Ultimate|Finish|44-58-p|79,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c948ff7-bb8f-404e-8d9a-37ec6302849d/thumb100p.jpeg
+Maskindiskrengöring|Finish|250-400 ml, 1-p|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/941e200a-6971-472a-e823-08d47f3c1412/thumb100p.jpeg
 Mathavre/Matvete, eko|Frebaco|400-500 g|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3d7a7e9d-6184-4d53-f409-08d47f3c1412/thumb100p.jpeg
 Mayo/Tacosås|El Taco Truck|2 dl|48,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5e029f8b-1ac5-404c-b886-a298ca1f0008/thumb100p.jpeg
-Morot i påse, eko|Garant EKO|1 kg|14,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1ac588f8-1ba5-437e-ae2b-fd0607ad4c72/thumb100p.jpeg
-Müsli|Garant|600 g|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/15d19715-3a19-4d41-ab55-3e7f56ee4c59/thumb100p.jpeg
+Micellärvatten|Nivea|400 ml|49,90|frp|||||1|
+Munskölj Soft Mint|Flux|500 ml|49,80|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4a9b6614-5770-406b-8bb1-47733aa996a8/thumb100p.jpeg
 Nudlar|Knorr|63-65 g|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ebd691ea-d53c-4621-bfb5-7e190f94df80/thumb100p.jpeg
 Nötmix|Den lille Nøtte fabrikken|160-190 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/891640b8-158b-4b51-97bd-7d5c3e2ad89a/thumb100p.jpeg
 Nötmix|Estrella|175-200 g|48,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/42d555c8-26bc-49f9-50ae-08d540f05ad6/thumb100p.jpeg
-Oliver, gröna m. paprika|Figaro|340 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cb56c358-1d9c-4707-e81b-08d47f3c1412/thumb100p.jpeg
-Olivolja, smaksatt|Garant|250 ml|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c148a5fa-6360-492c-9cf6-9f590c22ac86/thumb100p.jpeg
 Oljeljus|Fixa|2-p|14,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/190aead9-073d-46aa-a233-157fe7ccc41c/thumb100p.jpeg
-Ost, riven|Arla|150 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d81a2cc8-0380-4737-babe-f999f70468d2/thumb100p.jpeg
-Papper Hushålls-|Serla|3-p|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/32894046-b30f-46ad-a234-5c9efbc21c39/thumb100p.jpeg
+Oxfilé|Naturkött|ca 1,6 kg|269,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/55145463-bb0f-4d28-21a7-08d4a6f7b981/thumb100p.jpeg
 Papper Hushålls- Big|Lambi|1-p|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8e568e9d-ba52-407e-a904-795551974142/thumb100p.jpeg
-Papper Toalett-|Serla|18-p|105,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d202659a-381d-4e1f-906b-08d5841bf50b/thumb100p.jpeg
+Pasta, korta former|Barilla|500 g|15,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/632996ab-004b-41fd-53ce-08d569d56bbf/thumb100p.jpeg
+Pastasås|Barilla|400 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c6cff01d-66ea-4dcd-ef1b-08d47f3c1412/thumb100p.jpeg
 Pastasås|Dolmio|390-450 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3f87dbf9-75a5-4823-b336-601e5619a98e/thumb100p.jpeg
-Pizza|Dr. Oetker Ristorante|320-360 g|99,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/27055bae-1dd7-4158-92de-1836ce0d8725/thumb100p.jpeg
+Pirog, 10-p|Gorbys|1,4 kg|160,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1bd0592b-79cf-4ae5-b067-76e2a62c52f5/thumb100p.jpeg
+Pizza|Grandiosa|350 g|89,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/20f0b56e-1e85-40dc-a145-057a088c9df3/thumb100p.jpeg
+Plommon|||29,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/13a96a0d-f31b-47e7-1324-08d71b9dc131/thumb100p.jpeg
 Proteinbar/Återhämtningsdryck|Gainomax|60 g, 2,5 dl|32,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/725133f9-3c9b-4a2a-8b9e-940e15f2ed4f/thumb100p.jpeg
-Pulversoppa|Podravka|58-62 g|20,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b0035d33-e3ac-43f7-e1bf-08d47f3c1412/thumb100p.jpeg
+Proteinshake, choklad|Arla|1 l|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/62a64e1a-a51d-4a31-ad39-48c76376fc75/thumb100p.jpeg
 Pulversås|Blå Band|3-p|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3b9be99b-72ed-4451-eff3-08d47f3c1412/thumb100p.jpeg
+Pumpa Butternut-|||14,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6dcbb688-5c84-4f3f-6fe5-08d4ac1a34ec/thumb100p.jpeg
 Pumpakärnor, eko|Garant EKO|300 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ba55fabb-c230-49f2-872a-5b8b64a986f1/thumb100p.jpeg
-Pyttipanna Ox-, original|Findus|750 g|119,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/39a312d4-7c0c-4f1b-858b-08d85b58f678/thumb100p.jpeg
-Pyttipanna Ox-, original|Findus|750 g|42,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/39a312d4-7c0c-4f1b-858b-08d85b58f678/thumb100p.jpeg
-Pålägg, skivat, plånboksp.|Lönneberga|90-105 g|65,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/abbefdf0-07d6-403a-ae50-374b1ff20070/thumb100p.jpeg
-Pålägg, skivat, plånboksp.|Lönneberga|90-105 g|23,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/abbefdf0-07d6-403a-ae50-374b1ff20070/thumb100p.jpeg
-Rengöringsmedel|Ajax|0,75-1 l|25,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/eb8b119b-e54f-4b98-a059-c747c3604024/thumb100p.jpeg
-Ribs av fläskkött|Garant|445-495 g|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/78bc60ff-03e3-4f9b-b8e0-c0003f6af5f3/thumb100p.jpeg
-Ribs av fläskkött|Garant|445-495 g|100,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/78bc60ff-03e3-4f9b-b8e0-c0003f6af5f3/thumb100p.jpeg
-Ris Basmati-|Garant|1 kg|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3c4bf45a-3eef-426c-aae7-963979a5fb59/thumb100p.jpeg
-Ris Jasmin-|Garant|1 kg|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/284589fc-06e5-467b-baa0-1e378d5429f5/thumb100p.jpeg
-Rostbiff av nöt|Dalsjöfors Kött/Scan|ca 800 g|189,00|kg|||||1|
-Räkor m. skal 100/140|Royal Greenland|400 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1c751018-fe86-4244-8935-2b6aa35acda0/thumb100p.jpeg
-Salami Milano-/Ventricina-, skivad|Garant|80 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f8193b45-fcdd-4e8b-e3eb-08d47f3c1412/thumb100p.jpeg
+Purjolök|||14,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ec86f441-0abb-4631-c40b-08d4c3af03c6/thumb100p.jpeg
+Pyttipanna Krögar-|Felix|820 g|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9320f6a9-8ad7-472f-e621-08d47f3c1412/thumb100p.jpeg
+Pyttipanna Krögar-|Felix|820 g|120,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9320f6a9-8ad7-472f-e621-08d47f3c1412/thumb100p.jpeg
+Pålägg, skivat, plånboksp.|Garant|80-120 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d11e6845-c57d-4459-90fa-6b8fc0357e87/thumb100p.jpeg
+Pølse Hot Dog|Gøl|375 g|37,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90bdd582-a19a-44e3-df8e-08d47f3c1412/thumb100p.jpeg
+Rengöringsmedel|Ajax|0,75-1 l|25,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4d16fcfd-8658-42fc-96b5-578a8908a61d/thumb100p.jpeg
+Ris Basmati-, eko|Garant EKO|1 kg|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b5c9c784-9f5c-4514-b93b-0932239364c0/thumb100p.jpeg
+Ris Jasmin-, eko|Garant EKO|1 kg|34,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fb53f695-e9c7-45ca-7691-08d5e2d04776/thumb100p.jpeg
+Ros i kruka|||39,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/450ca074-5d7b-4197-da19-08d4a1776a57/thumb100p.jpeg
+Rågkaka/Vetekaka, 24-30-p|Garant|900 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1250fe52-7e5c-468f-ad4d-d6b112f6c2e0/thumb100p.jpeg
+Rödkål/Vitkål|||9,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1b02e56b-0f99-4efc-73a5-08d4ac1a34ec/thumb100p.jpeg
+Saft Bland-, sockerfri|Fun Light|0,8-1 l|49,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/567b15f2-4578-4d7f-86b4-5423edb89cd1/thumb100p.jpeg
+Satsumas|||19,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5167396e-0cbd-4dcc-10ac-08d4985afd7b/thumb100p.jpeg
+Schampo|Head & shoulders|200 ml|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1177f39d-482c-485b-8301-c7272742ef28/thumb100p.jpeg
 Senap|Felix|360-380 g|17,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6a69d191-eb8a-46d1-b791-ae85ba2507b3/thumb100p.jpeg
-Skinka Prosciutto Crudo, skivad|Garant|80 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e07f8b3a-a2b9-4187-e3e6-08d47f3c1412/thumb100p.jpeg
+Skogaholmslimpa, skivad|Skogaholm|775 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0ecced40-7cb8-486b-4a42-08d47f3b722d/thumb100p.jpeg
 Sköljmedel|Softlan|1 l|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a975e6b4-b685-4fc5-8671-f260ab6e17e7/thumb100p.jpeg
-Smash!|OLW|250 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fae0d84e-8d8d-4a3f-acdf-7b75a6fd4e3e/thumb100p.jpeg
-Smör, normalsaltat|Norrmejerier|500 g|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9ace35c5-d472-4c75-bac5-08d562721acf/thumb100p.jpeg
 Snabbkaffe Cappuccino|Nescafé|225 g|70,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5ba6cb97-2ca3-412a-a0fb-50af8669fa7d/thumb100p.jpeg
 Snabbkaffe Gold/Gold Crema|Nescafé|150 g|150,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3d04fe85-2bdd-4469-536e-08d569d56bbf/thumb100p.jpeg
 Snabbkaffe Ice Coffee Frappé|Nescafé|8-p|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90476e4d-0ae0-40c6-9983-e1f1a6a42b9d/thumb100p.jpeg
 Soja Ketjap Manis|A trade mark|250 ml|26,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2cc21d06-4807-4a05-8dbb-bf0677e4aa35/thumb100p.jpeg
 Soja, mörk|Eldorado|500 ml|16,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/445b3c01-edb8-4c76-f2a0-08d47f3c1412/thumb100p.jpeg
-Spaghetti|Zeta|400 g|18,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7a463531-11cd-4231-8eb7-ef0c85eeb2fa/thumb100p.jpeg
-Spaghetti, klippt|Kungsörnen|350 g|9,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/251061b9-62b4-4ce1-a45b-805d4bd0e6f1/thumb100p.jpeg
-Surimi, räkformad|Royal Foods|275 g|28,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bc062cd7-db33-42ea-90ba-34b6cd9128a5/thumb100p.jpeg
-Sås|Lohmanders|2,5 dl|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/755fddc8-e7c6-4ec7-a7a7-ce29157257d4/thumb100p.jpeg
-Tacokrydda, 3-p|Garant|90 g|16,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/06b3f833-a9b8-446f-bb5f-b486337674f6/thumb100p.jpeg
-Tacosås|Garant|230 g|45,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/332bafc7-5a93-48e1-9450-f6154efbb17a/thumb100p.jpeg
-Tacosås|Garant|230 g|20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/332bafc7-5a93-48e1-9450-f6154efbb17a/thumb100p.jpeg
-Tepåse|Friggs|20-25-p|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d569c372-26cc-47d7-ee66-08d47f3c1412/thumb100p.jpeg
+Spareribs av fläskkött, förkokt|Tulip|500 g|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/30d23f2c-1731-407a-b997-2e1637c21415/thumb100p.jpeg
+Spareribs av fläskkött, förkokt|Tulip|500 g|100,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/30d23f2c-1731-407a-b997-2e1637c21415/thumb100p.jpeg
+Stillahavskummel, sprödbakad|Garant|360 g|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1fa1aa0e-2400-43cb-bacc-0e6fad8c9867/thumb100p.jpeg
+Sås|Garant|2-2,2 dl|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/88048199-18bf-4b54-eae5-08d47f3c1412/thumb100p.jpeg
+Sås Kebab-|Eldorado|3,2 dl|16,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/276bf5e6-29dc-4091-7995-08d530cb3f91/thumb100p.jpeg
+Sås Kebab-|Schysst käk|2,5 dl|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/eea033d8-cbeb-47ea-88aa-c0b58bd89ea2/thumb100p.jpeg
+Sötpotatis|||14,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f21f5811-156b-4f4f-6feb-08d4ac1a34ec/thumb100p.jpeg
+Tacokrydda|Banderos|40 g|12,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3c3965e6-f78a-4327-8268-7633a7a07537/thumb100p.jpeg
+Tandkräm|Colgate|125 ml|18,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0c36ecdf-e74e-4764-b74a-d875cef6025f/thumb100p.jpeg
 Textilspray|Softlan|300 ml|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5e29577d-4d92-4b38-b0fe-d752885f63e5/thumb100p.jpeg
 Toalettrengöring|Duck|750 ml|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/17ee747f-4757-4711-e522-08d47f3c1412/thumb100p.jpeg
-Tomat Babyplommon- i ask|Garant|500 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c3d2cae4-1503-4a84-73e0-08d4ac1a34ec/thumb100p.jpeg
 Tortilla Soft-, 8-p|Santa Maria|320 g|26,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e36491d2-8f0b-4d62-13e1-08d71b9dc131/thumb100p.jpeg
 Tortilla Stand 'N Stuff, 8-p|Old el Paso|193 g|17,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/52db8f20-272a-4946-f12d-08d47f3c1412/thumb100p.jpeg
-Tortilla, mini, 8-p|Banderos|200 g|23,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cf8f25f2-ec83-4c8c-fe89-08d57a5e2903/thumb100p.jpeg
 Tvättlappar|Eldorado|250-p|28,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d2d93f6d-cb1d-448b-8703-6ee3ba33da43/thumb100p.jpeg
 Tvättmedel, pulver|Fixa|750 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/33d6f243-219d-4138-9040-25c6de9c0306/thumb100p.jpeg
 Tvättmedel, pulver|Såklart|750 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2e02552c-ecc1-4841-aa34-ed174a653c61/thumb100p.jpeg
 Vitamindryck|Vitamin Well|1,15 l|46,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f61634e0-fc32-4f4b-88ab-1ce56b6e7ae2/thumb100p.jpeg
-Vitlöksbröd|Bread of the world|205 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fb3f1ab7-0d61-4cd6-89df-46322647e474/thumb100p.jpeg
-Vitost|Apetina|150 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8d7508a9-fdf9-4863-ebb0-08d47f3c1412/thumb100p.jpeg
-Våtservetter|Libero|64-p|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/baf28ce6-673a-421e-6c04-08d7d6e4ee21/thumb100p.jpeg
-Värmeljus|Fixa|50-p|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dfc746c1-e329-4975-89cc-dba6bbf7f756/thumb100p.jpeg
-Yoghurt, smaksatt|Garant|1 kg|17,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c4f26569-c939-4f83-929e-b00fb590421d/thumb100p.jpeg
-Yoghurt, smaksatt, laktosfri|Valio Laktosfri|1 kg|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ca424b14-a849-4b1e-f0c8-08d47f3c1412/thumb100p.jpeg
-Äpple Jonagold|||9,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/848e5794-0715-4c0a-9267-9ca69e1740d6/thumb100p.jpeg
+Yoghurt Mild-|Arla|1,5 kg|25,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1ce5fa5e-3eba-483e-b064-cfbb0afd3dce/thumb100p.jpeg
 # BUTIK: Lidl Trollhättan
-Ananas utan krona|||16,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d84f27be-7f36-439d-9ab2-5477254c6605/thumb100p.jpeg
-Balsam/Hårinpackning/Schampo|Aussie|200-300 ml|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ad05438e-a5c2-459f-814c-b2240a1f69ed/thumb100p.jpeg
-Bar Müsli-|Corny|40-50 g|24,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c01ba60d-18c8-4a61-526b-08d569d56bbf/thumb100p.jpeg
-Blöja Comfort/Up & Go|Libero|24-43-p|79,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d5f107fa-fab7-47fd-a278-e347c844045c/thumb100p.jpeg
-Brezelbröd|Taste of Deutschland|818 g|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/3da55dbd-741f-4023-928c-b0f62c131c9a/thumb100p.jpeg
-Brioche Croissant- m. choklad|DeLuxe|100 g|20,00||||||2|
-Brioche Croissant- m. pistagefyllning|DeLuxe|98 g|20,00||||||2|
-Broccoli|500 g||14,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/12aadd7c-350a-45b5-ae7a-1ad7b4794ac6/thumb100p.jpeg
-Bröd Rustikt-|DeLuxe|500 g|22,00|frp|||||1|
-Cheddarost|DeLuxe|250 g|44,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/98ccd3b6-e295-4a0a-b853-2c138e7b0ee8/thumb100p.jpeg
-Chicken Nuggets|Halloween|400 g|44,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/8b99e389-0568-47fa-bb50-b5b5a7003a79/thumb100p.jpeg
-Chips/Snacks|Estrella|200-275 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dd05c135-35b1-4a31-9a37-fcc22e1891f9/thumb100p.jpeg
-Chokladask Mozartkulor|Alpenfest|200 g|32,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/3892c667-983d-4f59-bf2b-65a6624fc7e2/thumb100p.jpeg
-Chokladkakor, mix|Halloween|500 g|49,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/944ba957-07b5-43df-8f66-6c7cb304c551/thumb100p.jpeg
-Chokladklubbor, 10-p|Halloween|150 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ab494d82-8b7d-40cc-934d-8caf707e9c33/thumb100p.jpeg
-Chokladkulor|Halloween|200 g|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/e91cd375-2984-4c45-8eb8-4a353bb58b37/thumb100p.jpeg
-Chokladpåse Polly|Cloetta|150-200 g|42,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1df70603-6ffb-4370-f600-08d47f3c1412/thumb100p.jpeg
-Cider, alkoholfri, flaska|Somersby|33 cl|18,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0caa8de5-9656-4d00-9075-c575e071a53c/thumb100p.jpeg
-Clementin|1 kg||22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fc86b185-dd50-4dcd-a9a1-8c73828e5bff/thumb100p.jpeg
-Creme Brûlée, 2-p|DeLuxe||29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/086691d9-54d4-4dad-bd76-dbe31a731e9c/thumb100p.jpeg
-Cruspies Halloween|200 g||19,90|frp|||||1|
-Dagmartårta|Butiksbakat|366 g|30,00|frp|||||1|
-Energidryck, burk|Red Bull|25 cl|30,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6574c5de-bf45-49be-b84b-903766bb2641/thumb100p.jpeg
-Engångstallrik Halloween|12-16-p||14,90|frp|||||1|
-Entrecôte av angus Rib eye|DeLuxe|250 g|119,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/f6f3dba3-4999-42c9-aec2-4e11c8ac2ceb/thumb100p.jpeg
-Fiberrost/Originalrost, skivad|Skogaholm|1 kg|21,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/196eb7c3-d2ec-43fc-abe7-024aea01af42/thumb100p.jpeg
-Flingor|Cheerios/Nesquik|375 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b1141f3e-baad-44da-9f47-c6adbb8479e3/thumb100p.jpeg
-Fläskgrytbitar|Butcher's|500 g|32,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/dd501477-066f-4307-bbff-703bca6b2b92/thumb100p.jpeg
-Fralla Frö-|DeLuxe|85 g|20,00||||||5|
-Fredskalla|||79,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/6e0755fb-da7c-4712-8850-3053c78fe15c/thumb100p.jpeg
-Frukt- & Nötmix|Alesto|200 g|50,00||||||2|https://mpk-campaign-images-dev.s3.eu-north-1.amazonaws.com/a80de48a-cf42-4a76-bc71-53fe0abcbd3b/thumb100p.jpeg
-Fruktkolor/Godis, låda|Halloween|1-1,2 kg|59,90|frp|||||1|
-Färdigrätt|Taste of Deutschland|600 g|44,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/25394f85-7e7e-4422-b402-418d6fab9c80/thumb100p.jpeg
-Färskpasta, fylld|DeLuxe|250 g|21,90|frp|||||1|
-Färskpasta/Pastakuddar, fyllda|Taste of Deutschland|360-500 g|22,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/36338301-7ddf-4a7e-8dde-f8431ee637f1/thumb100p.jpeg
-Glassdessert, mini|DeLuxe|1,4 dl|14,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/1e2c141b-810e-42f0-9198-36dcc980fea5/thumb100p.jpeg
-Glasstrut, svart|Halloween|4-p|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/de99b522-3dac-4d5c-8301-5074552c709e/thumb100p.jpeg
-Godis Scary Box|Fini|92 g|24,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/67b717f3-21c8-48ad-a029-8a7aadd89b96/thumb100p.jpeg
-Godisask Candy Clown|Candy Collection|150 g|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/72e1705c-e2e2-4e48-b266-3cc5fff42ba3/thumb100p.jpeg
-Godispumpa m. handtag|Halloween|200 g|49,90|frp|||||1|
-Godispåse Favoritmix Halloween|140 g||19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/a2774a59-8461-4651-83f1-22a0c1cb02ef/thumb100p.jpeg
-Godispåse Godisögon Glotzer|Trolli|75 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/d9ef5891-6330-41ea-bda1-dc7496524f19/thumb100p.jpeg
-Godispåse Gottes|Candy Collection|140 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3c36fcca-02be-4458-a65b-1634e2e7eeb8/thumb100p.jpeg
-Godispåse Halloweenmix|Haribo|500 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2a59337d-82a1-42c7-bf42-e8f7068dc18e/thumb100p.jpeg
-Gravbukett|||129,00|frp|||||1|
-Gravdekoration|||149,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b984701d-436f-4f9f-bc34-1ae39580a199/thumb100p.jpeg
-Gravdekoration, stor|||119,00|st|||||1|
-Gravljus|4-p||34,90|frp|||||1|
-Gravljus LED m. lock|||19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/83105e83-02e3-46dc-3b24-08d7f252a9c1/thumb100p.jpeg
-Gravljus m. lock|||9,90|frp|||||1|
-Gravljus, hjärta|||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fbdd7c75-75ef-4fb0-a0a1-57a41af94ce4/thumb100p.jpeg
-Gurka|||8,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8d653c46-604e-44e7-6fa9-08d4ac1a34ec/thumb100p.jpeg
-Halloweengodis i dödskalle|333 g||54,90|frp|||||1|
-Halloweengodisburk Spindlar|Trolli|800 g|59,90|frp|||||1|
-Halloweengodismix|Trolli|360 g|49,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/7761304f-1afe-4609-b659-54e5333964bb/thumb100p.jpeg
-Hasselnötter, rostade|Alesto|200 g|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/f4c62613-edc5-4520-884b-50acda6514c2/thumb100p.jpeg
-Helgskinka m. svål|Nybergs Deli|ca 2 kg|49,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/6c5c5010-f615-4487-b154-8e049bbb46a4/thumb100p.jpeg
-Hundmat Paté, konserv|Max & Mila's World|150 g|25,00||||||3|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/dc1efe07-437e-430d-81e9-625fd763de9c/thumb100p.jpeg
-Hundmat, paté|Max & Mila's World|800 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/f610a6a6-d9cf-4370-9663-020272a7b2a2/thumb100p.jpeg
-Hundmat, paté, 12-p|Max & Mila's World||69,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/7bf40b39-dd1a-4528-ad2d-602937f360e1/thumb100p.jpeg
-Hundmat, torrfoder|Max & Mila's World|2 kg|39,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/826e9b7f-05e8-44cb-aadd-31322a5cdb28/thumb100p.jpeg
-Hundsnacks|Max & Mila's World|200 g|22,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/840f5b92-d458-4fe9-826f-dbe7bed65300/thumb100p.jpeg
-Hushållsost|Matriket|ca 2 kg|69,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/b83263f4-4d18-4edb-a35c-d5f68a04e882/thumb100p.jpeg
-Juice|Tropicana|90 cl|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b383e275-2032-4ac2-9241-3f3f6630d89d/thumb100p.jpeg
-Kaffe|Arvid Nordquist|500 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7970f543-9e98-4fa5-ebf7-08d47f3c1412/thumb100p.jpeg
-Kakifrukt|||36,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/deb0301f-01a7-4a81-8c99-e43cbba89e72/thumb100p.jpeg
-Kakor m. mjölkchoklad|Halloween|150 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/9fbd6150-7b1f-4c16-8b79-5e5217c08b1a/thumb100p.jpeg
-Kalkon, mörad|Ingelsta Kalkon|ca 4 kg|69,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/e1a11ec4-e9b2-4b12-8a1e-7c0c0dd0a819/thumb100p.jpeg
-Kalkon, tunna skivor|Dulano|200 g|24,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ffbc52f1-2b2c-4299-ade1-5d74e7c59700/thumb100p.jpeg
-Kastanj|||74,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/1fc1b60d-3273-4ba5-a3df-afcc11acc9f0/thumb100p.jpeg
-Klubba Marschmallow-, halloween|Fizzy|40 g|9,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/c8f74cc0-c5b3-485f-8ec6-c55c23258d28/thumb100p.jpeg
-Knut Kanel-/Kardemumma-|DeLuxe|90 g|20,00||||||2|
-Korv Jakt-|Taste of Deutschland|1 kg|74,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/88114b10-6bfa-4a01-b340-89aa61224c47/thumb100p.jpeg
-Krysantemum|||34,90|frp|||||1|
-Kycklingbröstfilé XXL|Matriket|1 kg|99,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/c8367337-6659-452d-ac0c-c83fcb5b8e43/thumb100p.jpeg
-Kycklingfilé Minut-, strimlad|Kronfågel|550 g|69,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ae879138-f1be-442c-ac43-7d2eb9dd649b/thumb100p.jpeg
-Köttbullar Delikatess-, små, original/vegetariska|Felix|340-420 g|32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/adc58920-cb12-43e0-c818-08d85fbb1daa/thumb100p.jpeg
-Lammfiol|Proud Farmer|ca 2,3 kg|159,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/63d30185-0192-43ec-a4b7-d373206c9844/thumb100p.jpeg
-Lax, kallrökt, skivad|Nautica|300 g|69,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0c46de86-4062-4284-a64d-ae99f1c0f70e/thumb100p.jpeg
-Ljung|10-p||149,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/3ed43306-64a9-4944-8695-c41defdd313d/thumb100p.jpeg
-Ljung|||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/079675e9-0722-4dbf-b058-cd69694665e2/thumb100p.jpeg
-Majskyckling|GuldFågeln|ca 1,3 kg|64,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8cf98974-2adb-4721-a252-c15ee2b32ffd/thumb100p.jpeg
-Majssnacks/Potatissnacks|Halloween|100 g|17,90|frp|||||1|
-Mango|||11,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fda4f920-372e-4f99-81cd-da4ae7ad3f2d/thumb100p.jpeg
-Marschall|2-p||19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0fbab9d3-998d-4dd1-b48f-08d8030ab660/thumb100p.jpeg
-Melon Galia-|||24,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/76aafdf1-8283-4225-ac94-905ca272d9b4/thumb100p.jpeg
-Mördegskaka Dansk, plåtburk|750 g||69,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/224063d2-c0b0-44cf-8850-644d995bac07/thumb100p.jpeg
-Oxbringa av nöt|ca 1 kg||139,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/30c61f5d-5d58-4765-9e74-252531acf155/thumb100p.jpeg
-Paj|Felix|210-220 g|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/845050da-f8c8-4df2-e8da-08d47f3c1412/thumb100p.jpeg
-Papper Toalett XXL-|Floralys|20-p|129,00|frp|||||1|
-Paprikamix i påse|1 kg||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fd28b8e1-9d35-4e21-8ddd-dffb4caadd07/thumb100p.jpeg
-Salami|Gustoland|450-500 g|34,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ede70818-9815-452f-ba45-261e3564053b/thumb100p.jpeg
-Skinka m. skärbräda & kniv, lufttorkad|DeLuxe|1 kg|299,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/08451d2a-b93d-42fb-a018-9aed3fe86ad3/thumb100p.jpeg
-Skinka Schwarzwald-|Taste of Deutschland|ca 1 kg|139,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/d1a1090f-f3f1-43cb-90c7-44139752ad16/thumb100p.jpeg
-Skinksallad|Taste of Deutschland|200 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/52bf894a-5fd6-40b7-9d9f-758c5aec5c60/thumb100p.jpeg
-Skumbollar|Halloween|225 g|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/bd6f14dd-554f-4783-8a31-56831c8b7248/thumb100p.jpeg
-Sköljmedel|Softlan|1,7 l|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d8307096-02c0-4ca2-8526-e0e531419fc0/thumb100p.jpeg
-Striploin av angus|DeLuxe|250 g|109,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/2b307864-1870-48d9-97b3-2e4c3ed16a23/thumb100p.jpeg
-Surdegsbröd|DeLuxe|550 g|22,00|frp|||||1|
-Tunnbröd, original/grov|Liba Bröd|340 g|15,00||||||2|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/eee8e470-21b5-44a2-ba20-1007d489ff13/thumb100p.jpeg
-Tvättmedel Wonder Wash, flytande|Via|840 ml|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/918b248d-a0ca-4505-8a5a-c32a46b9d2c6/thumb100p.jpeg
-Varmkorv, 18-p|Matriket|900 g|41,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/e16c8e19-f392-4731-b9d7-d0b303bf6ef1/thumb100p.jpeg
-Vindruvor, röda i ask|500 g||19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ab7661c0-0161-48f8-aae2-c34b6331c6c7/thumb100p.jpeg
-Yoghurt Grekisk-|Arla|1 kg|27,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/612507f0-1065-4be3-1d25-08d4985afd7b/thumb100p.jpeg
-Ägg|Kronägg/Stjärnägg|15-p|29,90|frp|||||1|
+Amaryllis, 2-stänglad i kruka|||59,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/febde4b4-3c43-43e8-a61b-44645e2905fa/thumb100p.jpeg
+Apelsin|2 kg||34,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/68285794-6c6e-4f0a-b298-c903a8f2ef33/thumb100p.jpeg
+Avokado i nät|700 g||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/91d3a6c0-df9d-4f01-8444-a2472679e707/thumb100p.jpeg
+Bakelse, mango/pistage|DeLuxe|150 g|54,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/8dd8df01-ac71-42b3-a412-a10a2e932b2f/thumb100p.jpeg
+Baklava|Eridanous|390 g|52,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ebd07e09-b51c-4033-be36-a61baac41dd6/thumb100p.jpeg
+Bifteki|Eridanous|750 g|89,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/7f89f3f8-2ee8-4a60-bf22-f679766a0d82/thumb100p.jpeg
+Blandfärs|Matriket|800 g|74,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/843e9d88-eab5-4bc8-a96c-948d9431c9f5/thumb100p.jpeg
+Blockljus|Livarno Home|2-6-p|50,00|frp|||||1|
+Blomma Höstmix|6-p||139,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/093c019d-ea8d-4266-b6f5-2c1e1f3b11f8/thumb100p.jpeg
+Bondbröd|Butiksbakat|600 g|18,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2dfe8f68-1f59-487c-545a-08d4985afd7b/thumb100p.jpeg
+Bougatsa|Eridanous|450 g|27,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ddb8fbf2-f5e2-43fc-8a36-e846d2e93c81/thumb100p.jpeg
+Brödrost|Silvercrest||199,00|frp|||||1|
+Camembertost|DeLuxe|250 g|35,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/a3142fd7-e949-49ae-90e7-0d7efd95fe21/thumb100p.jpeg
+Cheesecake|Confiserie Firenze|450 g|69,90|frp|||||1|
+Chips|DeLuxe|150 g|22,00||||||2|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/289b4c07-e2c5-42fc-b2c3-14a970b3cb11/thumb100p.jpeg
+Chips Potatis-|Eridanous|200 g|16,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/e3febf6e-09df-41e3-9e99-533eccd1b376/thumb100p.jpeg
+Chutney Fikon-/Lök-|DeLuxe|150 g|14,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/655f335b-d55a-48b5-94cd-04371869789a/thumb100p.jpeg
+Citron|500 g||11,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/4d7c2743-32ef-4f6f-b646-01b677454199/thumb100p.jpeg
+Doftljus i glas|Livarno Home||15,00|frp|||||1|
+Dryck|Proviva|1 l|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1778b9d4-25a0-4c0c-813a-df474702636f/thumb100p.jpeg
+Espressokokare|Silvercrest||129,00|frp|||||1|
+Falukorv XXL|Matriket|900 g|32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4670e902-566d-4d1a-f6f8-08d6cd6642d0/thumb100p.jpeg
+Fetaost, fatlagrad|Eridanous|800 g|119,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/50bd785f-7e72-4a09-a07c-1d1267f293c3/thumb100p.jpeg
+Fläskbog, torkad|DeLuxe|ca 3,75 kg|699,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/dc9e8c2e-9dde-4b87-ada8-e7f9bec4e5ed/thumb100p.jpeg
+Franskbröd|Butiksbakat|300 g|9,00|frp|||||1|
+Färdigrätt Pasta|Findus|1-1,1 kg|55,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d5b0a76a-5cdd-4471-10e7-08d8c7d00274/thumb100p.jpeg
+Glass Pralin|Gelatelli|10-p|17,90|frp|||||1|
+Gorgonzola- & Mascarponeost|DeLuxe|200 g|39,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/3c3c51af-6968-4ea0-a53f-2749152b6aa5/thumb100p.jpeg
+Gravdekoration|||129,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b984701d-436f-4f9f-bc34-1ae39580a199/thumb100p.jpeg
+Grevéost/Herrgårdsost/Prästost|Skånemejerier|ca 700 g|69,90|kg|||||1|
+Gyros av fläskkött|Eridanous|500 g|49,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/9a420860-d0b1-4b52-9ad1-f99448875d56/thumb100p.jpeg
+Halloweenpumpa|Matriket||9,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/3c21aad6-490f-4470-af82-31ae9cf5bbf5/thumb100p.jpeg
+Halva|Eridanous|160-250 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/85f78f47-0547-416e-99d4-8c809d089a0c/thumb100p.jpeg
+Havrefras|Havrefras|600 g|39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2a54af03-f494-4c73-9a2d-a9d42ec876d0/thumb100p.jpeg
+Honung Blomster-/Timjan-|Eridanous|450 g|47,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ae4548d0-73ec-4345-bce6-d30534d12fba/thumb100p.jpeg
+Juice Apelsin-|Brämhults|85 cl|36,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/946234dc-840c-4565-867f-bf4c8a7d3cac/thumb100p.jpeg
+Kaffekanna/Tekanna|Silvercrest||99,90|frp|||||1|
+Kakifrukt|||34,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/deb0301f-01a7-4a81-8c99-e43cbba89e72/thumb100p.jpeg
+Kakor m. glasyr|Eridanous|330 g|32,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/b1edf09b-52c4-4136-aeec-8937f1310d05/thumb100p.jpeg
+Kakor m. pistagefyllning|DeLuxe|150 g|29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/a6cd261a-2568-4811-9ec9-e5494232190d/thumb100p.jpeg
+Kaktus/Suckulent i zinkkruka|||34,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/8ea30e23-9c49-4aad-a638-9fe9a2a0130b/thumb100p.jpeg
+Kastrullset|Silvercrest|3-p|399,00|frp|||||1|
+Kattgodis, 20-p|Max & Mila's World||29,90|frp|||||1|
+Kattmat i sås, 24-p|Max & Mila's World||69,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/c089ae86-4c17-448a-a956-bb9c81a25d7d/thumb100p.jpeg
+Kattmat, mousse|Max & Mila's World|85 g|20,00||||||4|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/c3cafcee-af96-41f1-850a-9045a5d237fe/thumb100p.jpeg
+Kattmat, soppa m. kyckling, 4-p|Max & Mila's World||29,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/2480b6d7-29ce-4339-a9f3-cd06ad80094f/thumb100p.jpeg
+Kycklingben XXL|Matriket|1,1 kg|49,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/15c1f26c-d977-42fb-9510-5f46ce8015e4/thumb100p.jpeg
+Kycklingbröstfilé/Kycklinglårfilé Greek|Eridanous|800 g|99,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/b0b2c8a0-fc7c-49b2-afe7-d79530f89e48/thumb100p.jpeg
+Kökskniv|Silvercrest|1-2-p|39,90|frp|||||1|
+Köksredskap|Silvercrest||39,90|frp|||||1|
+Köttbullar|Scan|350 g|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/aaaa4969-dbc7-4798-8725-7b792b4ebc89/thumb100p.jpeg
+Lammrostbiff|Proud Farmer|ca 700 g|249,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/e4ab5618-13b3-44ba-9d88-522175f708c2/thumb100p.jpeg
+Lammstek|Proud Farmer|ca 2 kg|129,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/902c5006-69db-487b-858a-1bd3dd10cadd/thumb100p.jpeg
+Lammstek, skivad|Qibbla Halal Kött AB|ca 2,2 kg|129,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/d33ece36-10eb-48e7-922c-85304ef24123/thumb100p.jpeg
+Lantbröd Bistro/Havssalt, skivat|Fazer Bageri|600 g|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f276cd85-6f9b-46c2-83f3-cc6a19914597/thumb100p.jpeg
+Lantbröd Grekiskt-|Butiksbakat|560 g|18,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/12615776-fd9a-440b-b35e-df869b358d2d/thumb100p.jpeg
+Laxfilé, hel sida, färsk|ca 1|2 kg|129,00|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/b216412d-73f7-4baa-9bcf-60c9f32a36ab/thumb100p.jpeg
+Levain, surdeg|Butiksbakat|680 g|22,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8a7eef24-738f-470d-a6cc-2fecb21a06d3/thumb100p.jpeg
+Ljusgardin LED|Livarno Home||129,00|frp|||||1|
+Ljusslinga LED|Livarno Home||149,00|frp|||||1|
+Ljusslinga LED, batteridriven|Livarno Home||39,90|frp|||||1|
+Ljusslinga LED, istappar|Livarno Home||169,00|frp|||||1|
+Läsk|Coca-Cola/Fanta/Sprite|2 l|17,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dbeb636b-9e2e-4a9f-ba6e-b9ab346700e1/thumb100p.jpeg
+Läsk/Vatten/Öl 2,1%, 20-p|Cuba Cola/Grängesberg/Loka/Trocadero||79,00|frp|||||1|
+Lök, gul|Matriket||7,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/333e6ca9-e040-47e7-89d5-2557bf2dc762/thumb100p.jpeg
+Macarons, 12-p|DeLuxe|154 g|49,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/dbdfc2e0-4e09-4e1e-80e9-8bf46f61ba09/thumb100p.jpeg
+Mandlar m. ostsmak|Eridanous|150 g|34,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/0b865711-0d9a-4045-b387-7709be5a4ab1/thumb100p.jpeg
+Mixer|Silvercrest||399,00|frp|||||1|
+Mjölk, längre hållbarhet|Matriket|1,5 l|12,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/836555d8-4bfe-46db-aa20-785e71e156b9/thumb100p.jpeg
+Moussaka|Eridanous|380 g|34,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/d5207a4d-7979-4bc7-8efb-65a1df6cafca/thumb100p.jpeg
+Multihackare|Silvercrest||249,00|frp|||||1|
+Multirivjärn|Silvercrest||99,90|frp|||||1|
+Nougat Vit- m. mandel|Eridanous|60 g|8,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/714e078a-8bfc-40d4-8c65-fe7e2bb1afb2/thumb100p.jpeg
+Nöt-/Sesambar|Eridanous|200 g|29,90|frp|||||1|
+Nötkräm|DeLuxe|190 g|24,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/e96daa21-f441-4c6a-ade8-9933fea64856/thumb100p.jpeg
+Nötter, chokladdragerade|DeLuxe|175 g|44,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/da4bc2ae-3378-4e3f-996d-47189d88c69f/thumb100p.jpeg
+Oliver m. grönsaker, inlagda|DeLuxe|1,7 l|99,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/b9961c69-d8a6-4503-97c8-7b0638ea5c24/thumb100p.jpeg
+Oliver m. kärna, gröna, glasburk|Eridanous|1,06 kg|49,90|frp|||||1|
+Oliver, gröna|DeLuxe|400 g|49,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/41497fc5-7783-4f96-961c-61e6a321b90d/thumb100p.jpeg
+Oliver, gröna, kärnfria, glasburk|Eridanous|1,7 l|67,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/532e9805-ae08-4cee-907c-e55873334ce4/thumb100p.jpeg
+Olivolja Extra Jungfru-|Eridanous|0,75-1 l|89,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/25b34d00-1c12-4dc9-9ac3-6c70c50e3fb7/thumb100p.jpeg
+Ostfralla m. goudaost|Butiksbakat|80 g|15,00||||||5|
+Oxfilé|ca 1|45 kg|299,00|kg|||||1|
+Pandoro, citronfyllning|DeLuxe|800 g|89,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/441d21bb-a449-4543-b137-9e4b96c7b4c5/thumb100p.jpeg
+Panettone|DeLuxe|0,75-1 kg|109,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/bbd74659-cff8-462f-a6ee-0504ba1ce058/thumb100p.jpeg
+Paprika Spets-, röd i påse|500 g||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fe96bb60-7e53-458b-9406-9d1cd2c292cf/thumb100p.jpeg
+Paprika, fylld|Eridanous|720 g|34,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/71ec50be-7999-4559-8329-ab27cd23de83/thumb100p.jpeg
+Pastamaskin|Silvercrest||149,00|frp|||||1|
+Pizza, 2-p|Dr. Oetker Ristorante|680-710 g|47,90|frp|||||1|
+Pulled Pork, förkokt|Matriket|550 g|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5c096d61-572f-435e-933f-bf3552adb9a3/thumb100p.jpeg
+Pumpakärnor, rostade & saltade|Eridanous|200 g|22,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/4fdec0f5-9581-4f55-89e1-765cabb33aa9/thumb100p.jpeg
+Pyttipanna Ox-|Chef Select|1,2 kg|43,90|frp|||||1|
+Pålägg, skivat, plånboksp.|Matriket|115-150 g|18,90|frp|||||1|
+Revbensspjäll av fläskkött, knäckta|Dahlbergs Slakteri|ca 1 kg|54,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/f9690d5a-045d-45c7-89b8-dc83344d2dcd/thumb100p.jpeg
+Risgröt/Ärtsoppa m. fläsk, rullpack|Felix|500 g|30,00||||||3|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ce4662af-2afc-4705-8457-101ea505cb4e/thumb100p.jpeg
+Rosor Premium|10-p||49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/145dd88a-de39-4487-8d4e-f48b6a688800/thumb100p.jpeg
+Röra/Tzatziki|Eridanous|250 g|17,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/6c7110a5-b441-4199-832a-559d4d05a125/thumb100p.jpeg
+Salami Sticks|Dulano Selection|100 g|24,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ccb19ac2-0ebb-4d64-853d-9d78ef27af56/thumb100p.jpeg
+Salt-/Pepparkvarn, elektrisk|Silvercrest||79,90|frp|||||1|
+Serveringspanna m. lock|Silvercrest||299,00|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/a64bb5de-9c2d-4aec-9952-cd0f9b57fc96/thumb100p.jpeg
+Sesambar|Eridanous|70 g|8,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/ed11e396-80b4-40ee-891d-55d250a0914a/thumb100p.jpeg
+Skål m. lock|Silvercrest|2-3-p|149,00|frp|||||1|
+Smårätter, inlagda|Eridanous|280 g|22,90|frp|||||1|
+Smör|Svenskt smör|500 g|49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/31befa68-e96b-4f6a-48a7-08d47f3b722d/thumb100p.jpeg
+Soppa Hummer- i glasflaska|DeLuxe|490 g|19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/cdcdec62-711d-478d-9b91-da23904579b6/thumb100p.jpeg
+Tahini|Eridanous|300 g|22,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/1be9e25b-79c4-4a1f-8d7e-c64db5d8cbf4/thumb100p.jpeg
+Valnötsbröd|Butiksbakat|380 g|18,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/917913f3-e3b3-4056-9790-08d4b6ea4f9f/thumb100p.jpeg
+Vatten, kolsyrat|Ramlösa|1,5 l|17,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/53ea0549-9746-4850-8efe-08d55e413998/thumb100p.jpeg
+Vattenkittel|Silvercrest||179,00|frp|||||1|
+Vattenkokare|Silvercrest||199,00|frp|||||1|
+Vetelimpa|Butiksbakat|1 kg|23,00|frp|||||1|
+Vindruvor Moldova, mörka|||24,90|kg|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/d8efc872-a115-4ed4-bec7-75a72b9d7236/thumb100p.jpeg
+Vindruvor, mix, kärnfria i ask|500 g||19,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/1aab344a-592a-4c16-a794-82128746aa49/thumb100p.jpeg
+Wienerkorv Delikatess-|Matriket|350 g|25,50|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/0fc44543-7805-44c4-9170-ef53a45ce0d8/thumb100p.jpeg
+Yoghurt, naturell/vanilj|Arla|1,75 kg|27,90|frp|||||1|https://mpk-campaign-images.s3.eu-north-1.amazonaws.com/85d2d54f-9d32-415a-8d8c-5b6b184bddae/thumb100p.jpeg
+Ärtor|Findus|600 g|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4051defb-8db6-4d69-8d92-aa14faecb2ce/thumb100p.jpeg
 # BUTIK: ICA Maxi Trollhättan
-Avfallspåse|ICA|50-p|35,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/77dedb76-af15-480e-a6c8-599394ee3f89/thumb100p.jpeg
-Avfallspåse|ICA|20-p|45,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/54f71986-b2d2-4882-6488-08d6a8255641/thumb100p.jpeg
-Avokado|ca 165 g||20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/91d3a6c0-df9d-4f01-8444-a2472679e707/thumb100p.jpeg
-Bacon, skivat/tärnat|Scan|140 g|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7b219213-f3a2-42dd-93f8-c43df6dc7885/thumb100p.jpeg
-Bacon, skivat/tärnat|Scan|140 g|50,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7b219213-f3a2-42dd-93f8-c43df6dc7885/thumb100p.jpeg
-Balsam/Schampo Elvital|L'Oréal|200-250 ml|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9f3e527d-e135-49cd-efd3-08d47f3c1412/thumb100p.jpeg
-Batteri Knappcells-|Energizer|6-p|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/39b4c30e-58b9-4ef7-4bf1-08d8eee4b72e/thumb100p.jpeg
-Batteri Power, 16-p|Energizer||89,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d782863b-530a-491f-9916-b34532dab4b7/thumb100p.jpeg
-Bimi i påse|200 g||25,00|frp|||||1|
-Binda/Trosskydd|Always|12-60-p|115,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90f21f8f-edd7-4485-b357-b301c532312e/thumb100p.jpeg
-Blandfärs 50/50|ICA|ca 1,6 kg|89,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5cb9c94c-20e9-4eca-a92d-90e0c05bb7db/thumb100p.jpeg
+Airfryerform, silikon|||50,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4fdd8e32-d425-4cd3-ac1d-735a03534797/thumb100p.jpeg
+Aubergine|ICA|225 g|12,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f599e8a9-0564-4474-2803-08d7eb6543b9/thumb100p.jpeg
+Blockljus|ICA||30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8010cbdf-2174-4550-749b-08d5e2d04776/thumb100p.jpeg
 Blockljus LED|ICA||79,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/70a4e58d-4528-4f69-7880-08d5e2d04776/thumb100p.jpeg
-Blöja|Pampers|27-48-p|179,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f71b5289-cf1f-448a-9562-c1def6160c3c/thumb100p.jpeg
-Brysselkål i påse|ICA|500 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/36b8c246-7842-4ef7-bcff-7215dc764c9e/thumb100p.jpeg
-Brödrost|OBH Nordica||399,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bd065176-5b00-4775-0df0-08d8c7d00274/thumb100p.jpeg
-Cheez/Chips|OLW|200-275 g|69,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/334bbda3-a4ea-4792-50b9-08d540f05ad6/thumb100p.jpeg
-Chicken Nuggets|GuldFågeln|2 kg|179,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b880f558-17b1-41a0-3353-08d4985afd7b/thumb100p.jpeg
-Chips/Tacosås/Tortilla Soft-|Santa Maria|185-320 g|99,00||||||10|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e36491d2-8f0b-4d62-13e1-08d71b9dc131/thumb100p.jpeg
-Chips/Tacosås/Tortilla Soft-|Santa Maria|185-320 g|55,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e36491d2-8f0b-4d62-13e1-08d71b9dc131/thumb100p.jpeg
-Chokladkaka Excellence|Lindt|100 g|62,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/17978b73-5248-4bf1-651e-08d47f480a49/thumb100p.jpeg
-Chokladpåse|Cloetta|150-200 g|42,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1df70603-6ffb-4370-f600-08d47f3c1412/thumb100p.jpeg
-Dammsugarmunstycke Twinner|Swirl||199,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6a8730d3-1300-4e1d-c619-08d556fa2cd9/thumb100p.jpeg
-Dammsugarpåse|ICA|5-p|99,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ded8a6e4-bf11-4f76-5c54-08d771a2d39f/thumb100p.jpeg
-Dammvippa, refill|Swiffer|5-p|50,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f3cbe5ae-9e36-499f-bb75-29015baf5e3e/thumb100p.jpeg
-Diskborste + refill|Dishmatic|1-3-p|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2e485ca9-3633-423e-d67d-08d70664f172/thumb100p.jpeg
-Diskduk|Wettex|10-p|35,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/329afac6-3f40-444a-2ad8-08d4985afd7b/thumb100p.jpeg
-Energibröd/Grötbröd/Müslibröd, skivat|Pågen|650-780 g|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c6460eff-bc34-473d-a799-08d7358bd1b3/thumb100p.jpeg
-Fläckmedel/Sköljmedel/Tvättmedel, flytande|Grumme|350-750 ml|85,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a0a45058-bd2e-4999-8491-36e2dd0248eb/thumb100p.jpeg
-Fond|Bong Touch of Taste|1,8 dl|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c49ae91-ab16-4688-eaeb-08d47f3c1412/thumb100p.jpeg
-Fruit Crush/Juice|God Morgon|1 l|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/161641dc-05bf-4c93-8f45-08d47f4192ef/thumb100p.jpeg
-Färdigrätt|Dafgårds|380-440 g|99,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/13925a30-38a7-45fc-bf72-ef0b378c392d/thumb100p.jpeg
-Färskost|Philadelphia|145-200 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c7480a2-86cd-491f-be39-0174e9ca9225/thumb100p.jpeg
-Glass|Lejonet & Björnen|5 dl|80,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cf0f6945-e17c-4347-a0d4-3974a74dffae/thumb100p.jpeg
-Gnocchi, färsk, fylld|Giovanni Rana|280 g|59,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/72d0a409-16ee-4726-8280-5d697ce21e73/thumb100p.jpeg
-Godispåse|Malaco|85-95 g|35,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/179a1cc3-515b-4936-ac4b-e6751f10c995/thumb100p.jpeg
-Golvmopp, dry/wet, refill|Swiffer|10-18-p|50,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f3cbe5ae-9e36-499f-bb75-29015baf5e3e/thumb100p.jpeg
-Golvmopp, startkit|Swiffer||100,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0728777c-3816-4cc0-8b34-93793d23cab6/thumb100p.jpeg
+Blåbär/Hallon|Polarica|500 g|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e1440353-a658-45e9-e18c-08d4985afd7a/thumb100p.jpeg
+Brieost/Camembertost/Getost|Président|170-250 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8368b9db-6b92-420e-e878-08d47f3c1412/thumb100p.jpeg
+Bågar/Chips/Ringar|Estrella|200-275 g|69,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dd05c135-35b1-4a31-9a37-fcc22e1891f9/thumb100p.jpeg
+Böngroddar i ask, eko|180 g||15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1c228d60-1fee-4ec3-1db1-08d4985afd7b/thumb100p.jpeg
+Champinjoner i ask|ICA|250 g|14,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ca5ef8cc-e028-4f97-d681-08d70664f172/thumb100p.jpeg
+Cheddarost Mild|Kvibille|ca 0,5-1,4 kg|119,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/caccf8d8-2714-44af-af18-eff15c69f3f7/thumb100p.jpeg
+Chokladkaka|Marabou|160-180 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ec2fa1e4-2bca-470b-bb59-1b0fbcec9596/thumb100p.jpeg
+Chokladpåse Twist|Marabou|145 g|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6a6a33d8-55c2-438e-f319-08d4985afd7a/thumb100p.jpeg
+Chorizofärs/Salsicciafärs|ICA|500 g|40,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/49aff442-ec04-4d38-a716-8d5172a6fcab/thumb100p.jpeg
+Cookies|Oreo|115-157 g|59,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6376741e-4d46-4e9a-e20c-08d47f3c1412/thumb100p.jpeg
+Deo Roll-on|Dove|50 ml|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/79c466f5-5f51-4e40-8b51-2e9ef6cca855/thumb100p.jpeg
+Dessertost|Castello|150 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/143e2737-2b6d-40bc-e8c4-08d47f3c1412/thumb100p.jpeg
+Doftljus|ICA||59,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e5256eea-5be8-4816-b0e7-ae08a09ef442/thumb100p.jpeg
+Duschcreme|Dove|450 ml|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4cf4be31-f354-4018-9295-20433cd6f5b3/thumb100p.jpeg
+Falukorv, laktosfri|Scan|800 g|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/87713bc4-6659-41e9-907c-3afd6f525ce6/thumb100p.jpeg
+Fetaost/Getost|Fontana|130-150 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/45e9e841-846b-4c56-ebf4-08d47f3c1412/thumb100p.jpeg
+Fiberrost/Originalrost, skivad|Skogaholm|1 kg|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/196eb7c3-d2ec-43fc-abe7-024aea01af42/thumb100p.jpeg
+Fläskkarré, benfri, skivad|ICA|ca 800 g|110,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/23e628c7-fc16-4655-a4ed-a7ba7ea39496/thumb100p.jpeg
+Fläskschnitzel, panerad|ICA|300 g|40,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dc9cdf5c-7b14-401e-b4ee-9fb589c8d08f/thumb100p.jpeg
+Gaständare|Skandi||20,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fb475456-7834-4807-8aae-3f7a46930d74/thumb100p.jpeg
+Glass|Ben & Jerry's|4,27-4,65 dl|89,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bc9acbfc-5b9b-4302-113b-08d7c3ffaac6/thumb100p.jpeg
+Godispåse|Haribo|120-170 g|35,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c59573e6-2aba-40e7-122c-08d5b4d004f3/thumb100p.jpeg
+Granola|Paulúns|350-450 g|69,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0f6aab6e-bf16-4024-9d0a-1c525fd877be/thumb100p.jpeg
 Gravljus|ICA|5-p|79,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d69f0ca5-9eba-44fc-65e7-08d51f9b55cb/thumb100p.jpeg
 Gravljus|ICA|2-p|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8309497a-ea50-4c69-cfa0-08d4f98bb95d/thumb100p.jpeg
 Gravljus Hjärta|ICA||34,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d2a7f78b-cee4-4491-0d14-08d4985afd7b/thumb100p.jpeg
 Gravljus m. lock|ICA||50,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5cccc2e7-6d5d-4fde-cf9e-08d4f98bb95d/thumb100p.jpeg
 Gravljus m. lock|ICA||24,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5cccc2e7-6d5d-4fde-cf9e-08d4f98bb95d/thumb100p.jpeg
-Grevéost/Herrgårdsost/Morfars/Prästost, lagrad|Falbygdens ost|ca 500-700 g|119,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/882a035f-2489-4486-ac5b-ca2fc56417f8/thumb100p.jpeg
-Grillkorv|Scan|900-960 g|52,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/30648272-7ed2-4c7c-a306-c730c491adfc/thumb100p.jpeg
-Grönkålsblad i påse|ICA|400 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c128589-11d6-4ac0-3c8a-08d612bf7d36/thumb100p.jpeg
-Havredryck iKaffe|Oatly|1 l|45,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cf4282bc-9fd2-4159-ef28-08d47f3c1412/thumb100p.jpeg
-Helgskinka, kokt|Nybergs Deli|ca 2 kg|59,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/36cf4324-b171-4e15-48aa-08d47f3b722d/thumb100p.jpeg
-Hushållsost|Arla|ca 1,1-2,2 kg|84,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7559162b-dec2-4678-a2f9-8e8952d3c005/thumb100p.jpeg
-Hårfärg/Root concealer|L'Oréal||149,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/48e3b5c8-8628-4f1b-ef5c-08d47f3c1412/thumb100p.jpeg
-Höststjärna|ICA||59,00|st|||||1|
-Jubileumskakor, mjölkfri, 12-p|Polarbröd|450 g|21,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/84a93ef5-8a8d-4be7-df69-08d47f3c1412/thumb100p.jpeg
-Kaffe, hela bönor|Zoegas|450-500 g|139,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/07941cb3-8831-475b-b87a-391f9a9e645e/thumb100p.jpeg
-Kaffekapsel|L'or|10-p|115,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/99351c6e-e2c1-4b1f-faaf-08d6191b1ea2/thumb100p.jpeg
-Kebab, färdiglagad|Schysst käk|550 g|74,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0598d100-e37d-43e4-a91e-7eb332c803d5/thumb100p.png
-Kex|Göteborgs kex Ballerina/Göteborgs kex Brago/Göteborgs kex Singoalla|175-225 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6f715653-f083-430a-9292-08d47f4192ef/thumb100p.jpeg
-Knäckebröd Fäbod-, original/surdeg|Leksands|365-415 g|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ca9d8b12-e124-4439-b0e1-0bf543a1096d/thumb100p.jpeg
-Korv/Tofu, vegansk|Peas of heaven|210-540 g|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4d8f1cf4-3dda-42a4-9c00-ab5bbce9d696/thumb100p.jpeg
-Kronljus|ICA||35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c030d6f1-7107-4346-fb52-08d4985afd7a/thumb100p.jpeg
-Krydda i småglas|Santa Maria|3-83 g|100,00||||||8|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a8e7484f-cbe7-4a93-76e1-08d5e2d04776/thumb100p.jpeg
-Krydda i småglas|Santa Maria|3-83 g|45,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a8e7484f-cbe7-4a93-76e1-08d5e2d04776/thumb100p.jpeg
-Kyckling Ätklar, skivad/tärnad|Kronfågel|200 g|32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c4242b8d-5726-4f06-84cb-fbfb6c60db35/thumb100p.jpeg
-Köttbullar Delikatess-, små|Felix|420 g|85,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/57ab2ca3-4be1-4b29-b1c4-e29e6744623a/thumb100p.jpeg
-Läsk|Coca-Cola/Fanta/Sprite|1,5 l|39,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/289b33cd-fe7d-4dce-be81-2c5c36dd1454/thumb100p.jpeg
-Margarin Bords-|Bregott|500 g|80,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/038214e3-1613-4549-9c3a-620c81eaa6fc/thumb100p.jpeg
-Marschall LED|ICA||99,00||||||2|
-Maskindisk Power/Ultimate|Finish|44-58-p|125,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c948ff7-bb8f-404e-8d9a-37ec6302849d/thumb100p.jpeg
-Mikrovågsugn|ICA||749,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/07390094-f917-4997-1b3b-08d4985afd7b/thumb100p.jpeg
-Mixers|Schweppes|1,5 l|36,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/85a38f22-d92d-4a72-91fb-feafda0557d4/thumb100p.jpeg
-Mjukost i ask|Kavli|330 g|36,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e56dcb78-ca55-4f2f-5221-08d569d56bbf/thumb100p.jpeg
-Mopp SuperMocio m. hink|Vileda||199,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ded24f12-a3f0-44fa-896a-340f59c9e03a/thumb100p.jpeg
-Müsli|Frebaco|550 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e6d303b1-2a18-4071-9ffe-be3fd8cad52f/thumb100p.jpeg
-Måltidsdelar, vegetariska|Oumph!|280-400 g|58,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a2539117-7a3c-493b-b5ec-29b272367059/thumb100p.jpeg
-Olivolja Classico|Zeta|750 ml|79,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b2874d19-c18f-4b85-f9b5-08d562fe98c3/thumb100p.jpeg
-Papper Toalett- Classic|Lambi|12-p|99,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1ea03287-0747-4fe9-393b-08d7b66fa5bb/thumb100p.jpeg
-Pizza|Dr. Oetker Ristorante|280-360 g|100,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d5bad1ab-d54b-44b6-8150-758411ea59b4/thumb100p.jpeg
-Potatis Gourmet- i påse, eko|ICA I love eco|900 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/813e3575-a92e-474a-fa49-08d4985afd7a/thumb100p.jpeg
-Potatisprodukter|Felix|750-810 g|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8a74dad3-36fe-427a-9254-08d47f4192ef/thumb100p.jpeg
-Pålägg, skivat, plånboksp.|Lönneberga|90-105 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/abbefdf0-07d6-403a-ae50-374b1ff20070/thumb100p.jpeg
-Pålägg, skivat, plånboksp.|Lönneberga|90-105 g|60,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/abbefdf0-07d6-403a-ae50-374b1ff20070/thumb100p.jpeg
-Päron i korg|ICA|1 kg|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2192206c-e2cf-4ab6-aade-54245b722b8d/thumb100p.jpeg
-Ris Boil in bag|Ben's Original|500 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/079675e9-0722-4dbf-b058-cd69694665e2/thumb100p.jpeg
-Rostbiff av nöt|ICA|ca 900 g|199,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1f00ab0a-71fc-40a3-af9b-f1380aefebde/thumb100p.jpeg
-Räkor, skalade|Royal Greenland|700 g|189,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/69b3e9ed-52ed-42a3-e574-08d47f3c1412/thumb100p.jpeg
-Röra|Zeina's|170-210 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b654fef3-33b9-437b-a045-08d7e6b07f1e/thumb100p.jpeg
-Röra|Zeina's|170-210 g|50,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b654fef3-33b9-437b-a045-08d7e6b07f1e/thumb100p.jpeg
-Salami, skivad|Grilstad|80-100 g|38,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/aadde5c7-04f2-4f67-9202-6b5b0130ee3f/thumb100p.jpeg
-Schnitzel, panerad|Scan|600 g|99,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5472e350-2006-4891-bdc2-1ec18537c558/thumb100p.jpeg
-Servett Halloween-|ICA|15-20-p|35,00||||||2|
-Skaftdammsugare|Electrolux||1499,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9e675d1b-96a0-4f1c-0937-08d8c7d00274/thumb100p.jpeg
-Skaftdammsugare|Bosch||1099,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/244879f1-5b1c-42c2-a33e-b44ca296b39c/thumb100p.jpeg
-Smoothie|Bravo|1 l|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/982a1979-0545-45a8-7524-08d49bf741d5/thumb100p.jpeg
-Smör & rapsolja, flytande|Arla|5 dl|20,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c2bd0f9b-021e-459e-d237-08d4f98bb95d/thumb100p.jpeg
+Gravlykta|ICA||89,90|st|||||1|
+Grevéost/Herrgårdsost/Prästost|Arla Ko|ca 700 g|89,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0ac342d3-515a-425b-eae2-08d47f3c1412/thumb100p.jpeg
+Grädde Visp-, original/laktosfri|Arla|5 dl|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/82eaccd2-bbdc-44b8-7743-08d49846e02b/thumb100p.jpeg
+Hårfärg Nutrisse|Garnier||129,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0f49c276-20ec-4821-5655-08d569d56bbf/thumb100p.jpeg
+Hårstyling|Wella|200-250 ml|60,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c3616dc2-2b0f-4e7f-8125-08d49846e02b/thumb100p.jpeg
+Jordgubbar i ask|ICA|250 g|39,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fab3724f-5c7e-41b0-385e-08d4985afd7b/thumb100p.jpeg
+Juice|Bravo|1 l|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fc885081-d923-444d-a553-e1588f1d984a/thumb100p.jpeg
+Kaffe|Zoegas|450-500 g|115,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ec57a7f3-ba2b-4f75-9672-f05464fa21e8/thumb100p.jpeg
+Kaffe, hela bönor|Gevalia|500 g|149,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c421dbe3-08b1-4736-6dcd-08d7af0d4eef/thumb100p.jpeg
+Kakifrukt|ICA|ca 140-175 g|15,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f3a92e56-84a8-4d00-f45d-08d6cd6642d0/thumb100p.jpeg
+Kalkon, hel|Ingelsta Kalkon|ca 4 kg|64,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0953852b-742c-4105-7755-08d535f00adf/thumb100p.jpeg
+Kattmat, box, 12-p|Mjau|1,02 kg|92,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/eb34b708-16e4-4757-82d2-4bcbb75556fe/thumb100p.jpeg
+Ketchup|Heinz|0,96-1 kg|59,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/71db8b6a-c5c8-4e00-eb3d-08d47f3c1412/thumb100p.jpeg
+Kex|TUC|100 g|28,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5b98e73e-42a0-421e-e1a7-08d47f3c1412/thumb100p.jpeg
+Kycklingfilé|Kronfågel|900 g|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7187b6c3-71c8-4847-bf92-fe4aecdbccb6/thumb100p.jpeg
+Köttbullar|Scan|400-500 g|75,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/93964efb-9483-42ae-6c6e-08d535f00adf/thumb100p.jpeg
+Lammstek|Scan|ca 1 kg|199,00|kg|||||1|
+Lax, hel sida, färsk|ICA|ca 1,2 kg|129,00|kg|||||1|
+Läsk, burk, 20-p|Coca-Cola/Coca-Cola Zero||89,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/60e918f1-4b3d-46c0-acbd-1ea9448ee9b6/thumb100p.jpeg
+Lövbiff av nötinnanlår, skivad|Hacksta Köttdisk|ca 1 kg|159,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/93f8818b-47fc-4b95-acc5-5b26090c2b28/thumb100p.jpeg
+Majonnäs|Hellmann's|400 g|23,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/64fd1f07-f5a2-4776-801f-3ae128423fa1/thumb100p.jpeg
+Mannafrutti/Risifrutti|Risifrutti|165-175 g|65,00||||||6|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef6789f0-0e01-4648-a78d-b8b2923ecbbc/thumb100p.jpeg
+Marmelad|ICA Selection|200 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/888e65b0-f1ea-4da5-2bc5-08d82f085c64/thumb100p.jpeg
+Maskindisk Original/Platinum|Yes|51-70-p|189,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/279b5da0-8dd3-40a3-ac65-722d2393576a/thumb100p.jpeg
+Mikrovågsugn|ICA||749,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/07390094-f917-4997-1b3b-08d4985afd7b/thumb100p.jpeg
+Mozzarellaost, original/laktosfri|Zeta|100-125 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5734f7ed-ef2d-401d-741b-08d49846e02b/thumb100p.jpeg
+Munskölj|Flux|500 ml|95,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4a9b6614-5770-406b-8bb1-47733aa996a8/thumb100p.jpeg
+Nötmix|OLW|175-200 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/090bf2d6-218a-4596-a898-08d557864634/thumb100p.jpeg
+Nötstek av fransyska, benfri, nätad|ICA|ca 1,2 kg|149,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e79a191e-414f-4281-0ffa-08d4985afd7b/thumb100p.jpeg
+Orkidé Brud-, 2-stänglad|||99,00|st|||||1|
+Paprika Spets-, röd i påse|ICA|200 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/65cac984-8e27-42eb-fa08-08d4985afd7a/thumb100p.jpeg
+Pasta Form-/Spaghetti Casa di Luca|Zeta|400-500 g|44,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ff6ad90e-cce4-47f7-8c41-08d47f4192ef/thumb100p.jpeg
+Petflaska|Sodastream||79,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8a13c9a3-0dce-463f-7626-08d5950c82fb/thumb100p.jpeg
+Pizza|Tony's|450-500 g|75,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d15ad5a5-d230-473b-8680-1e516bc00dd4/thumb100p.jpeg
+Potatis, fast sort i påse|ICA|1,2 kg|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8baaeeb8-0957-4a93-dbf1-08d85a7c5ee2/thumb100p.jpeg
+Potatisgratäng/Rotfruktsgratäng|Peka|700-800 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1cb7a0a4-c852-445e-e9b1-08d47f3c1412/thumb100p.jpeg
+Pyttipanna Krögar-|Felix|720 g|44,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1165afc9-402b-46d4-f6ae-08d4985afd7a/thumb100p.jpeg
+Quattrocento|Granarolo|150 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a9f626ee-15ef-469d-f8f0-08d6cd6642d0/thumb100p.jpeg
+Rosor|ICA|10-p|99,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/60c518ae-3279-47c0-ffa9-08d79dd5d8c0/thumb100p.jpeg
+Salami, skivad|Kotivara|80-120 g|44,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/656626c1-c770-4024-e38e-08d47f3c1412/thumb100p.jpeg
+Satsumas|||15,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5167396e-0cbd-4dcc-10ac-08d4985afd7b/thumb100p.jpeg
 Smörgåsgrill|OBH Nordica||299,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/42198291-52bd-40e2-ccdb-08d85fbb1daa/thumb100p.jpeg
-Snabbkaffe, softpack|Nescafé|200 g|79,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/735c916b-2299-4382-8c1a-56c0d47f72ec/thumb100p.jpeg
-Soppa, tetrapack|Kelda|5 dl|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c626ce8f-4c50-4357-9074-08d49ed835f3/thumb100p.jpeg
-St Agur/St Agur Creme, blåmögelost|115-150 g||32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dae20405-dd87-4d0c-0993-08d8c7d00274/thumb100p.jpeg
+Snabbkaffe|Löfbergs|80-100 g|90,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5bb92b6e-cb84-451a-76f3-08d5e2d04776/thumb100p.jpeg
+Soppa Gulasch-, österrikisk, konserv|Felix|560 g|78,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7353d513-4f6b-4f58-e15b-08d47f3c1412/thumb100p.jpeg
+Spareribs av fläskkött|ICA|ca 1,2 kg|59,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6d10fd40-5aa4-41f2-2bff-08d4985afd7b/thumb100p.jpeg
 Stavmixerset|Bosch||499,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/94880c53-384b-45d3-2c44-08d4985afd7b/thumb100p.jpeg
-Stekpanna, keramisk|Tina Satake||199,00|st|||||1|
-Tandkräm|Sensodyne|75 ml|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cb2c5b6f-6fcf-4bff-9594-8d56c77f2a95/thumb100p.jpeg
-Tomat Babyplommon- i ask|ICA|500 g|30,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/37ef0089-df37-4044-00bc-08d79dd5d8c1/thumb100p.jpeg
-Tomat, konserv|Mutti|400 g|50,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c9416d7e-b43e-498e-b9d1-4775ccd5011d/thumb100p.jpeg
-Torskryggfilé|Royal Greenland|420 g|120,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/62393e6f-c1a8-4055-38fd-08d7b66fa5bb/thumb100p.jpeg
-Tulpaner|ICA|12-p|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/628fb272-a607-4416-891c-50c3116c50c3/thumb100p.jpeg
+Stilldrink|Capri-Sun|10-p|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8647c44d-a49b-447d-a35b-654fa44ec1d9/thumb100p.jpeg
+Sås, flaska|Lohmanders|2,5 dl|39,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/755fddc8-e7c6-4ec7-a7a7-ce29157257d4/thumb100p.jpeg
+Sötpotatis|||15,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1b285071-0e9e-42f2-fa4d-08d4985afd7a/thumb100p.jpeg
+Tacokrydda, 3-p|Santa Maria||46,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/484c21cb-c292-4d4f-f0ef-08d47f3c1412/thumb100p.jpeg
+Tomatmix i ask|ICA|350 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/37ef0089-df37-4044-00bc-08d79dd5d8c1/thumb100p.jpeg
+Torskryggfilé|Findus|420 g|240,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/09181d6b-ba96-4f2e-ba98-1d4d16630009/thumb100p.jpeg
+Tvättmedel, flytande|A+|880-920 ml|110,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9b712bd8-f236-4fef-91bb-6d1f95e42ef1/thumb100p.jpeg
 Tändbriketter|Solstickan|100-p|89,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a4e45678-48b0-4d19-4ae9-08d80355d0b5/thumb100p.jpeg
-Vindruvor, röda, kärnfria i ask|ICA|500 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/907a0dff-569d-4792-f3ad-08d4985afd7a/thumb100p.jpeg
-Vitost|Apetina|150 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8d7508a9-fdf9-4863-ebb0-08d47f3c1412/thumb100p.jpeg
-Yoghurt Mild-, naturell|ICA|1 l|12,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b983c741-2bb7-42de-eeff-08d4985afd7a/thumb100p.jpeg
-Ångstrykjärn|Tefal||199,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1d307f38-5b9a-4391-8e32-c3540e18de65/thumb100p.jpeg
-Äpple Royal Gala|ICA||20,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b1ad0e12-e09e-428d-f39a-08d4985afd7a/thumb100p.jpeg
+Varmkorv/Wienerkorv, laktosfri|Lithells|750-900 g|53,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5d914454-6d5a-44c5-a4c8-532f05f90bbf/thumb100p.jpeg
+Värmeljus|ICA|50-p|99,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/73a39c9d-b821-47fe-b470-fb71ac149871/thumb100p.jpeg
+Västerbottensost, lagrad|Norrmejerier|450 g|88,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fa9026ba-53fe-478d-7669-08d535f00adf/thumb100p.jpeg
+Yoghurt Protein-, laktosfri|Lindahls|1 kg|22,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/56d01b13-342a-4a47-8058-88704286de03/thumb100p.jpeg
+Öl, alkoholfri|Peroni|33 cl|49,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3629e713-6c17-4cd4-97ec-adedbe108056/thumb100p.jpeg
+Ölkorv, 3-p|Ridderheims|150 g|32,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8c25a5cb-0a4c-45ad-8679-51839e67042b/thumb100p.jpeg
 # BUTIK: City Gross Trollhättan
-Bakpotatis|ca 375 g||20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d2e28e7e-9841-4c3e-6fee-08d4ac1a34ec/thumb100p.jpeg
-Balsam/Duschcreme/Schampo|Barnängen|250 ml|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/24a13f77-ecc8-405d-aaf6-9b59eb6deda8/thumb100p.jpeg
-Barnfrukt, klämpåse|minstingen|90 g|89,00||||||10|
-Binda|Intuition|10-16-p|48,00||||||3|
-Biskvi, 4-p|Butiksbakat|ca 220 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8ee121ab-f5b8-45e2-a716-c6a428d0371f/thumb100p.jpeg
-Bras- & Grilltändare|Burner|100-p|159,00||||||2|
-Byxblöja Baby Dry, maxibox|Pampers|54-78-p|159,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9f528fd2-d49f-4efa-b08f-41996ae765b6/thumb100p.jpeg
-Cheez/Chips|OLW|200-275 g|69,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/334bbda3-a4ea-4792-50b9-08d540f05ad6/thumb100p.jpeg
-Chips|Pringles|160-165 g|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef47ffae-b6a1-435a-8c3f-e4e933c75702/thumb100p.jpeg
-Chokladbit|Bounty/Mars/Snickers/Twix|36,5-57 g|40,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a12f2ef0-4c11-47a7-8818-970f7867db9d/thumb100p.jpeg
-Chokladkaka Excellence|Lindt|100 g|32,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/17978b73-5248-4bf1-651e-08d47f480a49/thumb100p.jpeg
-Crème Fraiche, smaksatt, original/laktosfri|Arla|2 dl|13,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5c9196d0-5046-4f46-47bf-08d47f3b722d/thumb100p.jpeg
-Dressing Amerikansk i tub|Kavli|230-240 g|32,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6e663c09-93fa-4ac0-eed7-08d47f3c1412/thumb100p.jpeg
-Dricksglas, räfflat|||50,00||||||4|
-Dryck|Proviva|1 l|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1778b9d4-25a0-4c0c-813a-df474702636f/thumb100p.jpeg
-Dryck Mousserande|Premier|1,5 l|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7d4046e6-e865-463f-81c4-739e9e847891/thumb100p.jpeg
-Fetaost|Garant|150 g|42,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/426a87ac-06d5-4457-b3a8-b2f76eb62d33/thumb100p.jpeg
-Fish & Crisp, panerad/Nuggets|Findus|480-490 g|44,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b8d09ad2-c820-41bc-fc45-08d562fe98c3/thumb100p.jpeg
-Fläskytterfilé, mörningsmarinerad|Scan|ca 1 kg|64,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b6c8496a-3d17-4790-993d-dc6394e761b1/thumb100p.jpeg
-Fryspåse|Toppits|20-45-p|50,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9d4bad6b-efa4-417c-a93b-8a5954353cdc/thumb100p.jpeg
-Färdigrätt Dagens|Findus|340-400 g|89,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/23748a51-3a09-4fe3-e6e5-08d47f3c1412/thumb100p.jpeg
-Färskost, original/laktosfri|Philadelphia|145-200 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c7480a2-86cd-491f-be39-0174e9ca9225/thumb100p.jpeg
+Ansiktskräm Revitalift|L'Oréal|15-50 ml|89,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d1966db5-93a1-46dc-f05f-08d47f3c1412/thumb100p.jpeg
+Antipasti/Tapas de España, skivad|Garant|120 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7d176865-118e-4a3d-e3f2-08d47f3c1412/thumb100p.jpeg
+Babyspenat/Småbladsmix i påse, eko|Garant EKO|175 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d682e9f0-f213-4ff4-98bd-9fec35c15179/thumb100p.jpeg
+Baguette Vitlöks-, 2-p|Garant||35,00||||||2|
+Balsam/Schampo Elvital|L'Oréal|200-250 ml|85,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9f3e527d-e135-49cd-efd3-08d47f3c1412/thumb100p.jpeg
+Barngröt, klämpåse|Semper|120 g|99,00||||||9|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a1b0d2ab-ffb5-4ed2-4887-08d47f3b722d/thumb100p.jpeg
+Binda/Intimtvätt/Trosskydd|Libresse|8-50-p, 200 ml|60,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7619dcca-ae07-4da8-f568-08d47f3c1412/thumb100p.jpeg
+Blandfärs 70/30|City Gross||79,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d35b7508-f85b-4144-9d6a-38635aac31b7/thumb100p.jpeg
+Blöja Comfort/Up&Go|Libero|20-47-p|240,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d5f107fa-fab7-47fd-a278-e347c844045c/thumb100p.jpeg
+Burrataost|Zeta|275 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b71d5533-1f97-47a9-b120-dff378b5ef76/thumb100p.jpeg
+Cheez Dippers/Mini Babybelost|Babybel/Skrattande Kon|120-175 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8c2d95c7-abd1-42b8-8f01-2719bebddcdc/thumb100p.jpeg
+Chips/Snacks|Estrella|150-275 g|59,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dd05c135-35b1-4a31-9a37-fcc22e1891f9/thumb100p.jpeg
+Chips/Tacosås/Tortilla|Garant|200-320 g|39,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5bec42ff-3c0e-48ef-2b25-08d627f59e83/thumb100p.jpeg
+Chokladboll, 4-p|Butiksbakat|ca 220-280 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f9218be4-413a-4198-a228-21488c9f07ab/thumb100p.jpeg
+Chokladkaka|Marabou|60-100 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/490dd178-b89d-459c-bfcb-b14b04b37815/thumb100p.jpeg
+Chokladkaka|Fazer/Karl Fazer|120-145 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f745ec99-2918-4fb1-b4ab-8c4fbf56fd20/thumb100p.jpeg
+Chokladpåse Crunchy Treats|Anthon Berg|120 g|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1d40019a-b618-4949-9279-b024eb64ad4d/thumb100p.jpeg
+Cider/Öl, alkoholfri, flaska|Carlsberg/Somersby|33 cl|199,00||||||24|
+Coleslaw/Sås|Johan Jureskog Selection|2,3 dl, 200 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d4edac00-84c8-4d03-bc15-0a35c2caed25/thumb100p.png
+Crème Fraiche|Arla|5 dl|27,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/46e8352a-4df3-44a1-9c50-b5310f82f82e/thumb100p.jpeg
+Dip Salsa Mexicana|Banderos|300 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/aa6b081f-cf52-43f2-f1a2-08d47f3c1412/thumb100p.jpeg
+Diskduk|Wettex|10-p|35,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/329afac6-3f40-444a-2ad8-08d4985afd7b/thumb100p.jpeg
+Energidryck, burk|Red Bull|25 cl|199,00||||||24|https://mpk-product-images.s3.eu-north-1.amazonaws.com/84f07f30-fc56-4370-a721-5ecea764cd99/thumb100p.jpeg
+Entrecôte av nöt|City Gross||299,00|kg|||||1|
+Entrecôte av nöt, skivad|City Gross||319,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/245c8f35-982a-4f88-bced-f8a1210f8c4c/thumb100p.jpeg
+Falafel|Garant|200 g|39,95|frp|||||1|
+Fiskfilé, sprödbakad, 4-p|Findus|360 g|34,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/292c52c0-2e0c-47e7-aae0-71f5e9253282/thumb100p.jpeg
+Flingor|Nestlé|325-375 g|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a92fe7e6-62bb-4b93-6e8e-08d535f00adf/thumb100p.jpeg
+Fralla, 10-p|Butiksbakat|ca 540-675 g|37,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/75b57798-84b3-4a05-bcd0-d4724b19d9ed/thumb100p.jpeg
+Färdigrätt|City Gross|ca 285-495 g|49,95|frp|||||1|
+Färdigrätt Bowl|Felix|360-380 g|75,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/05e5c74a-548e-46be-e74f-08d47f3c1412/thumb100p.jpeg
+Glass|Ben & Jerry's|4,27-4,65 dl|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bc9acbfc-5b9b-4302-113b-08d7c3ffaac6/thumb100p.jpeg
 Glass, flerpack|Mars Glass/Snickers Glass|6-p|79,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b4d12dfd-930f-404c-aedb-2e952e7a2b04/thumb100p.jpeg
-Godispåse|Malaco|85-95 g|30,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/179a1cc3-515b-4936-ac4b-e6751f10c995/thumb100p.jpeg
-Godispåse Halloweenmix|Haribo|500 g|44,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2a59337d-82a1-42c7-bf42-e8f7068dc18e/thumb100p.jpeg
-Granola|Start!|500-750 g|65,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c572b236-c3f4-4c45-8df1-08d47f4192ef/thumb100p.jpeg
-Gravljus Hjärta m. lock, glas|Bolsius||44,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7e30b36e-b7d1-45e9-39b4-08d65e27a147/thumb100p.jpeg
-Gravljus m. lock|Bolsius||29,95|st|||||1|
-Gravljus m. lock|Fixa|2-p|19,95|frp|||||1|
-Grillkorv Svensk|Garant|800 g|54,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/477238b9-4399-45ef-4a23-08d47f3b722d/thumb100p.jpeg
-Gräddglass/Sorbet|Triumf Glass|5 dl|45,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7651bffa-7da1-4c5c-aef9-447ecce74d6e/thumb100p.jpeg
-Gräddädel/Special/Ädel, blåmögelost|Kvibille|140 g|23,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ce63bfeb-23de-4d79-a941-75a0f7f610d9/thumb100p.jpeg
-Guldkorn/Lingongrova/Lingongrova Special, skivad|Pågen|500 g|19,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8ecca298-54c4-4da6-6fea-08d535f00adf/thumb100p.jpeg
-Halloweenpumpa|||19,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0b52fe2e-26df-4173-962c-db542af22f4a/thumb100p.jpeg
-Hamburgare av nöt/högrev|Garant|300-452 g|125,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/45bef08f-ad44-4f63-e80f-08d47f3c1412/thumb100p.jpeg
-Hamburgerbröd|Korvbrödsbagarn|260-292 g|20,00|frp|||||1|
-Hårfärg Natural & Easy|Schwarzkopf||59,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7e89501b-1b70-4b9e-9a14-e311cbc577f6/thumb100p.jpeg
-Kassler|Scan|ca 1 kg|89,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7ed6b2a8-7d42-4a88-a4c1-5d61865eeaca/thumb100p.jpeg
-Kaviar i tub, original/dill|Garant|250 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f810a034-7751-4f66-bd89-efceb109df07/thumb100p.jpeg
-Kex|TUC|100 g|20,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5b98e73e-42a0-421e-e1a7-08d47f3c1412/thumb100p.jpeg
-Koriander/Mynta i knippe|||14,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e43cf8c3-6a0d-4933-a423-db348056eeee/thumb100p.jpeg
-Kvarg Protein|Lindahls|150 g|40,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/273ad2a6-6af2-4e25-f18e-08d47f3c1412/thumb100p.jpeg
-Kycklingbröstfilé|Ivars|2 kg|129,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a4cb0990-0467-4c9b-864c-85a4aabc81c3/thumb100p.jpeg
-Köttbullar m. grönsaker|Garant|350 g|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/876b1c7f-1c41-4d4e-b382-11171b944d4d/thumb100p.jpeg
-Lamm, halvt/helt|City Gross||149,00|kg|||||1|
-Lammstek, benfri|Scan|ca 1,06 kg|224,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9b56aa2e-b908-4db1-8ddc-452199a508b0/thumb100p.jpeg
-Lampa LED|Airam|2-p|34,95|frp|||||1|
-Lampa LED|Airam||19,95|frp|||||1|
-Lime|ca 75 g||20,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d914126a-1987-433f-913a-f47c8a5c670c/thumb100p.jpeg
-Limpan, skivat|Garant|500 g|14,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/246920ff-ca21-48bf-bb65-a8b29865a94d/thumb100p.jpeg
-Lyktljus|Bolsius||19,95|st|||||1|
-Lösviktsgodis|Smått & gott||79,90|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c8ad48b-933c-4a5b-ae1a-80e7fc55a3d2/thumb100p.jpeg
-Lösviktsgodis|Smått & gott||69,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c8ad48b-933c-4a5b-ae1a-80e7fc55a3d2/thumb100p.jpeg
-Mannafrutti/Risifrutti|Risifrutti|165-175 g|99,00||||||12|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef6789f0-0e01-4648-a78d-b8b2923ecbbc/thumb100p.jpeg
-Margarin Bords-|Lätta|600 g|19,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5ed424c7-fdf3-4e19-9a03-a023fc0237c6/thumb100p.jpeg
-Munskölj|Flux|500 ml|56,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4a9b6614-5770-406b-8bb1-47733aa996a8/thumb100p.jpeg
-Nötbog|City Gross||159,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9509f017-9633-4d9b-94d5-5447c876d4bf/thumb100p.jpeg
-Olivolja Classico/Fruttato|Zeta|500 ml|72,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/63e84410-bb32-438d-f9b3-08d562fe98c3/thumb100p.jpeg
-Ost Familjefavoriter, original/eko|Arla|ca 0,75-1,2 kg|69,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bfed31c7-aaf1-4187-ea76-08d47f3c1412/thumb100p.jpeg
-Ost, lagrad|Garant|ca 670-720 g|105,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e2af40a7-2b70-4625-aff0-2a167df45916/thumb100p.jpeg
-Oxfilé|City Gross||519,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c5c3c5fa-43f4-4380-9858-010a56cb6c3c/thumb100p.jpeg
-Oxfilé|City Gross||499,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c5c3c5fa-43f4-4380-9858-010a56cb6c3c/thumb100p.jpeg
-Pain Riche|Butiksbakat|ca 350 g|28,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e24e4a36-868e-46de-a050-8d8c90c10abb/thumb100p.jpeg
-Paj|Felix|210-220 g|99,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/845050da-f8c8-4df2-e8da-08d47f3c1412/thumb100p.jpeg
-Pan Pizza|Garant|170 g|44,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/95fb8928-0cb5-499c-a631-2a2bdb1f4375/thumb100p.jpeg
-Pancetta|Garant|200 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/092b1fd1-6b4d-43e9-b707-cdb8f3e160ea/thumb100p.jpeg
-Pastrami, flatrökt/Skinka Dacke-|Grygården/Lulles||19,95|hg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f3c88966-ea9e-4fe6-a72e-dd2f93dec2e6/thumb100p.jpeg
-Pizza|Dr. Oetker Ristorante|320-360 g|99,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/27055bae-1dd7-4158-92de-1836ce0d8725/thumb100p.jpeg
-Pizzadeg, original/glutenfri/laktosfri|Pop! Bakery|260-600 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3c30a5c0-b21d-4dd0-b313-51264eca8795/thumb100p.jpeg
-Pizzadeg, surdeg|City Gross|ca 350 g|14,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a0543166-8d86-46de-820e-3f341377d3bc/thumb100p.jpeg
-Pizzasås Bianca|Galbani|2 dl|25,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f85b83db-fae1-4ade-952b-30f0050f49f3/thumb100p.jpeg
-Potatis i påse, eko|Garant EKO|900 g|16,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f7c19446-c609-4e02-b79b-b029f38897ae/thumb100p.jpeg
-Pulled Meat, förkokt|Tulip|400-500 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b13b3449-14d7-4042-be8b-17753a3f5be7/thumb100p.jpeg
-Riskokare|Emerio||349,00|st|||||1|
-Ryggbiff av nöt|City Gross||299,00|kg|||||1|
-Ryggbiff av nöt, skivad|City Gross||319,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e595f8ba-2024-436b-8b48-8af9de70300e/thumb100p.jpeg
-Räksallad/Skagenröra|Rydbergs|175 g|23,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b811cc1e-d6c0-4d35-8c88-05c1f1786323/thumb100p.jpeg
-Saft Bland-, sockerfri|Fun Light|0,8-1 l|69,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/567b15f2-4578-4d7f-86b4-5423edb89cd1/thumb100p.jpeg
-Satsumas|||19,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5167396e-0cbd-4dcc-10ac-08d4985afd7b/thumb100p.jpeg
-Satsumas|||19,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5167396e-0cbd-4dcc-10ac-08d4985afd7b/thumb100p.jpeg
-Sejfilé|Garant|400 g|59,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4f2301ee-5f1e-4057-84b3-65ef69841aa7/thumb100p.jpeg
+Gnocchi Di Patate|Giovanni Rana|500 g|27,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2d462f63-b01a-4881-aefd-f7b92b167517/thumb100p.jpeg
+Godispåse|Haribo|120-170 g|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c59573e6-2aba-40e7-122c-08d5b4d004f3/thumb100p.jpeg
+Godispåse|Tweek|70-80 g|19,95|frp|||||1|
+Gravljus|Bolsius||19,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7e30b36e-b7d1-45e9-39b4-08d65e27a147/thumb100p.jpeg
+Gravljus m. lock, budskap|Bolsius||29,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5723673d-b649-44fe-14ab-08d71b9dc131/thumb100p.jpeg
+Gravljus m. lock/Oljeljus, 1-2-p|Fixa||19,95|frp|||||1|
+Grevéost/Herrgårdsost/Prästost|Arla Ko|ca 667-670 g|89,95|kg|||||1|
+Grillkorv, original/cheezy chorizo|Sibylla|320-350 g|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/472e1bdd-00ac-4272-a0c8-e13b4e2dd472/thumb100p.jpeg
+Gryta, gjutjärn|Senso Kitchen||499,00|st|||||1|
+Gryta, gjutjärn|Senso Kitchen||599,00|st|||||1|
+Grädde Visp-|Arla|5 dl|26,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c2bd0f9b-021e-459e-d237-08d4f98bb95d/thumb100p.jpeg
+Gräddglass|Sia Glass|1,5 l|34,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/72ce25fd-e035-4937-f893-08d47f3c1412/thumb100p.jpeg
+Halloweenpumpa|||19,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9d8d43c1-d219-44f8-863c-4c69bff89540/thumb100p.jpeg
+Hamburgerbröd Brioche, 4-p|Garant|200 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/65f68120-8c2f-49c8-490d-08d8487d8491/thumb100p.jpeg
+Havregryning/Müslimorgon, skivat|Fazer Bageri|600 g|26,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/25f9eba5-7b51-49dd-94da-00b38a94ed90/thumb100p.jpeg
+Helgskinka av kalkon|Ingelsta Kalkon|ca 1,4 kg|139,00|kg|||||1|
+Helgskinka, kokt|Nybergs Deli|ca 2 kg|54,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/36cf4324-b171-4e15-48aa-08d47f3b722d/thumb100p.jpeg
+Hårfärg Casting/Excellence/Magic Retouch|L'Oréal||84,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/48e3b5c8-8628-4f1b-ef5c-08d47f3c1412/thumb100p.jpeg
+Hönö Jollekaka/Rågbröd Danskt-, skivad|Pågen|400 g|19,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c4b3fb1c-17c9-46b1-4a4b-08d47f3b722d/thumb100p.jpeg
+Juice/Lemonad/Nektar|God Morgon|1 l|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/161641dc-05bf-4c93-8f45-08d47f4192ef/thumb100p.jpeg
+Kaffekapsel Dolce Gusto|Nescafé|30-p|99,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/69c20fa1-70b1-4f05-a7df-621722a932a0/thumb100p.jpeg
+Kalkon, mini|Ingelsta Kalkon|ca 4,1 kg|59,95|kg|||||1|
+Kalkon, mini|Ingelsta Kalkon|ca 3,2 kg|99,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f20c424b-e214-4e0c-3e0b-08d525be06e9/thumb100p.jpeg
+Kalkonbröstfilé|Ingelsta Kalkon|ca 400 g|84,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d24fec98-9e0a-409f-a3ba-555108d305c4/thumb100p.jpeg
+Kex|Göteborgs kex Utvalda|100-150 g|19,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dcd07801-5d1e-4d59-e263-08d47f3c1412/thumb100p.jpeg
+Krydda, färsk, eko|Kabbarps Gård|ca 429 g|19,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/99438921-2ba3-4c89-d618-08d7681bba89/thumb100p.jpeg
+Kyckling, hel, eko|Reko|ca 2 kg|139,00|kg|||||1|
+Kycklingfilé Minut-, bitar/filé/strimlad|Kronfågel|ca 550-600 g|79,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c53ac25d-bb30-4841-aa48-240339983599/thumb100p.jpeg
+Kycklingfilé, tunnskivad/tvådelad|GuldFågeln|ca 700-750 g|109,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/04642edc-b214-4d71-47c6-08d47f3b722d/thumb100p.jpeg
+Kycklingköttbullar|Kronfågel|600 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f110da9e-c8d1-4e03-a511-bbbae5fa9a8f/thumb100p.jpeg
+Köksredskap, trä|Senso Kitchen||99,00||||||3|
+Läsk|Coca-Cola/Fanta/Sprite|1,5 l|99,00||||||9|https://mpk-product-images.s3.eu-north-1.amazonaws.com/289b33cd-fe7d-4dce-be81-2c5c36dd1454/thumb100p.jpeg
+Majonnäs i glas|Hellmann's|400 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/64fd1f07-f5a2-4776-801f-3ae128423fa1/thumb100p.jpeg
+Majskaka|Friggs|120-125 g|32,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/96e267c0-d271-45a2-9ce6-7682a9366c42/thumb100p.jpeg
+Margarin Bords- Gårdsgoda, original/laktosfri|Valio/Valio Laktosfri|400-500 g|34,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cf528c5c-2f16-47a6-b005-d1ccf0f30639/thumb100p.jpeg
+Maskindisk Original/Platinum|Yes|65-83-p|119,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a3ed431a-01e7-477c-a2b7-8e8cdf763f99/thumb100p.jpeg
+Mjukost i tub|Kavli|230-275 g|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cc840dfa-30f8-4282-ed1b-08d47f3c1412/thumb100p.jpeg
+Mozzarellaost|Galbani|125 g|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3dc511fd-d85f-4815-89f5-359f6f6b4aaa/thumb100p.jpeg
+Müsli Krispig|Risenta|450 g|36,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ced06209-34cc-454e-923d-a39ae70ab612/thumb100p.jpeg
+Nötfärs|City Gross||149,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c484d2d-fe43-4c0c-8fac-b1a815c116e4/thumb100p.jpeg
+Nötstek av fransyska|City Gross||159,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f1fa1695-4516-4336-9304-56da6f73bf21/thumb100p.jpeg
+Olivolja|Terre Nostre|250 ml|59,95|frp|||||1|
+Ost, riven|Arla|150 g|39,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d81a2cc8-0380-4737-babe-f999f70468d2/thumb100p.jpeg
+Pan Pizza|Billys|170 g|49,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7465699d-04eb-4d02-e87a-08d47f3c1412/thumb100p.jpeg
+Pannkakor, 8-p|Garant|480 g|42,00||||||2|
+Pasta|Barilla|500 g|40,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/632996ab-004b-41fd-53ce-08d569d56bbf/thumb100p.jpeg
+Pastasås/Pizzasås|Barilla|400 g|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c6cff01d-66ea-4dcd-ef1b-08d47f3c1412/thumb100p.jpeg
+Pastej|Argeta|95 g|22,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/12eb6d4f-2e26-4fad-e6f4-08d47f3c1412/thumb100p.jpeg
+Persimon|ca 180 g||9,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5f80afe8-82d3-462e-d5c3-08d4a1776a57/thumb100p.jpeg
+Pinsa|Zeta|230 g|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b94738c6-fa47-40bd-b664-efe183c3f33d/thumb100p.png
+Pizza, stenugnsbakad|Grandiosa|350 g|99,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/20f0b56e-1e85-40dc-a145-057a088c9df3/thumb100p.jpeg
+Potatis Smått & Gott i påse|Garant|900 g|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/81f84ab0-4375-4517-9632-08d73c9d753d/thumb100p.jpeg
+Potatisgratäng|Peka|800 g|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1cb7a0a4-c852-445e-e9b1-08d47f3c1412/thumb100p.jpeg
+Prinskorv, laktosfri|Garant|240 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/70b2255b-6880-4231-df6a-08d47f3c1412/thumb100p.jpeg
+Pyttipanna Korv-/Pyttipanna Ox-|Findus|750 g|42,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/39a312d4-7c0c-4f1b-858b-08d85b58f678/thumb100p.jpeg
+Pålägg, skivat, plånboksp.|Jakobsdals|80-120 g|39,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/672862f8-3417-465e-a370-1d6df9bab7be/thumb100p.jpeg
+Pølse Röde-/Wiener-|Gøl|375 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90bdd582-a19a-44e3-df8e-08d47f3c1412/thumb100p.jpeg
+Revbensspjäll av fläskbog, knäckta|City Gross||69,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/edc66c1f-73bc-497f-99be-ab968fc6c13f/thumb100p.jpeg
+Rosor|10-p||49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/60c518ae-3279-47c0-ffa9-08d79dd5d8c0/thumb100p.jpeg
+Rostbiff av nöt, marinerad, grillad|Jojjen||29,95|hg|||||1|
+Senap Grovstark-/Sötstark-|Johnny's|500 g|17,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d9ae8e33-e75b-4dfa-ee36-08d47f3c1412/thumb100p.jpeg
 Servetter Pumpor-|Hedlunds|20-p|24,95|frp|||||1|
-Smör|Valio|500 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/00e61355-6ef3-4678-6a8f-08d535f00adf/thumb100p.jpeg
-Smörgås Trekant-|Manuella disken|ca 175-190 g|19,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3e4bbf19-4d7f-446b-8c64-8d6a7ac10b27/thumb100p.jpeg
-Spisrent|Burner|500 ml|59,95|frp|||||1|
-Städservetter|Eldorado|70-p|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f7ac4d3c-ad4b-48c2-906b-ba3a0601ef1e/thumb100p.jpeg
-Sås|Lohmanders|2,3 dl|36,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1a1726ef-878f-4287-3e01-08d61e8be335/thumb100p.jpeg
-Tampong|Intuition|16-p|32,00||||||2|
-Tepåse|Twinings|25-p|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9d0348b6-bc28-490b-edbe-08d47f3c1412/thumb100p.jpeg
-Toalettrengöring|Duck|750 ml|19,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/17ee747f-4757-4711-e522-08d47f3c1412/thumb100p.jpeg
-Tomat Plommon- i ask|500 g||19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9d4839c9-b282-4a25-6fda-08d4ac1a34ec/thumb100p.jpeg
-Trosskydd|Intuition|30-p|35,00||||||2|
+Skinka, honungsmarinerad/ålarökt|Färskvaruhuset||16,95|hg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7d36228a-abba-4960-8e3b-52d3fafae6a2/thumb100p.jpeg
+Smör|Garant|500 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0fe57032-83bc-43cb-b696-b2c9410af7f4/thumb100p.jpeg
+Spareribs av fläskkött|Tulip|900 g|59,95|frp|||||1|
+Spareribs av fläskkött, grillade|Dalsjöfors Kött||79,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fd085cb2-1557-43d2-9460-c9c81543288d/thumb100p.jpeg
+Sparris, grön i knippe|250 g||49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8f435879-0d96-4106-6fdf-08d4ac1a34ec/thumb100p.jpeg
+Stekpanna|||99,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ed5d3076-d3e0-4c78-395d-08d7b66fa5bb/thumb100p.jpeg
+Surdegsbröd|Butiksbakat||49,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f0a2e9a9-f25c-4e1e-ad21-ada2b400bfcd/thumb100p.jpeg
+Tacokrydda|Garant|15-30 g|30,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fa423b20-72bd-4b2e-4b94-08d8eee4b72e/thumb100p.jpeg
+Tomat|||29,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/af20469b-e381-4dfb-d99a-08d6e35c7252/thumb100p.jpeg
 Tuggummi, burk|Extra|67-84 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/78bb6c25-0079-4c32-f8d0-08d47f3c1412/thumb100p.jpeg
-Tulpaner|7-p||49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/796d8be6-2f7d-4317-b9e8-08d8b8e1b720/thumb100p.jpeg
-Tårta Halloween-, 6-8-port.|Butiksbakat|ca 757 g|149,00|st|||||1|
-Vatten, kolsyrat/stilla|Premier|1,5 l|25,00||||||3|
-Veganburger Juicy, 4-p|Garant|320 g|42,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e05d8605-7572-478b-b1ce-cddc8088fc3e/thumb100p.jpeg
-Vindruvor Autumn Crisp, gröna|||49,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/df2d0e14-e1e7-41da-a502-7696d37c8f95/thumb100p.jpeg
-Vitost|Apetina|200 g|14,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/370c1163-fc5d-43d3-ec61-08d47f3c1412/thumb100p.jpeg
-Yoghurt Vanilj-|Valio|1 kg|40,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ca424b14-a849-4b1e-f0c8-08d47f3c1412/thumb100p.jpeg
+Tzatziki/Yoghurt Turkisk-|Salakis|0,5-1 kg|28,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6adc4d8a-d6f4-4f0e-47f1-08d47f3b722d/thumb100p.jpeg
+Tårta Halloween-, 6-8-port.|Butiksbakat|ca 757 g|149,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9798f646-20c6-4631-bf48-5aa25d149e08/thumb100p.jpeg
+Vatten Mer Smak, kolsyrat|Ramlösa|1,5 l|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4c56139a-18bf-444c-8050-43e6a865cc9f/thumb100p.jpeg
+Vesterhavsost, eko|Thise Mejeri||36,95|hg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fc47a184-6d66-4b04-b5cc-d89aef3536ab/thumb100p.jpeg
+Västerbottensost, lagrad|Norrmejerier|450 g|89,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fa9026ba-53fe-478d-7669-08d535f00adf/thumb100p.jpeg
+Waffle Fries|Garant|600 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f64531cd-7564-42d9-9ddb-d11bfb72229e/thumb100p.jpeg
+Yoghurt|Yoggi|1,5 kg|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/473724e1-f857-432a-bc01-ad51244008a5/thumb100p.jpeg
+Äpple Aroma/Ingrid Marie/Rubinola|||27,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a68cfd62-68bc-446c-db8f-08d4a1776a57/thumb100p.jpeg
 # BUTIK: Hemköp Trollhättan Kungsgatan
-Aubergine/Zucchini|||10,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c08a0e75-890c-4291-73b9-08d4ac1a34ec/thumb100p.jpeg
-Avokado|||7,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5280558b-03e0-4d64-73bb-08d4ac1a34ec/thumb100p.jpeg
-Avokado, tärnad|Garant|250 g|18,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5e934d73-d5a5-40b8-ff64-08d79dd5d8c0/thumb100p.jpeg
-Babyolja|Libero|150 ml|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2dd9ec41-7934-401a-ae00-49be0e538836/thumb100p.jpeg
-Bacon, skivat/tärnat/Kycklingbacon|Garant|100-140 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4bc3a028-8a6d-4ffc-b94a-642c905d99ae/thumb100p.jpeg
-Baguette Halv-, butiksbakad|Bonjour|125 g|5,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/121d9b47-8a70-4e47-6428-08d6a8255641/thumb100p.jpeg
-Biff av nöt m. kappa, eko|Garant EKO|ca 1 kg|359,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6d169970-a779-4cd5-8ca8-08d47f4192ef/thumb100p.jpeg
-Binda/Trosskydd|Always|12-60-p|45,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90f21f8f-edd7-4485-b357-b301c532312e/thumb100p.jpeg
-Blöja Comfort/Up&Go|Libero|20-47-p|169,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d5f107fa-fab7-47fd-a278-e347c844045c/thumb100p.jpeg
-Chili i påse, habanero/jalapeño/peppar röd|Garant|40-50 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/59b77473-b4cf-4d85-8702-5b39ba1ab282/thumb100p.jpeg
-Chips/Nötmix|Gårdschips/Gårdsnötter|140-150 g|21,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9c4c8c8b-6cad-4603-9494-08d47f4192ef/thumb100p.jpeg
-Chokladbit|Cloetta|50-60 g|25,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e85bd52e-5371-4677-f610-08d47f3c1412/thumb100p.jpeg
-Chokladbit Maxi, 6-p|Kinder|126 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ce1fb5be-6d2b-4972-f692-08d47f3c1412/thumb100p.jpeg
-Chokladpåse Kexchoklad/Polly|Cloetta|150-200 g|21,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1df70603-6ffb-4370-f600-08d47f3c1412/thumb100p.jpeg
-Deo Roll-on|Dove|50 ml|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/79c466f5-5f51-4e40-8b51-2e9ef6cca855/thumb100p.jpeg
-Duschcreme|Family Fresh|500 ml|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9283a5be-abf4-4f7b-a984-4416899b9287/thumb100p.jpeg
-Energidryck|Latitude 65|33 cl|12,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/da1a73f6-6b45-4f36-b48a-2bd90c74c39c/thumb100p.jpeg
-Flingor|Kellogg's|330-500 g|38,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/05e46167-7912-43b7-be65-08c40de6f7b3/thumb100p.jpeg
-Färskpasta, fylld|Giovanni Rana|250 g|38,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a8ef7c55-fd02-4443-906c-04ff76ee0a8b/thumb100p.jpeg
-Goudaost, riven|Eldorado|200 g|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0ef64826-bd09-4ab9-ed7d-08d47f3c1412/thumb100p.jpeg
-Granola|Paulúns|430-450 g|39,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0f6aab6e-bf16-4024-9d0a-1c525fd877be/thumb100p.jpeg
-Gravljus m. lock-/Marschaller-|Fixa|2-p|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/032e071b-eb14-4d28-763b-08d5950c82fb/thumb100p.jpeg
-Grötbröd/Lantbröd, skivat|Östras bröd|700 g|22,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/13a5d9fe-7eb4-43dd-acc6-461fc5e4ef2e/thumb100p.jpeg
-Guldkorn/Lingongrova, skivad|Pågen|500 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8ecca298-54c4-4da6-6fea-08d535f00adf/thumb100p.jpeg
-Halloumiost|Garant|200 g|22,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2cdd106e-5c49-4260-eb6b-08d47f3c1412/thumb100p.jpeg
-Halloweenpumpa|||20,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0b52fe2e-26df-4173-962c-db542af22f4a/thumb100p.jpeg
-Havregryn, eko|Garant EKO|1 kg|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4cd8eb12-b030-413d-b7fb-08d875456128/thumb100p.jpeg
-Hushållsost|Arla|ca 1,1-2,2 kg|85,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7559162b-dec2-4678-a2f9-8e8952d3c005/thumb100p.jpeg
-Isterband Småländska-|Lithells|330 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6edda80a-fe98-49dd-dfcf-08d47f3c1412/thumb100p.jpeg
-Jalapeños, grön|Santa Maria|215 g|24,95|frp|||||1|
-Juice|Råsaft|70 cl|32,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a4e7b36e-0e4e-404a-9623-f5843e807f95/thumb100p.jpeg
-Ketchup/Majonnäs|Heinz|0,46-1 kg|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/71db8b6a-c5c8-4e00-eb3d-08d47f3c1412/thumb100p.jpeg
-Kikärtor, eko|Garant EKO|500 g|22,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/781a1a82-423a-4253-5d08-08d771a2d39f/thumb100p.jpeg
-Kyckling, hel, eko|Reko|ca 2 kg|119,00|kg|||||1|
-Kycklingdelar Chicken Shop, panerad, 2-p|Findus|170-227 g|24,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/acd1f578-5114-4e8d-a13c-d5c0fac3ee15/thumb100p.jpeg
-Kycklingfilé|Eldorado|900 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9a2fc172-3e75-428e-44dc-08d57dcc3541/thumb100p.jpeg
-Kycklingfilé Minut-|Kronfågel|550-600 g|69,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a0800297-9265-4f6f-bb37-6177473d2571/thumb100p.jpeg
-Lax i bit, varmrökt|Falkenberg Seafood|125 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6934bc22-4dd6-49ec-97d6-614db8ad6d00/thumb100p.jpeg
-Lax, gravad/kallrökt, skivad|Falkenberg Seafood|150 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3db20a57-dc23-4233-0e0a-08d8e8d1304c/thumb100p.jpeg
-Lime|||10,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3ab620fc-66f0-4456-7025-08d4ac1a34ec/thumb100p.jpeg
-Läsk, 10-p|Coca-Cola||49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/95b47d82-6d4c-403b-9e37-05aebb884ee2/thumb100p.jpeg
-Majskorn, 3-p, konserv|Green Giant|480 g|27,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/deacabab-1042-4212-e4c5-08d583d440be/thumb100p.jpeg
-Marmelad|St Dalfour|284 g|31,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ff737076-4cef-4502-e048-08d47f3c1412/thumb100p.jpeg
-Nötfärs|Garant|800 g|119,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fc2a9b48-c498-46ad-9ddd-1c463e1d6e86/thumb100p.jpeg
-Papper Hushålls-|Fixa|4-p|28,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c05134d5-560a-4ee9-b528-f15b5b4d5593/thumb100p.jpeg
-Pålägg Tunna Skivor, skivat|Svea|150 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/db45aa4c-1b44-4226-bde9-fb17d3914765/thumb100p.jpeg
-Ris, eko|Garant EKO|1 kg|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b5c9c784-9f5c-4514-b93b-0932239364c0/thumb100p.jpeg
-Räkor Vannamei- färska|Lerøy|220 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3de66706-3ba0-4a6d-acae-2321f25b6f60/thumb100p.jpeg
-Saft Bland-, sockerfri|Fun Light|0,8-1 l|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/567b15f2-4578-4d7f-86b4-5423edb89cd1/thumb100p.jpeg
-Salami|Grilstad|80-100 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/aadde5c7-04f2-4f67-9202-6b5b0130ee3f/thumb100p.jpeg
-Silverlök i nät|Garant|300 g|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ba7c801e-2638-4c76-73a3-08d4ac1a34ec/thumb100p.jpeg
-Smör & rapsolja, flytande|Arla|5 dl|22,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c2bd0f9b-021e-459e-d237-08d4f98bb95d/thumb100p.jpeg
-Snacks|OLW|200-275 g|52,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a558c787-609e-4ba0-f731-08d47f3c1412/thumb100p.jpeg
-Styckglass|Magnum||15,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/92bd9803-044c-4db1-a499-33439756a725/thumb100p.jpeg
-Sås, flaska|Lohmanders|2,5 dl|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/22211769-f664-4c89-788e-08d6b281ec0c/thumb100p.jpeg
-Säsongsbukett|||149,00|st|||||1|
-Tacokit Stand' N' Stuff|Old el Paso|193 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/52db8f20-272a-4946-f12d-08d47f3c1412/thumb100p.jpeg
-Tacokrydda, 3-p|Santa Maria||25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/484c21cb-c292-4d4f-f0ef-08d47f3c1412/thumb100p.jpeg
-Tacosås/Tortilla Soft-, 8-p|Santa Maria|200-320 g|14,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e36491d2-8f0b-4d62-13e1-08d71b9dc131/thumb100p.jpeg
-Tacotubs, mini, 10-p|Santa Maria|86 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c0455564-7ef2-4c04-9f80-9fda00c19387/thumb100p.jpeg
-Tepåse Skandinavisk Twist|Arvid Nordquist|17-p|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/081c3884-ffcb-4fcd-8c6f-753648da832c/thumb100p.jpeg
-Tomat Kvist-|||34,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/af20469b-e381-4dfb-d99a-08d6e35c7252/thumb100p.jpeg
-Tvättmedel, flytande/pulver|Via|760 ml, 760 g|79,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b4b96d89-04c7-48ac-bbf2-a315535d8ec0/thumb100p.jpeg
-Veganska Måltidsdelar, veganska|Oumph!|280-320 g|36,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a2539117-7a3c-493b-b5ec-29b272367059/thumb100p.jpeg
-Vindruvor Autumn Crisp, gröna|||49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/df2d0e14-e1e7-41da-a502-7696d37c8f95/thumb100p.jpeg
-Våtservetter|Libero|64-p|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/baf28ce6-673a-421e-6c04-08d7d6e4ee21/thumb100p.jpeg
-Ägg|Svenska Lantägg|12-p|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4d7cdf77-5ea6-4fc3-e2fc-08d509e56ccf/thumb100p.jpeg
-Ärter/Wokgrönsaker, classic/thai/zanju|Findus|450-600 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/639b8449-082a-4f28-8cda-dbf571037e67/thumb100p.jpeg
+Avfallspåse m. knythandtag|Fixa|25-p|10,00|frp|||||1|
+Balsam/Schampo Elvital|L'Oréal|200-250 ml|34,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/9f3e527d-e135-49cd-efd3-08d47f3c1412/thumb100p.jpeg
+Bondost Fransk-|Onetik||22,95|hg|||||1|
+Brieost de Meaux|Rouzaire||22,95|hg|||||1|
+Brieost/Camembertost|Président|200-250 g|33,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8368b9db-6b92-420e-e878-08d47f3c1412/thumb100p.jpeg
+Chips|Pringles|160-165 g|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef47ffae-b6a1-435a-8c3f-e4e933c75702/thumb100p.jpeg
+Choco Crunch/Smash|OLW|90-100 g|25,00|frp|||||1|
+Chokladkaka|Marabou|60-100 g|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/490dd178-b89d-459c-bfcb-b14b04b37815/thumb100p.jpeg
+Chokladpåse Dumle/Kina Snacks/Marianne|Fazer|140-200 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/78750078-c0ff-4798-8987-7d30cc427044/thumb100p.jpeg
+Cider|Herrljunga|1 l|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/03ccedb6-7fb7-4723-f1fa-08d47f3c1412/thumb100p.jpeg
+Citron, eko|Garant EKO||5,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6fb11efe-7788-41da-bd7d-378b6115a51c/thumb100p.jpeg
+Clementin i korg|900 g||25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/53d72d4c-6c54-4247-a75b-343c12aa4c39/thumb100p.jpeg
+Crème Fraiche, original/laktosfri|Garant|2 dl|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7d246421-e6be-41eb-d865-08d4985afd7a/thumb100p.jpeg
+Dammvippa/Golvmopp, refill|Swiffer|5-18-p|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f3cbe5ae-9e36-499f-bb75-29015baf5e3e/thumb100p.jpeg
+Delicatoboll, 6-p|Delicato|240 g|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/faf4b92d-d9a9-46c4-f90f-08d562fe98c3/thumb100p.jpeg
+Dill/Gräslök i påse|Garant|15-20 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/73580881-087e-4f3f-928e-87bd1533a538/thumb100p.jpeg
+Donuts|La Lorraine|50-71 g|6,00|frp|||||1|
+Fetaost/Grillost/Halloumiost|Zeta|130-200 g|48,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6ba96d46-94d8-417c-ec41-08d47f3c1412/thumb100p.jpeg
+Flingor|Nestlé|325-375 g|32,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a92fe7e6-62bb-4b93-6e8e-08d535f00adf/thumb100p.jpeg
+Fond|Bong Touch of Taste|1,8 dl|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c49ae91-ab16-4688-eaeb-08d47f3c1412/thumb100p.jpeg
+Fullkornsbröd m. linfrö, skivat, eko|Garant EKO|500 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b5328cbe-bf93-4c37-9171-08d47f4192ef/thumb100p.jpeg
+Färskost|Philadelphia|145-200 g|36,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c7480a2-86cd-491f-be39-0174e9ca9225/thumb100p.jpeg
+Glass|Häagen-Dazs|4-p|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/006d1ef4-385e-43e8-95c1-8c60587485e8/thumb100p.jpeg
+Godispåse|Haribo|80 g|20,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/40f94776-3aa4-426a-8cc9-08d47f4192ef/thumb100p.jpeg
+Godispåse Ferraribilar|Toms|110-130 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a66e3bcf-dd12-4dd2-808a-2de84b3b0ee3/thumb100p.jpeg
+Grevéost/Herrgårdsost/Prästost|Allerum|400 g|57,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6b459162-9673-45df-5428-08d569d56bbf/thumb100p.jpeg
+Grädde Visp-|Arla|5 dl|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/82eaccd2-bbdc-44b8-7743-08d49846e02b/thumb100p.jpeg
+Helgskinka, kokt|Nybergs Deli|ca 2 kg|49,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/36cf4324-b171-4e15-48aa-08d47f3b722d/thumb100p.jpeg
+Hälsa, skivat|Östras bröd|600 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/122fda6a-8ba3-44ea-932f-6354d4bc3230/thumb100p.jpeg
+Juice/Lemonad|Garant|1 l|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2b33d1f8-2149-4658-a07f-f8e6384ac717/thumb100p.jpeg
+Kalkonbröstfilé|Ingelsta Kalkon|400 g|79,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d24fec98-9e0a-409f-a3ba-555108d305c4/thumb100p.jpeg
+Kaviar i tub|Garant|250 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f810a034-7751-4f66-bd89-efceb109df07/thumb100p.jpeg
+Kex|Göteborgs kex Utvalda|100-150 g|26,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dcd07801-5d1e-4d59-e263-08d47f3c1412/thumb100p.jpeg
+Kex|TUC|100 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5b98e73e-42a0-421e-e1a7-08d47f3c1412/thumb100p.jpeg
+Knäckebröd Original/Rågi/Sport|Wasa|470-550 g|18,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/00ee68f3-fcca-4d9e-e04e-08d47f3c1412/thumb100p.jpeg
+Korvbröd Brioche, 6-p|Garant|270 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7a2566c9-dd68-41a7-e17c-08d47f3c1412/thumb100p.jpeg
+Kryddkorv|Scan|180-300 g|29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/bf88aa2f-81ee-4211-4a01-08d47f3b722d/thumb100p.jpeg
+Kycklingbröstfilé|GuldFågeln|ca 900 g|99,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/31879648-9681-4587-2fe5-08d589aaafa7/thumb100p.jpeg
+Kycklinginnerfilé|Lönneberga|550 g|49,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cf034fc9-b86f-4317-9742-354e53311e4e/thumb100p.jpeg
+Lammkorv/Salsiccia|Köttkultur|200-300 g|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b9f6c47a-65fa-486a-b732-dea6123571f9/thumb100p.jpeg
+Lammstek, benfri|Smak av Gotland|ca 1 kg|299,00|kg|||||1|
+Lammstek, benfri|Chosen by Farmers|ca 1,5 kg|169,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f9404fc5-50c4-43e7-4986-08d47f3b722d/thumb100p.jpeg
+Lax, varmrökt|Isfjord Norway|ca 1 kg|119,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c5698a45-0e54-47fa-a7e1-96e16c6e2541/thumb100p.jpeg
+Läsk, burk, 4-p|Mino||34,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/be83993c-98c7-47d9-b523-4b3a7fabde5e/thumb100p.jpeg
+Läsk, burk, 6-p|Pepsi/Zingo||30,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2ca12293-9af7-442a-bc0f-ea609915ec0d/thumb100p.jpeg
+Lösviktsgodis|Smått & gott||89,00|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c8ad48b-933c-4a5b-ae1a-80e7fc55a3d2/thumb100p.jpeg
+Majonnäs i tub|Kavli|275 g|16,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3561c381-8993-4bae-a86e-f6834504942f/thumb100p.jpeg
+Majskaka|Friggs|120-130 g|39,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/171cc9bb-d3e5-4dac-e220-08d47f3c1412/thumb100p.jpeg
+Mannafrutti/Risifrutti|Risifrutti|165-175 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef6789f0-0e01-4648-a78d-b8b2923ecbbc/thumb100p.jpeg
+Margarin, mjölkfri, växtbaserat|Carlshamn Mejerier|400-500 g|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/95ae3a8c-609c-412a-686c-08d47f480a49/thumb100p.jpeg
+Mjukost i tub|Kavli|230-275 g|36,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cc840dfa-30f8-4282-ed1b-08d47f3c1412/thumb100p.jpeg
+Mortadella Primula, skivad|Negroni||12,95|hg|||||1|
+Nötfärs|Smak av Gotland|500 g|79,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2c0efb9f-436e-4b7e-9f20-27126cb6d2b9/thumb100p.jpeg
+Olivolja Classico/Gentile|Zeta|500 ml|68,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/63e84410-bb32-438d-f9b3-08d562fe98c3/thumb100p.jpeg
+Ost Familjefavoriter|Arla|ca 0,75-1,2 kg|84,95|kg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/96062a96-4ecf-4ac5-ea7a-08d47f3c1412/thumb100p.jpeg
+Oxfilé, skivad|Garant|ca 300 g|499,00|kg|||||1|
+Paj|Carolines kök|300 g|44,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3ab3ffbc-e45c-413f-b1bc-25e1c9a8a044/thumb100p.jpeg
+Paj|Felix|210-220 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/845050da-f8c8-4df2-e8da-08d47f3c1412/thumb100p.jpeg
+Pezzo|Panesco|75 g|5,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2de8cb40-5380-4207-8cf5-afd6dc314bd9/thumb100p.jpeg
+Pizza|Tony's|500 g|35,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d15ad5a5-d230-473b-8680-1e516bc00dd4/thumb100p.jpeg
+Plommon, röda i korg|500 g||15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/13a96a0d-f31b-47e7-1324-08d71b9dc131/thumb100p.jpeg
+Potatis Amandine-/Mandel-/Sparris- i påse|Garant|900 g|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4a01bb42-b2e7-48d7-9628-08d73c9d753d/thumb100p.jpeg
+Potatisgratäng/Rotfruktsgratäng|Peka|700-800 g|25,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/1cb7a0a4-c852-445e-e9b1-08d47f3c1412/thumb100p.jpeg
+Pålägg, skivat|Jakobsdals|80-100 g|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/672862f8-3417-465e-a370-1d6df9bab7be/thumb100p.jpeg
+Röra/Sallad|Rydbergs|175-200 g|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b811cc1e-d6c0-4d35-8c88-05c1f1786323/thumb100p.jpeg
+Saffran|Garant|0,5 g|24,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cb9c356d-2a96-4574-eb93-08d47f3c1412/thumb100p.jpeg
+Salami Magnifico-, skivad|Negroni||24,95|hg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/926b3834-328d-4141-d97d-08d4a1776a57/thumb100p.jpeg
+Salami Tryffel-, skivad|Viani||29,95|hg|||||1|
+Sallad Isberg & Frisé-/Frisé & Mâche-|Garant|150-225 g|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/837abc3e-23e6-4910-62f8-08d5b15fb4ab/thumb100p.jpeg
+Skinka Prosciutto Crudo, skivad|Montana||16,95|hg|||||1|
+Skinka Tunna Skivor, kokt/rökt, skivad|Garant|200 g|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4953b00b-2d9a-4eb6-e25e-08d47f3c1412/thumb100p.jpeg
+Skogaholmslimpa, skivad|Skogaholm|775 g|22,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6daae0a1-7620-41d1-8da6-4fadb1e44da8/thumb100p.jpeg
+Sköljmedel/Tvättmedel, flytande|Grumme|750 ml|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a0a45058-bd2e-4999-8491-36e2dd0248eb/thumb100p.jpeg
+Snacks|Estrella|200-275 g|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dd05c135-35b1-4a31-9a37-fcc22e1891f9/thumb100p.jpeg
+Surdegsbröd|Bagersro/Södervidinge|650-750 g|25,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/985e3a3c-0487-4227-baf4-56b5f3226c8b/thumb100p.jpeg
+Sås|Johan Jureskog Selection|230 g|20,00|frp|||||1|
+Tandborste/Tandkräm|Colgate|1-p, 50-75 ml|15,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/96a817a8-225d-491c-915e-01d15dded37a/thumb100p.jpeg
+Tomat Babyplommon- i ask|500 g||29,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/c3d2cae4-1503-4a84-73e0-08d4ac1a34ec/thumb100p.jpeg
+Tulpaner|7-p||49,95|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7cb98e66-0e72-437f-b96e-08d8b8e1b720/thumb100p.jpeg
+Vatten, kolsyrat, 12-p|Loka||35,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/185431d8-33ae-4b34-ae78-bf50fb49a860/thumb100p.jpeg
+Vegetariska produkter|Anamma|300-450 g|35,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3e327539-4077-4bdd-ae0f-7b4c841565d6/thumb100p.jpeg
+Värmeljus|Fixa|50-p|39,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/dfc746c1-e329-4975-89cc-dba6bbf7f756/thumb100p.jpeg
+Västerbottensost, lagrad|Norrmejerier|450 g|84,95|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fa9026ba-53fe-478d-7669-08d535f00adf/thumb100p.jpeg
+Yoghurt|Bärry|250 g|10,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/90b211e2-ff77-43e6-8e8b-08d47f4192ef/thumb100p.jpeg
+Yoghurt Skyr, eko|Dairy Food|400 g|18,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ffb9f596-3246-4d7e-b3ae-8596c706ed15/thumb100p.jpeg
 # BUTIK: ÖoB Trollhättan
-Adventskalender|Yums|258 g|79,90|frp|||||1|
-Adventskalender, choklad|50 g||16,90|frp|||||1|
-Allrengöring|Effekt|1 l|24,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d3c2a1eb-8d23-40f4-b979-4ced19420f8e/thumb100p.jpeg
-Björkved|10 kg||59,90|frp|||||1|
-Blockchoklad|Fantasty|200 g|26,90|frp|||||1|
-Bärdryck/Fruktdryck, koncentrat|Kiviks Musteri|20 cl|30,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a26cdd2e-98d3-40fb-84da-f6213046316b/thumb100p.jpeg
-Chips|Pringles|165 g|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef47ffae-b6a1-435a-8c3f-e4e933c75702/thumb100p.jpeg
-Choco Sticks|Leona|115 g|25,00||||||2|
-Chokladask|Anthon Berg/Merci|305-400 g|99,90|frp|||||1|
-Chokladask|After Eight|400 g|68,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e3d66c71-198f-4a45-b911-616ce04d4dfb/thumb100p.jpeg
+Adventskalender, choklad|50 g||29,00||||||2|
+Adventskalender, choklad|Kinder|113 g|59,90|frp|||||1|
+Adventsljus m. siffror, 4-p|||99,00|frp|||||1|
+Adventsljusstake|||199,00|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/10846292-43d7-4337-a271-723733ae5183/thumb100p.jpeg
+Allrengöring|Klorin|1,5 l|29,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ce692cb5-7383-4fd9-4191-08d7e1df2c06/thumb100p.jpeg
+Antikljus|4-p||100,00||||||2|
+Batteri|Voltage Power|10-p|29,90|frp|||||1|
+Bestick|Cusine|2-3-p|100,00||||||3|
+Blockljus|6-p||150,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/43162371-043d-4669-bd1b-601d32a871eb/thumb100p.jpeg
+Blockljus|||19,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/57de7c88-7665-452a-2afe-08d58d93b690/thumb100p.jpeg
+Blockljus LED|5-p||199,00|frp|||||1|
+Blockljus LED|3-p||179,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/24f21756-c8fc-41be-99d3-19b44dd2914e/thumb100p.jpeg
+Chips|Lay's|6-p|25,00|frp|||||1|
+Chips Västkust-|Estrella|180 g|50,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f3e1bda2-ef6c-4fdd-948a-08d47f4192ef/thumb100p.jpeg
+Chokladask Finest Selection|Merci|400 g|112,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cf769642-ec68-472b-98db-adba138188f0/thumb100p.jpeg
+Chokladask Guld|Anthon Berg|305 g|99,90|frp|||||1|
 Chokladask Toffifee|Toffifee|125 g|35,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/31ccc36e-3bd7-4a77-9478-268d271cb904/thumb100p.jpeg
-Chokladbit|Marabou|40-60 g|25,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b16c9b1f-6e20-4d96-a76e-c13349929b3e/thumb100p.jpeg
-Chokladbit, mini|Mars|333 g|100,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/abd6e3c8-88ae-4fb7-a331-242bcee941de/thumb100p.jpeg
-Chokladbox|Fazer|250-300 g|149,00||||||3|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d24a35d4-4583-4f16-cd15-08d85fbb1daa/thumb100p.jpeg
-Dadlar i ask|Alkaizhwan|200 g|15,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d147bb16-8eb2-4a79-22ed-08d4985afd7b/thumb100p.jpeg
-Diskborste|Effekt|3-p|15,00|frp|||||1|
-Diskduk|Effekt|10-p|34,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f2ea9195-9c08-472b-bbd3-2be7b37bb01d/thumb100p.jpeg
-Energidryck, burk, 24-p|Red Bull||279,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/cb91b24a-4572-4d98-7a17-08d49846e02b/thumb100p.jpeg
-Fruktdryck|Lowcaly|1 l|29,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/764ed1c1-8cb3-47a7-d86a-08d6e35c7252/thumb100p.jpeg
-Fågelmat|Pippip||29,00|frp|||||1|
-Fågelmat Solrosfrö/Viltfågelfrön|Pippip|2,5-4 kg|69,90|frp|||||1|
-Färdigrätt|Asiatique|280 g|59,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/93ab9b78-bb2b-417a-8ae4-ef9e6f18491a/thumb100p.jpeg
+Chokladbit|KitKat|40-42 g|25,00||||||3|
+Chokladbit/Kexchoklad, 8-10-p|Cloetta/KitKat/Lion/Mars/Snickers/Twix|415-500 g|100,00||||||2|
+Chokladkaka|Marabou|160 g|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ec2fa1e4-2bca-470b-bb59-1b0fbcec9596/thumb100p.jpeg
+Dricksglas|4-p||150,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/3f804f5c-f89a-46af-9d9b-86667c33dd48/thumb100p.jpeg
+Energidryck|Nocco|33 cl|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a3325baf-7f88-4169-9bdf-03f066c3d6ac/thumb100p.jpeg
+Färdigrätt Pasta|Firma Italia|175 g|18,90|frp|||||1|
+Fönsterputs|Ajax|750 ml|25,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/13372f05-7a87-4c20-4192-08d7e1df2c06/thumb100p.jpeg
+Glögg Alkoholfri|Saturnus|50-75 cl|29,90|frp|||||1|
 Godisklubba|Yums|30-p|27,90|frp|||||1|
-Godislåda Juleskum|Cloetta|720 g|59,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4f6aa032-c098-481a-b4ff-08d875456128/thumb100p.jpeg
-Godispåse All in one|Trolli|1 kg|109,00|frp|||||1|
-Godispåse Halloween|||29,00|frp|||||1|
-Godispåse Happy Party Mix/Maoam|Haribo|425-480 g|46,90|frp|||||1|
-Godispåse Mini|Skittles|198 g|29,90|frp|||||1|
-Godispåse Partymix|Vidal|400 g|46,90|frp|||||1|
-Godispåse Piratmix|Yums|115 g|18,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/5cdbb707-acdd-4038-a80e-7d1b1365efe8/thumb100p.jpeg
+Godislåda Skumtomtar|Aroma|650 g|49,90|frp|||||1|
+Godispåse|Haribo/Malaco/Vidal||39,90|frp|||||1|
+Godispåse Fruktklubba/Fruktkola Fransk-|600-920 g||53,00|frp|||||1|
 Godispåse Popping Candy|Yums||30,00||||||2|
-Gravljus Hjärta m. lock, glas|Bolsius||49,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7e30b36e-b7d1-45e9-39b4-08d65e27a147/thumb100p.jpeg
-Gravljus LED m. lock|||49,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/83105e83-02e3-46dc-3b24-08d7f252a9c1/thumb100p.jpeg
-Gravljus m. lock|2-p||29,90|frp|||||1|
-Gravljus, LED|||39,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/83105e83-02e3-46dc-3b24-08d7f252a9c1/thumb100p.jpeg
-Gravlykta, smide, svart|||129,00|st|||||1|
+Gravdekoration|||99,90|st|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b984701d-436f-4f9f-bc34-1ae39580a199/thumb100p.jpeg
+Gravljus|2-p||29,90|frp|||||1|
+Gravljus|||39,90|st|||||1|
+Gravljus|||59,90|st|||||1|
+Gravljus|Bolsius|5-p|49,90|frp|||||1|
+Gravljus i glas, hjärta|||49,90|st|||||1|
+Gravljus m. budskap|||29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fbdd7c75-75ef-4fb0-a0a1-57a41af94ce4/thumb100p.jpeg
+Gravlykta, metall & glas|||129,00|st|||||1|
+Halloweengodis|||25,00|frp|||||1|
 Halloweengodis i dödskalle|333 g||99,00||||||2|
-Hasselnötscreme|Nutella|1 kg|89,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ad4bfd2f-4ea3-4540-0299-08d4ca8f0093/thumb100p.jpeg
-Kaffe|Gevalia|450 g|699,00||||||12|https://mpk-product-images.s3.eu-north-1.amazonaws.com/813132e6-8cc8-47db-9fb5-d9dfc837e87f/thumb100p.jpeg
-Kaffekapsel|Gimoka|16-p|90,00||||||2|
-Kaffekapsel|Gimoka|10-p|50,00||||||2|
-Kattmat|Sheba/Whiskas||189,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/8f0a5410-c671-4314-af68-756f82c1c051/thumb100p.jpeg
-Kattsand|Maxcat|10 l|79,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/6f964629-7b40-4487-815e-400df751977f/thumb100p.jpeg
-Kex|Cream's|230 g|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/140fce46-4d30-4357-8641-9c2e153531da/thumb100p.jpeg
-Klorrengöring|Effekt|2 l|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/2b157630-86b1-4a3e-0a6d-08d8c7d00274/thumb100p.jpeg
-Lussebulleboll/Pepparkaksrulle|Delicato|240 g|29,90|frp|||||1|
-Läsk, burk, 20-p|Pepsi/Pepsi Max||199,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/13c4a0a9-77b3-4e6e-9be0-f40a53bd5de7/thumb100p.jpeg
+Jordnötssmör|Taste of Nature|340 g|28,90|frp|||||1|
+Julmugg|||39,90|st|||||1|
+Julmust, original/sockerfri|Nygårda|1,5 l|25,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f25dd8c4-5946-467e-b700-afaf6075e9cd/thumb100p.jpeg
+Julmust/Läsk/Lättöl/Vatten, kolsyrat, 20-p|20x33 cl||89,00|frp|||||1|
+Julstrumpa m. godis|159 g||24,90|frp|||||1|
+Kaffe, hela bönor|Gimoka|1 kg|150,50|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/054c1fb8-fda2-42bd-8cd4-2e31489241b1/thumb100p.jpeg
+Ketchup/Majonnäs, flaska|Heinz|0,8-1,35 kg|35,00|frp|||||1|
+Kex|Lotus Biscoff|140 g|13,90|frp|||||1|
+Kex/Kex Tom & Jerry|Göteborgs kex/Göteborgs kex Brago|175-225 g|15,00|frp|||||1|
+Kondisbit|Delicato|150-240 g|45,00||||||2|
+Kronljus|20-p||69,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/eebde60f-a591-4253-a1e9-ee029172c735/thumb100p.jpeg
+Kronljus|8-p||100,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/52141439-8c01-4849-8189-365ebd72d8c6/thumb100p.jpeg
 Lösviktsgodis|||6,99|hg|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/7c8ad48b-933c-4a5b-ae1a-80e7fc55a3d2/thumb100p.jpeg
-Majskaka/Riskex|Nordthy|45-130 g|25,00||||||2|
-Marsipantårta i ask|Anthon Berg|175-192 g|48,90|frp|||||1|
-Maskindisk Original/Platinum|Yes|51-70-p|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/279b5da0-8dd3-40a3-ac65-722d2393576a/thumb100p.jpeg
-Microfiberduk|Effekt|4-p|20,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f4288352-71af-47bf-96be-0c7464a651d8/thumb100p.jpeg
-Nudlar Snabb-|Reeva|60 g|40,00||||||10|https://mpk-product-images.s3.eu-north-1.amazonaws.com/83807a40-4542-4715-9b78-4215facfb96c/thumb100p.jpeg
-Nudlar Snabb-/Mashed potatos|Reeva|40-75 g|26,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/83807a40-4542-4715-9b78-4215facfb96c/thumb100p.jpeg
-Nötmix|Estrella|175-200 g|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/42d555c8-26bc-49f9-50ae-08d540f05ad6/thumb100p.jpeg
-Papper Hushålls-/Papper Toa-|Maxi|3-6-p|30,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ed7cf290-c6fc-4c8c-9dea-da89eb15f40a/thumb100p.jpeg
-Papper Toalett- Super Soft|6-p||30,00|frp|||||1|
-Pepparkakor|Annas/Lea|225 g|24,90|frp|||||1|
-Pepparkakshus, byggsats|Annas|320 g|36,90|frp|||||1|
-Power Mousse spray/Toalettrengöring WC gel|Klorin|500-750 ml|45,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/a9e69d84-b8c7-4d35-9188-08d47f4192ef/thumb100p.jpeg
-Rapsolja/Solrosolja|Taste of Nature|1 l|100,00||||||4|https://mpk-product-images.s3.eu-north-1.amazonaws.com/03020833-2fa9-4bcc-9b72-9a21630d219e/thumb100p.jpeg
-Rengöringsspray|Ajax|750 ml|55,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4d16fcfd-8658-42fc-96b5-578a8908a61d/thumb100p.jpeg
-Saffran|Kockens|0,5 g|29,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/e792c847-37f9-455a-7967-08d49846e02b/thumb100p.jpeg
-Sköljmedel|Softlan|1,5 l|100,00||||||2|
-Snacks|OLW|225-275 g|49,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/20fa2b99-ccf0-4a73-8f71-08d55e413998/thumb100p.jpeg
-Städservetter|Effekt||50,00|frp|||||1|
-Tablettask Smurf, 3-p|Malaco||13,90|frp|||||1|
-Tandborste/Tandkräm|Colgate||30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/4c943eef-1853-49fc-9439-0f9428a6f8a6/thumb100p.jpeg
-Tepåse, pyramid|Loyd|20-p|30,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/fc0b70c1-96e4-4b33-cf06-08d6594e26c0/thumb100p.jpeg
-Toalettrengöring Block|Duck||19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b7592c79-9a05-4b33-3986-08d7b66fa5bb/thumb100p.jpeg
-Tvättmedel, flytande|A+|1,98 l|89,00|frp|||||1|
-Tändblock/Tändpåsar|1-2-3 Fire up|55-90-p|39,00|frp|||||1|
-Wafers|Tören|125-142 g|20,00||||||2|
-Ärtsoppa|Chef Lundén|435 g|25,00||||||2|
+Majskorn, 3-p, konserv|Green Giant||25,00|frp|||||1|
+Mikrofiberduk|Effekt|50-p|99,90|frp|||||1|
+Monster Munch Mr Big|20 g||25,00||||||5|
+Näsduk|Delicate|10-p|14,90|frp|||||1|
+Papper Hushålls- Family XL|Grite||50,00||||||2|
+Papper Toalett- XXL|Verasoft|18-p|169,00|frp|||||1|
+Papper Toalett-, Family|Grite|16-p|59,90|frp|||||1|
+Pasta|Mutlu|350-500 g|45,00||||||5|https://mpk-product-images.s3.eu-north-1.amazonaws.com/f85e27d7-d677-434b-a579-b879698a3442/thumb100p.jpeg
+Pastasås|Heinz|400 g|19,90|frp|||||1|
+Proteinbar|Barebells|55-56 g|23,90|frp|||||1|
+Rengöringsspray|Effekt|1 l|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/673cd6d1-cffd-4c00-b887-6ea3a7b5317c/thumb100p.jpeg
+Rengöringsspray Power Foam|Domestos|435 ml|59,00||||||2|
+Servetter|100-p||40,00|frp|||||1|
+Servis Vidda|Cuisine||100,00||||||3|
+Shot Ingefära-|RÅ|50 cl|29,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ca53c59f-90e2-4f58-8f69-1865dc425dc4/thumb100p.jpeg
+Sköljmedel|Softlan|850 ml|60,00||||||2|https://mpk-product-images.s3.eu-north-1.amazonaws.com/d7eea9d0-76e1-414b-9c89-60d9dfa85a01/thumb100p.jpeg
+Snack Crackers|100 g||10,00|frp|||||1|
+Snacks|Estrella|80-110 g|30,00||||||2|
+Sopset, plast|Effekt||79,90|frp|||||1|
+Stålull|Effekt|10-p|19,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/b290b4d8-b58e-4668-9c4e-20d307a731ca/thumb100p.jpeg
+Tablettask, 6-p|Malaco||26,90|frp|||||1|
+Tvättmedel|Via|1,61 kg|69,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/08e8d2d1-998a-483c-a0b7-1ed71616041f/thumb100p.jpeg
+Tvättmedel, flytande|Via|2,6 l|99,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ee07ac94-0683-42ee-b8d7-2ff503bdae26/thumb100p.jpeg
+Våtmopp, engångs|Effekt|24-p|79,90|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/ef3214b1-4bc0-4831-b755-8d3d9d3f8b42/thumb100p.jpeg
+Värmeljus|100-p||45,00|frp|||||1|https://mpk-product-images.s3.eu-north-1.amazonaws.com/0a3983f1-0eeb-49f2-39c3-08d7b66fa5bb/thumb100p.jpeg
