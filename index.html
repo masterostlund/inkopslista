@@ -601,10 +601,9 @@ async function cloudRefresh(force) {
       const d = res.prof; cloudTime = res.time; lsSet(TIME_KEY, cloudTime);
       if (Array.isArray(d.items)) {
         profile = Object.assign({ extras: [], excluded: [], hiddenStores: [], bought: [], custom: [], home: [], recipeHidden: [] }, d);
-        if (offers) { const sg = sig(offers.text); if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; } }
         lsSet(LS_PROFILE, profile); cloudState = "ok";
       } else { // listan är nyskapad för hand: börja med standardlistan
-        profile = freshProfile(); if (offers) profile.offersSig = sig(offers.text);
+        profile = freshProfile();
         lsSet(LS_PROFILE, profile); const t = await cloudSave(CODE, profile, cloudTime); if (t) { cloudTime = t; lsSet(TIME_KEY, t); } cloudState = "ok";
       }
     }
@@ -1162,10 +1161,22 @@ function addItem(cat) {
 // ---------- erbjudanden ----------
 let siteOffers = null;
 function sig(t) { let h = 0; for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return t.length + ":" + h; }
+// Veckans strykningar, tillagda varor och avbockningar nollställs bara när en NYARE erbjudandefil
+// hämtas från webbplatsen. En äldre eller cachad fil får aldrig radera en nyare planering.
 function useOffers(o) {
   offers = o; stores = parseOffers(o.text);
   const sg = sig(o.text);
-  if (profile.offersSig !== sg) { profile.offersSig = sg; profile.excluded = []; profile.extras = []; profile.bought = []; persist(); }
+  const at = o.lmKnown ? o.uploadedAt : null;
+  if (profile.offersSig === sg) {
+    if (at && !profile.offersAt) { profile.offersAt = at; persist(); }
+  } else {
+    const known = profile.offersAt;
+    const newer = !profile.offersSig || !known || !at || at > known;
+    if (newer) {
+      profile.offersSig = sg; profile.offersAt = at || new Date().toISOString();
+      profile.excluded = []; profile.extras = []; profile.bought = []; persist();
+    }
+  }
   lsSet(LS_OFFERS, o);
 }
 async function loadSite() {
@@ -1175,7 +1186,7 @@ async function loadSite() {
     const text = await r.text();
     if (!parseOffers(text).some(s => s.offers.length)) throw new Error("tom");
     const lm = r.headers.get("last-modified");
-    siteOffers = { text, fileName: "erbjudanden.txt", uploadedAt: lm ? new Date(lm).toISOString() : new Date().toISOString(), source: "site" };
+    siteOffers = { text, fileName: "erbjudanden.txt", uploadedAt: lm ? new Date(lm).toISOString() : new Date().toISOString(), lmKnown: !!lm, source: "site" };
     useOffers(siteOffers);
   } catch (e) { /* ingen fil på webbplatsen, eller sidan öppnad som lokal fil */ }
   renderAll();
